@@ -1,1 +1,5 @@
-This is the start
+How to use this script:
+
+1. Dump all show route output of all interconnected BGP routers in show_route/ folder
+2. Create a folder csv_output/ folder
+3. Run subnet_search.py, this will produce a CSV file 
