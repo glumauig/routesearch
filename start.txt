@@ -1,3 +1,4 @@
+**This only applies to Juniper show route output
 How to use this script:
 
 1. Dump all show route output of all interconnected BGP routers in show_route/ folder
