@@ -1,0 +1,2718 @@
+SHOW ROUTE cr1.mgmt.kmlp8.bc.net
+
+show route 128.189.0.0/16
+
+inet.0: 18765 destinations, 55643 routes (18763 active, 1 holddown, 1 hidden)
++ = Active Route, - = Last Active, * = Both
+
+128.189.4.0/24     *[BGP/170] 1w3d 03:30:38, localpref 100
+                      AS path: 65532 I, validation-state: unverified
+                    >  to 207.23.255.29 via lt-0/1/0.40
+128.189.5.0/24     *[BGP/170] 1w3d 03:30:38, localpref 100
+                      AS path: 65532 I, validation-state: unverified
+                    >  to 207.23.255.29 via lt-0/1/0.40
+128.189.6.0/24     *[BGP/170] 1d 03:46:50, localpref 100
+                      AS path: 65532 I, validation-state: unverified
+                    >  to 207.23.255.29 via lt-0/1/0.40
+128.189.16.0/20    *[BGP/170] 3d 00:32:28, MED 10, localpref 100, from 206.12.0.7
+                      AS path: 393249 ?, validation-state: unverified
+                       to 206.12.0.117 via ae9.3903, Push 112
+                    >  to 206.12.0.133 via et-1/1/0.810
+128.189.64.0/19    *[BGP/170] 3d 00:34:34, MED 10, localpref 100, from 206.12.0.2
+                      AS path: 393249 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 113
+128.189.96.0/19    *[BGP/170] 3d 00:34:34, MED 10, localpref 100, from 206.12.0.2
+                      AS path: 393249 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 113
+128.189.128.0/18   *[BGP/170] 3d 00:34:34, MED 10, localpref 100, from 206.12.0.2
+                      AS path: 393249 ?, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 113
+128.189.192.0/18   *[BGP/170] 3d 00:34:34, MED 10, localpref 100, from 206.12.0.2
+                      AS path: 393249 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 113
+
+inet.2: 141 destinations, 141 routes (140 active, 0 holddown, 1 hidden)
++ = Active Route, - = Last Active, * = Both
+
+128.189.4.0/24     *[BGP/170] 1w3d 03:30:38, localpref 100
+                      AS path: 65532 I, validation-state: unverified
+                    >  to 207.23.255.29 via lt-0/1/0.40
+128.189.6.0/24     *[BGP/170] 1d 03:46:50, localpref 100
+                      AS path: 65532 I, validation-state: unverified
+                    >  to 207.23.255.29 via lt-0/1/0.40
+
+TRANSIT-KMLP8.inet.0: 937191 destinations, 3488655 routes (929108 active, 0 holddown, 8083 hidden)
++ = Active Route, - = Last Active, * = Both
+
+128.189.0.0/16     *[BGP/170] 7w0d 10:05:56, localpref 100, from 207.23.253.1
+                      AS path: I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+128.189.4.0/24     *[BGP/170] 1w3d 03:30:38, localpref 100
+                      AS path: 65532 I, validation-state: unverified
+                    >  to 207.23.255.26 via lt-0/0/0.30
+128.189.5.0/24     *[BGP/170] 1w3d 03:30:38, localpref 100
+                      AS path: 65532 I, validation-state: unverified
+                    >  to 207.23.255.26 via lt-0/0/0.30
+128.189.6.0/24     *[BGP/170] 1d 03:46:50, localpref 100
+                      AS path: 65532 I, validation-state: unverified
+                    >  to 207.23.255.26 via lt-0/0/0.30
+128.189.16.0/20    *[BGP/170] 3d 00:32:28, MED 10, localpref 100, from 207.23.253.7
+                      AS path: 393249 ?, validation-state: unverified
+                       to 207.23.253.109 via ae9.3923
+                    >  to 207.23.253.127 via et-1/1/0.811
+128.189.64.0/19    *[BGP/170] 3d 00:34:34, MED 10, localpref 100, from 207.23.253.2
+                      AS path: 393249 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+128.189.96.0/19    *[BGP/170] 3d 00:34:34, MED 10, localpref 100, from 207.23.253.2
+                      AS path: 393249 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+128.189.128.0/18   *[BGP/170] 3d 00:34:34, MED 10, localpref 100, from 207.23.253.2
+                      AS path: 393249 ?, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+128.189.192.0/18   *[BGP/170] 3d 00:34:34, MED 10, localpref 100, from 207.23.253.2
+                      AS path: 393249 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+
+IX-KMLP8.inet.0: 16223 destinations, 30989 routes (16223 active, 0 holddown, 0 hidden)
++ = Active Route, - = Last Active, * = Both
+
+128.189.4.0/24     *[BGP/170] 1w3d 03:30:38, localpref 100
+                      AS path: 65532 I, validation-state: unverified
+                    >  to 206.12.4.17 via lt-0/1/0.50
+128.189.5.0/24     *[BGP/170] 1w3d 03:30:38, localpref 100
+                      AS path: 65532 I, validation-state: unverified
+                    >  to 206.12.4.17 via lt-0/1/0.50
+128.189.6.0/24     *[BGP/170] 1d 03:46:50, localpref 100
+                      AS path: 65532 I, validation-state: unverified
+                    >  to 206.12.4.17 via lt-0/1/0.50
+128.189.16.0/20    *[BGP/170] 3d 00:32:27, MED 10, localpref 100, from 206.12.3.7
+                      AS path: 393249 ?, validation-state: unverified
+                       to 206.12.3.53 via ae9.456
+                    >  to 206.12.3.70 via et-1/1/0.812
+128.189.64.0/19    *[BGP/170] 3d 00:58:25, MED 10, localpref 100, from 206.12.3.1
+                      AS path: 393249 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+128.189.96.0/19    *[BGP/170] 3d 00:58:25, MED 10, localpref 100, from 206.12.3.1
+                      AS path: 393249 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+128.189.128.0/18   *[BGP/170] 3d 00:58:25, MED 10, localpref 100, from 206.12.3.1
+                      AS path: 393249 ?, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+128.189.192.0/18   *[BGP/170] 3d 00:58:25, MED 10, localpref 100, from 206.12.3.1
+                      AS path: 393249 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+
+show route 134.87.0.0/16
+
+inet.0: 18765 destinations, 55643 routes (18763 active, 1 holddown, 1 hidden)
++ = Active Route, - = Last Active, * = Both
+
+134.87.2.16/31     *[BGP/170] 8w3d 03:59:00, localpref 100, from 206.12.0.1
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+134.87.2.20/30     *[BGP/170] 3d 04:03:01, localpref 100, from 206.12.0.1
+                      AS path: 65526 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+134.87.2.26/31     *[BGP/170] 13w1d 04:21:00, localpref 100, from 206.12.0.1
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+134.87.2.28/30     *[BGP/170] 3d 04:03:01, localpref 100, from 206.12.0.1
+                      AS path: 65526 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+134.87.2.48/29     *[BGP/170] 4w1d 04:19:42, localpref 100, from 206.12.0.2
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 113
+134.87.2.56/31     *[BGP/170] 45w3d 02:24:01, localpref 100, from 206.12.0.7
+                      AS path: I, validation-state: unverified
+                       to 206.12.0.117 via ae9.3903, Push 112
+                    >  to 206.12.0.133 via et-1/1/0.810
+134.87.2.58/31     *[BGP/170] 45w3d 02:24:01, localpref 100, from 206.12.0.7
+                      AS path: I, validation-state: unverified
+                       to 206.12.0.117 via ae9.3903, Push 112
+                    >  to 206.12.0.133 via et-1/1/0.810
+134.87.2.60/31     *[BGP/170] 45w3d 02:24:01, localpref 100, from 206.12.0.7
+                      AS path: I, validation-state: unverified
+                       to 206.12.0.117 via ae9.3903, Push 112
+                    >  to 206.12.0.133 via et-1/1/0.810
+134.87.2.62/31     *[BGP/170] 37w3d 02:18:19, localpref 100, from 206.12.0.7
+                      AS path: I, validation-state: unverified
+                       to 206.12.0.117 via ae9.3903, Push 112
+                    >  to 206.12.0.133 via et-1/1/0.810
+134.87.2.64/31     *[BGP/170] 20w6d 03:19:55, localpref 100, from 206.12.0.1
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+134.87.2.68/30     *[BGP/170] 7w2d 09:33:09, localpref 100, from 206.12.0.7
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 112
+                       to 206.12.0.133 via et-1/1/0.810
+134.87.2.72/30     *[BGP/170] 5w2d 15:12:59, localpref 100, from 206.12.0.7
+                      AS path: I, validation-state: unverified
+                       to 206.12.0.117 via ae9.3903, Push 112
+                    >  to 206.12.0.133 via et-1/1/0.810
+134.87.2.76/30     *[BGP/170] 5w2d 15:13:33, localpref 100, from 206.12.0.2
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 113
+134.87.2.80/30     *[BGP/170] 1w5d 20:17:18, localpref 100, from 206.12.0.1
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+134.87.2.84/30     *[BGP/170] 25w0d 12:15:01, localpref 100, from 206.12.0.2
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 113
+134.87.2.128/29    *[BGP/170] 3d 03:21:57, localpref 99, from 206.12.0.2
+                      AS path: 65527 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 113
+134.87.2.136/30    *[BGP/170] 3d 03:21:57, localpref 99, from 206.12.0.2
+                      AS path: 65527 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 113
+134.87.2.140/30    *[BGP/170] 3d 03:21:57, localpref 99, from 206.12.0.2
+                      AS path: 65527 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 113
+134.87.2.160/29    *[BGP/170] 6w1d 03:32:35, localpref 100, from 206.12.0.1
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+134.87.2.168/31    *[BGP/170] 10w2d 02:21:11, localpref 100, from 206.12.0.1
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+134.87.2.170/31    *[BGP/170] 10w2d 02:21:11, localpref 100, from 206.12.0.1
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+134.87.2.172/30    *[BGP/170] 3d 03:21:57, localpref 99, from 206.12.0.2
+                      AS path: 65527 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 113
+134.87.2.188/30    *[BGP/170] 6w5d 17:02:40, localpref 100, from 206.12.0.1
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+134.87.2.196/31    *[BGP/170] 42w0d 01:45:33, localpref 100, from 206.12.0.2
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 113
+134.87.2.198/31    *[BGP/170] 16w6d 03:42:01, localpref 100, from 206.12.0.2
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 113
+134.87.2.202/31    *[BGP/170] 16w6d 03:50:09, localpref 100, from 206.12.0.2
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 113
+134.87.2.228/31    *[BGP/170] 42w0d 01:45:33, localpref 100, from 206.12.0.2
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 113
+134.87.2.230/31    *[BGP/170] 42w0d 01:45:33, localpref 100, from 206.12.0.2
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 113
+134.87.2.236/30    *[BGP/170] 7w2d 09:33:09, localpref 100, from 206.12.0.7
+                      AS path: I, validation-state: unverified
+                       to 206.12.0.117 via ae9.3903, Push 112
+                    >  to 206.12.0.133 via et-1/1/0.810
+134.87.2.240/30    *[BGP/170] 42w0d 01:45:33, localpref 100, from 206.12.0.2
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 113
+134.87.2.244/31    *[BGP/170] 45w3d 02:24:01, localpref 100, from 206.12.0.7
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 112
+                       to 206.12.0.133 via et-1/1/0.810
+134.87.2.246/31    *[BGP/170] 42w0d 01:45:33, localpref 100, from 206.12.0.2
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 113
+134.87.2.248/31    *[BGP/170] 2w1d 03:25:00, localpref 100, from 206.12.0.2
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 113
+134.87.2.250/31    *[BGP/170] 11w4d 07:41:07, localpref 100, from 206.12.0.7
+                      AS path: I, validation-state: unverified
+                       to 206.12.0.117 via ae9.3903, Push 112
+                    >  to 206.12.0.133 via et-1/1/0.810
+134.87.4.0/24      *[BGP/170] 3d 04:03:01, localpref 100, from 206.12.0.1
+                      AS path: 65526 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+134.87.32.0/19     *[BGP/170] 3d 00:02:00, localpref 100, from 206.12.0.8
+                      AS path: 16462 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 105
+134.87.112.0/24    *[BGP/170] 3d 04:03:01, localpref 100, from 206.12.0.1
+                      AS path: 65526 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+134.87.128.0/18    *[BGP/170] 3d 00:02:00, localpref 100, from 206.12.0.8
+                      AS path: 16462 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 105
+
+inet.2: 141 destinations, 141 routes (140 active, 0 holddown, 1 hidden)
++ = Active Route, - = Last Active, * = Both
+
+134.87.2.16/31     *[BGP/170] 7w0d 10:05:56, localpref 100, from 206.12.0.1
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+134.87.2.20/30     *[BGP/170] 3d 04:03:01, localpref 100, from 206.12.0.1
+                      AS path: 65526 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+134.87.2.26/31     *[BGP/170] 7w0d 10:05:56, localpref 100, from 206.12.0.1
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+134.87.2.28/30     *[BGP/170] 3d 04:03:01, localpref 100, from 206.12.0.1
+                      AS path: 65526 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+134.87.2.48/29     *[BGP/170] 4w1d 04:19:42, localpref 100, from 206.12.0.2
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+134.87.2.56/31     *[BGP/170] 45w3d 02:24:08, localpref 100, from 206.12.0.7
+                      AS path: I, validation-state: unverified
+                       to 206.12.0.117 via ae9.3903
+                    >  to 206.12.0.133 via et-1/1/0.810
+134.87.2.58/31     *[BGP/170] 45w3d 02:24:08, localpref 100, from 206.12.0.7
+                      AS path: I, validation-state: unverified
+                       to 206.12.0.117 via ae9.3903
+                    >  to 206.12.0.133 via et-1/1/0.810
+134.87.2.60/31     *[BGP/170] 45w3d 02:24:08, localpref 100, from 206.12.0.7
+                      AS path: I, validation-state: unverified
+                       to 206.12.0.117 via ae9.3903
+                    >  to 206.12.0.133 via et-1/1/0.810
+134.87.2.62/31     *[BGP/170] 37w3d 02:18:19, localpref 100, from 206.12.0.7
+                      AS path: I, validation-state: unverified
+                       to 206.12.0.117 via ae9.3903
+                    >  to 206.12.0.133 via et-1/1/0.810
+134.87.2.64/31     *[BGP/170] 7w0d 10:05:56, localpref 100, from 206.12.0.1
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+134.87.2.68/30     *[BGP/170] 7w2d 09:33:09, localpref 100, from 206.12.0.7
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+                       to 206.12.0.133 via et-1/1/0.810
+134.87.2.72/30     *[BGP/170] 5w2d 15:12:59, localpref 100, from 206.12.0.7
+                      AS path: I, validation-state: unverified
+                       to 206.12.0.117 via ae9.3903
+                    >  to 206.12.0.133 via et-1/1/0.810
+134.87.2.76/30     *[BGP/170] 5w2d 15:13:33, localpref 100, from 206.12.0.2
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+134.87.2.80/30     *[BGP/170] 1w5d 20:17:18, localpref 100, from 206.12.0.1
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+134.87.2.84/30     *[BGP/170] 7w0d 10:05:56, localpref 100, from 206.12.0.2
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+134.87.2.128/29    *[BGP/170] 3d 03:21:57, localpref 99, from 206.12.0.2
+                      AS path: 65527 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+134.87.2.136/30    *[BGP/170] 3d 03:21:57, localpref 99, from 206.12.0.2
+                      AS path: 65527 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+134.87.2.140/30    *[BGP/170] 3d 03:21:57, localpref 99, from 206.12.0.2
+                      AS path: 65527 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+134.87.2.160/29    *[BGP/170] 6w1d 03:32:35, localpref 100, from 206.12.0.1
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+134.87.2.168/31    *[BGP/170] 7w0d 10:05:56, localpref 100, from 206.12.0.1
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+134.87.2.170/31    *[BGP/170] 7w0d 10:05:56, localpref 100, from 206.12.0.1
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+134.87.2.172/30    *[BGP/170] 3d 03:21:57, localpref 99, from 206.12.0.2
+                      AS path: 65527 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+134.87.2.188/30    *[BGP/170] 6w5d 17:02:40, localpref 100, from 206.12.0.1
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+134.87.2.196/31    *[BGP/170] 7w0d 10:05:56, localpref 100, from 206.12.0.2
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+134.87.2.198/31    *[BGP/170] 7w0d 10:05:56, localpref 100, from 206.12.0.2
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+134.87.2.202/31    *[BGP/170] 7w0d 10:05:56, localpref 100, from 206.12.0.2
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+134.87.2.228/31    *[BGP/170] 7w0d 10:05:56, localpref 100, from 206.12.0.2
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+134.87.2.230/31    *[BGP/170] 7w0d 10:05:56, localpref 100, from 206.12.0.2
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+134.87.2.236/30    *[BGP/170] 7w2d 09:33:09, localpref 100, from 206.12.0.7
+                      AS path: I, validation-state: unverified
+                       to 206.12.0.117 via ae9.3903
+                    >  to 206.12.0.133 via et-1/1/0.810
+134.87.2.240/30    *[BGP/170] 7w0d 10:05:56, localpref 100, from 206.12.0.2
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+134.87.2.244/31    *[BGP/170] 45w3d 02:24:08, localpref 100, from 206.12.0.7
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+                       to 206.12.0.133 via et-1/1/0.810
+134.87.2.246/31    *[BGP/170] 7w0d 10:05:56, localpref 100, from 206.12.0.2
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+134.87.2.248/31    *[BGP/170] 2w1d 03:25:00, localpref 100, from 206.12.0.2
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+134.87.2.250/31    *[BGP/170] 11w4d 07:41:07, localpref 100, from 206.12.0.7
+                      AS path: I, validation-state: unverified
+                       to 206.12.0.117 via ae9.3903
+                    >  to 206.12.0.133 via et-1/1/0.810
+134.87.4.0/24      *[BGP/170] 3d 04:03:01, localpref 100, from 206.12.0.1
+                      AS path: 65526 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+134.87.112.0/24    *[BGP/170] 3d 04:03:01, localpref 100, from 206.12.0.1
+                      AS path: 65526 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+
+TRANSIT-KMLP8.inet.0: 937191 destinations, 3488655 routes (929108 active, 0 holddown, 8083 hidden)
++ = Active Route, - = Last Active, * = Both
+
+134.87.0.0/16      *[BGP/170] 1w3d 03:55:21, localpref 100, from 207.23.253.1
+                      AS path: I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+134.87.2.20/30     *[BGP/170] 3d 04:03:00, localpref 100, from 207.23.253.1
+                      AS path: 65526 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+134.87.2.28/30     *[BGP/170] 3d 04:03:00, localpref 100, from 207.23.253.1
+                      AS path: 65526 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+134.87.2.128/29    *[BGP/170] 3d 03:21:57, localpref 99, from 207.23.253.2
+                      AS path: 65527 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+134.87.2.136/30    *[BGP/170] 3d 03:21:57, localpref 99, from 207.23.253.2
+                      AS path: 65527 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+134.87.2.140/30    *[BGP/170] 3d 03:21:57, localpref 99, from 207.23.253.2
+                      AS path: 65527 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+134.87.2.152/29    *[BGP/170] 6w1d 03:32:35, localpref 100, from 207.23.253.1
+                      AS path: I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+134.87.2.172/30    *[BGP/170] 3d 03:21:57, localpref 99, from 207.23.253.2
+                      AS path: 65527 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+134.87.4.0/24      *[BGP/170] 3d 04:03:00, localpref 100, from 207.23.253.1
+                      AS path: 65526 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+134.87.30.148/30   *[BGP/170] 4w1d 04:19:42, localpref 100, from 207.23.253.2
+                      AS path: I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+134.87.30.152/29   *[BGP/170] 4w1d 04:19:42, localpref 100, from 207.23.253.2
+                      AS path: I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+134.87.30.168/29   *[BGP/170] 7w2d 09:33:09, localpref 100, from 207.23.253.7
+                      AS path: I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+                       to 207.23.253.127 via et-1/1/0.811
+134.87.30.192/31   *[BGP/170] 45w3d 02:24:06, localpref 100, from 207.23.253.7
+                      AS path: I, validation-state: unverified
+                       to 207.23.253.109 via ae9.3923
+                    >  to 207.23.253.127 via et-1/1/0.811
+134.87.30.196/31   *[BGP/170] 45w3d 02:24:06, localpref 100, from 207.23.253.7
+                      AS path: I, validation-state: unverified
+                       to 207.23.253.109 via ae9.3923
+                    >  to 207.23.253.127 via et-1/1/0.811
+134.87.30.198/31   *[BGP/170] 7w0d 10:05:56, localpref 100, from 207.23.253.2
+                      AS path: I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+134.87.30.202/31   *[BGP/170] 7w0d 10:05:56, localpref 100, from 207.23.253.2
+                      AS path: I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+134.87.30.204/31   *[BGP/170] 7w0d 10:05:56, localpref 100, from 207.23.253.2
+                      AS path: I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+134.87.30.206/31   *[BGP/170] 7w0d 10:05:56, localpref 100, from 207.23.253.2
+                      AS path: I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+134.87.30.208/31   *[BGP/170] 7w0d 10:05:56, localpref 100, from 207.23.253.2
+                      AS path: I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+134.87.30.210/31   *[BGP/170] 7w0d 10:05:56, localpref 100, from 207.23.253.1
+                      AS path: I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+134.87.30.212/31   *[BGP/170] 7w0d 10:05:56, localpref 100, from 207.23.253.1
+                      AS path: I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+134.87.30.214/31   *[BGP/170] 7w0d 10:05:56, localpref 100, from 207.23.253.2
+                      AS path: I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+134.87.30.218/31   *[BGP/170] 7w0d 10:05:56, localpref 100, from 207.23.253.1
+                      AS path: I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+134.87.30.220/31   *[BGP/170] 7w0d 10:05:56, localpref 100, from 207.23.253.1
+                      AS path: I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+134.87.30.222/31   *[BGP/170] 37w3d 02:18:19, localpref 100, from 207.23.253.7
+                      AS path: I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+                       to 207.23.253.127 via et-1/1/0.811
+134.87.30.224/31   *[BGP/170] 45w3d 02:24:06, localpref 100, from 207.23.253.7
+                      AS path: I, validation-state: unverified
+                       to 207.23.253.109 via ae9.3923
+                    >  to 207.23.253.127 via et-1/1/0.811
+134.87.30.226/31   *[BGP/170] 7w0d 10:05:56, localpref 100, from 207.23.253.2
+                      AS path: I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+134.87.30.228/31   *[BGP/170] 7w0d 10:05:56, localpref 100, from 207.23.253.2
+                      AS path: I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+134.87.30.230/31   *[BGP/170] 7w0d 10:05:56, localpref 100, from 207.23.253.2
+                      AS path: I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+134.87.30.232/30   *[BGP/170] 7w0d 10:05:56, localpref 100, from 207.23.253.2
+                      AS path: I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+134.87.30.240/31   *[BGP/170] 7w0d 10:05:56, localpref 100, from 207.23.253.2
+                      AS path: I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+134.87.30.242/31   *[BGP/170] 11w4d 07:41:07, localpref 100, from 207.23.253.7
+                      AS path: I, validation-state: unverified
+                       to 207.23.253.109 via ae9.3923
+                    >  to 207.23.253.127 via et-1/1/0.811
+134.87.30.244/31   *[BGP/170] 7w0d 10:05:56, localpref 100, from 207.23.253.2
+                      AS path: I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+134.87.30.246/31   *[BGP/170] 7w0d 10:05:56, localpref 100, from 207.23.253.2
+                      AS path: I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+134.87.30.248/31   *[BGP/170] 6d 03:03:27, localpref 100, from 207.23.253.1
+                      AS path: I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+134.87.30.250/31   *[BGP/170] 6d 03:03:27, localpref 100, from 207.23.253.1
+                      AS path: I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+134.87.32.0/19     *[BGP/170] 3d 00:01:59, localpref 100, from 207.23.253.8
+                      AS path: 16462 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+134.87.112.0/24    *[BGP/170] 3d 04:03:00, localpref 100, from 207.23.253.1
+                      AS path: 65526 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+134.87.128.0/18    *[BGP/170] 3d 00:01:59, localpref 100, from 207.23.253.8
+                      AS path: 16462 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+
+IX-KMLP8.inet.0: 16223 destinations, 30989 routes (16223 active, 0 holddown, 0 hidden)
++ = Active Route, - = Last Active, * = Both
+
+134.87.0.0/24      *[BGP/170] 1w3d 03:55:20, localpref 100, from 206.12.3.1
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+134.87.0.254/32    *[IS-IS/18] 7w0d 10:05:57, metric 10
+                    >  to 206.12.3.53 via ae9.456
+134.87.2.20/30     *[BGP/170] 1w0d 04:16:16, localpref 100, from 206.12.3.1
+                      AS path: 65526 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+134.87.2.28/30     *[BGP/170] 1w3d 03:55:21, localpref 100, from 206.12.3.1
+                      AS path: 65526 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+134.87.2.128/29    *[BGP/170] 3d 04:03:01, localpref 100, from 206.12.3.1
+                      AS path: 65527 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+134.87.2.136/30    *[BGP/170] 3d 04:03:01, localpref 100, from 206.12.3.1
+                      AS path: 65527 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+134.87.2.140/30    *[BGP/170] 3d 04:03:01, localpref 100, from 206.12.3.1
+                      AS path: 65527 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+134.87.2.172/30    *[BGP/170] 3d 04:03:01, localpref 100, from 206.12.3.1
+                      AS path: 65527 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+134.87.4.0/24      *[BGP/170] 1w3d 03:55:21, localpref 100, from 206.12.3.1
+                      AS path: 65526 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+134.87.32.0/19     *[BGP/170] 3d 00:01:59, localpref 100, from 206.12.3.8
+                      AS path: 16462 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+134.87.112.0/24    *[BGP/170] 1w3d 03:55:21, localpref 100, from 206.12.3.1
+                      AS path: 65526 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+134.87.128.0/18    *[BGP/170] 3d 00:01:59, localpref 100, from 206.12.3.8
+                      AS path: 16462 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+
+show route 142.231.0.0/16
+
+inet.0: 18765 destinations, 55643 routes (18763 active, 1 holddown, 1 hidden)
++ = Active Route, - = Last Active, * = Both
+
+142.231.1.48/29    *[BGP/170] 1w5d 20:17:13, localpref 100, from 206.12.0.1
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+142.231.1.80/29    *[BGP/170] 1w5d 20:17:08, localpref 100, from 206.12.0.1
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+142.231.1.100/30   *[BGP/170] 3d 03:09:44, localpref 100, from 206.12.0.7
+                      AS path: 65529 I, validation-state: unverified
+                       to 206.12.0.117 via ae9.3903, Push 112
+                    >  to 206.12.0.133 via et-1/1/0.810
+142.231.1.104/30   *[BGP/170] 3d 03:09:44, localpref 100, from 206.12.0.7
+                      AS path: 65529 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 112
+                       to 206.12.0.133 via et-1/1/0.810
+142.231.1.108/31   *[BGP/170] 3d 03:21:57, localpref 99, from 206.12.0.2
+                      AS path: 65527 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 113
+142.231.1.110/31   *[BGP/170] 3d 03:09:44, localpref 100, from 206.12.0.7
+                      AS path: 65529 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 112
+                       to 206.12.0.133 via et-1/1/0.810
+142.231.1.120/31   *[BGP/170] 3d 04:03:01, localpref 100, from 206.12.0.1
+                      AS path: 65526 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+142.231.1.160/27   *[BGP/170] 3d 04:03:01, localpref 100, from 206.12.0.1
+                      AS path: 65526 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+142.231.2.0/24     *[BGP/170] 3d 04:03:01, localpref 100, from 206.12.0.1
+                      AS path: 65526 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+142.231.2.4/30     *[BGP/170] 3d 04:03:01, localpref 100, from 206.12.0.1
+                      AS path: 65526 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+142.231.2.12/30    *[BGP/170] 3d 04:03:01, localpref 100, from 206.12.0.1
+                      AS path: 65526 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+142.231.2.24/30    *[BGP/170] 3d 04:03:01, localpref 100, from 206.12.0.1
+                      AS path: 65526 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+142.231.2.224/27   *[BGP/170] 3d 04:03:01, localpref 100, from 206.12.0.1
+                      AS path: 65526 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+142.231.3.0/24     *[BGP/170] 3d 00:58:25, localpref 100, from 206.12.0.1
+                      AS path: 65510 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+142.231.6.0/24     *[BGP/170] 3d 00:58:25, localpref 100, from 206.12.0.1
+                      AS path: 65510 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+142.231.7.0/27     *[BGP/170] 3d 00:34:34, localpref 100, from 206.12.0.2
+                      AS path: 65500 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 113
+142.231.20.0/24    *[BGP/170] 3d 00:34:34, MED 10, localpref 100, from 206.12.0.2
+                      AS path: 393249 ?, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 113
+142.231.32.0/20    *[BGP/170] 1w0d 03:46:02, MED 10, localpref 100, from 206.12.0.6
+                      AS path: 393249 I, validation-state: unverified
+                    >  to 206.12.0.50 via et-1/1/1.3904
+142.231.64.0/19    *[BGP/170] 1w0d 03:46:02, MED 100, localpref 100, from 206.12.0.6
+                      AS path: 393249 I, validation-state: unverified
+                    >  to 206.12.0.50 via et-1/1/1.3904
+142.231.109.0/24   *[BGP/170] 1w0d 03:40:11, localpref 100
+                      AS path: 65498 I, validation-state: unverified
+                    >  to 207.23.255.139 via lt-1/0/0.66
+142.231.112.0/24   *[BGP/170] 3d 04:03:01, localpref 100, from 206.12.0.1
+                      AS path: 65526 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+
+inet.2: 141 destinations, 141 routes (140 active, 0 holddown, 1 hidden)
++ = Active Route, - = Last Active, * = Both
+
+142.231.1.48/29    *[BGP/170] 1w5d 20:17:13, localpref 100, from 206.12.0.1
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+142.231.1.80/29    *[BGP/170] 1w5d 20:17:08, localpref 100, from 206.12.0.1
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+142.231.1.108/31   *[BGP/170] 3d 03:21:57, localpref 99, from 206.12.0.2
+                      AS path: 65527 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+142.231.1.120/31   *[BGP/170] 3d 04:03:01, localpref 100, from 206.12.0.1
+                      AS path: 65526 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+142.231.1.160/27   *[BGP/170] 3d 04:03:01, localpref 100, from 206.12.0.1
+                      AS path: 65526 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+142.231.2.4/30     *[BGP/170] 3d 04:03:01, localpref 100, from 206.12.0.1
+                      AS path: 65526 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+142.231.2.12/30    *[BGP/170] 3d 04:03:01, localpref 100, from 206.12.0.1
+                      AS path: 65526 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+142.231.2.24/30    *[BGP/170] 3d 04:03:01, localpref 100, from 206.12.0.1
+                      AS path: 65526 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+142.231.2.224/27   *[BGP/170] 3d 04:03:01, localpref 100, from 206.12.0.1
+                      AS path: 65526 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+142.231.112.0/24   *[BGP/170] 3d 04:03:01, localpref 100, from 206.12.0.1
+                      AS path: 65526 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+
+mgmt_junos.inet.0: 6 destinations, 7 routes (6 active, 0 holddown, 0 hidden)
++ = Active Route, - = Last Active, * = Both
+
+142.231.144.0/20   *[Static/5] 45w3d 02:28:16
+                    >  to 142.231.148.1 via fxp0.0
+142.231.148.0/24   *[Direct/0] 45w3d 02:28:16
+                    >  via fxp0.0
+                    [Direct/0] 45w3d 02:21:07
+                    >  via fxp0.0
+142.231.148.252/32 *[Local/0] 45w3d 02:28:16
+                       Local via fxp0.0
+142.231.148.253/32 *[Local/0] 45w3d 02:21:07
+                       Local via fxp0.0
+
+MANLAN.inet.0: 98 destinations, 100 routes (98 active, 0 holddown, 0 hidden)
++ = Active Route, - = Last Active, * = Both
+
+142.231.144.216/30 *[Direct/0] 45w3d 02:25:38
+                    >  via ae3.3001
+142.231.144.218/32 *[Local/0] 45w3d 02:25:38
+                       Local via ae3.3001
+142.231.144.220/30 *[Direct/0] 45w3d 02:25:38
+                    >  via ae3.3003
+142.231.144.222/32 *[Local/0] 45w3d 02:25:38
+                       Local via ae3.3003
+142.231.145.0/24   *[BGP/170] 1w5d 01:36:31, MED 10, localpref 100, from 206.12.0.1
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 16
+142.231.146.0/24   *[BGP/170] 2w5d 01:30:04, MED 10, localpref 100, from 206.12.0.2
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 16, Push 113(top)
+142.231.147.0/24   *[BGP/170] 12w6d 19:08:27, MED 10, localpref 100, from 206.12.0.8
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 110, Push 105(top)
+142.231.148.0/24   *[OSPF/150] 17w1d 23:16:46, metric 10, tag 0
+                    >  to 10.231.9.9 via ae0.654
+142.231.149.0/24   *[BGP/170] 1d 02:24:26, MED 10, localpref 100, from 206.12.0.6
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.50 via et-1/1/1.3904, Push 123
+142.231.150.0/24   *[BGP/170] 2w1d 02:26:50, MED 10, localpref 100, from 206.12.0.5
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 58, Push 111(top)
+142.231.151.0/28   *[BGP/170] 1w5d 20:17:08, localpref 100, from 206.12.0.1
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 16
+                    [BGP/170] 8w1d 03:23:59, localpref 100, from 206.12.0.2
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 16, Push 113(top)
+142.231.151.64/28  *[OSPF/150] 45w3d 02:25:32, metric 0, tag 0
+                    >  to 142.231.144.217 via ae3.3001
+142.231.151.96/27  *[BGP/170] 1w5d 20:17:08, localpref 100, from 206.12.0.1
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 16
+                    [BGP/170] 42w0d 01:52:54, localpref 100, from 206.12.0.2
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 16, Push 113(top)
+142.231.151.193/32 *[BGP/170] 1w5d 01:37:05, MED 102, localpref 100, from 206.12.0.1
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 16
+142.231.151.194/32 *[BGP/170] 1w5d 01:37:05, MED 102, localpref 100, from 206.12.0.1
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 16
+142.231.151.195/32 *[BGP/170] 1w5d 01:37:05, MED 2, localpref 100, from 206.12.0.1
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 16
+142.231.151.196/32 *[BGP/170] 1w5d 01:37:05, MED 102, localpref 100, from 206.12.0.1
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 16
+142.231.151.201/32 *[BGP/170] 1w5d 01:37:05, MED 102, localpref 100, from 206.12.0.1
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 16
+142.231.151.202/32 *[BGP/170] 1w5d 01:37:05, MED 102, localpref 100, from 206.12.0.1
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 16
+142.231.151.208/28 *[BGP/170] 1w5d 01:37:05, MED 102, localpref 100, from 206.12.0.1
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 16
+142.231.151.224/30 *[BGP/170] 1w5d 01:37:05, MED 202, localpref 100, from 206.12.0.1
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 16
+142.231.151.228/30 *[BGP/170] 1w5d 01:37:05, MED 2, localpref 100, from 206.12.0.1
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 16
+142.231.151.240/28 *[BGP/170] 1w5d 01:37:05, MED 202, localpref 100, from 206.12.0.1
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 16
+142.231.152.0/28   *[BGP/170] 1w5d 01:36:31, MED 10, localpref 100, from 206.12.0.1
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 16
+142.231.152.48/28  *[OSPF/150] 17w1d 23:16:46, metric 10, tag 0
+                    >  to 10.231.9.9 via ae0.654
+142.231.152.128/28 *[BGP/170] 1w5d 01:36:31, MED 10, localpref 100, from 206.12.0.1
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 16
+142.231.152.176/28 *[OSPF/150] 17w1d 23:16:46, metric 10, tag 0
+                    >  to 10.231.9.9 via ae0.654
+142.231.153.16/28  *[BGP/170] 1w5d 01:37:05, MED 10, localpref 100, from 206.12.0.1
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 16
+142.231.153.64/27  *[OSPF/150] 45w3d 02:25:32, metric 0, tag 0
+                    >  to 142.231.144.217 via ae3.3001
+142.231.153.96/27  *[OSPF/150] 45w3d 02:25:32, metric 0, tag 0
+                    >  to 142.231.144.221 via ae3.3003
+142.231.154.0/24   *[BGP/170] 5w5d 01:44:50, MED 10, localpref 100, from 206.12.0.7
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 16, Push 112(top)
+                       to 206.12.0.133 via et-1/1/0.810, Push 16
+
+TRANSIT-KMLP8.inet.0: 937191 destinations, 3488655 routes (929108 active, 0 holddown, 8083 hidden)
++ = Active Route, - = Last Active, * = Both
+
+142.231.0.0/16     *[BGP/170] 1w3d 03:55:21, localpref 100, from 207.23.253.1
+                      AS path: I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+142.231.1.100/30   *[BGP/170] 1w3d 03:49:58, localpref 100, from 207.23.253.7
+                      AS path: 65529 I, validation-state: unverified
+                       to 207.23.253.109 via ae9.3923
+                    >  to 207.23.253.127 via et-1/1/0.811
+142.231.1.104/30   *[BGP/170] 1w3d 03:49:58, localpref 100, from 207.23.253.7
+                      AS path: 65529 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+                       to 207.23.253.127 via et-1/1/0.811
+142.231.1.108/31   *[BGP/170] 3d 03:21:57, localpref 99, from 207.23.253.2
+                      AS path: 65527 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+142.231.1.110/31   *[BGP/170] 1w3d 03:49:58, localpref 100, from 207.23.253.7
+                      AS path: 65529 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+                       to 207.23.253.127 via et-1/1/0.811
+142.231.1.112/29   *[BGP/170] 1w5d 20:17:08, localpref 100, from 207.23.253.1
+                      AS path: I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+142.231.1.120/31   *[BGP/170] 3d 04:03:00, localpref 100, from 207.23.253.1
+                      AS path: 65526 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+142.231.1.160/27   *[BGP/170] 3d 04:03:00, localpref 100, from 207.23.253.1
+                      AS path: 65526 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+142.231.2.0/24     *[BGP/170] 3d 04:03:00, localpref 100, from 207.23.253.1
+                      AS path: 65526 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+142.231.2.4/30     *[BGP/170] 3d 04:03:00, localpref 100, from 207.23.253.1
+                      AS path: 65526 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+142.231.2.12/30    *[BGP/170] 3d 04:03:00, localpref 100, from 207.23.253.1
+                      AS path: 65526 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+142.231.2.24/30    *[BGP/170] 3d 04:03:00, localpref 100, from 207.23.253.1
+                      AS path: 65526 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+142.231.2.224/27   *[BGP/170] 3d 04:03:00, localpref 100, from 207.23.253.1
+                      AS path: 65526 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+142.231.3.0/24     *[BGP/170] 3d 00:58:25, localpref 100, from 207.23.253.1
+                      AS path: 65510 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+142.231.6.0/24     *[BGP/170] 3d 00:58:25, localpref 100, from 207.23.253.1
+                      AS path: 65510 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+142.231.7.0/27     *[BGP/170] 3d 00:34:34, localpref 100, from 207.23.253.2
+                      AS path: 65500 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+142.231.20.0/24    *[BGP/170] 3d 00:34:34, MED 10, localpref 100, from 207.23.253.2
+                      AS path: 393249 ?, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+142.231.22.0/24    *[BGP/170] 3d 00:58:25, localpref 100, from 207.23.253.1
+                      AS path: 64522 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+142.231.23.0/24    *[BGP/170] 3d 00:58:25, localpref 100, from 207.23.253.1
+                      AS path: 64522 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+142.231.32.0/20    *[BGP/170] 01:13:55, MED 10, localpref 100, from 207.23.253.6
+                      AS path: 393249 I, validation-state: unverified
+                    >  to 207.23.253.50 via et-1/1/1.3924
+142.231.64.0/19    *[BGP/170] 01:13:55, MED 100, localpref 100, from 207.23.253.6
+                      AS path: 393249 I, validation-state: unverified
+                    >  to 207.23.253.50 via et-1/1/1.3924
+142.231.109.0/24   *[BGP/170] 1w0d 03:40:11, localpref 100
+                      AS path: 65498 I, validation-state: unverified
+                    >  to 207.23.255.137 via lt-1/0/0.62
+142.231.112.0/24   *[BGP/170] 3d 04:03:00, localpref 100, from 207.23.253.1
+                      AS path: 65526 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+142.231.116.0/24   *[BGP/170] 3d 04:03:00, localpref 100, from 207.23.253.1
+                      AS path: 65526 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+142.231.117.0/24   *[BGP/170] 1w3d 03:49:58, localpref 100, from 207.23.253.7
+                      AS path: 65529 I, validation-state: unverified
+                       to 207.23.253.109 via ae9.3923
+                    >  to 207.23.253.127 via et-1/1/0.811
+
+IX-KMLP8.inet.0: 16223 destinations, 30989 routes (16223 active, 0 holddown, 0 hidden)
++ = Active Route, - = Last Active, * = Both
+
+142.231.1.100/30   *[BGP/170] 1w3d 03:49:58, localpref 100, from 206.12.3.7
+                      AS path: 65529 I, validation-state: unverified
+                       to 206.12.3.53 via ae9.456
+                    >  to 206.12.3.70 via et-1/1/0.812
+142.231.1.104/30   *[BGP/170] 1w3d 03:49:58, localpref 100, from 206.12.3.7
+                      AS path: 65529 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+                       to 206.12.3.70 via et-1/1/0.812
+142.231.1.108/31   *[BGP/170] 3d 03:22:57, localpref 99, from 206.12.3.1
+                      AS path: 65527 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+142.231.1.110/31   *[BGP/170] 1w3d 03:49:58, localpref 100, from 206.12.3.7
+                      AS path: 65529 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+                       to 206.12.3.70 via et-1/1/0.812
+142.231.1.120/31   *[BGP/170] 1w3d 03:55:21, localpref 100, from 206.12.3.1
+                      AS path: 65526 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+142.231.1.160/27   *[BGP/170] 1w3d 03:55:21, localpref 100, from 206.12.3.1
+                      AS path: 65526 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+142.231.2.0/24     *[BGP/170] 1w3d 03:55:21, localpref 100, from 206.12.3.1
+                      AS path: 65526 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+142.231.2.4/30     *[BGP/170] 1w3d 03:55:21, localpref 100, from 206.12.3.1
+                      AS path: 65526 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+142.231.2.12/30    *[BGP/170] 1w3d 03:55:21, localpref 100, from 206.12.3.1
+                      AS path: 65526 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+142.231.2.24/30    *[BGP/170] 1w3d 03:55:21, localpref 100, from 206.12.3.1
+                      AS path: 65526 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+142.231.2.224/27   *[BGP/170] 1w3d 03:55:21, localpref 100, from 206.12.3.1
+                      AS path: 65526 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+142.231.7.0/24     *[BGP/170] 1w3d 03:55:20, localpref 100, from 206.12.3.1
+                      AS path: 65500 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+142.231.20.0/24    *[BGP/170] 3d 00:58:25, MED 10, localpref 100, from 206.12.3.1
+                      AS path: 393249 ?, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+142.231.32.0/20    *[BGP/170] 1w0d 03:46:02, MED 10, localpref 100, from 206.12.3.6
+                      AS path: 393249 I, validation-state: unverified
+                    >  to 206.12.3.30 via et-1/1/1.453
+142.231.64.0/19    *[BGP/170] 1w0d 03:46:02, MED 100, localpref 100, from 206.12.3.6
+                      AS path: 393249 I, validation-state: unverified
+                    >  to 206.12.3.30 via et-1/1/1.453
+142.231.109.0/24   *[BGP/170] 1w0d 03:40:11, localpref 100
+                      AS path: 65498 I, validation-state: unverified
+                    >  to 206.12.4.15 via lt-1/0/0.64
+142.231.112.0/24   *[BGP/170] 1w3d 03:55:21, localpref 100, from 206.12.3.1
+                      AS path: 65526 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+142.231.116.0/24   *[BGP/170] 1w3d 03:55:21, localpref 100, from 206.12.3.1
+                      AS path: 65526 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+142.231.117.0/24   *[BGP/170] 1w3d 03:49:58, localpref 100, from 206.12.3.7
+                      AS path: 65529 I, validation-state: unverified
+                       to 206.12.3.53 via ae9.456
+                    >  to 206.12.3.70 via et-1/1/0.812
+
+bgp.l3vpn.0: 82 destinations, 84 routes (82 active, 0 holddown, 0 hidden)
++ = Active Route, - = Last Active, * = Both
+
+271:48001:142.231.145.0/24                
+                   *[BGP/170] 1w5d 01:36:31, MED 10, localpref 100, from 206.12.0.1
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 16
+271:48001:142.231.146.0/24                
+                   *[BGP/170] 2w5d 01:30:04, MED 10, localpref 100, from 206.12.0.2
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 16, Push 113(top)
+271:48001:142.231.147.0/24                
+                   *[BGP/170] 12w6d 19:08:27, MED 10, localpref 100, from 206.12.0.8
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 110, Push 105(top)
+271:48001:142.231.149.0/24                
+                   *[BGP/170] 1d 02:24:26, MED 10, localpref 100, from 206.12.0.6
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.50 via et-1/1/1.3904, Push 123
+271:48001:142.231.150.0/24                
+                   *[BGP/170] 2w1d 02:26:50, MED 10, localpref 100, from 206.12.0.5
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 58, Push 111(top)
+271:48001:142.231.151.0/28                
+                   *[BGP/170] 1w5d 20:17:08, localpref 100, from 206.12.0.1
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 16
+                    [BGP/170] 8w1d 03:23:59, localpref 100, from 206.12.0.2
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 16, Push 113(top)
+271:48001:142.231.151.96/27                
+                   *[BGP/170] 1w5d 20:17:08, localpref 100, from 206.12.0.1
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 16
+                    [BGP/170] 42w0d 01:52:54, localpref 100, from 206.12.0.2
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 16, Push 113(top)
+271:48001:142.231.151.193/32                
+                   *[BGP/170] 1w5d 01:37:05, MED 102, localpref 100, from 206.12.0.1
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 16
+271:48001:142.231.151.194/32                
+                   *[BGP/170] 1w5d 01:37:05, MED 102, localpref 100, from 206.12.0.1
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 16
+271:48001:142.231.151.195/32                
+                   *[BGP/170] 1w5d 01:37:05, MED 2, localpref 100, from 206.12.0.1
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 16
+271:48001:142.231.151.196/32                
+                   *[BGP/170] 1w5d 01:37:05, MED 102, localpref 100, from 206.12.0.1
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 16
+271:48001:142.231.151.201/32                
+                   *[BGP/170] 1w5d 01:37:05, MED 102, localpref 100, from 206.12.0.1
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 16
+271:48001:142.231.151.202/32                
+                   *[BGP/170] 1w5d 01:37:05, MED 102, localpref 100, from 206.12.0.1
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 16
+271:48001:142.231.151.208/28                
+                   *[BGP/170] 1w5d 01:37:05, MED 102, localpref 100, from 206.12.0.1
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 16
+271:48001:142.231.151.224/30                
+                   *[BGP/170] 1w5d 01:37:05, MED 202, localpref 100, from 206.12.0.1
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 16
+271:48001:142.231.151.228/30                
+                   *[BGP/170] 1w5d 01:37:05, MED 2, localpref 100, from 206.12.0.1
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 16
+271:48001:142.231.151.240/28                
+                   *[BGP/170] 1w5d 01:37:05, MED 202, localpref 100, from 206.12.0.1
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 16
+271:48001:142.231.152.0/28                
+                   *[BGP/170] 1w5d 01:36:31, MED 10, localpref 100, from 206.12.0.1
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 16
+271:48001:142.231.152.128/28                
+                   *[BGP/170] 1w5d 01:36:31, MED 10, localpref 100, from 206.12.0.1
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 16
+271:48001:142.231.153.16/28                
+                   *[BGP/170] 1w5d 01:37:05, MED 10, localpref 100, from 206.12.0.1
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 16
+271:48001:142.231.154.0/24                
+                   *[BGP/170] 5w5d 01:44:50, MED 10, localpref 100, from 206.12.0.7
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 16, Push 112(top)
+                       to 206.12.0.133 via et-1/1/0.810, Push 16
+
+show route 192.67.9.0/24
+
+TRANSIT-KMLP8.inet.0: 937191 destinations, 3488655 routes (929108 active, 0 holddown, 8083 hidden)
++ = Active Route, - = Last Active, * = Both
+
+192.67.9.0/24      *[BGP/170] 7w0d 10:05:56, localpref 100, from 207.23.253.1
+                      AS path: I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+
+show route 192.219.32.0/19
+
+TRANSIT-KMLP8.inet.0: 937191 destinations, 3488655 routes (929108 active, 0 holddown, 8083 hidden)
++ = Active Route, - = Last Active, * = Both
+
+192.219.32.0/19    *[BGP/170] 2d 16:11:44, MED 0, localpref 90
+                      AS path: 6327 577 I, validation-state: unverified
+                    >  to 74.3.141.21 via xe-1/0/0:2.0
+                    [BGP/170] 2d 16:09:11, MED 0, localpref 90, from 207.23.253.7
+                      AS path: 6327 577 I, validation-state: unverified
+                       to 207.23.253.109 via ae9.3923
+                    >  to 207.23.253.127 via et-1/1/0.811
+                    [BGP/170] 2d 16:11:35, MED 0, localpref 90
+                      AS path: 852 577 I, validation-state: unverified
+                    >  to 207.6.100.1 via xe-0/0/0:2.0
+                    [BGP/170] 2d 16:09:42, MED 0, localpref 90, from 207.23.253.2
+                      AS path: 852 577 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+
+show route 206.12.0.0/16
+
+inet.0: 18765 destinations, 55643 routes (18763 active, 1 holddown, 1 hidden)
++ = Active Route, - = Last Active, * = Both
+
+206.12.0.0/24      *[Static/5] 45w3d 02:28:16
+                       Discard
+206.12.0.1/32      *[IS-IS/18] 7w0d 10:05:57, metric 10
+                    >  to 206.12.0.117 via ae9.3903
+206.12.0.2/32      *[IS-IS/18] 7w0d 10:05:57, metric 20
+                    >  to 206.12.0.117 via ae9.3903
+206.12.0.5/32      *[IS-IS/18] 1w5d 07:38:13, metric 30
+                    >  to 206.12.0.117 via ae9.3903
+206.12.0.6/32      *[IS-IS/18] 7w5d 19:34:31, metric 23
+                    >  to 206.12.0.50 via et-1/1/1.3904
+206.12.0.7/32      *[IS-IS/18] 7w0d 03:34:04, metric 20
+                    >  to 206.12.0.117 via ae9.3903
+                       to 206.12.0.133 via et-1/1/0.810
+206.12.0.8/32      *[IS-IS/18] 5w6d 04:07:31, metric 25
+                    >  to 206.12.0.117 via ae9.3903
+206.12.0.9/32      *[Direct/0] 45w3d 02:28:16
+                    >  via lo0.0
+206.12.0.36/30     *[IS-IS/18] 5w6d 04:07:31, metric 25
+                    >  to 206.12.0.117 via ae9.3903
+206.12.0.40/30     *[IS-IS/18] 5w6d 04:07:31, metric 33
+                    >  to 206.12.0.117 via ae9.3903
+206.12.0.44/30     *[IS-IS/18] 1w5d 07:38:20, metric 30
+                    >  to 206.12.0.117 via ae9.3903
+206.12.0.48/30     *[Direct/0] 7w5d 19:34:41
+                    >  via et-1/1/1.3904
+206.12.0.49/32     *[Local/0] 7w5d 19:34:41
+                       Local via et-1/1/1.3904
+206.12.0.52/30     *[IS-IS/18] 5w6d 04:07:31, metric 35
+                    >  to 206.12.0.117 via ae9.3903
+                       to 206.12.0.133 via et-1/1/0.810
+206.12.0.104/30    *[Direct/0] 7w0d 03:34:43
+                    >  via et-1/1/0.610
+206.12.0.106/32    *[Local/0] 7w0d 03:34:43
+                       Local via et-1/1/0.610
+206.12.0.116/30    *[Direct/0] 7w0d 10:06:09
+                    >  via ae9.3903
+206.12.0.118/32    *[Local/0] 7w0d 10:06:09
+                       Local via ae9.3903
+206.12.0.120/31    *[IS-IS/18] 7w0d 10:05:57, metric 20
+                    >  to 206.12.0.117 via ae9.3903
+206.12.0.122/31    *[IS-IS/18] 4w1d 04:19:40, metric 30
+                       to 206.12.0.117 via ae9.3903
+                    >  to 206.12.0.133 via et-1/1/0.810
+206.12.0.124/31    *[IS-IS/18] 7w0d 10:05:57, metric 20
+                    >  to 206.12.0.117 via ae9.3903
+206.12.0.128/31    *[IS-IS/18] 5w1d 03:34:00, metric 67
+                    >  to 206.12.0.117 via ae9.3903
+                       to 206.12.0.133 via et-1/1/0.810
+206.12.0.130/31    *[IS-IS/18] 7w0d 03:34:04, metric 55
+                    >  to 206.12.0.117 via ae9.3903
+                       to 206.12.0.133 via et-1/1/0.810
+206.12.0.132/31    *[Direct/0] 7w0d 03:34:43
+                    >  via et-1/1/0.810
+206.12.0.132/32    *[Local/0] 7w0d 03:34:43
+                       Local via et-1/1/0.810
+206.12.0.134/31    *[IS-IS/18] 7w0d 03:34:04, metric 82
+                    >  to 206.12.0.117 via ae9.3903
+                       to 206.12.0.133 via et-1/1/0.810
+206.12.1.0/24      *[BGP/170] 02:55:12, MED 10, localpref 100, from 206.12.0.1
+                      AS path: 36391 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+206.12.6.0/23      *[BGP/170] 3d 00:34:34, MED 10, localpref 100, from 206.12.0.2
+                      AS path: 11105 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 113
+206.12.9.0/24      *[BGP/170] 18:36:05, localpref 100, from 206.12.0.1
+                      AS path: 36391 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+206.12.10.0/24     *[BGP/170] 3d 00:34:34, MED 10, localpref 100, from 206.12.0.2
+                      AS path: 11105 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 113
+206.12.12.0/24     *[BGP/170] 3d 00:34:34, MED 10, localpref 100, from 206.12.0.2
+                      AS path: 393249 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 113
+206.12.13.0/24     *[BGP/170] 3d 00:34:34, MED 10, localpref 100, from 206.12.0.2
+                      AS path: 393249 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 113
+206.12.14.0/24     *[BGP/170] 3d 00:34:34, MED 10, localpref 100, from 206.12.0.2
+                      AS path: 393249 ?, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 113
+206.12.15.0/24     *[BGP/170] 3d 00:34:34, MED 10, localpref 100, from 206.12.0.2
+                      AS path: 393249 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 113
+206.12.16.0/24     *[BGP/170] 3d 00:34:34, MED 10, localpref 100, from 206.12.0.2
+                      AS path: 11105 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 113
+206.12.17.0/24     *[BGP/170] 3d 00:34:34, MED 10, localpref 100, from 206.12.0.2
+                      AS path: 11105 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 113
+206.12.18.0/24     *[BGP/170] 3d 00:34:34, MED 10, localpref 100, from 206.12.0.2
+                      AS path: 393249 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 113
+206.12.28.0/24     *[BGP/170] 3d 00:34:34, MED 10, localpref 100, from 206.12.0.2
+                      AS path: 393249 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 113
+206.12.40.0/21     *[BGP/170] 3d 00:34:34, MED 10, localpref 100, from 206.12.0.2
+                      AS path: 393249 ?, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 113
+206.12.48.0/24     *[BGP/170] 3d 00:01:59, localpref 100, from 206.12.0.8
+                      AS path: 16462 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 105
+206.12.50.0/24     *[BGP/170] 3d 00:02:00, localpref 100, from 206.12.0.8
+                      AS path: 16462 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 105
+206.12.52.0/22     *[BGP/170] 3d 00:34:34, MED 10, localpref 100, from 206.12.0.2
+                      AS path: 393249 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 113
+206.12.56.0/23     *[BGP/170] 3d 00:02:00, localpref 100, from 206.12.0.8
+                      AS path: 16462 ?, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 105
+206.12.58.0/24     *[BGP/170] 3d 00:02:00, localpref 100, from 206.12.0.8
+                      AS path: 16462 ?, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 105
+206.12.59.0/24     *[BGP/170] 3d 00:02:00, localpref 100, from 206.12.0.8
+                      AS path: 16462 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 105
+206.12.60.0/22     *[BGP/170] 3d 00:02:00, localpref 100, from 206.12.0.8
+                      AS path: 16462 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 105
+206.12.64.0/20     *[BGP/170] 3d 00:34:34, MED 10, localpref 100, from 206.12.0.2
+                      AS path: 393249 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 113
+206.12.76.0/24     *[BGP/170] 1w0d 03:40:11, localpref 100
+                      AS path: 65101 I, validation-state: unverified
+                    >  to 207.23.255.217 via lt-0/1/0.202
+206.12.77.0/24     *[BGP/170] 1w0d 03:40:11, localpref 100
+                      AS path: 65101 I, validation-state: unverified
+                    >  to 207.23.255.217 via lt-0/1/0.202
+206.12.88.0/21     *[BGP/170] 3d 00:02:00, localpref 100, from 206.12.0.8
+                      AS path: 16462 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 105
+206.12.96.0/21     *[BGP/170] 3d 00:02:00, localpref 100, from 206.12.0.8
+                      AS path: 16462 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 105
+206.12.104.0/22    *[BGP/170] 3d 00:34:34, MED 10, localpref 100, from 206.12.0.2
+                      AS path: 393249 40598 ?, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 113
+206.12.116.0/24    *[BGP/170] 3d 00:19:55, MED 0, localpref 100, from 206.12.0.6
+                      AS path: 393249 I, validation-state: unverified
+                    >  to 206.12.0.50 via et-1/1/1.3904
+206.12.119.0/24    *[BGP/170] 3d 00:34:34, MED 10, localpref 100, from 206.12.0.2
+                      AS path: 393249 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 113
+206.12.120.0/21    *[BGP/170] 18:36:00, MED 10, localpref 100, from 206.12.0.1
+                      AS path: 11105 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+206.12.128.0/24    *[BGP/170] 3d 00:32:28, MED 50, localpref 100, from 206.12.0.7
+                      AS path: 11105 11105 11105 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 112
+                       to 206.12.0.133 via et-1/1/0.810
+206.12.136.0/21    *[BGP/170] 3d 00:34:34, MED 10, localpref 100, from 206.12.0.2
+                      AS path: 393249 ?, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 113
+206.12.149.0/24    *[BGP/170] 1w0d 03:40:11, localpref 100
+                      AS path: 65101 I, validation-state: unverified
+                    >  to 207.23.255.217 via lt-0/1/0.202
+206.12.150.0/24    *[BGP/170] 3d 03:09:44, localpref 100, from 206.12.0.7
+                      AS path: 65529 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 112
+                       to 206.12.0.133 via et-1/1/0.810
+206.12.152.0/24    *[BGP/170] 3d 04:03:01, localpref 100, from 206.12.0.1
+                      AS path: 65526 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+206.12.154.0/24    *[BGP/170] 3d 00:02:00, localpref 100, from 206.12.0.8
+                      AS path: 16462 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 105
+206.12.155.0/24    *[BGP/170] 3d 00:02:00, localpref 100, from 206.12.0.8
+                      AS path: 16462 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 105
+206.12.160.0/21    *[BGP/170] 3d 00:34:34, MED 10, localpref 100, from 206.12.0.2
+                      AS path: 393249 ?, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 113
+206.12.172.0/23    *[BGP/170] 1w0d 03:40:11, localpref 100
+                      AS path: 65101 I, validation-state: unverified
+                    >  to 207.23.255.217 via lt-0/1/0.202
+206.12.174.0/24    *[BGP/170] 1w0d 03:40:11, localpref 100
+                      AS path: 65101 I, validation-state: unverified
+                    >  to 207.23.255.217 via lt-0/1/0.202
+206.12.176.0/21    *[BGP/170] 3d 00:34:34, MED 10, localpref 100, from 206.12.0.2
+                      AS path: 393249 ?, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 113
+206.12.200.0/22    *[BGP/170] 3d 00:34:34, MED 10, localpref 100, from 206.12.0.2
+                      AS path: 393249 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 113
+206.12.208.0/22    *[BGP/170] 3d 00:34:34, MED 10, localpref 100, from 206.12.0.2
+                      AS path: 393249 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 113
+206.12.224.0/19    *[BGP/170] 3d 00:02:00, localpref 100, from 206.12.0.8
+                      AS path: 16462 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 105
+
+inet.2: 141 destinations, 141 routes (140 active, 0 holddown, 1 hidden)
++ = Active Route, - = Last Active, * = Both
+
+206.12.0.0/24      *[Static/5] 45w3d 02:28:16
+                       Discard
+206.12.0.1/32      *[IS-IS/18] 7w0d 10:05:57, metric 10
+                    >  to 206.12.0.117 via ae9.3903
+206.12.0.2/32      *[IS-IS/18] 7w0d 10:05:57, metric 20
+                    >  to 206.12.0.117 via ae9.3903
+206.12.0.5/32      *[IS-IS/18] 1w5d 07:38:13, metric 30
+                    >  to 206.12.0.117 via ae9.3903
+206.12.0.6/32      *[IS-IS/18] 7w5d 19:34:31, metric 23
+                    >  to 206.12.0.50 via et-1/1/1.3904
+206.12.0.7/32      *[IS-IS/18] 7w0d 03:34:04, metric 20
+                    >  to 206.12.0.117 via ae9.3903
+                       to 206.12.0.133 via et-1/1/0.810
+206.12.0.8/32      *[IS-IS/18] 5w6d 04:07:31, metric 25
+                    >  to 206.12.0.117 via ae9.3903
+206.12.0.9/32      *[Direct/0] 45w3d 02:28:16
+                    >  via lo0.0
+206.12.0.36/30     *[IS-IS/18] 5w6d 04:07:31, metric 25
+                    >  to 206.12.0.117 via ae9.3903
+206.12.0.40/30     *[IS-IS/18] 5w6d 04:07:31, metric 33
+                    >  to 206.12.0.117 via ae9.3903
+206.12.0.44/30     *[IS-IS/18] 1w5d 07:38:20, metric 30
+                    >  to 206.12.0.117 via ae9.3903
+206.12.0.48/30     *[Direct/0] 7w5d 19:34:41
+                    >  via et-1/1/1.3904
+206.12.0.49/32     *[Local/0] 7w5d 19:34:41
+                       Local via et-1/1/1.3904
+206.12.0.52/30     *[IS-IS/18] 5w6d 04:07:31, metric 35
+                    >  to 206.12.0.117 via ae9.3903
+                       to 206.12.0.133 via et-1/1/0.810
+206.12.0.104/30    *[Direct/0] 7w0d 03:34:43
+                    >  via et-1/1/0.610
+206.12.0.106/32    *[Local/0] 7w0d 03:34:43
+                       Local via et-1/1/0.610
+206.12.0.116/30    *[Direct/0] 7w0d 10:06:09
+                    >  via ae9.3903
+206.12.0.118/32    *[Local/0] 7w0d 10:06:09
+                       Local via ae9.3903
+206.12.0.120/31    *[IS-IS/18] 7w0d 10:05:57, metric 20
+                    >  to 206.12.0.117 via ae9.3903
+206.12.0.122/31    *[IS-IS/18] 4w1d 04:19:40, metric 30
+                       to 206.12.0.117 via ae9.3903
+                    >  to 206.12.0.133 via et-1/1/0.810
+206.12.0.124/31    *[IS-IS/18] 7w0d 10:05:57, metric 20
+                    >  to 206.12.0.117 via ae9.3903
+206.12.0.128/31    *[IS-IS/18] 5w1d 03:34:00, metric 67
+                    >  to 206.12.0.117 via ae9.3903
+                       to 206.12.0.133 via et-1/1/0.810
+206.12.0.130/31    *[IS-IS/18] 7w0d 03:34:04, metric 55
+                    >  to 206.12.0.117 via ae9.3903
+                       to 206.12.0.133 via et-1/1/0.810
+206.12.0.132/31    *[Direct/0] 7w0d 03:34:43
+                    >  via et-1/1/0.810
+206.12.0.132/32    *[Local/0] 7w0d 03:34:43
+                       Local via et-1/1/0.810
+206.12.0.134/31    *[IS-IS/18] 7w0d 03:34:04, metric 82
+                    >  to 206.12.0.117 via ae9.3903
+                       to 206.12.0.133 via et-1/1/0.810
+206.12.152.0/24    *[BGP/170] 3d 04:03:01, localpref 100, from 206.12.0.1
+                      AS path: 65526 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+
+inet.3: 6 destinations, 6 routes (6 active, 0 holddown, 0 hidden)
++ = Active Route, - = Last Active, * = Both
+
+206.12.0.1/32      *[LDP/9] 7w0d 10:05:58, metric 1
+                    >  to 206.12.0.117 via ae9.3903
+206.12.0.2/32      *[LDP/9] 7w0d 10:05:58, metric 1
+                    >  to 206.12.0.117 via ae9.3903, Push 113
+206.12.0.5/32      *[LDP/9] 1w5d 07:38:13, metric 1
+                    >  to 206.12.0.117 via ae9.3903, Push 111
+206.12.0.6/32      *[LDP/9] 7w5d 19:34:31, metric 1
+                    >  to 206.12.0.50 via et-1/1/1.3904
+206.12.0.7/32      *[LDP/9] 7w0d 03:34:04, metric 1
+                    >  to 206.12.0.117 via ae9.3903, Push 112
+                       to 206.12.0.133 via et-1/1/0.810
+206.12.0.8/32      *[LDP/9] 7w0d 10:05:58, metric 1
+                    >  to 206.12.0.117 via ae9.3903, Push 105
+
+TRANSIT-KMLP8.inet.0: 937191 destinations, 3488655 routes (929108 active, 0 holddown, 8083 hidden)
++ = Active Route, - = Last Active, * = Both
+
+206.12.0.0/16      *[BGP/170] 7w0d 10:05:56, localpref 100, from 207.23.253.1
+                      AS path: I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+206.12.1.0/24      *[BGP/170] 3d 00:58:25, MED 10, localpref 100, from 207.23.253.1
+                      AS path: 36391 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+206.12.6.0/23      *[BGP/170] 3d 00:34:34, MED 10, localpref 100, from 207.23.253.2
+                      AS path: 11105 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+206.12.9.0/24      *[BGP/170] 18:36:04, localpref 100, from 207.23.253.1
+                      AS path: 36391 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+206.12.10.0/24     *[BGP/170] 3d 00:34:34, MED 10, localpref 100, from 207.23.253.2
+                      AS path: 11105 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+206.12.12.0/24     *[BGP/170] 3d 00:34:34, MED 10, localpref 100, from 207.23.253.2
+                      AS path: 393249 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+206.12.13.0/24     *[BGP/170] 3d 00:34:34, MED 10, localpref 100, from 207.23.253.2
+                      AS path: 393249 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+206.12.14.0/24     *[BGP/170] 3d 00:34:34, MED 10, localpref 100, from 207.23.253.2
+                      AS path: 393249 ?, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+206.12.15.0/24     *[BGP/170] 3d 00:34:34, MED 10, localpref 100, from 207.23.253.2
+                      AS path: 393249 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+206.12.16.0/24     *[BGP/170] 3d 00:34:34, MED 10, localpref 100, from 207.23.253.2
+                      AS path: 11105 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+206.12.17.0/24     *[BGP/170] 3d 00:34:34, MED 10, localpref 100, from 207.23.253.2
+                      AS path: 11105 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+206.12.18.0/24     *[BGP/170] 3d 00:34:34, MED 10, localpref 100, from 207.23.253.2
+                      AS path: 393249 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+206.12.28.0/24     *[BGP/170] 3d 00:34:34, MED 10, localpref 100, from 207.23.253.2
+                      AS path: 393249 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+206.12.40.0/21     *[BGP/170] 3d 00:34:34, MED 10, localpref 100, from 207.23.253.2
+                      AS path: 393249 ?, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+206.12.48.0/24     *[BGP/170] 3d 00:01:59, localpref 100, from 207.23.253.8
+                      AS path: 16462 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+206.12.50.0/24     *[BGP/170] 3d 00:01:59, localpref 100, from 207.23.253.8
+                      AS path: 16462 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+206.12.52.0/22     *[BGP/170] 3d 00:34:34, MED 10, localpref 100, from 207.23.253.2
+                      AS path: 393249 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+206.12.56.0/23     *[BGP/170] 3d 00:01:59, localpref 100, from 207.23.253.8
+                      AS path: 16462 ?, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+206.12.58.0/24     *[BGP/170] 3d 00:01:59, localpref 100, from 207.23.253.8
+                      AS path: 16462 ?, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+206.12.59.0/24     *[BGP/170] 3d 00:01:59, localpref 100, from 207.23.253.8
+                      AS path: 16462 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+206.12.60.0/22     *[BGP/170] 3d 00:01:59, localpref 100, from 207.23.253.8
+                      AS path: 16462 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+206.12.64.0/20     *[BGP/170] 3d 00:34:34, MED 10, localpref 100, from 207.23.253.2
+                      AS path: 393249 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+206.12.76.0/24     *[BGP/170] 1w0d 03:40:11, localpref 100
+                      AS path: 65101 I, validation-state: unverified
+                    >  to 207.23.255.219 via lt-0/0/0.204
+206.12.77.0/24     *[BGP/170] 1w0d 03:40:11, localpref 100
+                      AS path: 65101 I, validation-state: unverified
+                    >  to 207.23.255.219 via lt-0/0/0.204
+206.12.82.0/24     *[BGP/170] 2d 16:11:54, MED 0, localpref 90
+                      AS path: 6327 25668 I, validation-state: unverified
+                    >  to 74.3.141.21 via xe-1/0/0:2.0
+                    [BGP/170] 2d 16:10:14, MED 0, localpref 90, from 207.23.253.7
+                      AS path: 6327 25668 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+                       to 207.23.253.127 via et-1/1/0.811
+                    [BGP/170] 2d 16:11:04, MED 0, localpref 90
+                      AS path: 852 6939 25668 I, validation-state: unverified
+                    >  to 207.6.100.1 via xe-0/0/0:2.0
+206.12.88.0/21     *[BGP/170] 3d 00:01:59, localpref 100, from 207.23.253.8
+                      AS path: 16462 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+206.12.96.0/21     *[BGP/170] 3d 00:01:59, localpref 100, from 207.23.253.8
+                      AS path: 16462 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+206.12.104.0/22    *[BGP/170] 3d 00:34:34, MED 10, localpref 100, from 207.23.253.2
+                      AS path: 393249 40598 ?, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+206.12.119.0/24    *[BGP/170] 3d 00:34:34, MED 10, localpref 100, from 207.23.253.2
+                      AS path: 393249 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+206.12.120.0/21    *[BGP/170] 18:35:59, MED 10, localpref 100, from 207.23.253.1
+                      AS path: 11105 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+206.12.128.0/24    *[BGP/170] 3d 00:32:28, MED 50, localpref 100, from 207.23.253.7
+                      AS path: 11105 11105 11105 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+                       to 207.23.253.127 via et-1/1/0.811
+206.12.136.0/21    *[BGP/170] 3d 00:34:34, MED 10, localpref 100, from 207.23.253.2
+                      AS path: 393249 ?, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+206.12.149.0/24    *[BGP/170] 1w0d 03:40:11, localpref 100
+                      AS path: 65101 I, validation-state: unverified
+                    >  to 207.23.255.219 via lt-0/0/0.204
+206.12.150.0/24    *[BGP/170] 1w3d 03:49:58, localpref 100, from 207.23.253.7
+                      AS path: 65529 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+                       to 207.23.253.127 via et-1/1/0.811
+206.12.152.0/24    *[BGP/170] 3d 04:03:00, localpref 100, from 207.23.253.1
+                      AS path: 65526 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+206.12.153.0/24    *[BGP/170] 2d 16:11:04, MED 0, localpref 90
+                      AS path: 6327 1299 20473 I, validation-state: unverified
+                    >  to 74.3.141.21 via xe-1/0/0:2.0
+                    [BGP/170] 2d 16:07:32, MED 0, localpref 90, from 207.23.253.7
+                      AS path: 6327 1299 20473 I, validation-state: unverified
+                       to 207.23.253.109 via ae9.3923
+                    >  to 207.23.253.127 via et-1/1/0.811
+                    [BGP/170] 2d 16:10:57, MED 0, localpref 90
+                      AS path: 852 3356 20473 I, validation-state: unverified
+                    >  to 207.6.100.1 via xe-0/0/0:2.0
+                    [BGP/170] 2d 16:07:50, MED 0, localpref 90, from 207.23.253.2
+                      AS path: 852 3356 20473 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+206.12.154.0/24    *[BGP/170] 3d 00:01:59, localpref 100, from 207.23.253.8
+                      AS path: 16462 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+206.12.155.0/24    *[BGP/170] 3d 00:01:59, localpref 100, from 207.23.253.8
+                      AS path: 16462 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+206.12.160.0/21    *[BGP/170] 3d 00:34:34, MED 10, localpref 100, from 207.23.253.2
+                      AS path: 393249 ?, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+206.12.172.0/23    *[BGP/170] 1w0d 03:40:11, localpref 100
+                      AS path: 65101 I, validation-state: unverified
+                    >  to 207.23.255.219 via lt-0/0/0.204
+206.12.174.0/24    *[BGP/170] 1w0d 03:40:11, localpref 100
+                      AS path: 65101 I, validation-state: unverified
+                    >  to 207.23.255.219 via lt-0/0/0.204
+206.12.176.0/21    *[BGP/170] 3d 00:34:34, MED 10, localpref 100, from 207.23.253.2
+                      AS path: 393249 ?, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+206.12.200.0/22    *[BGP/170] 3d 00:34:34, MED 10, localpref 100, from 207.23.253.2
+                      AS path: 393249 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+206.12.208.0/22    *[BGP/170] 3d 00:34:34, MED 10, localpref 100, from 207.23.253.2
+                      AS path: 393249 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+206.12.224.0/19    *[BGP/170] 3d 00:01:59, localpref 100, from 207.23.253.8
+                      AS path: 16462 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+
+IX-KMLP8.inet.0: 16223 destinations, 30989 routes (16223 active, 0 holddown, 0 hidden)
++ = Active Route, - = Last Active, * = Both
+
+206.12.1.0/24      *[BGP/170] 3d 00:58:25, MED 10, localpref 100, from 206.12.3.1
+                      AS path: 36391 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+206.12.3.0/24      *[Static/5] 45w3d 02:28:16
+                       Discard
+206.12.3.1/32      *[IS-IS/18] 7w0d 10:05:57, metric 10
+                    >  to 206.12.3.53 via ae9.456
+206.12.3.5/32      *[IS-IS/18] 1w5d 07:38:13, metric 20
+                    >  to 206.12.3.53 via ae9.456
+206.12.3.6/32      *[IS-IS/18] 7w5d 19:34:32, metric 23
+                    >  to 206.12.3.30 via et-1/1/1.453
+206.12.3.7/32      *[IS-IS/18] 7w0d 03:34:27, metric 20
+                    >  to 206.12.3.53 via ae9.456
+                       to 206.12.3.70 via et-1/1/0.812
+206.12.3.8/32      *[IS-IS/18] 5w6d 04:07:31, metric 25
+                    >  to 206.12.3.53 via ae9.456
+206.12.3.9/32      *[Direct/0] 45w3d 02:24:35
+                    >  via lo0.3
+206.12.3.16/30     *[IS-IS/18] 5w6d 04:07:31, metric 25
+                    >  to 206.12.3.53 via ae9.456
+206.12.3.24/30     *[IS-IS/18] 7w0d 10:05:57, metric 20
+                    >  to 206.12.3.53 via ae9.456
+206.12.3.28/30     *[Direct/0] 7w5d 19:34:41
+                    >  via et-1/1/1.453
+206.12.3.29/32     *[Local/0] 7w5d 19:34:41
+                       Local via et-1/1/1.453
+206.12.3.32/30     *[IS-IS/18] 5w6d 04:07:31, metric 35
+                    >  to 206.12.3.53 via ae9.456
+                       to 206.12.3.70 via et-1/1/0.812
+206.12.3.36/30     *[Direct/0] 7w0d 03:34:43
+                    >  via et-1/1/0.612
+206.12.3.38/32     *[Local/0] 7w0d 03:34:43
+                       Local via et-1/1/0.612
+206.12.3.40/30     *[IS-IS/18] 5w6d 04:07:31, metric 33
+                    >  to 206.12.3.53 via ae9.456
+206.12.3.52/30     *[Direct/0] 7w0d 10:06:09
+                    >  via ae9.456
+206.12.3.54/32     *[Local/0] 7w0d 10:06:09
+                       Local via ae9.456
+206.12.3.56/30     *[IS-IS/18] 7w0d 10:05:57, metric 20
+                    >  to 206.12.3.53 via ae9.456
+206.12.3.60/30     *[IS-IS/18] 5w1d 03:34:00, metric 67
+                       to 206.12.3.53 via ae9.456
+                    >  to 206.12.3.70 via et-1/1/0.812
+206.12.3.64/30     *[IS-IS/18] 7w0d 03:34:27, metric 55
+                    >  to 206.12.3.53 via ae9.456
+                       to 206.12.3.70 via et-1/1/0.812
+206.12.3.68/30     *[Direct/0] 7w0d 03:34:43
+                    >  via et-1/1/0.812
+206.12.3.69/32     *[Local/0] 7w0d 03:34:43
+                       Local via et-1/1/0.812
+206.12.3.72/30     *[IS-IS/18] 7w0d 03:34:27, metric 82
+                       to 206.12.3.53 via ae9.456
+                    >  to 206.12.3.70 via et-1/1/0.812
+206.12.3.76/31     *[IS-IS/18] 7w0d 10:05:57, metric 22
+                    >  to 206.12.3.53 via ae9.456
+206.12.4.0/24      *[Aggregate/130] 1d 03:46:21
+                       Reject
+206.12.4.4/30      *[Direct/0] 45w3d 02:24:35
+                    >  via lt-1/1/0.74
+206.12.4.6/32      *[Local/0] 45w3d 02:24:35
+                       Local via lt-1/1/0.74
+206.12.4.8/31      *[Direct/0] 45w3d 02:24:35
+                    >  via lt-0/1/0.201
+206.12.4.8/32      *[Local/0] 45w3d 02:24:35
+                       Local via lt-0/1/0.201
+206.12.4.10/31     *[Direct/0] 45w3d 02:24:35
+                    >  via lt-1/0/0.58
+206.12.4.10/32     *[Local/0] 45w3d 02:24:35
+                       Local via lt-1/0/0.58
+206.12.4.14/31     *[Direct/0] 45w3d 02:24:35
+                    >  via lt-1/0/0.64
+206.12.4.14/32     *[Local/0] 45w3d 02:24:35
+                       Local via lt-1/0/0.64
+206.12.4.16/31     *[Direct/0] 45w3d 02:24:35
+                    >  via lt-0/1/0.50
+206.12.4.16/32     *[Local/0] 45w3d 02:24:35
+                       Local via lt-0/1/0.50
+206.12.6.0/23      *[BGP/170] 3d 00:58:25, MED 10, localpref 100, from 206.12.3.1
+                      AS path: 11105 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+206.12.9.0/24      *[BGP/170] 18:36:04, localpref 100, from 206.12.3.1
+                      AS path: 36391 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+206.12.10.0/24     *[BGP/170] 3d 00:58:25, MED 10, localpref 100, from 206.12.3.1
+                      AS path: 11105 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+206.12.12.0/24     *[BGP/170] 3d 00:58:25, MED 10, localpref 100, from 206.12.3.1
+                      AS path: 393249 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+206.12.13.0/24     *[BGP/170] 3d 00:58:25, MED 10, localpref 100, from 206.12.3.1
+                      AS path: 393249 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+206.12.14.0/24     *[BGP/170] 3d 00:58:25, MED 10, localpref 100, from 206.12.3.1
+                      AS path: 393249 ?, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+206.12.15.0/24     *[BGP/170] 3d 00:58:25, MED 10, localpref 100, from 206.12.3.1
+                      AS path: 393249 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+206.12.16.0/24     *[BGP/170] 3d 00:58:25, MED 10, localpref 100, from 206.12.3.1
+                      AS path: 11105 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+206.12.17.0/24     *[BGP/170] 3d 00:58:25, MED 10, localpref 100, from 206.12.3.1
+                      AS path: 11105 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+206.12.18.0/24     *[BGP/170] 3d 00:58:25, MED 10, localpref 100, from 206.12.3.1
+                      AS path: 393249 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+206.12.28.0/24     *[BGP/170] 3d 00:58:25, MED 10, localpref 100, from 206.12.3.1
+                      AS path: 393249 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+206.12.40.0/21     *[BGP/170] 3d 00:58:25, MED 10, localpref 100, from 206.12.3.1
+                      AS path: 393249 ?, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+206.12.48.0/24     *[BGP/170] 3d 00:02:00, localpref 100, from 206.12.3.8
+                      AS path: 16462 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+206.12.50.0/24     *[BGP/170] 3d 00:01:59, localpref 100, from 206.12.3.8
+                      AS path: 16462 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+206.12.52.0/22     *[BGP/170] 3d 00:58:25, MED 10, localpref 100, from 206.12.3.1
+                      AS path: 393249 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+206.12.56.0/23     *[BGP/170] 3d 00:02:00, localpref 100, from 206.12.3.8
+                      AS path: 16462 ?, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+206.12.58.0/24     *[BGP/170] 3d 00:02:00, localpref 100, from 206.12.3.8
+                      AS path: 16462 ?, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+206.12.59.0/24     *[BGP/170] 3d 00:01:59, localpref 100, from 206.12.3.8
+                      AS path: 16462 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+206.12.60.0/22     *[BGP/170] 3d 00:01:59, localpref 100, from 206.12.3.8
+                      AS path: 16462 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+206.12.64.0/20     *[BGP/170] 3d 00:58:25, MED 10, localpref 100, from 206.12.3.1
+                      AS path: 393249 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+206.12.76.0/24     *[BGP/170] 1w0d 03:40:11, localpref 100
+                      AS path: 65101 I, validation-state: unverified
+                    >  to 206.12.4.9 via lt-0/1/0.201
+206.12.77.0/24     *[BGP/170] 1w0d 03:40:11, localpref 100
+                      AS path: 65101 I, validation-state: unverified
+                    >  to 206.12.4.9 via lt-0/1/0.201
+206.12.82.0/24     *[BGP/170] 2d 14:57:23, MED 0, localpref 500, from 206.12.3.1
+                      AS path: 25668 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+206.12.88.0/21     *[BGP/170] 3d 00:01:59, localpref 100, from 206.12.3.8
+                      AS path: 16462 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+206.12.96.0/21     *[BGP/170] 3d 00:01:59, localpref 100, from 206.12.3.8
+                      AS path: 16462 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+206.12.104.0/22    *[BGP/170] 3d 00:58:25, MED 10, localpref 100, from 206.12.3.1
+                      AS path: 393249 40598 ?, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+206.12.119.0/24    *[BGP/170] 3d 00:58:25, MED 10, localpref 100, from 206.12.3.1
+                      AS path: 393249 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+206.12.120.0/21    *[BGP/170] 18:35:57, MED 10, localpref 100, from 206.12.3.1
+                      AS path: 11105 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+206.12.128.0/24    *[BGP/170] 3d 00:32:27, MED 50, localpref 100, from 206.12.3.7
+                      AS path: 11105 11105 11105 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+                       to 206.12.3.70 via et-1/1/0.812
+206.12.136.0/21    *[BGP/170] 3d 00:58:25, MED 10, localpref 100, from 206.12.3.1
+                      AS path: 393249 ?, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+206.12.149.0/24    *[BGP/170] 1w0d 03:40:11, localpref 100
+                      AS path: 65101 I, validation-state: unverified
+                    >  to 206.12.4.9 via lt-0/1/0.201
+206.12.150.0/24    *[BGP/170] 1w3d 03:49:58, localpref 100, from 206.12.3.7
+                      AS path: 65529 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+                       to 206.12.3.70 via et-1/1/0.812
+206.12.152.0/24    *[BGP/170] 1w3d 03:55:21, localpref 100, from 206.12.3.1
+                      AS path: 65526 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+206.12.154.0/24    *[BGP/170] 3d 00:01:59, localpref 100, from 206.12.3.8
+                      AS path: 16462 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+206.12.155.0/24    *[BGP/170] 3d 00:01:59, localpref 100, from 206.12.3.8
+                      AS path: 16462 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+206.12.160.0/21    *[BGP/170] 3d 00:58:25, MED 10, localpref 100, from 206.12.3.1
+                      AS path: 393249 ?, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+206.12.172.0/23    *[BGP/170] 1w0d 03:40:11, localpref 100
+                      AS path: 65101 I, validation-state: unverified
+                    >  to 206.12.4.9 via lt-0/1/0.201
+206.12.174.0/24    *[BGP/170] 1w0d 03:40:11, localpref 100
+                      AS path: 65101 I, validation-state: unverified
+                    >  to 206.12.4.9 via lt-0/1/0.201
+206.12.176.0/21    *[BGP/170] 3d 00:58:25, MED 10, localpref 100, from 206.12.3.1
+                      AS path: 393249 ?, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+206.12.200.0/22    *[BGP/170] 3d 00:58:25, MED 10, localpref 100, from 206.12.3.1
+                      AS path: 393249 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+206.12.208.0/22    *[BGP/170] 3d 00:58:25, MED 10, localpref 100, from 206.12.3.1
+                      AS path: 393249 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+206.12.224.0/19    *[BGP/170] 3d 00:01:59, localpref 100, from 206.12.3.8
+                      AS path: 16462 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+
+show route 206.87.0.0/16
+
+inet.0: 18765 destinations, 55643 routes (18763 active, 1 holddown, 1 hidden)
++ = Active Route, - = Last Active, * = Both
+
+206.87.0.0/18      *[BGP/170] 1w0d 03:46:03, MED 16777215, localpref 100, from 206.12.0.6
+                      AS path: 393249 I, validation-state: unverified
+                    >  to 206.12.0.50 via et-1/1/1.3904
+206.87.64.0/21     *[BGP/170] 3d 00:02:01, localpref 100, from 206.12.0.8
+                      AS path: 16462 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 105
+206.87.80.0/20     *[BGP/170] 3d 00:02:01, localpref 100, from 206.12.0.8
+                      AS path: 16462 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 105
+206.87.96.0/19     *[BGP/170] 3d 00:34:35, MED 10, localpref 100, from 206.12.0.2
+                      AS path: 393249 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 113
+206.87.128.0/19    *[BGP/170] 3d 00:34:35, MED 10, localpref 100, from 206.12.0.2
+                      AS path: 393249 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 113
+206.87.160.0/19    *[BGP/170] 3d 00:02:01, localpref 100, from 206.12.0.8
+                      AS path: 16462 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 105
+206.87.192.0/19    *[BGP/170] 3d 00:34:35, MED 10, localpref 100, from 206.12.0.2
+                      AS path: 393249 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 113
+206.87.224.0/20    *[BGP/170] 3d 00:34:35, MED 10, localpref 100, from 206.12.0.2
+                      AS path: 393249 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 113
+
+TRANSIT-KMLP8.inet.0: 937191 destinations, 3488655 routes (929108 active, 0 holddown, 8083 hidden)
++ = Active Route, - = Last Active, * = Both
+
+206.87.0.0/16      *[BGP/170] 7w0d 10:05:57, localpref 100, from 207.23.253.1
+                      AS path: I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+206.87.0.0/18      *[BGP/170] 01:13:56, MED 16777215, localpref 100, from 207.23.253.6
+                      AS path: 393249 I, validation-state: unverified
+                    >  to 207.23.253.50 via et-1/1/1.3924
+206.87.64.0/21     *[BGP/170] 3d 00:02:00, localpref 100, from 207.23.253.8
+                      AS path: 16462 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+206.87.80.0/20     *[BGP/170] 3d 00:02:00, localpref 100, from 207.23.253.8
+                      AS path: 16462 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+206.87.96.0/19     *[BGP/170] 3d 00:34:35, MED 10, localpref 100, from 207.23.253.2
+                      AS path: 393249 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+206.87.128.0/19    *[BGP/170] 3d 00:34:35, MED 10, localpref 100, from 207.23.253.2
+                      AS path: 393249 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+206.87.160.0/19    *[BGP/170] 3d 00:02:00, localpref 100, from 207.23.253.8
+                      AS path: 16462 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+206.87.192.0/19    *[BGP/170] 3d 00:34:35, MED 10, localpref 100, from 207.23.253.2
+                      AS path: 393249 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+206.87.224.0/20    *[BGP/170] 3d 00:34:35, MED 10, localpref 100, from 207.23.253.2
+                      AS path: 393249 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+
+IX-KMLP8.inet.0: 16223 destinations, 30989 routes (16223 active, 0 holddown, 0 hidden)
++ = Active Route, - = Last Active, * = Both
+
+206.87.0.0/18      *[BGP/170] 1w0d 03:46:03, MED 16777215, localpref 100, from 206.12.3.6
+                      AS path: 393249 I, validation-state: unverified
+                    >  to 206.12.3.30 via et-1/1/1.453
+206.87.64.0/21     *[BGP/170] 3d 00:02:00, localpref 100, from 206.12.3.8
+                      AS path: 16462 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+206.87.80.0/20     *[BGP/170] 3d 00:02:00, localpref 100, from 206.12.3.8
+                      AS path: 16462 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+206.87.96.0/19     *[BGP/170] 3d 00:58:26, MED 10, localpref 100, from 206.12.3.1
+                      AS path: 393249 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+206.87.128.0/19    *[BGP/170] 3d 00:58:26, MED 10, localpref 100, from 206.12.3.1
+                      AS path: 393249 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+206.87.160.0/19    *[BGP/170] 3d 00:02:00, localpref 100, from 206.12.3.8
+                      AS path: 16462 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+206.87.192.0/19    *[BGP/170] 3d 00:58:26, MED 10, localpref 100, from 206.12.3.1
+                      AS path: 393249 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+206.87.224.0/20    *[BGP/170] 3d 00:58:26, MED 10, localpref 100, from 206.12.3.1
+                      AS path: 393249 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+
+show route 207.23.0.0/16
+
+inet.0: 18765 destinations, 55643 routes (18763 active, 1 holddown, 1 hidden)
++ = Active Route, - = Last Active, * = Both
+
+207.23.8.0/21      *[BGP/170] 1w0d 03:40:12, localpref 100
+                      AS path: 65518 I, validation-state: unverified
+                    >  to 207.23.255.209 via lt-1/1/0.70
+207.23.72.0/24     *[BGP/170] 1w0d 03:55:31, localpref 100, from 206.12.0.5
+                      AS path: 65496 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 111
+207.23.73.0/24     *[BGP/170] 1w0d 03:55:31, localpref 100, from 206.12.0.5
+                      AS path: 65495 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 111
+207.23.85.0/24     *[BGP/170] 3d 00:34:35, MED 10, localpref 100, from 206.12.0.2
+                      AS path: 11105 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 113
+207.23.88.0/23     *[BGP/170] 1w0d 03:40:12, localpref 100
+                      AS path: 65518 I, validation-state: unverified
+                    >  to 207.23.255.209 via lt-1/1/0.70
+207.23.92.0/23     *[BGP/170] 1d 03:46:51, localpref 100
+                      AS path: 65532 I, validation-state: unverified
+                    >  to 207.23.255.29 via lt-0/1/0.40
+207.23.94.0/23     *[BGP/170] 3d 00:34:35, MED 10, localpref 100, from 206.12.0.2
+                      AS path: 393249 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 113
+207.23.96.0/20     *[BGP/170] 3d 00:02:01, MED 50, localpref 100, from 206.12.0.8
+                      AS path: 397543 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 105
+207.23.128.0/19    *[BGP/170] 3d 00:58:26, localpref 100, from 206.12.0.1
+                      AS path: 397375 ?, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+207.23.160.0/19    *[BGP/170] 3d 00:34:35, MED 10, localpref 100, from 206.12.0.2
+                      AS path: 11105 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 113
+207.23.192.0/19    *[BGP/170] 3d 00:34:35, MED 10, localpref 100, from 206.12.0.2
+                      AS path: 11105 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 113
+207.23.240.36/31   *[BGP/170] 2w5d 14:28:34, localpref 100, from 206.12.0.2
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 113
+207.23.240.38/31   *[BGP/170] 2w5d 14:28:34, localpref 100, from 206.12.0.2
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 113
+207.23.240.42/31   *[BGP/170] 42w0d 01:45:34, localpref 100, from 206.12.0.2
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 113
+207.23.240.44/30   *[BGP/170] 34w6d 04:45:30, localpref 100, from 206.12.0.2
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 113
+207.23.240.48/31   *[BGP/170] 42w0d 01:45:34, localpref 100, from 206.12.0.2
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 113
+207.23.240.50/31   *[BGP/170] 18w3d 02:56:46, localpref 100, from 206.12.0.2
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 113
+207.23.240.52/31   *[BGP/170] 34w6d 04:45:26, localpref 100, from 206.12.0.2
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 113
+207.23.240.54/31   *[BGP/170] 34w6d 04:45:26, localpref 100, from 206.12.0.2
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 113
+207.23.240.68/30   *[BGP/170] 42w0d 01:45:34, localpref 100, from 206.12.0.2
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 113
+207.23.240.212/32  *[BGP/170] 3d 04:03:02, localpref 100, from 206.12.0.1
+                      AS path: 65526 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+207.23.240.213/32  *[BGP/170] 3d 03:21:58, localpref 99, from 206.12.0.2
+                      AS path: 65527 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 113
+207.23.240.214/32  *[BGP/170] 3d 03:09:45, localpref 100, from 206.12.0.7
+                      AS path: 65529 I, validation-state: unverified
+                       to 206.12.0.117 via ae9.3903, Push 112
+                    >  to 206.12.0.133 via et-1/1/0.810
+207.23.241.70/31   *[BGP/170] 3d 03:00:24, localpref 100, from 206.12.0.8
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 105
+207.23.241.82/31   *[BGP/170] 14w1d 04:27:09, localpref 100, from 206.12.0.8
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 105
+207.23.241.88/31   *[BGP/170] 45w3d 02:24:02, localpref 100, from 206.12.0.8
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 105
+207.23.241.100/30  *[BGP/170] 3d 03:00:24, localpref 100, from 206.12.0.8
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 105
+207.23.241.104/30  *[BGP/170] 3d 03:00:24, localpref 100, from 206.12.0.8
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 105
+207.23.241.128/29  *[BGP/170] 45w3d 02:24:02, localpref 100, from 206.12.0.8
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 105
+207.23.241.136/31  *[BGP/170] 14w6d 04:01:11, localpref 100, from 206.12.0.8
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 105
+207.23.241.138/31  *[BGP/170] 14w6d 04:01:11, localpref 100, from 206.12.0.8
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 105
+207.23.241.144/31  *[BGP/170] 14w6d 04:01:11, localpref 100, from 206.12.0.8
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 105
+207.23.241.146/31  *[BGP/170] 45w3d 02:24:02, localpref 100, from 206.12.0.8
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 105
+207.23.241.152/30  *[BGP/170] 3d 03:00:24, localpref 100, from 206.12.0.8
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 105
+207.23.241.176/29  *[BGP/170] 3d 03:00:24, localpref 100, from 206.12.0.8
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 105
+207.23.241.212/30  *[BGP/170] 14w6d 04:01:11, localpref 100, from 206.12.0.8
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 105
+207.23.241.240/32  *[BGP/170] 3d 03:00:24, localpref 100, from 206.12.0.8
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 105
+207.23.242.32/30   *[BGP/170] 12w1d 04:09:36, localpref 100, from 206.12.0.5
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 111
+207.23.242.36/31   *[BGP/170] 45w3d 01:58:10, localpref 100, from 206.12.0.5
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 111
+207.23.242.38/31   *[BGP/170] 45w3d 01:58:10, localpref 100, from 206.12.0.5
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 111
+207.23.242.40/30   *[BGP/170] 45w3d 01:58:10, localpref 100, from 206.12.0.5
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 111
+207.23.242.44/31   *[BGP/170] 12w1d 04:09:36, localpref 100, from 206.12.0.5
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 111
+207.23.242.46/31   *[BGP/170] 12w1d 04:09:36, localpref 100, from 206.12.0.5
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 111
+207.23.242.70/31   *[BGP/170] 12w1d 04:09:36, localpref 100, from 206.12.0.5
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 111
+207.23.242.72/30   *[BGP/170] 3d 02:55:16, localpref 100, from 206.12.0.5
+                      AS path: 65512 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 111
+207.23.242.76/30   *[BGP/170] 3d 02:55:16, localpref 100, from 206.12.0.5
+                      AS path: 65512 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 111
+207.23.242.96/31   *[BGP/170] 3d 02:55:16, localpref 100, from 206.12.0.5
+                      AS path: 65512 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 111
+207.23.242.253/32  *[BGP/170] 3d 02:55:16, localpref 100, from 206.12.0.5
+                      AS path: 65512 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 111
+207.23.243.0/24    *[BGP/170] 3d 00:34:35, MED 10, localpref 100, from 206.12.0.2
+                      AS path: 393249 ?, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 113
+207.23.249.0/24    *[BGP/170] 3d 00:34:35, MED 10, localpref 100, from 206.12.0.2
+                      AS path: 393249 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 113
+207.23.252.0/24    *[BGP/170] 3d 00:34:35, MED 10, localpref 100, from 206.12.0.2
+                      AS path: 393249 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 113
+207.23.254.160/30  *[BGP/170] 45w3d 02:27:45, localpref 100, from 206.12.0.6
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.50 via et-1/1/1.3904
+207.23.254.164/31  *[BGP/170] 45w3d 02:27:45, localpref 100, from 206.12.0.6
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.50 via et-1/1/1.3904
+207.23.254.174/31  *[BGP/170] 45w3d 02:27:45, localpref 100, from 206.12.0.6
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.50 via et-1/1/1.3904
+207.23.254.188/31  *[BGP/170] 3d 02:54:02, localpref 100, from 206.12.0.6
+                      AS path: 65524 I, validation-state: unverified
+                    >  to 206.12.0.50 via et-1/1/1.3904
+207.23.254.204/30  *[BGP/170] 45w3d 02:27:45, localpref 100, from 206.12.0.6
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.50 via et-1/1/1.3904
+207.23.254.216/30  *[BGP/170] 3d 02:54:02, localpref 100, from 206.12.0.6
+                      AS path: 65524 I, validation-state: unverified
+                    >  to 206.12.0.50 via et-1/1/1.3904
+207.23.254.220/30  *[BGP/170] 3d 02:54:02, localpref 100, from 206.12.0.6
+                      AS path: 65524 I, validation-state: unverified
+                    >  to 206.12.0.50 via et-1/1/1.3904
+207.23.254.253/32  *[BGP/170] 3d 02:54:02, localpref 100, from 206.12.0.6
+                      AS path: 65524 I, validation-state: unverified
+                    >  to 206.12.0.50 via et-1/1/1.3904
+207.23.255.16/29   *[BGP/170] 45w3d 02:20:40, localpref 100
+                      AS path: 65532 I, validation-state: unverified
+                    >  to 207.23.255.29 via lt-0/1/0.40
+207.23.255.28/31   *[Direct/0] 45w3d 02:28:17
+                    >  via lt-0/1/0.40
+207.23.255.28/32   *[Local/0] 45w3d 02:28:17
+                       Local via lt-0/1/0.40
+207.23.255.30/31   *[BGP/170] 45w3d 02:20:40, localpref 100
+                      AS path: 65532 I, validation-state: unverified
+                    >  to 207.23.255.29 via lt-0/1/0.40
+207.23.255.32/28   *[BGP/170] 45w3d 02:20:28, localpref 100
+                      AS path: 65532 65530 ?, validation-state: unverified
+                    >  to 207.23.255.29 via lt-0/1/0.40
+207.23.255.48/28   *[BGP/170] 45w3d 02:20:40, localpref 100
+                      AS path: 65532 I, validation-state: unverified
+                    >  to 207.23.255.29 via lt-0/1/0.40
+207.23.255.64/26   *[BGP/170] 45w3d 02:20:40, localpref 100
+                      AS path: 65532 I, validation-state: unverified
+                    >  to 207.23.255.29 via lt-0/1/0.40
+207.23.255.130/31  *[Direct/0] 45w3d 02:26:53
+                    >  via lt-1/0/0.60
+207.23.255.130/32  *[Local/0] 45w3d 02:26:53
+                       Local via lt-1/0/0.60
+207.23.255.138/31  *[Direct/0] 45w3d 02:26:29
+                    >  via lt-1/0/0.66
+207.23.255.138/32  *[Local/0] 45w3d 02:26:29
+                       Local via lt-1/0/0.66
+207.23.255.140/30  *[BGP/170] 45w3d 02:20:40, localpref 100
+                      AS path: 65532 I, validation-state: unverified
+                    >  to 207.23.255.29 via lt-0/1/0.40
+207.23.255.144/30  *[BGP/170] 3w2d 03:00:49, localpref 100
+                      AS path: 65532 I, validation-state: unverified
+                    >  to 207.23.255.29 via lt-0/1/0.40
+207.23.255.148/30  *[BGP/170] 45w3d 02:20:40, localpref 100
+                      AS path: 65532 I, validation-state: unverified
+                    >  to 207.23.255.29 via lt-0/1/0.40
+207.23.255.208/30  *[Direct/0] 45w3d 02:26:03
+                    >  via lt-1/1/0.70
+207.23.255.210/32  *[Local/0] 45w3d 02:26:03
+                       Local via lt-1/1/0.70
+207.23.255.216/31  *[Direct/0] 45w3d 02:28:17
+                    >  via lt-0/1/0.202
+207.23.255.216/32  *[Local/0] 45w3d 02:28:17
+                       Local via lt-0/1/0.202
+207.23.255.220/30  *[Direct/0] 45w3d 02:28:17
+                    >  via ae0.222
+207.23.255.221/32  *[Local/0] 45w3d 02:28:17
+                       Local via ae0.222
+207.23.255.228/30  *[BGP/170] 45w3d 02:20:40, localpref 100
+                      AS path: 65532 I, validation-state: unverified
+                    >  to 207.23.255.29 via lt-0/1/0.40
+207.23.255.252/32  *[BGP/170] 45w3d 02:20:40, localpref 100
+                      AS path: 65532 I, validation-state: unverified
+                    >  to 207.23.255.29 via lt-0/1/0.40
+
+inet.2: 141 destinations, 141 routes (140 active, 0 holddown, 1 hidden)
++ = Active Route, - = Last Active, * = Both
+
+207.23.92.0/23     *[BGP/170] 1d 03:46:51, localpref 100
+                      AS path: 65532 I, validation-state: unverified
+                    >  to 207.23.255.29 via lt-0/1/0.40
+207.23.240.36/31   *[BGP/170] 2w5d 14:28:34, localpref 100, from 206.12.0.2
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+207.23.240.38/31   *[BGP/170] 2w5d 14:28:34, localpref 100, from 206.12.0.2
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+207.23.240.42/31   *[BGP/170] 7w0d 10:05:57, localpref 100, from 206.12.0.2
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+207.23.240.44/30   *[BGP/170] 7w0d 10:05:57, localpref 100, from 206.12.0.2
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+207.23.240.48/31   *[BGP/170] 7w0d 10:05:57, localpref 100, from 206.12.0.2
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+207.23.240.50/31   *[BGP/170] 7w0d 10:05:57, localpref 100, from 206.12.0.2
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+207.23.240.52/31   *[BGP/170] 7w0d 10:05:57, localpref 100, from 206.12.0.2
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+207.23.240.54/31   *[BGP/170] 7w0d 10:05:57, localpref 100, from 206.12.0.2
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+207.23.240.68/30   *[BGP/170] 7w0d 10:05:57, localpref 100, from 206.12.0.2
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+207.23.240.212/32  *[BGP/170] 3d 04:03:02, localpref 100, from 206.12.0.1
+                      AS path: 65526 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+207.23.240.213/32  *[BGP/170] 3d 03:21:58, localpref 99, from 206.12.0.2
+                      AS path: 65527 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+207.23.241.70/31   *[BGP/170] 3d 03:00:24, localpref 100, from 206.12.0.8
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+207.23.241.82/31   *[BGP/170] 5w6d 04:07:31, localpref 100, from 206.12.0.8
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+207.23.241.88/31   *[BGP/170] 5w6d 04:07:31, localpref 100, from 206.12.0.8
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+207.23.241.100/30  *[BGP/170] 3d 03:00:24, localpref 100, from 206.12.0.8
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+207.23.241.104/30  *[BGP/170] 3d 03:00:24, localpref 100, from 206.12.0.8
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+207.23.241.128/29  *[BGP/170] 5w6d 04:07:31, localpref 100, from 206.12.0.8
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+207.23.241.136/31  *[BGP/170] 5w6d 04:07:31, localpref 100, from 206.12.0.8
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+207.23.241.138/31  *[BGP/170] 5w6d 04:07:31, localpref 100, from 206.12.0.8
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+207.23.241.144/31  *[BGP/170] 5w6d 04:07:31, localpref 100, from 206.12.0.8
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+207.23.241.146/31  *[BGP/170] 5w6d 04:07:32, localpref 100, from 206.12.0.8
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+207.23.241.152/30  *[BGP/170] 3d 03:00:24, localpref 100, from 206.12.0.8
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+207.23.241.212/30  *[BGP/170] 5w6d 04:07:31, localpref 100, from 206.12.0.8
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+207.23.241.240/32  *[BGP/170] 3d 03:00:24, localpref 100, from 206.12.0.8
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+207.23.242.32/30   *[BGP/170] 1w5d 07:38:14, localpref 100, from 206.12.0.5
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+207.23.242.36/31   *[BGP/170] 1w5d 07:38:14, localpref 100, from 206.12.0.5
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+207.23.242.38/31   *[BGP/170] 1w5d 07:38:14, localpref 100, from 206.12.0.5
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+207.23.242.40/30   *[BGP/170] 1w5d 07:38:14, localpref 100, from 206.12.0.5
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+207.23.242.44/31   *[BGP/170] 1w5d 07:38:14, localpref 100, from 206.12.0.5
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+207.23.242.46/31   *[BGP/170] 1w5d 07:38:14, localpref 100, from 206.12.0.5
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+207.23.242.70/31   *[BGP/170] 1w5d 07:38:14, localpref 100, from 206.12.0.5
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+207.23.242.72/30   *[BGP/170] 3d 02:55:16, localpref 100, from 206.12.0.5
+                      AS path: 65512 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+207.23.242.76/30   *[BGP/170] 3d 02:55:16, localpref 100, from 206.12.0.5
+                      AS path: 65512 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+207.23.242.96/31   *[BGP/170] 3d 02:55:16, localpref 100, from 206.12.0.5
+                      AS path: 65512 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+207.23.242.253/32  *[BGP/170] 3d 02:55:16, localpref 100, from 206.12.0.5
+                      AS path: 65512 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+207.23.254.160/30  *[BGP/170] 7w5d 19:34:32, localpref 100, from 206.12.0.6
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.50 via et-1/1/1.3904
+207.23.254.164/31  *[BGP/170] 7w5d 19:34:32, localpref 100, from 206.12.0.6
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.50 via et-1/1/1.3904
+207.23.254.174/31  *[BGP/170] 7w5d 19:34:32, localpref 100, from 206.12.0.6
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.50 via et-1/1/1.3904
+207.23.254.188/31  *[BGP/170] 3d 02:54:02, localpref 100, from 206.12.0.6
+                      AS path: 65524 I, validation-state: unverified
+                    >  to 206.12.0.50 via et-1/1/1.3904
+207.23.254.204/30  *[BGP/170] 7w5d 19:34:32, localpref 100, from 206.12.0.6
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.0.50 via et-1/1/1.3904
+207.23.254.216/30  *[BGP/170] 3d 02:54:02, localpref 100, from 206.12.0.6
+                      AS path: 65524 I, validation-state: unverified
+                    >  to 206.12.0.50 via et-1/1/1.3904
+207.23.254.220/30  *[BGP/170] 3d 02:54:02, localpref 100, from 206.12.0.6
+                      AS path: 65524 I, validation-state: unverified
+                    >  to 206.12.0.50 via et-1/1/1.3904
+207.23.254.253/32  *[BGP/170] 3d 02:54:02, localpref 100, from 206.12.0.6
+                      AS path: 65524 I, validation-state: unverified
+                    >  to 206.12.0.50 via et-1/1/1.3904
+207.23.255.16/29   *[BGP/170] 45w3d 02:20:40, localpref 100
+                      AS path: 65532 I, validation-state: unverified
+                    >  to 207.23.255.29 via lt-0/1/0.40
+207.23.255.28/31   *[Direct/0] 45w3d 02:28:17
+                    >  via lt-0/1/0.40
+207.23.255.28/32   *[Local/0] 45w3d 02:28:17
+                       Local via lt-0/1/0.40
+207.23.255.30/31   *[BGP/170] 45w3d 02:20:40, localpref 100
+                      AS path: 65532 I, validation-state: unverified
+                    >  to 207.23.255.29 via lt-0/1/0.40
+207.23.255.64/26   *[BGP/170] 45w3d 02:20:40, localpref 100
+                      AS path: 65532 I, validation-state: unverified
+                    >  to 207.23.255.29 via lt-0/1/0.40
+207.23.255.130/31  *[Direct/0] 45w3d 02:26:53
+                    >  via lt-1/0/0.60
+207.23.255.130/32  *[Local/0] 45w3d 02:26:53
+                       Local via lt-1/0/0.60
+207.23.255.138/31  *[Direct/0] 45w3d 02:26:29
+                    >  via lt-1/0/0.66
+207.23.255.138/32  *[Local/0] 45w3d 02:26:29
+                       Local via lt-1/0/0.66
+207.23.255.140/30  *[BGP/170] 45w3d 02:20:40, localpref 100
+                      AS path: 65532 I, validation-state: unverified
+                    >  to 207.23.255.29 via lt-0/1/0.40
+207.23.255.144/30  *[BGP/170] 3w2d 03:00:49, localpref 100
+                      AS path: 65532 I, validation-state: unverified
+                    >  to 207.23.255.29 via lt-0/1/0.40
+207.23.255.148/30  *[BGP/170] 45w3d 02:20:40, localpref 100
+                      AS path: 65532 I, validation-state: unverified
+                    >  to 207.23.255.29 via lt-0/1/0.40
+207.23.255.208/30  *[Direct/0] 45w3d 02:26:03
+                    >  via lt-1/1/0.70
+207.23.255.210/32  *[Local/0] 45w3d 02:26:03
+                       Local via lt-1/1/0.70
+207.23.255.216/31  *[Direct/0] 45w3d 02:28:17
+                    >  via lt-0/1/0.202
+207.23.255.216/32  *[Local/0] 45w3d 02:28:17
+                       Local via lt-0/1/0.202
+207.23.255.220/30  *[Direct/0] 45w3d 02:28:17
+                    >  via ae0.222
+207.23.255.221/32  *[Local/0] 45w3d 02:28:17
+                       Local via ae0.222
+207.23.255.228/30  *[BGP/170] 45w3d 02:20:40, localpref 100
+                      AS path: 65532 I, validation-state: unverified
+                    >  to 207.23.255.29 via lt-0/1/0.40
+207.23.255.252/32  *[BGP/170] 45w3d 02:20:40, localpref 100
+                      AS path: 65532 I, validation-state: unverified
+                    >  to 207.23.255.29 via lt-0/1/0.40
+
+MONITOR.inet.0: 5 destinations, 5 routes (5 active, 0 holddown, 0 hidden)
++ = Active Route, - = Last Active, * = Both
+
+207.23.255.160/29  *[Static/5] 45w3d 02:28:17
+                    >  to 207.23.255.169 via ae3.3005
+207.23.255.168/30  *[Direct/0] 45w3d 02:28:17
+                    >  via ae3.3005
+207.23.255.170/32  *[Local/0] 45w3d 02:28:17
+                       Local via ae3.3005
+
+TRANSIT-KMLP8.inet.0: 937191 destinations, 3488655 routes (929108 active, 0 holddown, 8083 hidden)
++ = Active Route, - = Last Active, * = Both
+
+207.23.0.0/16      *[BGP/170] 1w3d 03:55:22, localpref 100, from 207.23.253.1
+                      AS path: I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+207.23.8.0/21      *[BGP/170] 1w0d 03:40:12, localpref 100
+                      AS path: 65518 I, validation-state: unverified
+                    >  to 207.23.255.213 via lt-1/1/0.72
+207.23.72.0/24     *[BGP/170] 1w0d 03:55:31, localpref 100, from 207.23.253.5
+                      AS path: 65496 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+207.23.73.0/24     *[BGP/170] 1w0d 03:55:31, localpref 100, from 207.23.253.5
+                      AS path: 65495 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+207.23.85.0/24     *[BGP/170] 3d 00:34:35, MED 10, localpref 100, from 207.23.253.2
+                      AS path: 11105 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+207.23.88.0/23     *[BGP/170] 1w0d 03:40:12, localpref 100
+                      AS path: 65518 I, validation-state: unverified
+                    >  to 207.23.255.213 via lt-1/1/0.72
+207.23.92.0/23     *[BGP/170] 1d 03:46:51, localpref 100
+                      AS path: 65532 I, validation-state: unverified
+                    >  to 207.23.255.26 via lt-0/0/0.30
+207.23.94.0/23     *[BGP/170] 3d 00:34:35, MED 10, localpref 100, from 207.23.253.2
+                      AS path: 393249 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+207.23.96.0/20     *[BGP/170] 3d 00:02:00, MED 50, localpref 100, from 207.23.253.8
+                      AS path: 397543 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+207.23.128.0/19    *[BGP/170] 3d 00:58:26, localpref 100, from 207.23.253.1
+                      AS path: 397375 ?, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+                    [BGP/170] 2d 16:11:45, MED 0, localpref 90
+                      AS path: 852 397375 I, validation-state: unverified
+                    >  to 207.6.100.1 via xe-0/0/0:2.0
+207.23.160.0/19    *[BGP/170] 3d 00:34:35, MED 10, localpref 100, from 207.23.253.2
+                      AS path: 11105 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+207.23.192.0/19    *[BGP/170] 3d 00:34:35, MED 10, localpref 100, from 207.23.253.2
+                      AS path: 11105 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+207.23.240.12/30   *[BGP/170] 1w5d 20:17:14, localpref 100, from 207.23.253.1
+                      AS path: I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+207.23.240.16/30   *[BGP/170] 7w2d 09:33:10, localpref 100, from 207.23.253.7
+                      AS path: I, validation-state: unverified
+                       to 207.23.253.109 via ae9.3923
+                    >  to 207.23.253.127 via et-1/1/0.811
+207.23.240.24/30   *[BGP/170] 5w2d 15:13:00, localpref 100, from 207.23.253.7
+                      AS path: I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+                       to 207.23.253.127 via et-1/1/0.811
+207.23.240.28/31   *[BGP/170] 7w0d 10:05:57, localpref 100, from 207.23.253.1
+                      AS path: I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+207.23.240.32/30   *[BGP/170] 5w2d 15:13:34, localpref 100, from 207.23.253.2
+                      AS path: I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+207.23.240.60/31   *[BGP/170] 45w3d 02:23:08, localpref 100, from 207.23.253.7
+                      AS path: I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+                       to 207.23.253.127 via et-1/1/0.811
+207.23.240.64/30   *[BGP/170] 7w0d 10:05:57, localpref 100, from 207.23.253.2
+                      AS path: I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+207.23.240.92/30   *[BGP/170] 7w0d 10:05:57, localpref 100, from 207.23.253.2
+                      AS path: I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+207.23.240.212/32  *[BGP/170] 3d 04:03:01, localpref 100, from 207.23.253.1
+                      AS path: 65526 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+207.23.240.213/32  *[BGP/170] 3d 03:21:58, localpref 99, from 207.23.253.2
+                      AS path: 65527 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+207.23.240.214/32  *[BGP/170] 1w3d 03:49:59, localpref 100, from 207.23.253.7
+                      AS path: 65529 I, validation-state: unverified
+                       to 207.23.253.109 via ae9.3923
+                    >  to 207.23.253.127 via et-1/1/0.811
+207.23.241.0/24    *[BGP/170] 1w3d 03:44:24, localpref 100, from 207.23.253.8
+                      AS path: I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+207.23.241.70/31   *[BGP/170] 1w3d 03:44:24, localpref 100, from 207.23.253.8
+                      AS path: 65509 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+207.23.241.100/30  *[BGP/170] 1w3d 03:44:24, localpref 100, from 207.23.253.8
+                      AS path: 65509 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+207.23.241.104/30  *[BGP/170] 1w3d 03:44:24, localpref 100, from 207.23.253.8
+                      AS path: 65509 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+207.23.241.152/30  *[BGP/170] 1w3d 03:44:24, localpref 100, from 207.23.253.8
+                      AS path: 65509 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+207.23.241.176/29  *[BGP/170] 1w3d 03:44:24, localpref 100, from 207.23.253.8
+                      AS path: 65509 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+207.23.241.240/32  *[BGP/170] 1w3d 03:44:24, localpref 100, from 207.23.253.8
+                      AS path: 65509 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+207.23.242.0/24    *[BGP/170] 1w3d 03:37:22, localpref 100, from 207.23.253.5
+                      AS path: I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+207.23.242.72/30   *[BGP/170] 1w3d 03:37:22, localpref 100, from 207.23.253.5
+                      AS path: 65512 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+207.23.242.76/30   *[BGP/170] 1w3d 03:37:22, localpref 100, from 207.23.253.5
+                      AS path: 65512 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+207.23.242.96/31   *[BGP/170] 1w3d 03:37:22, localpref 100, from 207.23.253.5
+                      AS path: 65512 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+207.23.242.253/32  *[BGP/170] 1w3d 03:37:22, localpref 100, from 207.23.253.5
+                      AS path: 65512 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+207.23.243.0/24    *[BGP/170] 3d 00:34:35, MED 10, localpref 100, from 207.23.253.2
+                      AS path: 393249 ?, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+207.23.249.0/24    *[BGP/170] 3d 00:34:35, MED 10, localpref 100, from 207.23.253.2
+                      AS path: 393249 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+207.23.252.0/24    *[BGP/170] 3d 00:34:35, MED 10, localpref 100, from 207.23.253.2
+                      AS path: 393249 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+207.23.253.1/32    *[IS-IS/18] 7w0d 10:05:58, metric 10
+                    >  to 207.23.253.109 via ae9.3923
+207.23.253.2/32    *[IS-IS/18] 7w0d 10:05:58, metric 20
+                    >  to 207.23.253.109 via ae9.3923
+207.23.253.5/32    *[IS-IS/18] 1w5d 07:38:14, metric 30
+                    >  to 207.23.253.109 via ae9.3923
+207.23.253.6/32    *[IS-IS/18] 7w5d 19:34:33, metric 23
+                    >  to 207.23.253.50 via et-1/1/1.3924
+207.23.253.7/32    *[IS-IS/18] 7w0d 03:34:04, metric 20
+                    >  to 207.23.253.109 via ae9.3923
+                       to 207.23.253.127 via et-1/1/0.811
+207.23.253.8/32    *[IS-IS/18] 5w6d 04:07:32, metric 25
+                    >  to 207.23.253.109 via ae9.3923
+207.23.253.9/32    *[Direct/0] 45w3d 02:28:17
+                    >  via lo0.1
+207.23.253.36/30   *[IS-IS/18] 5w6d 04:07:32, metric 25
+                    >  to 207.23.253.109 via ae9.3923
+207.23.253.40/30   *[IS-IS/18] 5w6d 04:07:32, metric 33
+                    >  to 207.23.253.109 via ae9.3923
+207.23.253.44/30   *[IS-IS/18] 1w5d 07:38:21, metric 30
+                    >  to 207.23.253.109 via ae9.3923
+207.23.253.48/30   *[Direct/0] 7w5d 19:34:42
+                    >  via et-1/1/1.3924
+207.23.253.49/32   *[Local/0] 7w5d 19:34:42
+                       Local via et-1/1/1.3924
+207.23.253.52/31   *[IS-IS/18] 1w5d 20:17:14, metric 20
+                    >  to 207.23.253.109 via ae9.3923
+207.23.253.72/30   *[Direct/0] 7w0d 03:34:44
+                    >  via et-1/1/0.611
+207.23.253.74/32   *[Local/0] 7w0d 03:34:44
+                       Local via et-1/1/0.611
+207.23.253.92/30   *[IS-IS/18] 5w6d 04:07:32, metric 35
+                       to 207.23.253.109 via ae9.3923
+                    >  to 207.23.253.127 via et-1/1/0.811
+207.23.253.108/30  *[Direct/0] 7w0d 10:06:10
+                    >  via ae9.3923
+207.23.253.110/32  *[Local/0] 7w0d 10:06:10
+                       Local via ae9.3923
+207.23.253.116/31  *[IS-IS/18] 7w0d 10:05:58, metric 20
+                    >  to 207.23.253.109 via ae9.3923
+207.23.253.118/31  *[IS-IS/18] 4w1d 04:19:41, metric 30
+                    >  to 207.23.253.109 via ae9.3923
+                       to 207.23.253.127 via et-1/1/0.811
+207.23.253.120/31  *[IS-IS/18] 7w0d 10:05:58, metric 20
+                    >  to 207.23.253.109 via ae9.3923
+207.23.253.122/31  *[IS-IS/18] 5w1d 03:34:01, metric 67
+                       to 207.23.253.109 via ae9.3923
+                    >  to 207.23.253.127 via et-1/1/0.811
+207.23.253.124/31  *[IS-IS/18] 7w0d 03:34:04, metric 55
+                       to 207.23.253.109 via ae9.3923
+                    >  to 207.23.253.127 via et-1/1/0.811
+207.23.253.126/31  *[Direct/0] 7w0d 03:34:44
+                    >  via et-1/1/0.811
+207.23.253.126/32  *[Local/0] 7w0d 03:34:44
+                       Local via et-1/1/0.811
+207.23.253.128/31  *[IS-IS/18] 7w0d 03:34:04, metric 82
+                    >  to 207.23.253.109 via ae9.3923
+                       to 207.23.253.127 via et-1/1/0.811
+207.23.254.0/24    *[BGP/170] 1w3d 03:33:56, localpref 100, from 207.23.253.6
+                      AS path: I, validation-state: unverified
+                    >  to 207.23.253.50 via et-1/1/1.3924
+207.23.254.188/31  *[BGP/170] 1w3d 03:33:56, localpref 100, from 207.23.253.6
+                      AS path: 65524 I, validation-state: unverified
+                    >  to 207.23.253.50 via et-1/1/1.3924
+207.23.254.216/30  *[BGP/170] 1w3d 03:33:56, localpref 100, from 207.23.253.6
+                      AS path: 65524 I, validation-state: unverified
+                    >  to 207.23.253.50 via et-1/1/1.3924
+207.23.254.220/30  *[BGP/170] 1w3d 03:33:56, localpref 100, from 207.23.253.6
+                      AS path: 65524 I, validation-state: unverified
+                    >  to 207.23.253.50 via et-1/1/1.3924
+207.23.254.253/32  *[BGP/170] 1w3d 03:33:56, localpref 100, from 207.23.253.6
+                      AS path: 65524 I, validation-state: unverified
+                    >  to 207.23.253.50 via et-1/1/1.3924
+207.23.255.0/24    *[Static/250] 1w3d 03:30:39
+                       Reject
+207.23.255.16/29   *[BGP/170] 45w3d 02:20:24, localpref 100
+                      AS path: 65532 I, validation-state: unverified
+                    >  to 207.23.255.26 via lt-0/0/0.30
+207.23.255.26/31   *[Direct/0] 45w3d 02:28:17
+                    >  via lt-0/0/0.30
+207.23.255.27/32   *[Local/0] 45w3d 02:28:17
+                       Local via lt-0/0/0.30
+207.23.255.30/31   *[BGP/170] 45w3d 02:20:24, localpref 100
+                      AS path: 65532 I, validation-state: unverified
+                    >  to 207.23.255.26 via lt-0/0/0.30
+207.23.255.32/28   *[BGP/170] 45w3d 02:20:24, localpref 100
+                      AS path: 65532 65530 ?, validation-state: unverified
+                    >  to 207.23.255.26 via lt-0/0/0.30
+207.23.255.48/28   *[BGP/170] 45w3d 02:20:24, localpref 100
+                      AS path: 65532 I, validation-state: unverified
+                    >  to 207.23.255.26 via lt-0/0/0.30
+207.23.255.64/26   *[BGP/170] 45w3d 02:20:24, localpref 100
+                      AS path: 65532 I, validation-state: unverified
+                    >  to 207.23.255.26 via lt-0/0/0.30
+207.23.255.128/31  *[Direct/0] 45w3d 02:26:53
+                    >  via lt-1/0/0.56
+207.23.255.128/32  *[Local/0] 45w3d 02:26:53
+                       Local via lt-1/0/0.56
+207.23.255.136/31  *[Direct/0] 45w3d 02:26:29
+                    >  via lt-1/0/0.62
+207.23.255.136/32  *[Local/0] 45w3d 02:26:29
+                       Local via lt-1/0/0.62
+207.23.255.140/30  *[BGP/170] 45w3d 02:20:24, localpref 100
+                      AS path: 65532 I, validation-state: unverified
+                    >  to 207.23.255.26 via lt-0/0/0.30
+207.23.255.144/30  *[BGP/170] 3w2d 03:00:49, localpref 100
+                      AS path: 65532 I, validation-state: unverified
+                    >  to 207.23.255.26 via lt-0/0/0.30
+207.23.255.148/30  *[BGP/170] 45w3d 02:20:24, localpref 100
+                      AS path: 65532 I, validation-state: unverified
+                    >  to 207.23.255.26 via lt-0/0/0.30
+207.23.255.212/30  *[Direct/0] 45w3d 02:26:03
+                    >  via lt-1/1/0.72
+207.23.255.214/32  *[Local/0] 45w3d 02:26:03
+                       Local via lt-1/1/0.72
+207.23.255.218/31  *[Direct/0] 45w3d 02:28:17
+                    >  via lt-0/0/0.204
+207.23.255.218/32  *[Local/0] 45w3d 02:28:17
+                       Local via lt-0/0/0.204
+207.23.255.228/30  *[BGP/170] 45w3d 02:20:24, localpref 100
+                      AS path: 65532 I, validation-state: unverified
+                    >  to 207.23.255.26 via lt-0/0/0.30
+207.23.255.252/32  *[BGP/170] 45w3d 02:20:24, localpref 100
+                      AS path: 65532 I, validation-state: unverified
+                    >  to 207.23.255.26 via lt-0/0/0.30
+
+IX-KMLP8.inet.0: 16223 destinations, 30989 routes (16223 active, 0 holddown, 0 hidden)
++ = Active Route, - = Last Active, * = Both
+
+207.23.8.0/21      *[BGP/170] 1w0d 03:40:12, localpref 100
+                      AS path: 65518 I, validation-state: unverified
+                    >  to 206.12.4.5 via lt-1/1/0.74
+207.23.72.0/24     *[BGP/170] 1w0d 03:55:31, localpref 100, from 206.12.3.5
+                      AS path: 65496 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+207.23.73.0/24     *[BGP/170] 1w0d 03:55:31, localpref 100, from 206.12.3.5
+                      AS path: 65495 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+207.23.85.0/24     *[BGP/170] 3d 00:58:26, MED 10, localpref 100, from 206.12.3.1
+                      AS path: 11105 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+207.23.88.0/23     *[BGP/170] 1w0d 03:40:12, localpref 100
+                      AS path: 65518 I, validation-state: unverified
+                    >  to 206.12.4.5 via lt-1/1/0.74
+207.23.92.0/23     *[BGP/170] 1d 03:46:51, localpref 100
+                      AS path: 65532 I, validation-state: unverified
+                    >  to 206.12.4.17 via lt-0/1/0.50
+207.23.94.0/23     *[BGP/170] 3d 00:58:26, MED 10, localpref 100, from 206.12.3.1
+                      AS path: 393249 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+207.23.96.0/20     *[BGP/170] 3d 00:02:01, MED 50, localpref 100, from 206.12.3.8
+                      AS path: 397543 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+207.23.128.0/19    *[BGP/170] 3d 00:58:26, localpref 100, from 206.12.3.1
+                      AS path: 397375 ?, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+207.23.160.0/19    *[BGP/170] 3d 00:58:26, MED 10, localpref 100, from 206.12.3.1
+                      AS path: 11105 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+207.23.192.0/19    *[BGP/170] 3d 00:58:26, MED 10, localpref 100, from 206.12.3.1
+                      AS path: 11105 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+207.23.240.212/32  *[BGP/170] 1w3d 03:55:22, localpref 100, from 206.12.3.1
+                      AS path: 65526 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+207.23.240.213/32  *[BGP/170] 3d 03:22:58, localpref 99, from 206.12.3.1
+                      AS path: 65527 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+207.23.240.214/32  *[BGP/170] 1w3d 03:49:59, localpref 100, from 206.12.3.7
+                      AS path: 65529 I, validation-state: unverified
+                       to 206.12.3.53 via ae9.456
+                    >  to 206.12.3.70 via et-1/1/0.812
+207.23.241.0/24    *[BGP/170] 1w3d 03:44:24, localpref 100, from 206.12.3.8
+                      AS path: 65509 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+207.23.241.70/31   *[BGP/170] 1w3d 03:44:24, localpref 100, from 206.12.3.8
+                      AS path: 65509 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+207.23.241.100/30  *[BGP/170] 1w3d 03:44:24, localpref 100, from 206.12.3.8
+                      AS path: 65509 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+207.23.241.104/30  *[BGP/170] 1w3d 03:44:24, localpref 100, from 206.12.3.8
+                      AS path: 65509 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+207.23.241.152/30  *[BGP/170] 1w3d 03:44:24, localpref 100, from 206.12.3.8
+                      AS path: 65509 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+207.23.241.176/29  *[BGP/170] 1w3d 03:44:24, localpref 100, from 206.12.3.8
+                      AS path: 65509 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+207.23.241.240/32  *[BGP/170] 1w3d 03:44:24, localpref 100, from 206.12.3.8
+                      AS path: 65509 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+207.23.242.0/24    *[BGP/170] 1w3d 03:37:22, localpref 100, from 206.12.3.5
+                      AS path: {65512} I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+207.23.242.72/30   *[BGP/170] 1w3d 03:37:22, localpref 100, from 206.12.3.5
+                      AS path: 65512 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+207.23.242.76/30   *[BGP/170] 1w3d 03:37:22, localpref 100, from 206.12.3.5
+                      AS path: 65512 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+207.23.242.96/31   *[BGP/170] 1w3d 03:37:22, localpref 100, from 206.12.3.5
+                      AS path: 65512 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+207.23.242.252/32  *[IS-IS/18] 1w5d 07:38:14, metric 20
+                    >  to 206.12.3.53 via ae9.456
+207.23.242.253/32  *[BGP/170] 1w3d 03:37:22, localpref 100, from 206.12.3.5
+                      AS path: 65512 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+207.23.243.0/24    *[BGP/170] 3d 00:58:26, MED 10, localpref 100, from 206.12.3.1
+                      AS path: 393249 ?, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+207.23.244.0/24    *[BGP/170] 1w3d 03:44:23, localpref 100, from 206.12.3.8
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+207.23.249.0/24    *[BGP/170] 3d 00:58:26, MED 10, localpref 100, from 206.12.3.1
+                      AS path: 393249 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+207.23.251.0/24    *[BGP/170] 1w3d 03:33:24, localpref 100, from 206.12.3.6
+                      AS path: I, validation-state: unverified
+                    >  to 206.12.3.30 via et-1/1/1.453
+207.23.252.0/24    *[BGP/170] 3d 00:58:26, MED 10, localpref 100, from 206.12.3.1
+                      AS path: 393249 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+207.23.254.0/24    *[BGP/170] 1w3d 03:33:56, localpref 100, from 206.12.3.6
+                      AS path: {65524} I, validation-state: unverified
+                    >  to 206.12.3.30 via et-1/1/1.453
+207.23.254.188/31  *[BGP/170] 1w3d 03:33:56, localpref 100, from 206.12.3.6
+                      AS path: 65524 I, validation-state: unverified
+                    >  to 206.12.3.30 via et-1/1/1.453
+207.23.254.216/30  *[BGP/170] 1w3d 03:33:56, localpref 100, from 206.12.3.6
+                      AS path: 65524 I, validation-state: unverified
+                    >  to 206.12.3.30 via et-1/1/1.453
+207.23.254.220/30  *[BGP/170] 1w3d 03:33:56, localpref 100, from 206.12.3.6
+                      AS path: 65524 I, validation-state: unverified
+                    >  to 206.12.3.30 via et-1/1/1.453
+207.23.254.252/32  *[IS-IS/18] 7w5d 19:34:33, metric 23
+                    >  to 206.12.3.30 via et-1/1/1.453
+207.23.254.253/32  *[BGP/170] 1w3d 03:33:56, localpref 100, from 206.12.3.6
+                      AS path: 65524 I, validation-state: unverified
+                    >  to 206.12.3.30 via et-1/1/1.453
+207.23.255.16/29   *[BGP/170] 45w3d 02:20:35, localpref 100
+                      AS path: 65532 I, validation-state: unverified
+                    >  to 206.12.4.17 via lt-0/1/0.50
+207.23.255.30/31   *[BGP/170] 45w3d 02:20:35, localpref 100
+                      AS path: 65532 I, validation-state: unverified
+                    >  to 206.12.4.17 via lt-0/1/0.50
+207.23.255.32/28   *[BGP/170] 45w3d 02:20:28, localpref 100
+                      AS path: 65532 65530 ?, validation-state: unverified
+                    >  to 206.12.4.17 via lt-0/1/0.50
+207.23.255.48/28   *[BGP/170] 45w3d 02:20:35, localpref 100
+                      AS path: 65532 I, validation-state: unverified
+                    >  to 206.12.4.17 via lt-0/1/0.50
+207.23.255.64/26   *[BGP/170] 45w3d 02:20:35, localpref 100
+                      AS path: 65532 I, validation-state: unverified
+                    >  to 206.12.4.17 via lt-0/1/0.50
+207.23.255.140/30  *[BGP/170] 45w3d 02:20:35, localpref 100
+                      AS path: 65532 I, validation-state: unverified
+                    >  to 206.12.4.17 via lt-0/1/0.50
+207.23.255.144/30  *[BGP/170] 3w2d 03:00:49, localpref 100
+                      AS path: 65532 I, validation-state: unverified
+                    >  to 206.12.4.17 via lt-0/1/0.50
+207.23.255.148/30  *[BGP/170] 45w3d 02:20:35, localpref 100
+                      AS path: 65532 I, validation-state: unverified
+                    >  to 206.12.4.17 via lt-0/1/0.50
+207.23.255.228/30  *[BGP/170] 45w3d 02:20:35, localpref 100
+                      AS path: 65532 I, validation-state: unverified
+                    >  to 206.12.4.17 via lt-0/1/0.50
+207.23.255.252/32  *[BGP/170] 45w3d 02:20:35, localpref 100
+                      AS path: 65532 I, validation-state: unverified
+                    >  to 206.12.4.17 via lt-0/1/0.50
+
+show route 209.87.0.0/18
+
+inet.0: 18765 destinations, 55643 routes (18763 active, 1 holddown, 1 hidden)
++ = Active Route, - = Last Active, * = Both
+
+209.87.16.0/24     *[BGP/170] 3d 00:34:35, MED 10, localpref 100, from 206.12.0.2
+                      AS path: 393249 ?, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 113
+209.87.17.0/24     *[BGP/170] 3d 00:34:35, MED 10, localpref 100, from 206.12.0.2
+                      AS path: 393249 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 113
+209.87.18.0/24     *[BGP/170] 3d 02:55:16, localpref 100, from 206.12.0.5
+                      AS path: 65512 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 111
+209.87.24.0/23     *[BGP/170] 1w0d 03:19:56, localpref 100, from 206.12.0.2
+                      AS path: 65505 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 113
+209.87.27.0/24     *[BGP/170] 3d 00:34:35, MED 0, localpref 100, from 206.12.0.2
+                      AS path: 65506 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 113
+209.87.28.0/23     *[BGP/170] 1w0d 03:19:56, MED 100, localpref 100, from 206.12.0.2
+                      AS path: 65515 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 113
+209.87.30.0/24     *[BGP/170] 3d 00:34:35, localpref 100, from 206.12.0.2
+                      AS path: 393966 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 113
+209.87.31.0/24     *[BGP/170] 3d 00:34:35, MED 10, localpref 100, from 206.12.0.2
+                      AS path: 11105 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 113
+209.87.56.0/22     *[BGP/170] 3d 00:34:35, MED 10, localpref 100, from 206.12.0.2
+                      AS path: 11105 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 113
+209.87.60.0/24     *[BGP/170] 3d 00:34:35, MED 10, localpref 100, from 206.12.0.2
+                      AS path: 11105 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 113
+209.87.61.0/24     *[BGP/170] 3d 00:34:35, MED 0, localpref 100, from 206.12.0.2
+                      AS path: 65506 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 113
+209.87.62.0/24     *[BGP/170] 3d 00:34:35, localpref 100, from 206.12.0.2
+                      AS path: 55185 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 113
+209.87.63.0/24     *[BGP/170] 3d 00:34:35, MED 0, localpref 100, from 206.12.0.2
+                      AS path: 33314 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903, Push 113
+
+inet.2: 141 destinations, 141 routes (140 active, 0 holddown, 1 hidden)
++ = Active Route, - = Last Active, * = Both
+
+209.87.18.0/24     *[BGP/170] 3d 02:55:16, localpref 100, from 206.12.0.5
+                      AS path: 65512 I, validation-state: unverified
+                    >  to 206.12.0.117 via ae9.3903
+
+TRANSIT-KMLP8.inet.0: 937191 destinations, 3488655 routes (929108 active, 0 holddown, 8083 hidden)
++ = Active Route, - = Last Active, * = Both
+
+209.87.0.0/18      *[BGP/170] 7w0d 10:05:57, localpref 100, from 207.23.253.1
+                      AS path: I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+209.87.16.0/24     *[BGP/170] 3d 00:34:35, MED 10, localpref 100, from 207.23.253.2
+                      AS path: 393249 ?, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+209.87.17.0/24     *[BGP/170] 3d 00:34:35, MED 10, localpref 100, from 207.23.253.2
+                      AS path: 393249 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+209.87.18.0/24     *[BGP/170] 1w3d 03:37:22, localpref 100, from 207.23.253.5
+                      AS path: 65512 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+209.87.24.0/23     *[BGP/170] 1w0d 03:19:56, localpref 100, from 207.23.253.2
+                      AS path: 65505 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+209.87.27.0/24     *[BGP/170] 3d 00:34:35, MED 0, localpref 100, from 207.23.253.2
+                      AS path: 65506 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+209.87.28.0/23     *[BGP/170] 1w0d 03:19:56, MED 100, localpref 100, from 207.23.253.2
+                      AS path: 65515 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+209.87.30.0/24     *[BGP/170] 3d 00:34:35, localpref 100, from 207.23.253.2
+                      AS path: 393966 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+209.87.31.0/24     *[BGP/170] 3d 00:34:35, MED 10, localpref 100, from 207.23.253.2
+                      AS path: 11105 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+209.87.56.0/22     *[BGP/170] 3d 00:34:35, MED 10, localpref 100, from 207.23.253.2
+                      AS path: 11105 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+209.87.60.0/24     *[BGP/170] 3d 00:34:35, MED 10, localpref 100, from 207.23.253.2
+                      AS path: 11105 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+209.87.61.0/24     *[BGP/170] 3d 00:34:35, MED 0, localpref 100, from 207.23.253.2
+                      AS path: 65506 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+209.87.62.0/24     *[BGP/170] 2d 16:11:05, MED 0, localpref 90
+                      AS path: 852 13768 55185 I, validation-state: unverified
+                    >  to 207.6.100.1 via xe-0/0/0:2.0
+                    [BGP/170] 2d 16:07:47, MED 0, localpref 90, from 207.23.253.2
+                      AS path: 852 13768 55185 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+                    [BGP/170] 1d 09:54:36, MED 0, localpref 90, from 207.23.253.7
+                      AS path: 852 13768 55185 I, validation-state: unverified
+                       to 207.23.253.109 via ae9.3923
+                    >  to 207.23.253.127 via et-1/1/0.811
+                    [BGP/170] 1d 09:28:31, MED 0, localpref 90
+                      AS path: 6327 13768 55185 I, validation-state: unverified
+                    >  to 74.3.141.21 via xe-1/0/0:2.0
+209.87.63.0/24     *[BGP/170] 3d 00:34:35, MED 0, localpref 100, from 207.23.253.2
+                      AS path: 33314 I, validation-state: unverified
+                    >  to 207.23.253.109 via ae9.3923
+
+IX-KMLP8.inet.0: 16223 destinations, 30989 routes (16223 active, 0 holddown, 0 hidden)
++ = Active Route, - = Last Active, * = Both
+
+209.87.16.0/24     *[BGP/170] 3d 00:58:26, MED 10, localpref 100, from 206.12.3.1
+                      AS path: 393249 ?, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+209.87.17.0/24     *[BGP/170] 3d 00:58:26, MED 10, localpref 100, from 206.12.3.1
+                      AS path: 393249 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+209.87.18.0/24     *[BGP/170] 1w3d 03:37:22, localpref 100, from 206.12.3.5
+                      AS path: 65512 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+209.87.24.0/23     *[BGP/170] 1w0d 03:25:55, localpref 100, from 206.12.3.1
+                      AS path: 65505 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+209.87.27.0/24     *[BGP/170] 3d 00:58:26, MED 0, localpref 100, from 206.12.3.1
+                      AS path: 65506 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+209.87.28.0/23     *[BGP/170] 3d 00:58:26, MED 100, localpref 100, from 206.12.3.1
+                      AS path: 65515 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+209.87.30.0/24     *[BGP/170] 3d 00:58:26, localpref 100, from 206.12.3.1
+                      AS path: 393966 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+209.87.31.0/24     *[BGP/170] 3d 00:58:26, MED 10, localpref 100, from 206.12.3.1
+                      AS path: 11105 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+209.87.56.0/22     *[BGP/170] 3d 00:58:26, MED 10, localpref 100, from 206.12.3.1
+                      AS path: 11105 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+209.87.60.0/24     *[BGP/170] 3d 00:58:26, MED 10, localpref 100, from 206.12.3.1
+                      AS path: 11105 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+209.87.61.0/24     *[BGP/170] 3d 00:58:26, MED 0, localpref 100, from 206.12.3.1
+                      AS path: 65506 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+209.87.62.0/24     *[BGP/170] 2d 14:57:25, MED 0, localpref 500, from 206.12.3.1
+                      AS path: 13768 55185 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
+209.87.63.0/24     *[BGP/170] 3d 00:58:26, MED 0, localpref 100, from 206.12.3.1
+                      AS path: 33314 I, validation-state: unverified
+                    >  to 206.12.3.53 via ae9.456
