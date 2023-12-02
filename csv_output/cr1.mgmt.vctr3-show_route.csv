@@ -1,0 +1,1122 @@
+Index;Route_Instance;Supernet;Subnet;ASN;Destination_Interface;Router
+0;inet.0;128.189.0.0/16;128.189.4.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+1;inet.0;128.189.0.0/16;128.189.5.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+2;inet.0;128.189.0.0/16;128.189.6.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+3;inet.0;128.189.0.0/16;128.189.16.0/20;393249;Adjacent Router;No;cr1.mgmt.vctr3
+4;inet.0;128.189.0.0/16;128.189.64.0/19;393249;Adjacent Router;No;cr1.mgmt.vctr3
+5;inet.0;128.189.0.0/16;128.189.64.0/19;;Adjacent Router;No;cr1.mgmt.vctr3
+6;inet.0;128.189.0.0/16;128.189.96.0/19;393249;Adjacent Router;No;cr1.mgmt.vctr3
+7;inet.0;128.189.0.0/16;128.189.96.0/19;;Adjacent Router;No;cr1.mgmt.vctr3
+8;inet.0;128.189.0.0/16;128.189.128.0/18;393249;Adjacent Router;No;cr1.mgmt.vctr3
+9;inet.0;128.189.0.0/16;128.189.128.0/18;;Adjacent Router;No;cr1.mgmt.vctr3
+10;inet.0;128.189.0.0/16;128.189.192.0/18;393249;Adjacent Router;No;cr1.mgmt.vctr3
+11;inet.0;128.189.0.0/16;128.189.192.0/18;;Adjacent Router;No;cr1.mgmt.vctr3
+12;inet.2;128.189.0.0/16;128.189.4.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+13;inet.2;128.189.0.0/16;128.189.6.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+14;IX-VCTR3.inet.0;128.189.0.0/16;128.189.4.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+15;IX-VCTR3.inet.0;128.189.0.0/16;128.189.5.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+16;IX-VCTR3.inet.0;128.189.0.0/16;128.189.6.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+17;IX-VCTR3.inet.0;128.189.0.0/16;128.189.16.0/20;393249;Adjacent Router;No;cr1.mgmt.vctr3
+18;IX-VCTR3.inet.0;128.189.0.0/16;128.189.64.0/19;393249;Adjacent Router;No;cr1.mgmt.vctr3
+19;IX-VCTR3.inet.0;128.189.0.0/16;128.189.96.0/19;393249;Adjacent Router;No;cr1.mgmt.vctr3
+20;IX-VCTR3.inet.0;128.189.0.0/16;128.189.128.0/18;393249;Adjacent Router;No;cr1.mgmt.vctr3
+21;IX-VCTR3.inet.0;128.189.0.0/16;128.189.192.0/18;393249;Adjacent Router;No;cr1.mgmt.vctr3
+22;TRANSIT-VCTR3.inet.0;128.189.0.0/16;128.189.0.0/16;271;Adjacent Router;No;cr1.mgmt.vctr3
+23;TRANSIT-VCTR3.inet.0;128.189.0.0/16;128.189.4.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+24;TRANSIT-VCTR3.inet.0;128.189.0.0/16;128.189.5.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+25;TRANSIT-VCTR3.inet.0;128.189.0.0/16;128.189.6.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+26;TRANSIT-VCTR3.inet.0;128.189.0.0/16;128.189.16.0/20;393249;Adjacent Router;No;cr1.mgmt.vctr3
+27;TRANSIT-VCTR3.inet.0;128.189.0.0/16;128.189.64.0/19;393249;Adjacent Router;No;cr1.mgmt.vctr3
+28;TRANSIT-VCTR3.inet.0;128.189.0.0/16;128.189.64.0/19;;Adjacent Router;No;cr1.mgmt.vctr3
+29;TRANSIT-VCTR3.inet.0;128.189.0.0/16;128.189.96.0/19;393249;Adjacent Router;No;cr1.mgmt.vctr3
+30;TRANSIT-VCTR3.inet.0;128.189.0.0/16;128.189.96.0/19;;Adjacent Router;No;cr1.mgmt.vctr3
+31;TRANSIT-VCTR3.inet.0;128.189.0.0/16;128.189.128.0/18;393249;Adjacent Router;No;cr1.mgmt.vctr3
+32;TRANSIT-VCTR3.inet.0;128.189.0.0/16;128.189.128.0/18;;Adjacent Router;No;cr1.mgmt.vctr3
+33;TRANSIT-VCTR3.inet.0;128.189.0.0/16;128.189.192.0/18;393249;Adjacent Router;No;cr1.mgmt.vctr3
+34;TRANSIT-VCTR3.inet.0;128.189.0.0/16;128.189.192.0/18;;Adjacent Router;No;cr1.mgmt.vctr3
+35;inet.0;134.87.0.0/16;134.87.2.16/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+36;inet.0;134.87.0.0/16;134.87.2.20/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+37;inet.0;134.87.0.0/16;134.87.2.26/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+38;inet.0;134.87.0.0/16;134.87.2.28/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+39;inet.0;134.87.0.0/16;134.87.2.48/29;271;Adjacent Router;No;cr1.mgmt.vctr3
+40;inet.0;134.87.0.0/16;134.87.2.48/29;;Adjacent Router;No;cr1.mgmt.vctr3
+41;inet.0;134.87.0.0/16;134.87.2.56/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+42;inet.0;134.87.0.0/16;134.87.2.58/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+43;inet.0;134.87.0.0/16;134.87.2.60/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+44;inet.0;134.87.0.0/16;134.87.2.62/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+45;inet.0;134.87.0.0/16;134.87.2.64/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+46;inet.0;134.87.0.0/16;134.87.2.68/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+47;inet.0;134.87.0.0/16;134.87.2.72/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+48;inet.0;134.87.0.0/16;134.87.2.76/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+49;inet.0;134.87.0.0/16;134.87.2.76/30;;Adjacent Router;No;cr1.mgmt.vctr3
+50;inet.0;134.87.0.0/16;134.87.2.80/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+51;inet.0;134.87.0.0/16;134.87.2.84/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+52;inet.0;134.87.0.0/16;134.87.2.84/30;;Adjacent Router;No;cr1.mgmt.vctr3
+53;inet.0;134.87.0.0/16;134.87.2.128/29;271;Adjacent Router;No;cr1.mgmt.vctr3
+54;inet.0;134.87.0.0/16;134.87.2.128/29;;Adjacent Router;No;cr1.mgmt.vctr3
+55;inet.0;134.87.0.0/16;134.87.2.136/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+56;inet.0;134.87.0.0/16;134.87.2.136/30;;Adjacent Router;No;cr1.mgmt.vctr3
+57;inet.0;134.87.0.0/16;134.87.2.140/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+58;inet.0;134.87.0.0/16;134.87.2.140/30;;Adjacent Router;No;cr1.mgmt.vctr3
+59;inet.0;134.87.0.0/16;134.87.2.160/29;271;Adjacent Router;No;cr1.mgmt.vctr3
+60;inet.0;134.87.0.0/16;134.87.2.168/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+61;inet.0;134.87.0.0/16;134.87.2.170/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+62;inet.0;134.87.0.0/16;134.87.2.172/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+63;inet.0;134.87.0.0/16;134.87.2.172/30;;Adjacent Router;No;cr1.mgmt.vctr3
+64;inet.0;134.87.0.0/16;134.87.2.188/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+65;inet.0;134.87.0.0/16;134.87.2.196/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+66;inet.0;134.87.0.0/16;134.87.2.196/31;;Adjacent Router;No;cr1.mgmt.vctr3
+67;inet.0;134.87.0.0/16;134.87.2.198/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+68;inet.0;134.87.0.0/16;134.87.2.198/31;;Adjacent Router;No;cr1.mgmt.vctr3
+69;inet.0;134.87.0.0/16;134.87.2.202/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+70;inet.0;134.87.0.0/16;134.87.2.202/31;;Adjacent Router;No;cr1.mgmt.vctr3
+71;inet.0;134.87.0.0/16;134.87.2.228/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+72;inet.0;134.87.0.0/16;134.87.2.228/31;;Adjacent Router;No;cr1.mgmt.vctr3
+73;inet.0;134.87.0.0/16;134.87.2.230/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+74;inet.0;134.87.0.0/16;134.87.2.230/31;;Adjacent Router;No;cr1.mgmt.vctr3
+75;inet.0;134.87.0.0/16;134.87.2.236/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+76;inet.0;134.87.0.0/16;134.87.2.240/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+77;inet.0;134.87.0.0/16;134.87.2.240/30;;Adjacent Router;No;cr1.mgmt.vctr3
+78;inet.0;134.87.0.0/16;134.87.2.244/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+79;inet.0;134.87.0.0/16;134.87.2.246/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+80;inet.0;134.87.0.0/16;134.87.2.246/31;;Adjacent Router;No;cr1.mgmt.vctr3
+81;inet.0;134.87.0.0/16;134.87.2.248/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+82;inet.0;134.87.0.0/16;134.87.2.248/31;;Adjacent Router;No;cr1.mgmt.vctr3
+83;inet.0;134.87.0.0/16;134.87.2.250/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+84;inet.0;134.87.0.0/16;134.87.4.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+85;inet.0;134.87.0.0/16;134.87.32.0/19;16462;xe-1/0/2.2922;No;cr1.mgmt.vctr3
+86;inet.0;134.87.0.0/16;134.87.112.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+87;inet.0;134.87.0.0/16;134.87.128.0/18;16462;xe-1/0/2.2922;No;cr1.mgmt.vctr3
+88;inet.2;134.87.0.0/16;134.87.2.16/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+89;inet.2;134.87.0.0/16;134.87.2.20/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+90;inet.2;134.87.0.0/16;134.87.2.26/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+91;inet.2;134.87.0.0/16;134.87.2.28/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+92;inet.2;134.87.0.0/16;134.87.2.48/29;271;Adjacent Router;No;cr1.mgmt.vctr3
+93;inet.2;134.87.0.0/16;134.87.2.48/29;;Adjacent Router;No;cr1.mgmt.vctr3
+94;inet.2;134.87.0.0/16;134.87.2.56/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+95;inet.2;134.87.0.0/16;134.87.2.58/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+96;inet.2;134.87.0.0/16;134.87.2.60/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+97;inet.2;134.87.0.0/16;134.87.2.62/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+98;inet.2;134.87.0.0/16;134.87.2.64/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+99;inet.2;134.87.0.0/16;134.87.2.68/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+100;inet.2;134.87.0.0/16;134.87.2.72/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+101;inet.2;134.87.0.0/16;134.87.2.76/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+102;inet.2;134.87.0.0/16;134.87.2.76/30;;Adjacent Router;No;cr1.mgmt.vctr3
+103;inet.2;134.87.0.0/16;134.87.2.80/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+104;inet.2;134.87.0.0/16;134.87.2.84/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+105;inet.2;134.87.0.0/16;134.87.2.84/30;;Adjacent Router;No;cr1.mgmt.vctr3
+106;inet.2;134.87.0.0/16;134.87.2.128/29;271;Adjacent Router;No;cr1.mgmt.vctr3
+107;inet.2;134.87.0.0/16;134.87.2.128/29;;Adjacent Router;No;cr1.mgmt.vctr3
+108;inet.2;134.87.0.0/16;134.87.2.136/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+109;inet.2;134.87.0.0/16;134.87.2.136/30;;Adjacent Router;No;cr1.mgmt.vctr3
+110;inet.2;134.87.0.0/16;134.87.2.140/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+111;inet.2;134.87.0.0/16;134.87.2.140/30;;Adjacent Router;No;cr1.mgmt.vctr3
+112;inet.2;134.87.0.0/16;134.87.2.160/29;271;Adjacent Router;No;cr1.mgmt.vctr3
+113;inet.2;134.87.0.0/16;134.87.2.168/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+114;inet.2;134.87.0.0/16;134.87.2.170/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+115;inet.2;134.87.0.0/16;134.87.2.172/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+116;inet.2;134.87.0.0/16;134.87.2.172/30;;Adjacent Router;No;cr1.mgmt.vctr3
+117;inet.2;134.87.0.0/16;134.87.2.188/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+118;inet.2;134.87.0.0/16;134.87.2.196/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+119;inet.2;134.87.0.0/16;134.87.2.196/31;;Adjacent Router;No;cr1.mgmt.vctr3
+120;inet.2;134.87.0.0/16;134.87.2.198/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+121;inet.2;134.87.0.0/16;134.87.2.198/31;;Adjacent Router;No;cr1.mgmt.vctr3
+122;inet.2;134.87.0.0/16;134.87.2.202/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+123;inet.2;134.87.0.0/16;134.87.2.202/31;;Adjacent Router;No;cr1.mgmt.vctr3
+124;inet.2;134.87.0.0/16;134.87.2.228/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+125;inet.2;134.87.0.0/16;134.87.2.228/31;;Adjacent Router;No;cr1.mgmt.vctr3
+126;inet.2;134.87.0.0/16;134.87.2.230/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+127;inet.2;134.87.0.0/16;134.87.2.230/31;;Adjacent Router;No;cr1.mgmt.vctr3
+128;inet.2;134.87.0.0/16;134.87.2.236/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+129;inet.2;134.87.0.0/16;134.87.2.240/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+130;inet.2;134.87.0.0/16;134.87.2.240/30;;Adjacent Router;No;cr1.mgmt.vctr3
+131;inet.2;134.87.0.0/16;134.87.2.244/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+132;inet.2;134.87.0.0/16;134.87.2.246/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+133;inet.2;134.87.0.0/16;134.87.2.246/31;;Adjacent Router;No;cr1.mgmt.vctr3
+134;inet.2;134.87.0.0/16;134.87.2.248/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+135;inet.2;134.87.0.0/16;134.87.2.248/31;;Adjacent Router;No;cr1.mgmt.vctr3
+136;inet.2;134.87.0.0/16;134.87.2.250/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+137;inet.2;134.87.0.0/16;134.87.4.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+138;inet.2;134.87.0.0/16;134.87.112.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+139;IX-VCTR3.inet.0;134.87.0.0/16;134.87.0.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+140;IX-VCTR3.inet.0;134.87.0.0/16;134.87.0.254/32;;Adjacent Router;No;cr1.mgmt.vctr3
+141;IX-VCTR3.inet.0;134.87.0.0/16;134.87.2.20/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+142;IX-VCTR3.inet.0;134.87.0.0/16;134.87.2.28/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+143;IX-VCTR3.inet.0;134.87.0.0/16;134.87.2.128/29;271;Adjacent Router;No;cr1.mgmt.vctr3
+144;IX-VCTR3.inet.0;134.87.0.0/16;134.87.2.136/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+145;IX-VCTR3.inet.0;134.87.0.0/16;134.87.2.140/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+146;IX-VCTR3.inet.0;134.87.0.0/16;134.87.2.172/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+147;IX-VCTR3.inet.0;134.87.0.0/16;134.87.4.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+148;IX-VCTR3.inet.0;134.87.0.0/16;134.87.32.0/19;16462;xe-1/0/2.2921;No;cr1.mgmt.vctr3
+149;IX-VCTR3.inet.0;134.87.0.0/16;134.87.112.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+150;IX-VCTR3.inet.0;134.87.0.0/16;134.87.128.0/18;16462;xe-1/0/2.2921;No;cr1.mgmt.vctr3
+151;TRANSIT-VCTR3.inet.0;134.87.0.0/16;134.87.0.0/16;271;Adjacent Router;No;cr1.mgmt.vctr3
+152;TRANSIT-VCTR3.inet.0;134.87.0.0/16;134.87.2.20/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+153;TRANSIT-VCTR3.inet.0;134.87.0.0/16;134.87.2.28/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+154;TRANSIT-VCTR3.inet.0;134.87.0.0/16;134.87.2.128/29;271;Adjacent Router;No;cr1.mgmt.vctr3
+155;TRANSIT-VCTR3.inet.0;134.87.0.0/16;134.87.2.128/29;;Adjacent Router;No;cr1.mgmt.vctr3
+156;TRANSIT-VCTR3.inet.0;134.87.0.0/16;134.87.2.136/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+157;TRANSIT-VCTR3.inet.0;134.87.0.0/16;134.87.2.136/30;;Adjacent Router;No;cr1.mgmt.vctr3
+158;TRANSIT-VCTR3.inet.0;134.87.0.0/16;134.87.2.140/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+159;TRANSIT-VCTR3.inet.0;134.87.0.0/16;134.87.2.140/30;;Adjacent Router;No;cr1.mgmt.vctr3
+160;TRANSIT-VCTR3.inet.0;134.87.0.0/16;134.87.2.152/29;271;Adjacent Router;No;cr1.mgmt.vctr3
+161;TRANSIT-VCTR3.inet.0;134.87.0.0/16;134.87.2.172/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+162;TRANSIT-VCTR3.inet.0;134.87.0.0/16;134.87.2.172/30;;Adjacent Router;No;cr1.mgmt.vctr3
+163;TRANSIT-VCTR3.inet.0;134.87.0.0/16;134.87.4.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+164;TRANSIT-VCTR3.inet.0;134.87.0.0/16;134.87.30.148/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+165;TRANSIT-VCTR3.inet.0;134.87.0.0/16;134.87.30.148/30;;Adjacent Router;No;cr1.mgmt.vctr3
+166;TRANSIT-VCTR3.inet.0;134.87.0.0/16;134.87.30.152/29;271;Adjacent Router;No;cr1.mgmt.vctr3
+167;TRANSIT-VCTR3.inet.0;134.87.0.0/16;134.87.30.152/29;;Adjacent Router;No;cr1.mgmt.vctr3
+168;TRANSIT-VCTR3.inet.0;134.87.0.0/16;134.87.30.168/29;271;Adjacent Router;No;cr1.mgmt.vctr3
+169;TRANSIT-VCTR3.inet.0;134.87.0.0/16;134.87.30.192/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+170;TRANSIT-VCTR3.inet.0;134.87.0.0/16;134.87.30.196/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+171;TRANSIT-VCTR3.inet.0;134.87.0.0/16;134.87.30.198/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+172;TRANSIT-VCTR3.inet.0;134.87.0.0/16;134.87.30.198/31;;Adjacent Router;No;cr1.mgmt.vctr3
+173;TRANSIT-VCTR3.inet.0;134.87.0.0/16;134.87.30.202/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+174;TRANSIT-VCTR3.inet.0;134.87.0.0/16;134.87.30.202/31;;Adjacent Router;No;cr1.mgmt.vctr3
+175;TRANSIT-VCTR3.inet.0;134.87.0.0/16;134.87.30.204/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+176;TRANSIT-VCTR3.inet.0;134.87.0.0/16;134.87.30.204/31;;Adjacent Router;No;cr1.mgmt.vctr3
+177;TRANSIT-VCTR3.inet.0;134.87.0.0/16;134.87.30.206/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+178;TRANSIT-VCTR3.inet.0;134.87.0.0/16;134.87.30.206/31;;Adjacent Router;No;cr1.mgmt.vctr3
+179;TRANSIT-VCTR3.inet.0;134.87.0.0/16;134.87.30.208/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+180;TRANSIT-VCTR3.inet.0;134.87.0.0/16;134.87.30.208/31;;Adjacent Router;No;cr1.mgmt.vctr3
+181;TRANSIT-VCTR3.inet.0;134.87.0.0/16;134.87.30.210/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+182;TRANSIT-VCTR3.inet.0;134.87.0.0/16;134.87.30.212/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+183;TRANSIT-VCTR3.inet.0;134.87.0.0/16;134.87.30.214/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+184;TRANSIT-VCTR3.inet.0;134.87.0.0/16;134.87.30.214/31;;Adjacent Router;No;cr1.mgmt.vctr3
+185;TRANSIT-VCTR3.inet.0;134.87.0.0/16;134.87.30.218/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+186;TRANSIT-VCTR3.inet.0;134.87.0.0/16;134.87.30.220/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+187;TRANSIT-VCTR3.inet.0;134.87.0.0/16;134.87.30.222/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+188;TRANSIT-VCTR3.inet.0;134.87.0.0/16;134.87.30.224/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+189;TRANSIT-VCTR3.inet.0;134.87.0.0/16;134.87.30.226/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+190;TRANSIT-VCTR3.inet.0;134.87.0.0/16;134.87.30.226/31;;Adjacent Router;No;cr1.mgmt.vctr3
+191;TRANSIT-VCTR3.inet.0;134.87.0.0/16;134.87.30.228/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+192;TRANSIT-VCTR3.inet.0;134.87.0.0/16;134.87.30.228/31;;Adjacent Router;No;cr1.mgmt.vctr3
+193;TRANSIT-VCTR3.inet.0;134.87.0.0/16;134.87.30.230/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+194;TRANSIT-VCTR3.inet.0;134.87.0.0/16;134.87.30.230/31;;Adjacent Router;No;cr1.mgmt.vctr3
+195;TRANSIT-VCTR3.inet.0;134.87.0.0/16;134.87.30.232/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+196;TRANSIT-VCTR3.inet.0;134.87.0.0/16;134.87.30.232/30;;Adjacent Router;No;cr1.mgmt.vctr3
+197;TRANSIT-VCTR3.inet.0;134.87.0.0/16;134.87.30.240/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+198;TRANSIT-VCTR3.inet.0;134.87.0.0/16;134.87.30.240/31;;Adjacent Router;No;cr1.mgmt.vctr3
+199;TRANSIT-VCTR3.inet.0;134.87.0.0/16;134.87.30.242/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+200;TRANSIT-VCTR3.inet.0;134.87.0.0/16;134.87.30.244/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+201;TRANSIT-VCTR3.inet.0;134.87.0.0/16;134.87.30.244/31;;Adjacent Router;No;cr1.mgmt.vctr3
+202;TRANSIT-VCTR3.inet.0;134.87.0.0/16;134.87.30.246/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+203;TRANSIT-VCTR3.inet.0;134.87.0.0/16;134.87.30.246/31;;Adjacent Router;No;cr1.mgmt.vctr3
+204;TRANSIT-VCTR3.inet.0;134.87.0.0/16;134.87.30.248/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+205;TRANSIT-VCTR3.inet.0;134.87.0.0/16;134.87.30.250/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+206;TRANSIT-VCTR3.inet.0;134.87.0.0/16;134.87.32.0/19;16462;xe-1/0/6.2920;No;cr1.mgmt.vctr3
+207;TRANSIT-VCTR3.inet.0;134.87.0.0/16;134.87.112.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+208;TRANSIT-VCTR3.inet.0;134.87.0.0/16;134.87.128.0/18;16462;xe-1/0/6.2920;No;cr1.mgmt.vctr3
+209;inet.0;142.231.0.0/16;142.231.1.48/29;271;Adjacent Router;No;cr1.mgmt.vctr3
+210;inet.0;142.231.0.0/16;142.231.1.80/29;271;Adjacent Router;No;cr1.mgmt.vctr3
+211;inet.0;142.231.0.0/16;142.231.1.100/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+212;inet.0;142.231.0.0/16;142.231.1.104/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+213;inet.0;142.231.0.0/16;142.231.1.108/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+214;inet.0;142.231.0.0/16;142.231.1.108/31;;Adjacent Router;No;cr1.mgmt.vctr3
+215;inet.0;142.231.0.0/16;142.231.1.110/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+216;inet.0;142.231.0.0/16;142.231.1.120/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+217;inet.0;142.231.0.0/16;142.231.1.160/27;271;Adjacent Router;No;cr1.mgmt.vctr3
+218;inet.0;142.231.0.0/16;142.231.2.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+219;inet.0;142.231.0.0/16;142.231.2.4/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+220;inet.0;142.231.0.0/16;142.231.2.12/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+221;inet.0;142.231.0.0/16;142.231.2.24/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+222;inet.0;142.231.0.0/16;142.231.2.224/27;271;Adjacent Router;No;cr1.mgmt.vctr3
+223;inet.0;142.231.0.0/16;142.231.3.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+224;inet.0;142.231.0.0/16;142.231.6.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+225;inet.0;142.231.0.0/16;142.231.7.0/27;271;Adjacent Router;No;cr1.mgmt.vctr3
+226;inet.0;142.231.0.0/16;142.231.7.0/27;;Adjacent Router;No;cr1.mgmt.vctr3
+227;inet.0;142.231.0.0/16;142.231.20.0/24;393249;Adjacent Router;No;cr1.mgmt.vctr3
+228;inet.0;142.231.0.0/16;142.231.20.0/24;;Adjacent Router;No;cr1.mgmt.vctr3
+229;inet.0;142.231.0.0/16;142.231.32.0/20;393249;Adjacent Router;No;cr1.mgmt.vctr3
+230;inet.0;142.231.0.0/16;142.231.64.0/19;393249;Adjacent Router;No;cr1.mgmt.vctr3
+231;inet.0;142.231.0.0/16;142.231.109.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+232;inet.0;142.231.0.0/16;142.231.112.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+233;inet.2;142.231.0.0/16;142.231.1.48/29;271;Adjacent Router;No;cr1.mgmt.vctr3
+234;inet.2;142.231.0.0/16;142.231.1.80/29;271;Adjacent Router;No;cr1.mgmt.vctr3
+235;inet.2;142.231.0.0/16;142.231.1.108/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+236;inet.2;142.231.0.0/16;142.231.1.108/31;;Adjacent Router;No;cr1.mgmt.vctr3
+237;inet.2;142.231.0.0/16;142.231.1.120/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+238;inet.2;142.231.0.0/16;142.231.1.160/27;271;Adjacent Router;No;cr1.mgmt.vctr3
+239;inet.2;142.231.0.0/16;142.231.2.4/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+240;inet.2;142.231.0.0/16;142.231.2.12/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+241;inet.2;142.231.0.0/16;142.231.2.24/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+242;inet.2;142.231.0.0/16;142.231.2.224/27;271;Adjacent Router;No;cr1.mgmt.vctr3
+243;inet.2;142.231.0.0/16;142.231.112.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+244;mgmt_junos.inet.0;142.231.0.0/16;142.231.144.0/20;271;fxp0.0;No;cr1.mgmt.vctr3
+245;mgmt_junos.inet.0;142.231.0.0/16;142.231.147.0/24;271;fxp0.0;No;cr1.mgmt.vctr3
+246;mgmt_junos.inet.0;142.231.0.0/16;142.231.147.0/24;271;fxp0.0;No;cr1.mgmt.vctr3
+247;mgmt_junos.inet.0;142.231.0.0/16;142.231.147.16/32;271;fxp0.0;Yes;cr1.mgmt.vctr3
+248;mgmt_junos.inet.0;142.231.0.0/16;142.231.147.18/32;271;fxp0.0;Yes;cr1.mgmt.vctr3
+249;IX-VCTR3.inet.0;142.231.0.0/16;142.231.1.100/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+250;IX-VCTR3.inet.0;142.231.0.0/16;142.231.1.104/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+251;IX-VCTR3.inet.0;142.231.0.0/16;142.231.1.108/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+252;IX-VCTR3.inet.0;142.231.0.0/16;142.231.1.110/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+253;IX-VCTR3.inet.0;142.231.0.0/16;142.231.1.120/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+254;IX-VCTR3.inet.0;142.231.0.0/16;142.231.1.160/27;271;Adjacent Router;No;cr1.mgmt.vctr3
+255;IX-VCTR3.inet.0;142.231.0.0/16;142.231.2.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+256;IX-VCTR3.inet.0;142.231.0.0/16;142.231.2.4/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+257;IX-VCTR3.inet.0;142.231.0.0/16;142.231.2.12/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+258;IX-VCTR3.inet.0;142.231.0.0/16;142.231.2.24/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+259;IX-VCTR3.inet.0;142.231.0.0/16;142.231.2.224/27;271;Adjacent Router;No;cr1.mgmt.vctr3
+260;IX-VCTR3.inet.0;142.231.0.0/16;142.231.7.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+261;IX-VCTR3.inet.0;142.231.0.0/16;142.231.20.0/24;393249;Adjacent Router;No;cr1.mgmt.vctr3
+262;IX-VCTR3.inet.0;142.231.0.0/16;142.231.32.0/20;393249;Adjacent Router;No;cr1.mgmt.vctr3
+263;IX-VCTR3.inet.0;142.231.0.0/16;142.231.64.0/19;393249;Adjacent Router;No;cr1.mgmt.vctr3
+264;IX-VCTR3.inet.0;142.231.0.0/16;142.231.109.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+265;IX-VCTR3.inet.0;142.231.0.0/16;142.231.112.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+266;IX-VCTR3.inet.0;142.231.0.0/16;142.231.116.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+267;IX-VCTR3.inet.0;142.231.0.0/16;142.231.117.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+268;MANLAN.inet.0;142.231.0.0/16;142.231.144.216/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+269;MANLAN.inet.0;142.231.0.0/16;142.231.144.220/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+270;MANLAN.inet.0;142.231.0.0/16;142.231.145.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+271;MANLAN.inet.0;142.231.0.0/16;142.231.146.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+272;MANLAN.inet.0;142.231.0.0/16;142.231.146.0/24;;Adjacent Router;No;cr1.mgmt.vctr3
+273;MANLAN.inet.0;142.231.0.0/16;142.231.147.0/24;271;ge-0/0/0.654;No;cr1.mgmt.vctr3
+274;MANLAN.inet.0;142.231.0.0/16;142.231.148.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+275;MANLAN.inet.0;142.231.0.0/16;142.231.149.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+276;MANLAN.inet.0;142.231.0.0/16;142.231.150.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+277;MANLAN.inet.0;142.231.0.0/16;142.231.150.0/24;;Adjacent Router;No;cr1.mgmt.vctr3
+278;MANLAN.inet.0;142.231.0.0/16;142.231.151.0/28;271;Adjacent Router;No;cr1.mgmt.vctr3
+279;MANLAN.inet.0;142.231.0.0/16;142.231.151.0/28;271;Adjacent Router;No;cr1.mgmt.vctr3
+280;MANLAN.inet.0;142.231.0.0/16;142.231.151.0/28;;Adjacent Router;No;cr1.mgmt.vctr3
+281;MANLAN.inet.0;142.231.0.0/16;142.231.151.64/28;271;Adjacent Router;No;cr1.mgmt.vctr3
+282;MANLAN.inet.0;142.231.0.0/16;142.231.151.96/27;271;Adjacent Router;No;cr1.mgmt.vctr3
+283;MANLAN.inet.0;142.231.0.0/16;142.231.151.96/27;271;Adjacent Router;No;cr1.mgmt.vctr3
+284;MANLAN.inet.0;142.231.0.0/16;142.231.151.96/27;;Adjacent Router;No;cr1.mgmt.vctr3
+285;MANLAN.inet.0;142.231.0.0/16;142.231.151.193/32;271;Adjacent Router;No;cr1.mgmt.vctr3
+286;MANLAN.inet.0;142.231.0.0/16;142.231.151.194/32;271;Adjacent Router;No;cr1.mgmt.vctr3
+287;MANLAN.inet.0;142.231.0.0/16;142.231.151.195/32;271;Adjacent Router;No;cr1.mgmt.vctr3
+288;MANLAN.inet.0;142.231.0.0/16;142.231.151.196/32;271;Adjacent Router;No;cr1.mgmt.vctr3
+289;MANLAN.inet.0;142.231.0.0/16;142.231.151.201/32;271;Adjacent Router;No;cr1.mgmt.vctr3
+290;MANLAN.inet.0;142.231.0.0/16;142.231.151.202/32;271;Adjacent Router;No;cr1.mgmt.vctr3
+291;MANLAN.inet.0;142.231.0.0/16;142.231.151.208/28;271;Adjacent Router;No;cr1.mgmt.vctr3
+292;MANLAN.inet.0;142.231.0.0/16;142.231.151.224/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+293;MANLAN.inet.0;142.231.0.0/16;142.231.151.228/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+294;MANLAN.inet.0;142.231.0.0/16;142.231.151.240/28;271;Adjacent Router;No;cr1.mgmt.vctr3
+295;MANLAN.inet.0;142.231.0.0/16;142.231.152.0/28;271;Adjacent Router;No;cr1.mgmt.vctr3
+296;MANLAN.inet.0;142.231.0.0/16;142.231.152.48/28;271;Adjacent Router;No;cr1.mgmt.vctr3
+297;MANLAN.inet.0;142.231.0.0/16;142.231.152.128/28;271;Adjacent Router;No;cr1.mgmt.vctr3
+298;MANLAN.inet.0;142.231.0.0/16;142.231.152.176/28;271;Adjacent Router;No;cr1.mgmt.vctr3
+299;MANLAN.inet.0;142.231.0.0/16;142.231.153.16/28;271;Adjacent Router;No;cr1.mgmt.vctr3
+300;MANLAN.inet.0;142.231.0.0/16;142.231.153.64/27;271;Adjacent Router;No;cr1.mgmt.vctr3
+301;MANLAN.inet.0;142.231.0.0/16;142.231.153.96/27;271;Adjacent Router;No;cr1.mgmt.vctr3
+302;MANLAN.inet.0;142.231.0.0/16;142.231.154.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+303;TRANSIT-VCTR3.inet.0;142.231.0.0/16;142.231.0.0/16;271;Adjacent Router;No;cr1.mgmt.vctr3
+304;TRANSIT-VCTR3.inet.0;142.231.0.0/16;142.231.1.100/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+305;TRANSIT-VCTR3.inet.0;142.231.0.0/16;142.231.1.104/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+306;TRANSIT-VCTR3.inet.0;142.231.0.0/16;142.231.1.108/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+307;TRANSIT-VCTR3.inet.0;142.231.0.0/16;142.231.1.108/31;;Adjacent Router;No;cr1.mgmt.vctr3
+308;TRANSIT-VCTR3.inet.0;142.231.0.0/16;142.231.1.110/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+309;TRANSIT-VCTR3.inet.0;142.231.0.0/16;142.231.1.112/29;271;Adjacent Router;No;cr1.mgmt.vctr3
+310;TRANSIT-VCTR3.inet.0;142.231.0.0/16;142.231.1.120/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+311;TRANSIT-VCTR3.inet.0;142.231.0.0/16;142.231.1.160/27;271;Adjacent Router;No;cr1.mgmt.vctr3
+312;TRANSIT-VCTR3.inet.0;142.231.0.0/16;142.231.2.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+313;TRANSIT-VCTR3.inet.0;142.231.0.0/16;142.231.2.4/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+314;TRANSIT-VCTR3.inet.0;142.231.0.0/16;142.231.2.12/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+315;TRANSIT-VCTR3.inet.0;142.231.0.0/16;142.231.2.24/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+316;TRANSIT-VCTR3.inet.0;142.231.0.0/16;142.231.2.224/27;271;Adjacent Router;No;cr1.mgmt.vctr3
+317;TRANSIT-VCTR3.inet.0;142.231.0.0/16;142.231.3.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+318;TRANSIT-VCTR3.inet.0;142.231.0.0/16;142.231.6.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+319;TRANSIT-VCTR3.inet.0;142.231.0.0/16;142.231.7.0/27;271;Adjacent Router;No;cr1.mgmt.vctr3
+320;TRANSIT-VCTR3.inet.0;142.231.0.0/16;142.231.7.0/27;;Adjacent Router;No;cr1.mgmt.vctr3
+321;TRANSIT-VCTR3.inet.0;142.231.0.0/16;142.231.20.0/24;393249;Adjacent Router;No;cr1.mgmt.vctr3
+322;TRANSIT-VCTR3.inet.0;142.231.0.0/16;142.231.20.0/24;;Adjacent Router;No;cr1.mgmt.vctr3
+323;TRANSIT-VCTR3.inet.0;142.231.0.0/16;142.231.22.0/24;64522;Adjacent Router;No;cr1.mgmt.vctr3
+324;TRANSIT-VCTR3.inet.0;142.231.0.0/16;142.231.23.0/24;64522;Adjacent Router;No;cr1.mgmt.vctr3
+325;TRANSIT-VCTR3.inet.0;142.231.0.0/16;142.231.32.0/20;393249;Adjacent Router;No;cr1.mgmt.vctr3
+326;TRANSIT-VCTR3.inet.0;142.231.0.0/16;142.231.64.0/19;393249;Adjacent Router;No;cr1.mgmt.vctr3
+327;TRANSIT-VCTR3.inet.0;142.231.0.0/16;142.231.109.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+328;TRANSIT-VCTR3.inet.0;142.231.0.0/16;142.231.112.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+329;TRANSIT-VCTR3.inet.0;142.231.0.0/16;142.231.116.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+330;TRANSIT-VCTR3.inet.0;142.231.0.0/16;142.231.117.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+331;TRANSIT-VCTR3.inet.0;142.231.0.0/16;142.231.144.216/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+332;TRANSIT-VCTR3.inet.0;142.231.0.0/16;142.231.144.220/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+333;TRANSIT-VCTR3.inet.0;142.231.0.0/16;142.231.145.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+334;TRANSIT-VCTR3.inet.0;142.231.0.0/16;142.231.146.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+335;TRANSIT-VCTR3.inet.0;142.231.0.0/16;142.231.146.0/24;;Adjacent Router;No;cr1.mgmt.vctr3
+336;TRANSIT-VCTR3.inet.0;142.231.0.0/16;142.231.148.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+337;TRANSIT-VCTR3.inet.0;142.231.0.0/16;142.231.149.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+338;TRANSIT-VCTR3.inet.0;142.231.0.0/16;142.231.150.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+339;TRANSIT-VCTR3.inet.0;142.231.0.0/16;142.231.150.0/24;;Adjacent Router;No;cr1.mgmt.vctr3
+340;TRANSIT-VCTR3.inet.0;142.231.0.0/16;142.231.151.0/28;271;Adjacent Router;No;cr1.mgmt.vctr3
+341;TRANSIT-VCTR3.inet.0;142.231.0.0/16;142.231.151.0/28;271;Adjacent Router;No;cr1.mgmt.vctr3
+342;TRANSIT-VCTR3.inet.0;142.231.0.0/16;142.231.151.0/28;;Adjacent Router;No;cr1.mgmt.vctr3
+343;TRANSIT-VCTR3.inet.0;142.231.0.0/16;142.231.151.64/28;271;Adjacent Router;No;cr1.mgmt.vctr3
+344;TRANSIT-VCTR3.inet.0;142.231.0.0/16;142.231.151.96/27;271;Adjacent Router;No;cr1.mgmt.vctr3
+345;TRANSIT-VCTR3.inet.0;142.231.0.0/16;142.231.151.96/27;271;Adjacent Router;No;cr1.mgmt.vctr3
+346;TRANSIT-VCTR3.inet.0;142.231.0.0/16;142.231.151.96/27;;Adjacent Router;No;cr1.mgmt.vctr3
+347;TRANSIT-VCTR3.inet.0;142.231.0.0/16;142.231.151.193/32;271;Adjacent Router;No;cr1.mgmt.vctr3
+348;TRANSIT-VCTR3.inet.0;142.231.0.0/16;142.231.151.194/32;271;Adjacent Router;No;cr1.mgmt.vctr3
+349;TRANSIT-VCTR3.inet.0;142.231.0.0/16;142.231.151.195/32;271;Adjacent Router;No;cr1.mgmt.vctr3
+350;TRANSIT-VCTR3.inet.0;142.231.0.0/16;142.231.151.196/32;271;Adjacent Router;No;cr1.mgmt.vctr3
+351;TRANSIT-VCTR3.inet.0;142.231.0.0/16;142.231.151.201/32;271;Adjacent Router;No;cr1.mgmt.vctr3
+352;TRANSIT-VCTR3.inet.0;142.231.0.0/16;142.231.151.202/32;271;Adjacent Router;No;cr1.mgmt.vctr3
+353;TRANSIT-VCTR3.inet.0;142.231.0.0/16;142.231.151.208/28;271;Adjacent Router;No;cr1.mgmt.vctr3
+354;TRANSIT-VCTR3.inet.0;142.231.0.0/16;142.231.151.224/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+355;TRANSIT-VCTR3.inet.0;142.231.0.0/16;142.231.151.228/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+356;TRANSIT-VCTR3.inet.0;142.231.0.0/16;142.231.151.240/28;271;Adjacent Router;No;cr1.mgmt.vctr3
+357;TRANSIT-VCTR3.inet.0;142.231.0.0/16;142.231.152.0/28;271;Adjacent Router;No;cr1.mgmt.vctr3
+358;TRANSIT-VCTR3.inet.0;142.231.0.0/16;142.231.152.48/28;271;Adjacent Router;No;cr1.mgmt.vctr3
+359;TRANSIT-VCTR3.inet.0;142.231.0.0/16;142.231.152.128/28;271;Adjacent Router;No;cr1.mgmt.vctr3
+360;TRANSIT-VCTR3.inet.0;142.231.0.0/16;142.231.152.176/28;271;Adjacent Router;No;cr1.mgmt.vctr3
+361;TRANSIT-VCTR3.inet.0;142.231.0.0/16;142.231.153.16/28;271;Adjacent Router;No;cr1.mgmt.vctr3
+362;TRANSIT-VCTR3.inet.0;142.231.0.0/16;142.231.153.64/27;271;Adjacent Router;No;cr1.mgmt.vctr3
+363;TRANSIT-VCTR3.inet.0;142.231.0.0/16;142.231.153.96/27;271;Adjacent Router;No;cr1.mgmt.vctr3
+364;TRANSIT-VCTR3.inet.0;142.231.0.0/16;142.231.154.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+365;TRANSIT-VCTR3.inet.0;192.67.9.0/24;192.67.9.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+366;TRANSIT-VCTR3.inet.0;192.219.32.0/19;192.219.32.0/19;577;xe-1/0/3.0;No;cr1.mgmt.vctr3
+367;TRANSIT-VCTR3.inet.0;192.219.32.0/19;192.219.32.0/19;577;Adjacent Router;No;cr1.mgmt.vctr3
+368;TRANSIT-VCTR3.inet.0;192.219.32.0/19;192.219.32.0/19;577;xe-1/1/3.0;No;cr1.mgmt.vctr3
+369;TRANSIT-VCTR3.inet.0;192.219.32.0/19;192.219.32.0/19;577;Adjacent Router;No;cr1.mgmt.vctr3
+370;TRANSIT-VCTR3.inet.0;192.219.32.0/19;192.219.32.0/19;;Adjacent Router;No;cr1.mgmt.vctr3
+371;inet.0;206.12.0.0/16;206.12.0.1/32;;Adjacent Router;No;cr1.mgmt.vctr3
+372;inet.0;206.12.0.0/16;206.12.0.2/32;;Adjacent Router;No;cr1.mgmt.vctr3
+373;inet.0;206.12.0.0/16;206.12.0.2/32;;Adjacent Router;No;cr1.mgmt.vctr3
+374;inet.0;206.12.0.0/16;206.12.0.5/32;;Adjacent Router;No;cr1.mgmt.vctr3
+375;inet.0;206.12.0.0/16;206.12.0.5/32;;Adjacent Router;No;cr1.mgmt.vctr3
+376;inet.0;206.12.0.0/16;206.12.0.6/32;;Adjacent Router;No;cr1.mgmt.vctr3
+377;inet.0;206.12.0.0/16;206.12.0.7/32;;Adjacent Router;No;cr1.mgmt.vctr3
+378;inet.0;206.12.0.0/16;206.12.0.8/32;271;lo0.0;Yes;cr1.mgmt.vctr3
+379;inet.0;206.12.0.0/16;206.12.0.9/32;;Adjacent Router;No;cr1.mgmt.vctr3
+380;inet.0;206.12.0.0/16;206.12.0.36/30;;Adjacent Router;No;cr1.mgmt.vctr3
+381;inet.0;206.12.0.0/16;206.12.0.38/32;;Adjacent Router;Yes;cr1.mgmt.vctr3
+382;inet.0;206.12.0.0/16;206.12.0.40/30;;Adjacent Router;No;cr1.mgmt.vctr3
+383;inet.0;206.12.0.0/16;206.12.0.42/32;;Adjacent Router;Yes;cr1.mgmt.vctr3
+384;inet.0;206.12.0.0/16;206.12.0.44/30;;Adjacent Router;No;cr1.mgmt.vctr3
+385;inet.0;206.12.0.0/16;206.12.0.44/30;;Adjacent Router;No;cr1.mgmt.vctr3
+386;inet.0;206.12.0.0/16;206.12.0.48/30;;Adjacent Router;No;cr1.mgmt.vctr3
+387;inet.0;206.12.0.0/16;206.12.0.52/30;;Adjacent Router;No;cr1.mgmt.vctr3
+388;inet.0;206.12.0.0/16;206.12.0.54/32;;Adjacent Router;Yes;cr1.mgmt.vctr3
+389;inet.0;206.12.0.0/16;206.12.0.104/30;;Adjacent Router;No;cr1.mgmt.vctr3
+390;inet.0;206.12.0.0/16;206.12.0.116/30;;Adjacent Router;No;cr1.mgmt.vctr3
+391;inet.0;206.12.0.0/16;206.12.0.120/31;;Adjacent Router;No;cr1.mgmt.vctr3
+392;inet.0;206.12.0.0/16;206.12.0.122/31;;Adjacent Router;No;cr1.mgmt.vctr3
+393;inet.0;206.12.0.0/16;206.12.0.124/31;;Adjacent Router;No;cr1.mgmt.vctr3
+394;inet.0;206.12.0.0/16;206.12.0.124/31;;Adjacent Router;No;cr1.mgmt.vctr3
+395;inet.0;206.12.0.0/16;206.12.0.128/31;;Adjacent Router;No;cr1.mgmt.vctr3
+396;inet.0;206.12.0.0/16;206.12.0.130/31;;Adjacent Router;No;cr1.mgmt.vctr3
+397;inet.0;206.12.0.0/16;206.12.0.132/31;;Adjacent Router;No;cr1.mgmt.vctr3
+398;inet.0;206.12.0.0/16;206.12.0.134/31;;Adjacent Router;No;cr1.mgmt.vctr3
+399;inet.0;206.12.0.0/16;206.12.1.0/24;36391;Adjacent Router;No;cr1.mgmt.vctr3
+400;inet.0;206.12.0.0/16;206.12.6.0/23;11105;Adjacent Router;No;cr1.mgmt.vctr3
+401;inet.0;206.12.0.0/16;206.12.6.0/23;;Adjacent Router;No;cr1.mgmt.vctr3
+402;inet.0;206.12.0.0/16;206.12.9.0/24;36391;Adjacent Router;No;cr1.mgmt.vctr3
+403;inet.0;206.12.0.0/16;206.12.10.0/24;11105;Adjacent Router;No;cr1.mgmt.vctr3
+404;inet.0;206.12.0.0/16;206.12.10.0/24;;Adjacent Router;No;cr1.mgmt.vctr3
+405;inet.0;206.12.0.0/16;206.12.12.0/24;393249;Adjacent Router;No;cr1.mgmt.vctr3
+406;inet.0;206.12.0.0/16;206.12.12.0/24;;Adjacent Router;No;cr1.mgmt.vctr3
+407;inet.0;206.12.0.0/16;206.12.13.0/24;393249;Adjacent Router;No;cr1.mgmt.vctr3
+408;inet.0;206.12.0.0/16;206.12.13.0/24;;Adjacent Router;No;cr1.mgmt.vctr3
+409;inet.0;206.12.0.0/16;206.12.14.0/24;393249;Adjacent Router;No;cr1.mgmt.vctr3
+410;inet.0;206.12.0.0/16;206.12.14.0/24;;Adjacent Router;No;cr1.mgmt.vctr3
+411;inet.0;206.12.0.0/16;206.12.15.0/24;393249;Adjacent Router;No;cr1.mgmt.vctr3
+412;inet.0;206.12.0.0/16;206.12.15.0/24;;Adjacent Router;No;cr1.mgmt.vctr3
+413;inet.0;206.12.0.0/16;206.12.16.0/24;11105;Adjacent Router;No;cr1.mgmt.vctr3
+414;inet.0;206.12.0.0/16;206.12.16.0/24;;Adjacent Router;No;cr1.mgmt.vctr3
+415;inet.0;206.12.0.0/16;206.12.17.0/24;11105;Adjacent Router;No;cr1.mgmt.vctr3
+416;inet.0;206.12.0.0/16;206.12.17.0/24;;Adjacent Router;No;cr1.mgmt.vctr3
+417;inet.0;206.12.0.0/16;206.12.18.0/24;393249;Adjacent Router;No;cr1.mgmt.vctr3
+418;inet.0;206.12.0.0/16;206.12.18.0/24;;Adjacent Router;No;cr1.mgmt.vctr3
+419;inet.0;206.12.0.0/16;206.12.28.0/24;393249;Adjacent Router;No;cr1.mgmt.vctr3
+420;inet.0;206.12.0.0/16;206.12.28.0/24;;Adjacent Router;No;cr1.mgmt.vctr3
+421;inet.0;206.12.0.0/16;206.12.40.0/21;393249;Adjacent Router;No;cr1.mgmt.vctr3
+422;inet.0;206.12.0.0/16;206.12.40.0/21;;Adjacent Router;No;cr1.mgmt.vctr3
+423;inet.0;206.12.0.0/16;206.12.48.0/24;16462;et-5/0/5.2991;No;cr1.mgmt.vctr3
+424;inet.0;206.12.0.0/16;206.12.50.0/24;16462;xe-1/0/2.2922;No;cr1.mgmt.vctr3
+425;inet.0;206.12.0.0/16;206.12.52.0/22;393249;Adjacent Router;No;cr1.mgmt.vctr3
+426;inet.0;206.12.0.0/16;206.12.52.0/22;;Adjacent Router;No;cr1.mgmt.vctr3
+427;inet.0;206.12.0.0/16;206.12.56.0/23;16462;et-5/0/5.2991;No;cr1.mgmt.vctr3
+428;inet.0;206.12.0.0/16;206.12.58.0/24;16462;et-5/0/5.2991;No;cr1.mgmt.vctr3
+429;inet.0;206.12.0.0/16;206.12.59.0/24;16462;et-5/0/5.2991;No;cr1.mgmt.vctr3
+430;inet.0;206.12.0.0/16;206.12.60.0/22;16462;xe-1/0/2.2922;No;cr1.mgmt.vctr3
+431;inet.0;206.12.0.0/16;206.12.64.0/20;393249;Adjacent Router;No;cr1.mgmt.vctr3
+432;inet.0;206.12.0.0/16;206.12.64.0/20;;Adjacent Router;No;cr1.mgmt.vctr3
+433;inet.0;206.12.0.0/16;206.12.76.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+434;inet.0;206.12.0.0/16;206.12.77.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+435;inet.0;206.12.0.0/16;206.12.88.0/21;16462;et-5/0/5.2991;No;cr1.mgmt.vctr3
+436;inet.0;206.12.0.0/16;206.12.96.0/21;16462;et-5/0/5.2991;No;cr1.mgmt.vctr3
+437;inet.0;206.12.0.0/16;206.12.104.0/22;40598;Adjacent Router;No;cr1.mgmt.vctr3
+438;inet.0;206.12.0.0/16;206.12.104.0/22;;Adjacent Router;No;cr1.mgmt.vctr3
+439;inet.0;206.12.0.0/16;206.12.116.0/24;393249;Adjacent Router;No;cr1.mgmt.vctr3
+440;inet.0;206.12.0.0/16;206.12.119.0/24;393249;Adjacent Router;No;cr1.mgmt.vctr3
+441;inet.0;206.12.0.0/16;206.12.119.0/24;;Adjacent Router;No;cr1.mgmt.vctr3
+442;inet.0;206.12.0.0/16;206.12.120.0/21;11105;Adjacent Router;No;cr1.mgmt.vctr3
+443;inet.0;206.12.0.0/16;206.12.128.0/24;11105;Adjacent Router;No;cr1.mgmt.vctr3
+444;inet.0;206.12.0.0/16;206.12.136.0/21;393249;Adjacent Router;No;cr1.mgmt.vctr3
+445;inet.0;206.12.0.0/16;206.12.136.0/21;;Adjacent Router;No;cr1.mgmt.vctr3
+446;inet.0;206.12.0.0/16;206.12.149.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+447;inet.0;206.12.0.0/16;206.12.150.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+448;inet.0;206.12.0.0/16;206.12.152.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+449;inet.0;206.12.0.0/16;206.12.154.0/24;16462;xe-1/0/2.2922;No;cr1.mgmt.vctr3
+450;inet.0;206.12.0.0/16;206.12.155.0/24;16462;et-5/0/5.2991;No;cr1.mgmt.vctr3
+451;inet.0;206.12.0.0/16;206.12.160.0/21;393249;Adjacent Router;No;cr1.mgmt.vctr3
+452;inet.0;206.12.0.0/16;206.12.160.0/21;;Adjacent Router;No;cr1.mgmt.vctr3
+453;inet.0;206.12.0.0/16;206.12.172.0/23;271;Adjacent Router;No;cr1.mgmt.vctr3
+454;inet.0;206.12.0.0/16;206.12.174.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+455;inet.0;206.12.0.0/16;206.12.176.0/21;393249;Adjacent Router;No;cr1.mgmt.vctr3
+456;inet.0;206.12.0.0/16;206.12.176.0/21;;Adjacent Router;No;cr1.mgmt.vctr3
+457;inet.0;206.12.0.0/16;206.12.200.0/22;393249;Adjacent Router;No;cr1.mgmt.vctr3
+458;inet.0;206.12.0.0/16;206.12.200.0/22;;Adjacent Router;No;cr1.mgmt.vctr3
+459;inet.0;206.12.0.0/16;206.12.208.0/22;393249;Adjacent Router;No;cr1.mgmt.vctr3
+460;inet.0;206.12.0.0/16;206.12.208.0/22;;Adjacent Router;No;cr1.mgmt.vctr3
+461;inet.0;206.12.0.0/16;206.12.224.0/19;16462;xe-1/0/2.2922;No;cr1.mgmt.vctr3
+462;inet.2;206.12.0.0/16;206.12.0.1/32;;Adjacent Router;No;cr1.mgmt.vctr3
+463;inet.2;206.12.0.0/16;206.12.0.2/32;;Adjacent Router;No;cr1.mgmt.vctr3
+464;inet.2;206.12.0.0/16;206.12.0.2/32;;Adjacent Router;No;cr1.mgmt.vctr3
+465;inet.2;206.12.0.0/16;206.12.0.5/32;;Adjacent Router;No;cr1.mgmt.vctr3
+466;inet.2;206.12.0.0/16;206.12.0.5/32;;Adjacent Router;No;cr1.mgmt.vctr3
+467;inet.2;206.12.0.0/16;206.12.0.6/32;;Adjacent Router;No;cr1.mgmt.vctr3
+468;inet.2;206.12.0.0/16;206.12.0.7/32;;Adjacent Router;No;cr1.mgmt.vctr3
+469;inet.2;206.12.0.0/16;206.12.0.8/32;271;lo0.0;Yes;cr1.mgmt.vctr3
+470;inet.2;206.12.0.0/16;206.12.0.9/32;;Adjacent Router;No;cr1.mgmt.vctr3
+471;inet.2;206.12.0.0/16;206.12.0.36/30;;Adjacent Router;No;cr1.mgmt.vctr3
+472;inet.2;206.12.0.0/16;206.12.0.38/32;;Adjacent Router;Yes;cr1.mgmt.vctr3
+473;inet.2;206.12.0.0/16;206.12.0.40/30;;Adjacent Router;No;cr1.mgmt.vctr3
+474;inet.2;206.12.0.0/16;206.12.0.42/32;;Adjacent Router;Yes;cr1.mgmt.vctr3
+475;inet.2;206.12.0.0/16;206.12.0.44/30;;Adjacent Router;No;cr1.mgmt.vctr3
+476;inet.2;206.12.0.0/16;206.12.0.44/30;;Adjacent Router;No;cr1.mgmt.vctr3
+477;inet.2;206.12.0.0/16;206.12.0.48/30;;Adjacent Router;No;cr1.mgmt.vctr3
+478;inet.2;206.12.0.0/16;206.12.0.52/30;;Adjacent Router;No;cr1.mgmt.vctr3
+479;inet.2;206.12.0.0/16;206.12.0.54/32;;Adjacent Router;Yes;cr1.mgmt.vctr3
+480;inet.2;206.12.0.0/16;206.12.0.104/30;;Adjacent Router;No;cr1.mgmt.vctr3
+481;inet.2;206.12.0.0/16;206.12.0.116/30;;Adjacent Router;No;cr1.mgmt.vctr3
+482;inet.2;206.12.0.0/16;206.12.0.120/31;;Adjacent Router;No;cr1.mgmt.vctr3
+483;inet.2;206.12.0.0/16;206.12.0.122/31;;Adjacent Router;No;cr1.mgmt.vctr3
+484;inet.2;206.12.0.0/16;206.12.0.124/31;;Adjacent Router;No;cr1.mgmt.vctr3
+485;inet.2;206.12.0.0/16;206.12.0.124/31;;Adjacent Router;No;cr1.mgmt.vctr3
+486;inet.2;206.12.0.0/16;206.12.0.128/31;;Adjacent Router;No;cr1.mgmt.vctr3
+487;inet.2;206.12.0.0/16;206.12.0.130/31;;Adjacent Router;No;cr1.mgmt.vctr3
+488;inet.2;206.12.0.0/16;206.12.0.132/31;;Adjacent Router;No;cr1.mgmt.vctr3
+489;inet.2;206.12.0.0/16;206.12.0.134/31;;Adjacent Router;No;cr1.mgmt.vctr3
+490;inet.2;206.12.0.0/16;206.12.152.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+491;inet.3;206.12.0.0/16;206.12.0.1/32;;Adjacent Router;No;cr1.mgmt.vctr3
+492;inet.3;206.12.0.0/16;206.12.0.2/32;;Adjacent Router;No;cr1.mgmt.vctr3
+493;inet.3;206.12.0.0/16;206.12.0.2/32;;Adjacent Router;No;cr1.mgmt.vctr3
+494;inet.3;206.12.0.0/16;206.12.0.5/32;;Adjacent Router;No;cr1.mgmt.vctr3
+495;inet.3;206.12.0.0/16;206.12.0.5/32;;Adjacent Router;No;cr1.mgmt.vctr3
+496;inet.3;206.12.0.0/16;206.12.0.6/32;;Adjacent Router;No;cr1.mgmt.vctr3
+497;inet.3;206.12.0.0/16;206.12.0.7/32;;Adjacent Router;No;cr1.mgmt.vctr3
+498;inet.3;206.12.0.0/16;206.12.0.9/32;;Adjacent Router;No;cr1.mgmt.vctr3
+499;IX-VCTR3.inet.0;206.12.0.0/16;206.12.1.0/24;36391;Adjacent Router;No;cr1.mgmt.vctr3
+500;IX-VCTR3.inet.0;206.12.0.0/16;206.12.3.1/32;;Adjacent Router;No;cr1.mgmt.vctr3
+501;IX-VCTR3.inet.0;206.12.0.0/16;206.12.3.5/32;;Adjacent Router;No;cr1.mgmt.vctr3
+502;IX-VCTR3.inet.0;206.12.0.0/16;206.12.3.6/32;;Adjacent Router;No;cr1.mgmt.vctr3
+503;IX-VCTR3.inet.0;206.12.0.0/16;206.12.3.7/32;;Adjacent Router;No;cr1.mgmt.vctr3
+504;IX-VCTR3.inet.0;206.12.0.0/16;206.12.3.8/32;271;lo0.3;Yes;cr1.mgmt.vctr3
+505;IX-VCTR3.inet.0;206.12.0.0/16;206.12.3.9/32;;Adjacent Router;No;cr1.mgmt.vctr3
+506;IX-VCTR3.inet.0;206.12.0.0/16;206.12.3.16/30;;Adjacent Router;No;cr1.mgmt.vctr3
+507;IX-VCTR3.inet.0;206.12.0.0/16;206.12.3.18/32;;Adjacent Router;Yes;cr1.mgmt.vctr3
+508;IX-VCTR3.inet.0;206.12.0.0/16;206.12.3.24/30;;Adjacent Router;No;cr1.mgmt.vctr3
+509;IX-VCTR3.inet.0;206.12.0.0/16;206.12.3.28/30;;Adjacent Router;No;cr1.mgmt.vctr3
+510;IX-VCTR3.inet.0;206.12.0.0/16;206.12.3.32/30;;Adjacent Router;No;cr1.mgmt.vctr3
+511;IX-VCTR3.inet.0;206.12.0.0/16;206.12.3.34/32;;Adjacent Router;Yes;cr1.mgmt.vctr3
+512;IX-VCTR3.inet.0;206.12.0.0/16;206.12.3.36/30;;Adjacent Router;No;cr1.mgmt.vctr3
+513;IX-VCTR3.inet.0;206.12.0.0/16;206.12.3.40/30;;Adjacent Router;No;cr1.mgmt.vctr3
+514;IX-VCTR3.inet.0;206.12.0.0/16;206.12.3.42/32;;Adjacent Router;Yes;cr1.mgmt.vctr3
+515;IX-VCTR3.inet.0;206.12.0.0/16;206.12.3.52/30;;Adjacent Router;No;cr1.mgmt.vctr3
+516;IX-VCTR3.inet.0;206.12.0.0/16;206.12.3.56/30;;Adjacent Router;No;cr1.mgmt.vctr3
+517;IX-VCTR3.inet.0;206.12.0.0/16;206.12.3.56/30;;Adjacent Router;No;cr1.mgmt.vctr3
+518;IX-VCTR3.inet.0;206.12.0.0/16;206.12.3.60/30;;Adjacent Router;No;cr1.mgmt.vctr3
+519;IX-VCTR3.inet.0;206.12.0.0/16;206.12.3.64/30;;Adjacent Router;No;cr1.mgmt.vctr3
+520;IX-VCTR3.inet.0;206.12.0.0/16;206.12.3.68/30;;Adjacent Router;No;cr1.mgmt.vctr3
+521;IX-VCTR3.inet.0;206.12.0.0/16;206.12.3.72/30;;Adjacent Router;No;cr1.mgmt.vctr3
+522;IX-VCTR3.inet.0;206.12.0.0/16;206.12.3.76/31;;Adjacent Router;No;cr1.mgmt.vctr3
+523;IX-VCTR3.inet.0;206.12.0.0/16;206.12.3.76/31;;Adjacent Router;No;cr1.mgmt.vctr3
+524;IX-VCTR3.inet.0;206.12.0.0/16;206.12.4.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+525;IX-VCTR3.inet.0;206.12.0.0/16;206.12.6.0/23;11105;Adjacent Router;No;cr1.mgmt.vctr3
+526;IX-VCTR3.inet.0;206.12.0.0/16;206.12.9.0/24;36391;Adjacent Router;No;cr1.mgmt.vctr3
+527;IX-VCTR3.inet.0;206.12.0.0/16;206.12.10.0/24;11105;Adjacent Router;No;cr1.mgmt.vctr3
+528;IX-VCTR3.inet.0;206.12.0.0/16;206.12.12.0/24;393249;Adjacent Router;No;cr1.mgmt.vctr3
+529;IX-VCTR3.inet.0;206.12.0.0/16;206.12.13.0/24;393249;Adjacent Router;No;cr1.mgmt.vctr3
+530;IX-VCTR3.inet.0;206.12.0.0/16;206.12.14.0/24;393249;Adjacent Router;No;cr1.mgmt.vctr3
+531;IX-VCTR3.inet.0;206.12.0.0/16;206.12.15.0/24;393249;Adjacent Router;No;cr1.mgmt.vctr3
+532;IX-VCTR3.inet.0;206.12.0.0/16;206.12.16.0/24;11105;Adjacent Router;No;cr1.mgmt.vctr3
+533;IX-VCTR3.inet.0;206.12.0.0/16;206.12.17.0/24;11105;Adjacent Router;No;cr1.mgmt.vctr3
+534;IX-VCTR3.inet.0;206.12.0.0/16;206.12.18.0/24;393249;Adjacent Router;No;cr1.mgmt.vctr3
+535;IX-VCTR3.inet.0;206.12.0.0/16;206.12.28.0/24;393249;Adjacent Router;No;cr1.mgmt.vctr3
+536;IX-VCTR3.inet.0;206.12.0.0/16;206.12.40.0/21;393249;Adjacent Router;No;cr1.mgmt.vctr3
+537;IX-VCTR3.inet.0;206.12.0.0/16;206.12.48.0/24;16462;et-5/0/5.2992;No;cr1.mgmt.vctr3
+538;IX-VCTR3.inet.0;206.12.0.0/16;206.12.50.0/24;16462;xe-1/0/2.2921;No;cr1.mgmt.vctr3
+539;IX-VCTR3.inet.0;206.12.0.0/16;206.12.52.0/22;393249;Adjacent Router;No;cr1.mgmt.vctr3
+540;IX-VCTR3.inet.0;206.12.0.0/16;206.12.56.0/23;16462;et-5/0/5.2992;No;cr1.mgmt.vctr3
+541;IX-VCTR3.inet.0;206.12.0.0/16;206.12.58.0/24;16462;et-5/0/5.2992;No;cr1.mgmt.vctr3
+542;IX-VCTR3.inet.0;206.12.0.0/16;206.12.59.0/24;16462;et-5/0/5.2992;No;cr1.mgmt.vctr3
+543;IX-VCTR3.inet.0;206.12.0.0/16;206.12.60.0/22;16462;xe-1/0/2.2921;No;cr1.mgmt.vctr3
+544;IX-VCTR3.inet.0;206.12.0.0/16;206.12.64.0/20;393249;Adjacent Router;No;cr1.mgmt.vctr3
+545;IX-VCTR3.inet.0;206.12.0.0/16;206.12.76.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+546;IX-VCTR3.inet.0;206.12.0.0/16;206.12.77.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+547;IX-VCTR3.inet.0;206.12.0.0/16;206.12.82.0/24;25668;Adjacent Router;No;cr1.mgmt.vctr3
+548;IX-VCTR3.inet.0;206.12.0.0/16;206.12.88.0/21;16462;et-5/0/5.2992;No;cr1.mgmt.vctr3
+549;IX-VCTR3.inet.0;206.12.0.0/16;206.12.96.0/21;16462;et-5/0/5.2992;No;cr1.mgmt.vctr3
+550;IX-VCTR3.inet.0;206.12.0.0/16;206.12.104.0/22;40598;Adjacent Router;No;cr1.mgmt.vctr3
+551;IX-VCTR3.inet.0;206.12.0.0/16;206.12.119.0/24;393249;Adjacent Router;No;cr1.mgmt.vctr3
+552;IX-VCTR3.inet.0;206.12.0.0/16;206.12.120.0/21;11105;Adjacent Router;No;cr1.mgmt.vctr3
+553;IX-VCTR3.inet.0;206.12.0.0/16;206.12.128.0/24;11105;Adjacent Router;No;cr1.mgmt.vctr3
+554;IX-VCTR3.inet.0;206.12.0.0/16;206.12.136.0/21;393249;Adjacent Router;No;cr1.mgmt.vctr3
+555;IX-VCTR3.inet.0;206.12.0.0/16;206.12.149.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+556;IX-VCTR3.inet.0;206.12.0.0/16;206.12.150.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+557;IX-VCTR3.inet.0;206.12.0.0/16;206.12.152.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+558;IX-VCTR3.inet.0;206.12.0.0/16;206.12.154.0/24;16462;xe-1/0/2.2921;No;cr1.mgmt.vctr3
+559;IX-VCTR3.inet.0;206.12.0.0/16;206.12.155.0/24;16462;et-5/0/5.2992;No;cr1.mgmt.vctr3
+560;IX-VCTR3.inet.0;206.12.0.0/16;206.12.160.0/21;393249;Adjacent Router;No;cr1.mgmt.vctr3
+561;IX-VCTR3.inet.0;206.12.0.0/16;206.12.172.0/23;271;Adjacent Router;No;cr1.mgmt.vctr3
+562;IX-VCTR3.inet.0;206.12.0.0/16;206.12.174.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+563;IX-VCTR3.inet.0;206.12.0.0/16;206.12.176.0/21;393249;Adjacent Router;No;cr1.mgmt.vctr3
+564;IX-VCTR3.inet.0;206.12.0.0/16;206.12.200.0/22;393249;Adjacent Router;No;cr1.mgmt.vctr3
+565;IX-VCTR3.inet.0;206.12.0.0/16;206.12.208.0/22;393249;Adjacent Router;No;cr1.mgmt.vctr3
+566;IX-VCTR3.inet.0;206.12.0.0/16;206.12.224.0/19;16462;xe-1/0/2.2921;No;cr1.mgmt.vctr3
+567;TRANSIT-VCTR3.inet.0;206.12.0.0/16;206.12.0.0/16;271;Adjacent Router;No;cr1.mgmt.vctr3
+568;TRANSIT-VCTR3.inet.0;206.12.0.0/16;206.12.1.0/24;36391;Adjacent Router;No;cr1.mgmt.vctr3
+569;TRANSIT-VCTR3.inet.0;206.12.0.0/16;206.12.6.0/23;11105;Adjacent Router;No;cr1.mgmt.vctr3
+570;TRANSIT-VCTR3.inet.0;206.12.0.0/16;206.12.6.0/23;;Adjacent Router;No;cr1.mgmt.vctr3
+571;TRANSIT-VCTR3.inet.0;206.12.0.0/16;206.12.9.0/24;36391;Adjacent Router;No;cr1.mgmt.vctr3
+572;TRANSIT-VCTR3.inet.0;206.12.0.0/16;206.12.10.0/24;11105;Adjacent Router;No;cr1.mgmt.vctr3
+573;TRANSIT-VCTR3.inet.0;206.12.0.0/16;206.12.10.0/24;;Adjacent Router;No;cr1.mgmt.vctr3
+574;TRANSIT-VCTR3.inet.0;206.12.0.0/16;206.12.12.0/24;393249;Adjacent Router;No;cr1.mgmt.vctr3
+575;TRANSIT-VCTR3.inet.0;206.12.0.0/16;206.12.12.0/24;;Adjacent Router;No;cr1.mgmt.vctr3
+576;TRANSIT-VCTR3.inet.0;206.12.0.0/16;206.12.13.0/24;393249;Adjacent Router;No;cr1.mgmt.vctr3
+577;TRANSIT-VCTR3.inet.0;206.12.0.0/16;206.12.13.0/24;;Adjacent Router;No;cr1.mgmt.vctr3
+578;TRANSIT-VCTR3.inet.0;206.12.0.0/16;206.12.14.0/24;393249;Adjacent Router;No;cr1.mgmt.vctr3
+579;TRANSIT-VCTR3.inet.0;206.12.0.0/16;206.12.14.0/24;;Adjacent Router;No;cr1.mgmt.vctr3
+580;TRANSIT-VCTR3.inet.0;206.12.0.0/16;206.12.15.0/24;393249;Adjacent Router;No;cr1.mgmt.vctr3
+581;TRANSIT-VCTR3.inet.0;206.12.0.0/16;206.12.15.0/24;;Adjacent Router;No;cr1.mgmt.vctr3
+582;TRANSIT-VCTR3.inet.0;206.12.0.0/16;206.12.16.0/24;11105;Adjacent Router;No;cr1.mgmt.vctr3
+583;TRANSIT-VCTR3.inet.0;206.12.0.0/16;206.12.16.0/24;;Adjacent Router;No;cr1.mgmt.vctr3
+584;TRANSIT-VCTR3.inet.0;206.12.0.0/16;206.12.17.0/24;11105;Adjacent Router;No;cr1.mgmt.vctr3
+585;TRANSIT-VCTR3.inet.0;206.12.0.0/16;206.12.17.0/24;;Adjacent Router;No;cr1.mgmt.vctr3
+586;TRANSIT-VCTR3.inet.0;206.12.0.0/16;206.12.18.0/24;393249;Adjacent Router;No;cr1.mgmt.vctr3
+587;TRANSIT-VCTR3.inet.0;206.12.0.0/16;206.12.18.0/24;;Adjacent Router;No;cr1.mgmt.vctr3
+588;TRANSIT-VCTR3.inet.0;206.12.0.0/16;206.12.28.0/24;393249;Adjacent Router;No;cr1.mgmt.vctr3
+589;TRANSIT-VCTR3.inet.0;206.12.0.0/16;206.12.28.0/24;;Adjacent Router;No;cr1.mgmt.vctr3
+590;TRANSIT-VCTR3.inet.0;206.12.0.0/16;206.12.40.0/21;393249;Adjacent Router;No;cr1.mgmt.vctr3
+591;TRANSIT-VCTR3.inet.0;206.12.0.0/16;206.12.40.0/21;;Adjacent Router;No;cr1.mgmt.vctr3
+592;TRANSIT-VCTR3.inet.0;206.12.0.0/16;206.12.48.0/24;16462;et-5/0/5.2952;No;cr1.mgmt.vctr3
+593;TRANSIT-VCTR3.inet.0;206.12.0.0/16;206.12.50.0/24;16462;xe-1/0/6.2920;No;cr1.mgmt.vctr3
+594;TRANSIT-VCTR3.inet.0;206.12.0.0/16;206.12.52.0/22;393249;Adjacent Router;No;cr1.mgmt.vctr3
+595;TRANSIT-VCTR3.inet.0;206.12.0.0/16;206.12.52.0/22;;Adjacent Router;No;cr1.mgmt.vctr3
+596;TRANSIT-VCTR3.inet.0;206.12.0.0/16;206.12.56.0/23;16462;et-5/0/5.2952;No;cr1.mgmt.vctr3
+597;TRANSIT-VCTR3.inet.0;206.12.0.0/16;206.12.58.0/24;16462;et-5/0/5.2952;No;cr1.mgmt.vctr3
+598;TRANSIT-VCTR3.inet.0;206.12.0.0/16;206.12.59.0/24;16462;et-5/0/5.2952;No;cr1.mgmt.vctr3
+599;TRANSIT-VCTR3.inet.0;206.12.0.0/16;206.12.60.0/22;16462;xe-1/0/6.2920;No;cr1.mgmt.vctr3
+600;TRANSIT-VCTR3.inet.0;206.12.0.0/16;206.12.64.0/20;393249;Adjacent Router;No;cr1.mgmt.vctr3
+601;TRANSIT-VCTR3.inet.0;206.12.0.0/16;206.12.64.0/20;;Adjacent Router;No;cr1.mgmt.vctr3
+602;TRANSIT-VCTR3.inet.0;206.12.0.0/16;206.12.76.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+603;TRANSIT-VCTR3.inet.0;206.12.0.0/16;206.12.77.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+604;TRANSIT-VCTR3.inet.0;206.12.0.0/16;206.12.82.0/24;25668;xe-1/0/3.0;No;cr1.mgmt.vctr3
+605;TRANSIT-VCTR3.inet.0;206.12.0.0/16;206.12.82.0/24;25668;Adjacent Router;No;cr1.mgmt.vctr3
+606;TRANSIT-VCTR3.inet.0;206.12.0.0/16;206.12.82.0/24;25668;xe-1/1/3.0;No;cr1.mgmt.vctr3
+607;TRANSIT-VCTR3.inet.0;206.12.0.0/16;206.12.88.0/21;16462;et-5/0/5.2952;No;cr1.mgmt.vctr3
+608;TRANSIT-VCTR3.inet.0;206.12.0.0/16;206.12.96.0/21;16462;et-5/0/5.2952;No;cr1.mgmt.vctr3
+609;TRANSIT-VCTR3.inet.0;206.12.0.0/16;206.12.104.0/22;40598;Adjacent Router;No;cr1.mgmt.vctr3
+610;TRANSIT-VCTR3.inet.0;206.12.0.0/16;206.12.104.0/22;;Adjacent Router;No;cr1.mgmt.vctr3
+611;TRANSIT-VCTR3.inet.0;206.12.0.0/16;206.12.119.0/24;393249;Adjacent Router;No;cr1.mgmt.vctr3
+612;TRANSIT-VCTR3.inet.0;206.12.0.0/16;206.12.119.0/24;;Adjacent Router;No;cr1.mgmt.vctr3
+613;TRANSIT-VCTR3.inet.0;206.12.0.0/16;206.12.120.0/21;11105;Adjacent Router;No;cr1.mgmt.vctr3
+614;TRANSIT-VCTR3.inet.0;206.12.0.0/16;206.12.128.0/24;11105;Adjacent Router;No;cr1.mgmt.vctr3
+615;TRANSIT-VCTR3.inet.0;206.12.0.0/16;206.12.136.0/21;393249;Adjacent Router;No;cr1.mgmt.vctr3
+616;TRANSIT-VCTR3.inet.0;206.12.0.0/16;206.12.136.0/21;;Adjacent Router;No;cr1.mgmt.vctr3
+617;TRANSIT-VCTR3.inet.0;206.12.0.0/16;206.12.149.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+618;TRANSIT-VCTR3.inet.0;206.12.0.0/16;206.12.150.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+619;TRANSIT-VCTR3.inet.0;206.12.0.0/16;206.12.152.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+620;TRANSIT-VCTR3.inet.0;206.12.0.0/16;206.12.153.0/24;20473;xe-1/0/3.0;No;cr1.mgmt.vctr3
+621;TRANSIT-VCTR3.inet.0;206.12.0.0/16;206.12.153.0/24;20473;Adjacent Router;No;cr1.mgmt.vctr3
+622;TRANSIT-VCTR3.inet.0;206.12.0.0/16;206.12.153.0/24;20473;xe-1/1/3.0;No;cr1.mgmt.vctr3
+623;TRANSIT-VCTR3.inet.0;206.12.0.0/16;206.12.153.0/24;20473;Adjacent Router;No;cr1.mgmt.vctr3
+624;TRANSIT-VCTR3.inet.0;206.12.0.0/16;206.12.153.0/24;;Adjacent Router;No;cr1.mgmt.vctr3
+625;TRANSIT-VCTR3.inet.0;206.12.0.0/16;206.12.154.0/24;16462;xe-1/0/6.2920;No;cr1.mgmt.vctr3
+626;TRANSIT-VCTR3.inet.0;206.12.0.0/16;206.12.155.0/24;16462;et-5/0/5.2952;No;cr1.mgmt.vctr3
+627;TRANSIT-VCTR3.inet.0;206.12.0.0/16;206.12.160.0/21;393249;Adjacent Router;No;cr1.mgmt.vctr3
+628;TRANSIT-VCTR3.inet.0;206.12.0.0/16;206.12.160.0/21;;Adjacent Router;No;cr1.mgmt.vctr3
+629;TRANSIT-VCTR3.inet.0;206.12.0.0/16;206.12.172.0/23;271;Adjacent Router;No;cr1.mgmt.vctr3
+630;TRANSIT-VCTR3.inet.0;206.12.0.0/16;206.12.174.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+631;TRANSIT-VCTR3.inet.0;206.12.0.0/16;206.12.176.0/21;393249;Adjacent Router;No;cr1.mgmt.vctr3
+632;TRANSIT-VCTR3.inet.0;206.12.0.0/16;206.12.176.0/21;;Adjacent Router;No;cr1.mgmt.vctr3
+633;TRANSIT-VCTR3.inet.0;206.12.0.0/16;206.12.200.0/22;393249;Adjacent Router;No;cr1.mgmt.vctr3
+634;TRANSIT-VCTR3.inet.0;206.12.0.0/16;206.12.200.0/22;;Adjacent Router;No;cr1.mgmt.vctr3
+635;TRANSIT-VCTR3.inet.0;206.12.0.0/16;206.12.208.0/22;393249;Adjacent Router;No;cr1.mgmt.vctr3
+636;TRANSIT-VCTR3.inet.0;206.12.0.0/16;206.12.208.0/22;;Adjacent Router;No;cr1.mgmt.vctr3
+637;TRANSIT-VCTR3.inet.0;206.12.0.0/16;206.12.224.0/19;16462;xe-1/0/6.2920;No;cr1.mgmt.vctr3
+638;inet.0;206.87.0.0/16;206.87.0.0/18;393249;Adjacent Router;No;cr1.mgmt.vctr3
+639;inet.0;206.87.0.0/16;206.87.64.0/21;16462;xe-1/0/2.2922;No;cr1.mgmt.vctr3
+640;inet.0;206.87.0.0/16;206.87.80.0/20;16462;xe-1/0/2.2922;No;cr1.mgmt.vctr3
+641;inet.0;206.87.0.0/16;206.87.96.0/19;393249;Adjacent Router;No;cr1.mgmt.vctr3
+642;inet.0;206.87.0.0/16;206.87.96.0/19;;Adjacent Router;No;cr1.mgmt.vctr3
+643;inet.0;206.87.0.0/16;206.87.128.0/19;393249;Adjacent Router;No;cr1.mgmt.vctr3
+644;inet.0;206.87.0.0/16;206.87.128.0/19;;Adjacent Router;No;cr1.mgmt.vctr3
+645;inet.0;206.87.0.0/16;206.87.160.0/19;16462;xe-1/0/2.2922;No;cr1.mgmt.vctr3
+646;inet.0;206.87.0.0/16;206.87.192.0/19;393249;Adjacent Router;No;cr1.mgmt.vctr3
+647;inet.0;206.87.0.0/16;206.87.192.0/19;;Adjacent Router;No;cr1.mgmt.vctr3
+648;inet.0;206.87.0.0/16;206.87.224.0/20;393249;Adjacent Router;No;cr1.mgmt.vctr3
+649;inet.0;206.87.0.0/16;206.87.224.0/20;;Adjacent Router;No;cr1.mgmt.vctr3
+650;IX-VCTR3.inet.0;206.87.0.0/16;206.87.0.0/18;393249;Adjacent Router;No;cr1.mgmt.vctr3
+651;IX-VCTR3.inet.0;206.87.0.0/16;206.87.64.0/21;16462;xe-1/0/2.2921;No;cr1.mgmt.vctr3
+652;IX-VCTR3.inet.0;206.87.0.0/16;206.87.80.0/20;16462;xe-1/0/2.2921;No;cr1.mgmt.vctr3
+653;IX-VCTR3.inet.0;206.87.0.0/16;206.87.96.0/19;393249;Adjacent Router;No;cr1.mgmt.vctr3
+654;IX-VCTR3.inet.0;206.87.0.0/16;206.87.128.0/19;393249;Adjacent Router;No;cr1.mgmt.vctr3
+655;IX-VCTR3.inet.0;206.87.0.0/16;206.87.160.0/19;16462;xe-1/0/2.2921;No;cr1.mgmt.vctr3
+656;IX-VCTR3.inet.0;206.87.0.0/16;206.87.192.0/19;393249;Adjacent Router;No;cr1.mgmt.vctr3
+657;IX-VCTR3.inet.0;206.87.0.0/16;206.87.224.0/20;393249;Adjacent Router;No;cr1.mgmt.vctr3
+658;TRANSIT-VCTR3.inet.0;206.87.0.0/16;206.87.0.0/16;271;Adjacent Router;No;cr1.mgmt.vctr3
+659;TRANSIT-VCTR3.inet.0;206.87.0.0/16;206.87.0.0/18;393249;Adjacent Router;No;cr1.mgmt.vctr3
+660;TRANSIT-VCTR3.inet.0;206.87.0.0/16;206.87.64.0/21;16462;xe-1/0/6.2920;No;cr1.mgmt.vctr3
+661;TRANSIT-VCTR3.inet.0;206.87.0.0/16;206.87.80.0/20;16462;xe-1/0/6.2920;No;cr1.mgmt.vctr3
+662;TRANSIT-VCTR3.inet.0;206.87.0.0/16;206.87.96.0/19;393249;Adjacent Router;No;cr1.mgmt.vctr3
+663;TRANSIT-VCTR3.inet.0;206.87.0.0/16;206.87.96.0/19;;Adjacent Router;No;cr1.mgmt.vctr3
+664;TRANSIT-VCTR3.inet.0;206.87.0.0/16;206.87.128.0/19;393249;Adjacent Router;No;cr1.mgmt.vctr3
+665;TRANSIT-VCTR3.inet.0;206.87.0.0/16;206.87.128.0/19;;Adjacent Router;No;cr1.mgmt.vctr3
+666;TRANSIT-VCTR3.inet.0;206.87.0.0/16;206.87.160.0/19;16462;xe-1/0/6.2920;No;cr1.mgmt.vctr3
+667;TRANSIT-VCTR3.inet.0;206.87.0.0/16;206.87.192.0/19;393249;Adjacent Router;No;cr1.mgmt.vctr3
+668;TRANSIT-VCTR3.inet.0;206.87.0.0/16;206.87.192.0/19;;Adjacent Router;No;cr1.mgmt.vctr3
+669;TRANSIT-VCTR3.inet.0;206.87.0.0/16;206.87.224.0/20;393249;Adjacent Router;No;cr1.mgmt.vctr3
+670;TRANSIT-VCTR3.inet.0;206.87.0.0/16;206.87.224.0/20;;Adjacent Router;No;cr1.mgmt.vctr3
+671;inet.0;207.23.0.0/16;207.23.8.0/21;271;Adjacent Router;No;cr1.mgmt.vctr3
+672;inet.0;207.23.0.0/16;207.23.72.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+673;inet.0;207.23.0.0/16;207.23.72.0/24;;Adjacent Router;No;cr1.mgmt.vctr3
+674;inet.0;207.23.0.0/16;207.23.73.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+675;inet.0;207.23.0.0/16;207.23.73.0/24;;Adjacent Router;No;cr1.mgmt.vctr3
+676;inet.0;207.23.0.0/16;207.23.85.0/24;11105;Adjacent Router;No;cr1.mgmt.vctr3
+677;inet.0;207.23.0.0/16;207.23.85.0/24;;Adjacent Router;No;cr1.mgmt.vctr3
+678;inet.0;207.23.0.0/16;207.23.88.0/23;271;Adjacent Router;No;cr1.mgmt.vctr3
+679;inet.0;207.23.0.0/16;207.23.92.0/23;271;Adjacent Router;No;cr1.mgmt.vctr3
+680;inet.0;207.23.0.0/16;207.23.94.0/23;393249;Adjacent Router;No;cr1.mgmt.vctr3
+681;inet.0;207.23.0.0/16;207.23.94.0/23;;Adjacent Router;No;cr1.mgmt.vctr3
+682;inet.0;207.23.0.0/16;207.23.96.0/20;397543;xe-1/1/5.1770;No;cr1.mgmt.vctr3
+683;inet.0;207.23.0.0/16;207.23.128.0/19;397375;Adjacent Router;No;cr1.mgmt.vctr3
+684;inet.0;207.23.0.0/16;207.23.160.0/19;11105;Adjacent Router;No;cr1.mgmt.vctr3
+685;inet.0;207.23.0.0/16;207.23.160.0/19;;Adjacent Router;No;cr1.mgmt.vctr3
+686;inet.0;207.23.0.0/16;207.23.192.0/19;11105;Adjacent Router;No;cr1.mgmt.vctr3
+687;inet.0;207.23.0.0/16;207.23.192.0/19;;Adjacent Router;No;cr1.mgmt.vctr3
+688;inet.0;207.23.0.0/16;207.23.240.36/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+689;inet.0;207.23.0.0/16;207.23.240.36/31;;Adjacent Router;No;cr1.mgmt.vctr3
+690;inet.0;207.23.0.0/16;207.23.240.38/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+691;inet.0;207.23.0.0/16;207.23.240.38/31;;Adjacent Router;No;cr1.mgmt.vctr3
+692;inet.0;207.23.0.0/16;207.23.240.42/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+693;inet.0;207.23.0.0/16;207.23.240.42/31;;Adjacent Router;No;cr1.mgmt.vctr3
+694;inet.0;207.23.0.0/16;207.23.240.44/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+695;inet.0;207.23.0.0/16;207.23.240.44/30;;Adjacent Router;No;cr1.mgmt.vctr3
+696;inet.0;207.23.0.0/16;207.23.240.48/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+697;inet.0;207.23.0.0/16;207.23.240.48/31;;Adjacent Router;No;cr1.mgmt.vctr3
+698;inet.0;207.23.0.0/16;207.23.240.50/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+699;inet.0;207.23.0.0/16;207.23.240.50/31;;Adjacent Router;No;cr1.mgmt.vctr3
+700;inet.0;207.23.0.0/16;207.23.240.52/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+701;inet.0;207.23.0.0/16;207.23.240.52/31;;Adjacent Router;No;cr1.mgmt.vctr3
+702;inet.0;207.23.0.0/16;207.23.240.54/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+703;inet.0;207.23.0.0/16;207.23.240.54/31;;Adjacent Router;No;cr1.mgmt.vctr3
+704;inet.0;207.23.0.0/16;207.23.240.68/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+705;inet.0;207.23.0.0/16;207.23.240.68/30;;Adjacent Router;No;cr1.mgmt.vctr3
+706;inet.0;207.23.0.0/16;207.23.240.212/32;271;Adjacent Router;No;cr1.mgmt.vctr3
+707;inet.0;207.23.0.0/16;207.23.240.213/32;271;Adjacent Router;No;cr1.mgmt.vctr3
+708;inet.0;207.23.0.0/16;207.23.240.213/32;;Adjacent Router;No;cr1.mgmt.vctr3
+709;inet.0;207.23.0.0/16;207.23.240.214/32;271;Adjacent Router;No;cr1.mgmt.vctr3
+710;inet.0;207.23.0.0/16;207.23.241.70/31;271;rlt0.40;No;cr1.mgmt.vctr3
+711;inet.0;207.23.0.0/16;207.23.241.82/31;271;et-5/0/5.2991;No;cr1.mgmt.vctr3
+712;inet.0;207.23.0.0/16;207.23.241.83/32;271;et-5/0/5.2991;Yes;cr1.mgmt.vctr3
+713;inet.0;207.23.0.0/16;207.23.241.88/31;271;xe-1/0/2.2922;No;cr1.mgmt.vctr3
+714;inet.0;207.23.0.0/16;207.23.241.89/32;271;xe-1/0/2.2922;Yes;cr1.mgmt.vctr3
+715;inet.0;207.23.0.0/16;207.23.241.100/30;271;rlt0.40;No;cr1.mgmt.vctr3
+716;inet.0;207.23.0.0/16;207.23.241.104/30;271;rlt0.40;No;cr1.mgmt.vctr3
+717;inet.0;207.23.0.0/16;207.23.241.128/29;271;ge-0/1/3.853;No;cr1.mgmt.vctr3
+718;inet.0;207.23.0.0/16;207.23.241.128/29;271;ge-0/1/3.853;No;cr1.mgmt.vctr3
+719;inet.0;207.23.0.0/16;207.23.241.134/32;271;ge-0/1/3.853;Yes;cr1.mgmt.vctr3
+720;inet.0;207.23.0.0/16;207.23.241.136/31;271;rlt0.6;No;cr1.mgmt.vctr3
+721;inet.0;207.23.0.0/16;207.23.241.136/32;271;rlt0.6;Yes;cr1.mgmt.vctr3
+722;inet.0;207.23.0.0/16;207.23.241.138/31;271;rlt0.27;No;cr1.mgmt.vctr3
+723;inet.0;207.23.0.0/16;207.23.241.139/32;271;rlt0.27;Yes;cr1.mgmt.vctr3
+724;inet.0;207.23.0.0/16;207.23.241.144/31;271;rlt0.13;No;cr1.mgmt.vctr3
+725;inet.0;207.23.0.0/16;207.23.241.145/32;271;rlt0.13;Yes;cr1.mgmt.vctr3
+726;inet.0;207.23.0.0/16;207.23.241.146/31;271;xe-1/1/5.1770;No;cr1.mgmt.vctr3
+727;inet.0;207.23.0.0/16;207.23.241.146/32;271;xe-1/1/5.1770;Yes;cr1.mgmt.vctr3
+728;inet.0;207.23.0.0/16;207.23.241.152/30;271;rlt0.40;No;cr1.mgmt.vctr3
+729;inet.0;207.23.0.0/16;207.23.241.176/29;271;rlt0.40;No;cr1.mgmt.vctr3
+730;inet.0;207.23.0.0/16;207.23.241.212/30;271;rlt0.40;No;cr1.mgmt.vctr3
+731;inet.0;207.23.0.0/16;207.23.241.213/32;271;rlt0.40;Yes;cr1.mgmt.vctr3
+732;inet.0;207.23.0.0/16;207.23.241.240/32;271;rlt0.40;No;cr1.mgmt.vctr3
+733;inet.0;207.23.0.0/16;207.23.242.32/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+734;inet.0;207.23.0.0/16;207.23.242.32/30;;Adjacent Router;No;cr1.mgmt.vctr3
+735;inet.0;207.23.0.0/16;207.23.242.36/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+736;inet.0;207.23.0.0/16;207.23.242.36/31;;Adjacent Router;No;cr1.mgmt.vctr3
+737;inet.0;207.23.0.0/16;207.23.242.38/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+738;inet.0;207.23.0.0/16;207.23.242.38/31;;Adjacent Router;No;cr1.mgmt.vctr3
+739;inet.0;207.23.0.0/16;207.23.242.40/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+740;inet.0;207.23.0.0/16;207.23.242.40/30;;Adjacent Router;No;cr1.mgmt.vctr3
+741;inet.0;207.23.0.0/16;207.23.242.44/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+742;inet.0;207.23.0.0/16;207.23.242.44/31;;Adjacent Router;No;cr1.mgmt.vctr3
+743;inet.0;207.23.0.0/16;207.23.242.46/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+744;inet.0;207.23.0.0/16;207.23.242.46/31;;Adjacent Router;No;cr1.mgmt.vctr3
+745;inet.0;207.23.0.0/16;207.23.242.70/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+746;inet.0;207.23.0.0/16;207.23.242.70/31;;Adjacent Router;No;cr1.mgmt.vctr3
+747;inet.0;207.23.0.0/16;207.23.242.72/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+748;inet.0;207.23.0.0/16;207.23.242.72/30;;Adjacent Router;No;cr1.mgmt.vctr3
+749;inet.0;207.23.0.0/16;207.23.242.76/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+750;inet.0;207.23.0.0/16;207.23.242.76/30;;Adjacent Router;No;cr1.mgmt.vctr3
+751;inet.0;207.23.0.0/16;207.23.242.96/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+752;inet.0;207.23.0.0/16;207.23.242.96/31;;Adjacent Router;No;cr1.mgmt.vctr3
+753;inet.0;207.23.0.0/16;207.23.242.253/32;271;Adjacent Router;No;cr1.mgmt.vctr3
+754;inet.0;207.23.0.0/16;207.23.242.253/32;;Adjacent Router;No;cr1.mgmt.vctr3
+755;inet.0;207.23.0.0/16;207.23.243.0/24;393249;Adjacent Router;No;cr1.mgmt.vctr3
+756;inet.0;207.23.0.0/16;207.23.243.0/24;;Adjacent Router;No;cr1.mgmt.vctr3
+757;inet.0;207.23.0.0/16;207.23.249.0/24;393249;Adjacent Router;No;cr1.mgmt.vctr3
+758;inet.0;207.23.0.0/16;207.23.249.0/24;;Adjacent Router;No;cr1.mgmt.vctr3
+759;inet.0;207.23.0.0/16;207.23.252.0/24;393249;Adjacent Router;No;cr1.mgmt.vctr3
+760;inet.0;207.23.0.0/16;207.23.252.0/24;;Adjacent Router;No;cr1.mgmt.vctr3
+761;inet.0;207.23.0.0/16;207.23.254.160/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+762;inet.0;207.23.0.0/16;207.23.254.164/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+763;inet.0;207.23.0.0/16;207.23.254.174/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+764;inet.0;207.23.0.0/16;207.23.254.188/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+765;inet.0;207.23.0.0/16;207.23.254.204/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+766;inet.0;207.23.0.0/16;207.23.254.216/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+767;inet.0;207.23.0.0/16;207.23.254.220/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+768;inet.0;207.23.0.0/16;207.23.254.253/32;271;Adjacent Router;No;cr1.mgmt.vctr3
+769;inet.0;207.23.0.0/16;207.23.255.16/29;271;Adjacent Router;No;cr1.mgmt.vctr3
+770;inet.0;207.23.0.0/16;207.23.255.28/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+771;inet.0;207.23.0.0/16;207.23.255.30/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+772;inet.0;207.23.0.0/16;207.23.255.32/28;271;Adjacent Router;No;cr1.mgmt.vctr3
+773;inet.0;207.23.0.0/16;207.23.255.48/28;271;Adjacent Router;No;cr1.mgmt.vctr3
+774;inet.0;207.23.0.0/16;207.23.255.64/26;271;Adjacent Router;No;cr1.mgmt.vctr3
+775;inet.0;207.23.0.0/16;207.23.255.130/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+776;inet.0;207.23.0.0/16;207.23.255.138/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+777;inet.0;207.23.0.0/16;207.23.255.140/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+778;inet.0;207.23.0.0/16;207.23.255.144/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+779;inet.0;207.23.0.0/16;207.23.255.148/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+780;inet.0;207.23.0.0/16;207.23.255.208/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+781;inet.0;207.23.0.0/16;207.23.255.216/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+782;inet.0;207.23.0.0/16;207.23.255.220/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+783;inet.0;207.23.0.0/16;207.23.255.228/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+784;inet.0;207.23.0.0/16;207.23.255.252/32;271;Adjacent Router;No;cr1.mgmt.vctr3
+785;inet.2;207.23.0.0/16;207.23.92.0/23;271;Adjacent Router;No;cr1.mgmt.vctr3
+786;inet.2;207.23.0.0/16;207.23.240.36/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+787;inet.2;207.23.0.0/16;207.23.240.36/31;;Adjacent Router;No;cr1.mgmt.vctr3
+788;inet.2;207.23.0.0/16;207.23.240.38/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+789;inet.2;207.23.0.0/16;207.23.240.38/31;;Adjacent Router;No;cr1.mgmt.vctr3
+790;inet.2;207.23.0.0/16;207.23.240.42/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+791;inet.2;207.23.0.0/16;207.23.240.42/31;;Adjacent Router;No;cr1.mgmt.vctr3
+792;inet.2;207.23.0.0/16;207.23.240.44/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+793;inet.2;207.23.0.0/16;207.23.240.44/30;;Adjacent Router;No;cr1.mgmt.vctr3
+794;inet.2;207.23.0.0/16;207.23.240.48/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+795;inet.2;207.23.0.0/16;207.23.240.48/31;;Adjacent Router;No;cr1.mgmt.vctr3
+796;inet.2;207.23.0.0/16;207.23.240.50/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+797;inet.2;207.23.0.0/16;207.23.240.50/31;;Adjacent Router;No;cr1.mgmt.vctr3
+798;inet.2;207.23.0.0/16;207.23.240.52/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+799;inet.2;207.23.0.0/16;207.23.240.52/31;;Adjacent Router;No;cr1.mgmt.vctr3
+800;inet.2;207.23.0.0/16;207.23.240.54/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+801;inet.2;207.23.0.0/16;207.23.240.54/31;;Adjacent Router;No;cr1.mgmt.vctr3
+802;inet.2;207.23.0.0/16;207.23.240.68/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+803;inet.2;207.23.0.0/16;207.23.240.68/30;;Adjacent Router;No;cr1.mgmt.vctr3
+804;inet.2;207.23.0.0/16;207.23.240.212/32;271;Adjacent Router;No;cr1.mgmt.vctr3
+805;inet.2;207.23.0.0/16;207.23.240.213/32;271;Adjacent Router;No;cr1.mgmt.vctr3
+806;inet.2;207.23.0.0/16;207.23.240.213/32;;Adjacent Router;No;cr1.mgmt.vctr3
+807;inet.2;207.23.0.0/16;207.23.241.70/31;271;rlt0.40;No;cr1.mgmt.vctr3
+808;inet.2;207.23.0.0/16;207.23.241.82/31;271;et-5/0/5.2991;No;cr1.mgmt.vctr3
+809;inet.2;207.23.0.0/16;207.23.241.83/32;271;et-5/0/5.2991;Yes;cr1.mgmt.vctr3
+810;inet.2;207.23.0.0/16;207.23.241.88/31;271;xe-1/0/2.2922;No;cr1.mgmt.vctr3
+811;inet.2;207.23.0.0/16;207.23.241.89/32;271;xe-1/0/2.2922;Yes;cr1.mgmt.vctr3
+812;inet.2;207.23.0.0/16;207.23.241.100/30;271;rlt0.40;No;cr1.mgmt.vctr3
+813;inet.2;207.23.0.0/16;207.23.241.104/30;271;rlt0.40;No;cr1.mgmt.vctr3
+814;inet.2;207.23.0.0/16;207.23.241.128/29;271;ge-0/1/3.853;No;cr1.mgmt.vctr3
+815;inet.2;207.23.0.0/16;207.23.241.128/29;271;ge-0/1/3.853;No;cr1.mgmt.vctr3
+816;inet.2;207.23.0.0/16;207.23.241.134/32;271;ge-0/1/3.853;Yes;cr1.mgmt.vctr3
+817;inet.2;207.23.0.0/16;207.23.241.136/31;271;rlt0.6;No;cr1.mgmt.vctr3
+818;inet.2;207.23.0.0/16;207.23.241.136/32;271;rlt0.6;Yes;cr1.mgmt.vctr3
+819;inet.2;207.23.0.0/16;207.23.241.138/31;271;rlt0.27;No;cr1.mgmt.vctr3
+820;inet.2;207.23.0.0/16;207.23.241.139/32;271;rlt0.27;Yes;cr1.mgmt.vctr3
+821;inet.2;207.23.0.0/16;207.23.241.144/31;271;rlt0.13;No;cr1.mgmt.vctr3
+822;inet.2;207.23.0.0/16;207.23.241.145/32;271;rlt0.13;Yes;cr1.mgmt.vctr3
+823;inet.2;207.23.0.0/16;207.23.241.146/31;271;xe-1/1/5.1770;No;cr1.mgmt.vctr3
+824;inet.2;207.23.0.0/16;207.23.241.146/32;271;xe-1/1/5.1770;Yes;cr1.mgmt.vctr3
+825;inet.2;207.23.0.0/16;207.23.241.152/30;271;rlt0.40;No;cr1.mgmt.vctr3
+826;inet.2;207.23.0.0/16;207.23.241.212/30;271;rlt0.40;No;cr1.mgmt.vctr3
+827;inet.2;207.23.0.0/16;207.23.241.213/32;271;rlt0.40;Yes;cr1.mgmt.vctr3
+828;inet.2;207.23.0.0/16;207.23.241.240/32;271;rlt0.40;No;cr1.mgmt.vctr3
+829;inet.2;207.23.0.0/16;207.23.242.32/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+830;inet.2;207.23.0.0/16;207.23.242.32/30;;Adjacent Router;No;cr1.mgmt.vctr3
+831;inet.2;207.23.0.0/16;207.23.242.36/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+832;inet.2;207.23.0.0/16;207.23.242.36/31;;Adjacent Router;No;cr1.mgmt.vctr3
+833;inet.2;207.23.0.0/16;207.23.242.38/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+834;inet.2;207.23.0.0/16;207.23.242.38/31;;Adjacent Router;No;cr1.mgmt.vctr3
+835;inet.2;207.23.0.0/16;207.23.242.40/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+836;inet.2;207.23.0.0/16;207.23.242.40/30;;Adjacent Router;No;cr1.mgmt.vctr3
+837;inet.2;207.23.0.0/16;207.23.242.44/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+838;inet.2;207.23.0.0/16;207.23.242.44/31;;Adjacent Router;No;cr1.mgmt.vctr3
+839;inet.2;207.23.0.0/16;207.23.242.46/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+840;inet.2;207.23.0.0/16;207.23.242.46/31;;Adjacent Router;No;cr1.mgmt.vctr3
+841;inet.2;207.23.0.0/16;207.23.242.70/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+842;inet.2;207.23.0.0/16;207.23.242.70/31;;Adjacent Router;No;cr1.mgmt.vctr3
+843;inet.2;207.23.0.0/16;207.23.242.72/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+844;inet.2;207.23.0.0/16;207.23.242.72/30;;Adjacent Router;No;cr1.mgmt.vctr3
+845;inet.2;207.23.0.0/16;207.23.242.76/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+846;inet.2;207.23.0.0/16;207.23.242.76/30;;Adjacent Router;No;cr1.mgmt.vctr3
+847;inet.2;207.23.0.0/16;207.23.242.96/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+848;inet.2;207.23.0.0/16;207.23.242.96/31;;Adjacent Router;No;cr1.mgmt.vctr3
+849;inet.2;207.23.0.0/16;207.23.242.253/32;271;Adjacent Router;No;cr1.mgmt.vctr3
+850;inet.2;207.23.0.0/16;207.23.242.253/32;;Adjacent Router;No;cr1.mgmt.vctr3
+851;inet.2;207.23.0.0/16;207.23.254.160/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+852;inet.2;207.23.0.0/16;207.23.254.164/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+853;inet.2;207.23.0.0/16;207.23.254.174/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+854;inet.2;207.23.0.0/16;207.23.254.188/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+855;inet.2;207.23.0.0/16;207.23.254.204/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+856;inet.2;207.23.0.0/16;207.23.254.216/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+857;inet.2;207.23.0.0/16;207.23.254.220/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+858;inet.2;207.23.0.0/16;207.23.254.253/32;271;Adjacent Router;No;cr1.mgmt.vctr3
+859;inet.2;207.23.0.0/16;207.23.255.16/29;271;Adjacent Router;No;cr1.mgmt.vctr3
+860;inet.2;207.23.0.0/16;207.23.255.28/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+861;inet.2;207.23.0.0/16;207.23.255.30/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+862;inet.2;207.23.0.0/16;207.23.255.64/26;271;Adjacent Router;No;cr1.mgmt.vctr3
+863;inet.2;207.23.0.0/16;207.23.255.130/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+864;inet.2;207.23.0.0/16;207.23.255.138/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+865;inet.2;207.23.0.0/16;207.23.255.140/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+866;inet.2;207.23.0.0/16;207.23.255.144/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+867;inet.2;207.23.0.0/16;207.23.255.148/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+868;inet.2;207.23.0.0/16;207.23.255.208/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+869;inet.2;207.23.0.0/16;207.23.255.216/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+870;inet.2;207.23.0.0/16;207.23.255.220/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+871;inet.2;207.23.0.0/16;207.23.255.228/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+872;inet.2;207.23.0.0/16;207.23.255.252/32;271;Adjacent Router;No;cr1.mgmt.vctr3
+873;IX-VCTR3.inet.0;207.23.0.0/16;207.23.8.0/21;271;Adjacent Router;No;cr1.mgmt.vctr3
+874;IX-VCTR3.inet.0;207.23.0.0/16;207.23.72.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+875;IX-VCTR3.inet.0;207.23.0.0/16;207.23.73.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+876;IX-VCTR3.inet.0;207.23.0.0/16;207.23.85.0/24;11105;Adjacent Router;No;cr1.mgmt.vctr3
+877;IX-VCTR3.inet.0;207.23.0.0/16;207.23.88.0/23;271;Adjacent Router;No;cr1.mgmt.vctr3
+878;IX-VCTR3.inet.0;207.23.0.0/16;207.23.92.0/23;271;Adjacent Router;No;cr1.mgmt.vctr3
+879;IX-VCTR3.inet.0;207.23.0.0/16;207.23.94.0/23;393249;Adjacent Router;No;cr1.mgmt.vctr3
+880;IX-VCTR3.inet.0;207.23.0.0/16;207.23.96.0/20;397543;xe-1/1/5.1771;No;cr1.mgmt.vctr3
+881;IX-VCTR3.inet.0;207.23.0.0/16;207.23.128.0/19;397375;Adjacent Router;No;cr1.mgmt.vctr3
+882;IX-VCTR3.inet.0;207.23.0.0/16;207.23.160.0/19;11105;Adjacent Router;No;cr1.mgmt.vctr3
+883;IX-VCTR3.inet.0;207.23.0.0/16;207.23.192.0/19;11105;Adjacent Router;No;cr1.mgmt.vctr3
+884;IX-VCTR3.inet.0;207.23.0.0/16;207.23.240.212/32;271;Adjacent Router;No;cr1.mgmt.vctr3
+885;IX-VCTR3.inet.0;207.23.0.0/16;207.23.240.213/32;271;Adjacent Router;No;cr1.mgmt.vctr3
+886;IX-VCTR3.inet.0;207.23.0.0/16;207.23.240.214/32;271;Adjacent Router;No;cr1.mgmt.vctr3
+887;IX-VCTR3.inet.0;207.23.0.0/16;207.23.241.70/31;271;rlt0.50;No;cr1.mgmt.vctr3
+888;IX-VCTR3.inet.0;207.23.0.0/16;207.23.241.100/30;271;rlt0.50;No;cr1.mgmt.vctr3
+889;IX-VCTR3.inet.0;207.23.0.0/16;207.23.241.104/30;271;rlt0.50;No;cr1.mgmt.vctr3
+890;IX-VCTR3.inet.0;207.23.0.0/16;207.23.241.152/30;271;rlt0.50;No;cr1.mgmt.vctr3
+891;IX-VCTR3.inet.0;207.23.0.0/16;207.23.241.176/29;271;rlt0.50;No;cr1.mgmt.vctr3
+892;IX-VCTR3.inet.0;207.23.0.0/16;207.23.241.240/32;271;rlt0.50;No;cr1.mgmt.vctr3
+893;IX-VCTR3.inet.0;207.23.0.0/16;207.23.242.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+894;IX-VCTR3.inet.0;207.23.0.0/16;207.23.242.72/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+895;IX-VCTR3.inet.0;207.23.0.0/16;207.23.242.76/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+896;IX-VCTR3.inet.0;207.23.0.0/16;207.23.242.96/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+897;IX-VCTR3.inet.0;207.23.0.0/16;207.23.242.252/32;;Adjacent Router;No;cr1.mgmt.vctr3
+898;IX-VCTR3.inet.0;207.23.0.0/16;207.23.242.253/32;271;Adjacent Router;No;cr1.mgmt.vctr3
+899;IX-VCTR3.inet.0;207.23.0.0/16;207.23.243.0/24;393249;Adjacent Router;No;cr1.mgmt.vctr3
+900;IX-VCTR3.inet.0;207.23.0.0/16;207.23.244.220/31;271;xe-1/1/5.1771;No;cr1.mgmt.vctr3
+901;IX-VCTR3.inet.0;207.23.0.0/16;207.23.244.220/32;271;xe-1/1/5.1771;Yes;cr1.mgmt.vctr3
+902;IX-VCTR3.inet.0;207.23.0.0/16;207.23.244.222/31;271;rlt0.11;No;cr1.mgmt.vctr3
+903;IX-VCTR3.inet.0;207.23.0.0/16;207.23.244.223/32;271;rlt0.11;Yes;cr1.mgmt.vctr3
+904;IX-VCTR3.inet.0;207.23.0.0/16;207.23.244.224/31;271;rlt0.4;No;cr1.mgmt.vctr3
+905;IX-VCTR3.inet.0;207.23.0.0/16;207.23.244.224/32;271;rlt0.4;Yes;cr1.mgmt.vctr3
+906;IX-VCTR3.inet.0;207.23.0.0/16;207.23.244.226/31;271;rlt0.25;No;cr1.mgmt.vctr3
+907;IX-VCTR3.inet.0;207.23.0.0/16;207.23.244.227/32;271;rlt0.25;Yes;cr1.mgmt.vctr3
+908;IX-VCTR3.inet.0;207.23.0.0/16;207.23.244.230/31;271;et-5/0/5.2992;No;cr1.mgmt.vctr3
+909;IX-VCTR3.inet.0;207.23.0.0/16;207.23.244.231/32;271;et-5/0/5.2992;Yes;cr1.mgmt.vctr3
+910;IX-VCTR3.inet.0;207.23.0.0/16;207.23.244.232/31;271;xe-1/0/2.2921;No;cr1.mgmt.vctr3
+911;IX-VCTR3.inet.0;207.23.0.0/16;207.23.244.233/32;271;xe-1/0/2.2921;Yes;cr1.mgmt.vctr3
+912;IX-VCTR3.inet.0;207.23.0.0/16;207.23.244.236/30;271;ae0.339;No;cr1.mgmt.vctr3
+913;IX-VCTR3.inet.0;207.23.0.0/16;207.23.244.238/32;271;ae0.339;Yes;cr1.mgmt.vctr3
+914;IX-VCTR3.inet.0;207.23.0.0/16;207.23.244.248/30;271;rlt0.50;No;cr1.mgmt.vctr3
+915;IX-VCTR3.inet.0;207.23.0.0/16;207.23.244.250/32;271;rlt0.50;Yes;cr1.mgmt.vctr3
+916;IX-VCTR3.inet.0;207.23.0.0/16;207.23.249.0/24;393249;Adjacent Router;No;cr1.mgmt.vctr3
+917;IX-VCTR3.inet.0;207.23.0.0/16;207.23.251.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+918;IX-VCTR3.inet.0;207.23.0.0/16;207.23.252.0/24;393249;Adjacent Router;No;cr1.mgmt.vctr3
+919;IX-VCTR3.inet.0;207.23.0.0/16;207.23.254.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+920;IX-VCTR3.inet.0;207.23.0.0/16;207.23.254.188/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+921;IX-VCTR3.inet.0;207.23.0.0/16;207.23.254.216/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+922;IX-VCTR3.inet.0;207.23.0.0/16;207.23.254.220/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+923;IX-VCTR3.inet.0;207.23.0.0/16;207.23.254.252/32;;Adjacent Router;No;cr1.mgmt.vctr3
+924;IX-VCTR3.inet.0;207.23.0.0/16;207.23.254.253/32;271;Adjacent Router;No;cr1.mgmt.vctr3
+925;IX-VCTR3.inet.0;207.23.0.0/16;207.23.255.16/29;271;Adjacent Router;No;cr1.mgmt.vctr3
+926;IX-VCTR3.inet.0;207.23.0.0/16;207.23.255.30/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+927;IX-VCTR3.inet.0;207.23.0.0/16;207.23.255.32/28;271;Adjacent Router;No;cr1.mgmt.vctr3
+928;IX-VCTR3.inet.0;207.23.0.0/16;207.23.255.48/28;271;Adjacent Router;No;cr1.mgmt.vctr3
+929;IX-VCTR3.inet.0;207.23.0.0/16;207.23.255.64/26;271;Adjacent Router;No;cr1.mgmt.vctr3
+930;IX-VCTR3.inet.0;207.23.0.0/16;207.23.255.140/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+931;IX-VCTR3.inet.0;207.23.0.0/16;207.23.255.144/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+932;IX-VCTR3.inet.0;207.23.0.0/16;207.23.255.148/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+933;IX-VCTR3.inet.0;207.23.0.0/16;207.23.255.228/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+934;IX-VCTR3.inet.0;207.23.0.0/16;207.23.255.252/32;271;Adjacent Router;No;cr1.mgmt.vctr3
+935;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.0.0/16;271;Adjacent Router;No;cr1.mgmt.vctr3
+936;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.8.0/21;271;Adjacent Router;No;cr1.mgmt.vctr3
+937;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.72.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+938;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.72.0/24;;Adjacent Router;No;cr1.mgmt.vctr3
+939;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.73.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+940;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.73.0/24;;Adjacent Router;No;cr1.mgmt.vctr3
+941;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.85.0/24;11105;Adjacent Router;No;cr1.mgmt.vctr3
+942;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.85.0/24;;Adjacent Router;No;cr1.mgmt.vctr3
+943;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.88.0/23;271;Adjacent Router;No;cr1.mgmt.vctr3
+944;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.92.0/23;271;Adjacent Router;No;cr1.mgmt.vctr3
+945;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.94.0/23;393249;Adjacent Router;No;cr1.mgmt.vctr3
+946;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.94.0/23;;Adjacent Router;No;cr1.mgmt.vctr3
+947;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.96.0/20;397543;xe-1/1/5.1772;No;cr1.mgmt.vctr3
+948;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.128.0/19;397375;Adjacent Router;No;cr1.mgmt.vctr3
+949;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.128.0/19;397375;xe-1/1/3.0;No;cr1.mgmt.vctr3
+950;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.160.0/19;11105;Adjacent Router;No;cr1.mgmt.vctr3
+951;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.160.0/19;;Adjacent Router;No;cr1.mgmt.vctr3
+952;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.192.0/19;11105;Adjacent Router;No;cr1.mgmt.vctr3
+953;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.192.0/19;;Adjacent Router;No;cr1.mgmt.vctr3
+954;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.240.12/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+955;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.240.16/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+956;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.240.24/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+957;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.240.28/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+958;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.240.32/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+959;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.240.32/30;;Adjacent Router;No;cr1.mgmt.vctr3
+960;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.240.60/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+961;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.240.64/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+962;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.240.64/30;;Adjacent Router;No;cr1.mgmt.vctr3
+963;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.240.92/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+964;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.240.92/30;;Adjacent Router;No;cr1.mgmt.vctr3
+965;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.240.212/32;271;Adjacent Router;No;cr1.mgmt.vctr3
+966;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.240.213/32;271;Adjacent Router;No;cr1.mgmt.vctr3
+967;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.240.213/32;;Adjacent Router;No;cr1.mgmt.vctr3
+968;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.240.214/32;271;Adjacent Router;No;cr1.mgmt.vctr3
+969;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.241.70/31;271;rlt0.30;No;cr1.mgmt.vctr3
+970;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.241.100/30;271;rlt0.30;No;cr1.mgmt.vctr3
+971;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.241.104/30;271;rlt0.30;No;cr1.mgmt.vctr3
+972;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.241.152/30;271;rlt0.30;No;cr1.mgmt.vctr3
+973;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.241.176/29;271;rlt0.30;No;cr1.mgmt.vctr3
+974;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.241.184/31;271;xe-1/0/6.2920;No;cr1.mgmt.vctr3
+975;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.241.185/32;271;xe-1/0/6.2920;Yes;cr1.mgmt.vctr3
+976;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.241.186/31;271;et-5/0/5.2952;No;cr1.mgmt.vctr3
+977;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.241.187/32;271;et-5/0/5.2952;Yes;cr1.mgmt.vctr3
+978;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.241.188/30;271;rlt0.30;No;cr1.mgmt.vctr3
+979;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.241.189/32;271;rlt0.30;Yes;cr1.mgmt.vctr3
+980;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.241.224/31;271;rlt0.2;No;cr1.mgmt.vctr3
+981;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.241.224/32;271;rlt0.2;Yes;cr1.mgmt.vctr3
+982;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.241.226/31;271;rlt0.29;No;cr1.mgmt.vctr3
+983;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.241.227/32;271;rlt0.29;Yes;cr1.mgmt.vctr3
+984;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.241.236/31;271;rlt0.45;No;cr1.mgmt.vctr3
+985;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.241.237/32;271;rlt0.45;Yes;cr1.mgmt.vctr3
+986;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.241.238/31;271;xe-1/1/5.1772;No;cr1.mgmt.vctr3
+987;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.241.238/32;271;xe-1/1/5.1772;Yes;cr1.mgmt.vctr3
+988;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.241.240/32;271;rlt0.30;No;cr1.mgmt.vctr3
+989;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.242.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+990;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.242.0/24;;Adjacent Router;No;cr1.mgmt.vctr3
+991;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.242.72/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+992;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.242.72/30;;Adjacent Router;No;cr1.mgmt.vctr3
+993;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.242.76/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+994;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.242.76/30;;Adjacent Router;No;cr1.mgmt.vctr3
+995;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.242.96/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+996;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.242.96/31;;Adjacent Router;No;cr1.mgmt.vctr3
+997;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.242.253/32;271;Adjacent Router;No;cr1.mgmt.vctr3
+998;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.242.253/32;;Adjacent Router;No;cr1.mgmt.vctr3
+999;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.243.0/24;393249;Adjacent Router;No;cr1.mgmt.vctr3
+1000;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.243.0/24;;Adjacent Router;No;cr1.mgmt.vctr3
+1001;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.249.0/24;393249;Adjacent Router;No;cr1.mgmt.vctr3
+1002;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.249.0/24;;Adjacent Router;No;cr1.mgmt.vctr3
+1003;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.252.0/24;393249;Adjacent Router;No;cr1.mgmt.vctr3
+1004;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.252.0/24;;Adjacent Router;No;cr1.mgmt.vctr3
+1005;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.253.1/32;;Adjacent Router;No;cr1.mgmt.vctr3
+1006;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.253.2/32;;Adjacent Router;No;cr1.mgmt.vctr3
+1007;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.253.2/32;;Adjacent Router;No;cr1.mgmt.vctr3
+1008;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.253.5/32;;Adjacent Router;No;cr1.mgmt.vctr3
+1009;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.253.5/32;;Adjacent Router;No;cr1.mgmt.vctr3
+1010;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.253.6/32;;Adjacent Router;No;cr1.mgmt.vctr3
+1011;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.253.7/32;;Adjacent Router;No;cr1.mgmt.vctr3
+1012;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.253.8/32;271;lo0.1;Yes;cr1.mgmt.vctr3
+1013;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.253.9/32;;Adjacent Router;No;cr1.mgmt.vctr3
+1014;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.253.36/30;;Adjacent Router;No;cr1.mgmt.vctr3
+1015;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.253.38/32;;Adjacent Router;Yes;cr1.mgmt.vctr3
+1016;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.253.40/30;;Adjacent Router;No;cr1.mgmt.vctr3
+1017;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.253.42/32;;Adjacent Router;Yes;cr1.mgmt.vctr3
+1018;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.253.44/30;;Adjacent Router;No;cr1.mgmt.vctr3
+1019;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.253.44/30;;Adjacent Router;No;cr1.mgmt.vctr3
+1020;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.253.48/30;;Adjacent Router;No;cr1.mgmt.vctr3
+1021;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.253.52/31;;Adjacent Router;No;cr1.mgmt.vctr3
+1022;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.253.72/30;;Adjacent Router;No;cr1.mgmt.vctr3
+1023;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.253.92/30;;Adjacent Router;No;cr1.mgmt.vctr3
+1024;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.253.94/32;;Adjacent Router;Yes;cr1.mgmt.vctr3
+1025;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.253.108/30;;Adjacent Router;No;cr1.mgmt.vctr3
+1026;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.253.116/31;;Adjacent Router;No;cr1.mgmt.vctr3
+1027;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.253.118/31;;Adjacent Router;No;cr1.mgmt.vctr3
+1028;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.253.120/31;;Adjacent Router;No;cr1.mgmt.vctr3
+1029;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.253.120/31;;Adjacent Router;No;cr1.mgmt.vctr3
+1030;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.253.122/31;;Adjacent Router;No;cr1.mgmt.vctr3
+1031;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.253.124/31;;Adjacent Router;No;cr1.mgmt.vctr3
+1032;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.253.126/31;;Adjacent Router;No;cr1.mgmt.vctr3
+1033;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.253.128/31;;Adjacent Router;No;cr1.mgmt.vctr3
+1034;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.254.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+1035;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.254.188/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+1036;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.254.216/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+1037;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.254.220/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+1038;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.254.253/32;271;Adjacent Router;No;cr1.mgmt.vctr3
+1039;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.255.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+1040;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.255.16/29;271;Adjacent Router;No;cr1.mgmt.vctr3
+1041;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.255.30/31;271;Adjacent Router;No;cr1.mgmt.vctr3
+1042;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.255.32/28;271;Adjacent Router;No;cr1.mgmt.vctr3
+1043;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.255.48/28;271;Adjacent Router;No;cr1.mgmt.vctr3
+1044;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.255.64/26;271;Adjacent Router;No;cr1.mgmt.vctr3
+1045;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.255.140/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+1046;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.255.144/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+1047;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.255.148/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+1048;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.255.228/30;271;Adjacent Router;No;cr1.mgmt.vctr3
+1049;TRANSIT-VCTR3.inet.0;207.23.0.0/16;207.23.255.252/32;271;Adjacent Router;No;cr1.mgmt.vctr3
+1050;inet.0;209.87.0.0/18;209.87.16.0/24;393249;Adjacent Router;No;cr1.mgmt.vctr3
+1051;inet.0;209.87.0.0/18;209.87.16.0/24;;Adjacent Router;No;cr1.mgmt.vctr3
+1052;inet.0;209.87.0.0/18;209.87.17.0/24;393249;Adjacent Router;No;cr1.mgmt.vctr3
+1053;inet.0;209.87.0.0/18;209.87.17.0/24;;Adjacent Router;No;cr1.mgmt.vctr3
+1054;inet.0;209.87.0.0/18;209.87.18.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+1055;inet.0;209.87.0.0/18;209.87.18.0/24;;Adjacent Router;No;cr1.mgmt.vctr3
+1056;inet.0;209.87.0.0/18;209.87.24.0/23;271;Adjacent Router;No;cr1.mgmt.vctr3
+1057;inet.0;209.87.0.0/18;209.87.24.0/23;;Adjacent Router;No;cr1.mgmt.vctr3
+1058;inet.0;209.87.0.0/18;209.87.27.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+1059;inet.0;209.87.0.0/18;209.87.27.0/24;;Adjacent Router;No;cr1.mgmt.vctr3
+1060;inet.0;209.87.0.0/18;209.87.28.0/23;271;Adjacent Router;No;cr1.mgmt.vctr3
+1061;inet.0;209.87.0.0/18;209.87.28.0/23;;Adjacent Router;No;cr1.mgmt.vctr3
+1062;inet.0;209.87.0.0/18;209.87.30.0/24;393966;Adjacent Router;No;cr1.mgmt.vctr3
+1063;inet.0;209.87.0.0/18;209.87.30.0/24;;Adjacent Router;No;cr1.mgmt.vctr3
+1064;inet.0;209.87.0.0/18;209.87.31.0/24;11105;Adjacent Router;No;cr1.mgmt.vctr3
+1065;inet.0;209.87.0.0/18;209.87.31.0/24;;Adjacent Router;No;cr1.mgmt.vctr3
+1066;inet.0;209.87.0.0/18;209.87.56.0/22;11105;Adjacent Router;No;cr1.mgmt.vctr3
+1067;inet.0;209.87.0.0/18;209.87.56.0/22;;Adjacent Router;No;cr1.mgmt.vctr3
+1068;inet.0;209.87.0.0/18;209.87.60.0/24;11105;Adjacent Router;No;cr1.mgmt.vctr3
+1069;inet.0;209.87.0.0/18;209.87.60.0/24;;Adjacent Router;No;cr1.mgmt.vctr3
+1070;inet.0;209.87.0.0/18;209.87.61.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+1071;inet.0;209.87.0.0/18;209.87.61.0/24;;Adjacent Router;No;cr1.mgmt.vctr3
+1072;inet.0;209.87.0.0/18;209.87.62.0/24;55185;Adjacent Router;No;cr1.mgmt.vctr3
+1073;inet.0;209.87.0.0/18;209.87.62.0/24;;Adjacent Router;No;cr1.mgmt.vctr3
+1074;inet.0;209.87.0.0/18;209.87.63.0/24;33314;Adjacent Router;No;cr1.mgmt.vctr3
+1075;inet.0;209.87.0.0/18;209.87.63.0/24;;Adjacent Router;No;cr1.mgmt.vctr3
+1076;inet.2;209.87.0.0/18;209.87.18.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+1077;inet.2;209.87.0.0/18;209.87.18.0/24;;Adjacent Router;No;cr1.mgmt.vctr3
+1078;IX-VCTR3.inet.0;209.87.0.0/18;209.87.16.0/24;393249;Adjacent Router;No;cr1.mgmt.vctr3
+1079;IX-VCTR3.inet.0;209.87.0.0/18;209.87.17.0/24;393249;Adjacent Router;No;cr1.mgmt.vctr3
+1080;IX-VCTR3.inet.0;209.87.0.0/18;209.87.18.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+1081;IX-VCTR3.inet.0;209.87.0.0/18;209.87.24.0/23;271;Adjacent Router;No;cr1.mgmt.vctr3
+1082;IX-VCTR3.inet.0;209.87.0.0/18;209.87.27.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+1083;IX-VCTR3.inet.0;209.87.0.0/18;209.87.28.0/23;271;Adjacent Router;No;cr1.mgmt.vctr3
+1084;IX-VCTR3.inet.0;209.87.0.0/18;209.87.30.0/24;393966;Adjacent Router;No;cr1.mgmt.vctr3
+1085;IX-VCTR3.inet.0;209.87.0.0/18;209.87.31.0/24;11105;Adjacent Router;No;cr1.mgmt.vctr3
+1086;IX-VCTR3.inet.0;209.87.0.0/18;209.87.56.0/22;11105;Adjacent Router;No;cr1.mgmt.vctr3
+1087;IX-VCTR3.inet.0;209.87.0.0/18;209.87.60.0/24;11105;Adjacent Router;No;cr1.mgmt.vctr3
+1088;IX-VCTR3.inet.0;209.87.0.0/18;209.87.61.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+1089;IX-VCTR3.inet.0;209.87.0.0/18;209.87.62.0/24;55185;Adjacent Router;No;cr1.mgmt.vctr3
+1090;IX-VCTR3.inet.0;209.87.0.0/18;209.87.63.0/24;33314;Adjacent Router;No;cr1.mgmt.vctr3
+1091;TRANSIT-VCTR3.inet.0;209.87.0.0/18;209.87.0.0/18;271;Adjacent Router;No;cr1.mgmt.vctr3
+1092;TRANSIT-VCTR3.inet.0;209.87.0.0/18;209.87.16.0/24;393249;Adjacent Router;No;cr1.mgmt.vctr3
+1093;TRANSIT-VCTR3.inet.0;209.87.0.0/18;209.87.16.0/24;;Adjacent Router;No;cr1.mgmt.vctr3
+1094;TRANSIT-VCTR3.inet.0;209.87.0.0/18;209.87.17.0/24;393249;Adjacent Router;No;cr1.mgmt.vctr3
+1095;TRANSIT-VCTR3.inet.0;209.87.0.0/18;209.87.17.0/24;;Adjacent Router;No;cr1.mgmt.vctr3
+1096;TRANSIT-VCTR3.inet.0;209.87.0.0/18;209.87.18.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+1097;TRANSIT-VCTR3.inet.0;209.87.0.0/18;209.87.18.0/24;;Adjacent Router;No;cr1.mgmt.vctr3
+1098;TRANSIT-VCTR3.inet.0;209.87.0.0/18;209.87.24.0/23;271;Adjacent Router;No;cr1.mgmt.vctr3
+1099;TRANSIT-VCTR3.inet.0;209.87.0.0/18;209.87.24.0/23;;Adjacent Router;No;cr1.mgmt.vctr3
+1100;TRANSIT-VCTR3.inet.0;209.87.0.0/18;209.87.27.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+1101;TRANSIT-VCTR3.inet.0;209.87.0.0/18;209.87.27.0/24;;Adjacent Router;No;cr1.mgmt.vctr3
+1102;TRANSIT-VCTR3.inet.0;209.87.0.0/18;209.87.28.0/23;271;Adjacent Router;No;cr1.mgmt.vctr3
+1103;TRANSIT-VCTR3.inet.0;209.87.0.0/18;209.87.28.0/23;;Adjacent Router;No;cr1.mgmt.vctr3
+1104;TRANSIT-VCTR3.inet.0;209.87.0.0/18;209.87.30.0/24;393966;Adjacent Router;No;cr1.mgmt.vctr3
+1105;TRANSIT-VCTR3.inet.0;209.87.0.0/18;209.87.30.0/24;;Adjacent Router;No;cr1.mgmt.vctr3
+1106;TRANSIT-VCTR3.inet.0;209.87.0.0/18;209.87.31.0/24;11105;Adjacent Router;No;cr1.mgmt.vctr3
+1107;TRANSIT-VCTR3.inet.0;209.87.0.0/18;209.87.31.0/24;;Adjacent Router;No;cr1.mgmt.vctr3
+1108;TRANSIT-VCTR3.inet.0;209.87.0.0/18;209.87.56.0/22;11105;Adjacent Router;No;cr1.mgmt.vctr3
+1109;TRANSIT-VCTR3.inet.0;209.87.0.0/18;209.87.56.0/22;;Adjacent Router;No;cr1.mgmt.vctr3
+1110;TRANSIT-VCTR3.inet.0;209.87.0.0/18;209.87.60.0/24;11105;Adjacent Router;No;cr1.mgmt.vctr3
+1111;TRANSIT-VCTR3.inet.0;209.87.0.0/18;209.87.60.0/24;;Adjacent Router;No;cr1.mgmt.vctr3
+1112;TRANSIT-VCTR3.inet.0;209.87.0.0/18;209.87.61.0/24;271;Adjacent Router;No;cr1.mgmt.vctr3
+1113;TRANSIT-VCTR3.inet.0;209.87.0.0/18;209.87.61.0/24;;Adjacent Router;No;cr1.mgmt.vctr3
+1114;TRANSIT-VCTR3.inet.0;209.87.0.0/18;209.87.62.0/24;55185;xe-1/1/3.0;No;cr1.mgmt.vctr3
+1115;TRANSIT-VCTR3.inet.0;209.87.0.0/18;209.87.62.0/24;55185;Adjacent Router;No;cr1.mgmt.vctr3
+1116;TRANSIT-VCTR3.inet.0;209.87.0.0/18;209.87.62.0/24;55185;Adjacent Router;No;cr1.mgmt.vctr3
+1117;TRANSIT-VCTR3.inet.0;209.87.0.0/18;209.87.62.0/24;;Adjacent Router;No;cr1.mgmt.vctr3
+1118;TRANSIT-VCTR3.inet.0;209.87.0.0/18;209.87.62.0/24;55185;xe-1/0/3.0;No;cr1.mgmt.vctr3
+1119;TRANSIT-VCTR3.inet.0;209.87.0.0/18;209.87.63.0/24;33314;Adjacent Router;No;cr1.mgmt.vctr3
+1120;TRANSIT-VCTR3.inet.0;209.87.0.0/18;209.87.63.0/24;;Adjacent Router;No;cr1.mgmt.vctr3

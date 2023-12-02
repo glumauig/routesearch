@@ -1,0 +1,880 @@
+Index;Route_Instance;Subnet;Destination_Interface;Router
+0;inet.0;128.189.4.0/24;ae2.3900, Push 100;cr2.mgmt.vncv1
+1;inet.0;128.189.5.0/24;ae2.3900, Push 100;cr2.mgmt.vncv1
+2;inet.0;128.189.6.0/24;ae2.3900, Push 100;cr2.mgmt.vncv1
+3;inet.0;128.189.16.0/20;ae1.3908;cr2.mgmt.vncv1
+4;inet.0;128.189.16.0/20;et-5/0/2.184;cr2.mgmt.vncv1
+5;inet.0;128.189.64.0/19;et-5/0/2.184;cr2.mgmt.vncv1
+6;inet.0;128.189.96.0/19;et-5/0/2.184;cr2.mgmt.vncv1
+7;inet.0;128.189.128.0/18;et-5/0/2.184;cr2.mgmt.vncv1
+8;inet.0;128.189.192.0/18;et-5/0/2.184;cr2.mgmt.vncv1
+9;inet.2;128.189.4.0/24;ae2.3900;cr2.mgmt.vncv1
+10;inet.2;128.189.6.0/24;ae2.3900;cr2.mgmt.vncv1
+11;TRANSIT-VANTX2.inet.0;128.189.0.0/16;ae2.3920;cr2.mgmt.vncv1
+12;TRANSIT-VANTX2.inet.0;128.189.4.0/24;ae2.3920;cr2.mgmt.vncv1
+13;TRANSIT-VANTX2.inet.0;128.189.5.0/24;ae2.3920;cr2.mgmt.vncv1
+14;TRANSIT-VANTX2.inet.0;128.189.6.0/24;ae2.3920;cr2.mgmt.vncv1
+15;TRANSIT-VANTX2.inet.0;128.189.16.0/20;ae1.3928;cr2.mgmt.vncv1
+16;TRANSIT-VANTX2.inet.0;128.189.16.0/20;et-5/0/2.199;cr2.mgmt.vncv1
+17;TRANSIT-VANTX2.inet.0;128.189.16.0/20;et-5/0/2.188;cr2.mgmt.vncv1
+18;TRANSIT-VANTX2.inet.0;128.189.64.0/19;et-5/0/2.188;cr2.mgmt.vncv1
+19;TRANSIT-VANTX2.inet.0;128.189.64.0/19;et-5/0/2.199;cr2.mgmt.vncv1
+20;TRANSIT-VANTX2.inet.0;128.189.64.0/19;et-5/0/2.188;cr2.mgmt.vncv1
+21;TRANSIT-VANTX2.inet.0;128.189.96.0/19;et-5/0/2.188;cr2.mgmt.vncv1
+22;TRANSIT-VANTX2.inet.0;128.189.96.0/19;et-5/0/2.199;cr2.mgmt.vncv1
+23;TRANSIT-VANTX2.inet.0;128.189.96.0/19;et-5/0/2.188;cr2.mgmt.vncv1
+24;TRANSIT-VANTX2.inet.0;128.189.128.0/18;et-5/0/2.188;cr2.mgmt.vncv1
+25;TRANSIT-VANTX2.inet.0;128.189.128.0/18;et-5/0/2.199;cr2.mgmt.vncv1
+26;TRANSIT-VANTX2.inet.0;128.189.128.0/18;et-5/0/2.188;cr2.mgmt.vncv1
+27;TRANSIT-VANTX2.inet.0;128.189.192.0/18;et-5/0/2.188;cr2.mgmt.vncv1
+28;TRANSIT-VANTX2.inet.0;128.189.192.0/18;et-5/0/2.199;cr2.mgmt.vncv1
+29;TRANSIT-VANTX2.inet.0;128.189.192.0/18;et-5/0/2.188;cr2.mgmt.vncv1
+30;inet.0;134.87.2.16/31;ae2.3900;cr2.mgmt.vncv1
+31;inet.0;134.87.2.20/30;ae2.3900;cr2.mgmt.vncv1
+32;inet.0;134.87.2.26/31;ae2.3900;cr2.mgmt.vncv1
+33;inet.0;134.87.2.28/30;ae2.3900;cr2.mgmt.vncv1
+34;inet.0;134.87.2.48/29;et-5/0/2.184;cr2.mgmt.vncv1
+35;inet.0;134.87.2.54/32;et-5/0/2.184;cr2.mgmt.vncv1
+36;inet.0;134.87.2.56/31;ae1.3908;cr2.mgmt.vncv1
+37;inet.0;134.87.2.58/31;ae1.3908;cr2.mgmt.vncv1
+38;inet.0;134.87.2.60/31;ae1.3908;cr2.mgmt.vncv1
+39;inet.0;134.87.2.62/31;ae1.3908;cr2.mgmt.vncv1
+40;inet.0;134.87.2.64/31;ae2.3900;cr2.mgmt.vncv1
+41;inet.0;134.87.2.68/30;ae1.3908;cr2.mgmt.vncv1
+42;inet.0;134.87.2.72/30;ae1.3908;cr2.mgmt.vncv1
+43;inet.0;134.87.2.76/30;xe-3/0/0.159;cr2.mgmt.vncv1
+44;inet.0;134.87.2.78/32;xe-3/0/0.159;cr2.mgmt.vncv1
+45;inet.0;134.87.2.80/30;ae2.3900;cr2.mgmt.vncv1
+46;inet.0;134.87.2.84/30;ge-0/0/6.75;cr2.mgmt.vncv1
+47;inet.0;134.87.2.86/32;ge-0/0/6.75;cr2.mgmt.vncv1
+48;inet.0;134.87.2.128/29;rlt0.41;cr2.mgmt.vncv1
+49;inet.0;134.87.2.136/30;rlt0.41;cr2.mgmt.vncv1
+50;inet.0;134.87.2.140/30;rlt0.41;cr2.mgmt.vncv1
+51;inet.0;134.87.2.160/29;ae2.3900;cr2.mgmt.vncv1
+52;inet.0;134.87.2.168/31;ae2.3900;cr2.mgmt.vncv1
+53;inet.0;134.87.2.170/31;ae2.3900;cr2.mgmt.vncv1
+54;inet.0;134.87.2.172/30;rlt0.41;cr2.mgmt.vncv1
+55;inet.0;134.87.2.188/30;ae2.3900;cr2.mgmt.vncv1
+56;inet.0;134.87.2.196/31;rlt0.44;cr2.mgmt.vncv1
+57;inet.0;134.87.2.196/32;rlt0.44;cr2.mgmt.vncv1
+58;inet.0;134.87.2.198/31;xe-2/0/4.897;cr2.mgmt.vncv1
+59;inet.0;134.87.2.198/32;xe-2/0/4.897;cr2.mgmt.vncv1
+60;inet.0;134.87.2.202/31;xe-2/0/5.963;cr2.mgmt.vncv1
+61;inet.0;134.87.2.202/32;xe-2/0/5.963;cr2.mgmt.vncv1
+62;inet.0;134.87.2.228/31;rlt0.53;cr2.mgmt.vncv1
+63;inet.0;134.87.2.228/32;rlt0.53;cr2.mgmt.vncv1
+64;inet.0;134.87.2.230/31;rlt0.55;cr2.mgmt.vncv1
+65;inet.0;134.87.2.230/32;rlt0.55;cr2.mgmt.vncv1
+66;inet.0;134.87.2.236/30;ae1.3908;cr2.mgmt.vncv1
+67;inet.0;134.87.2.240/30;rlt0.43;cr2.mgmt.vncv1
+68;inet.0;134.87.2.242/32;rlt0.43;cr2.mgmt.vncv1
+69;inet.0;134.87.2.244/31;ae1.3908;cr2.mgmt.vncv1
+70;inet.0;134.87.2.246/31;rlt0.63;cr2.mgmt.vncv1
+71;inet.0;134.87.2.246/32;rlt0.63;cr2.mgmt.vncv1
+72;inet.0;134.87.2.248/31;xe-2/0/7.169;cr2.mgmt.vncv1
+73;inet.0;134.87.2.248/32;xe-2/0/7.169;cr2.mgmt.vncv1
+74;inet.0;134.87.2.250/31;ae1.3908;cr2.mgmt.vncv1
+75;inet.0;134.87.4.0/24;ae2.3900;cr2.mgmt.vncv1
+76;inet.0;134.87.32.0/19;ae1.3908, Push 103;cr2.mgmt.vncv1
+77;inet.0;134.87.32.0/19;ae2.3900, Push 105;cr2.mgmt.vncv1
+78;inet.0;134.87.112.0/24;ae2.3900;cr2.mgmt.vncv1
+79;inet.0;134.87.112.0/24;rlt0.41;cr2.mgmt.vncv1
+80;inet.0;134.87.128.0/18;ae1.3908, Push 103;cr2.mgmt.vncv1
+81;inet.0;134.87.128.0/18;ae2.3900, Push 105;cr2.mgmt.vncv1
+82;inet.2;134.87.2.16/31;ae2.3900;cr2.mgmt.vncv1
+83;inet.2;134.87.2.20/30;ae2.3900;cr2.mgmt.vncv1
+84;inet.2;134.87.2.26/31;ae2.3900;cr2.mgmt.vncv1
+85;inet.2;134.87.2.28/30;ae2.3900;cr2.mgmt.vncv1
+86;inet.2;134.87.2.48/29;et-5/0/2.184;cr2.mgmt.vncv1
+87;inet.2;134.87.2.54/32;et-5/0/2.184;cr2.mgmt.vncv1
+88;inet.2;134.87.2.56/31;ae1.3908;cr2.mgmt.vncv1
+89;inet.2;134.87.2.58/31;ae1.3908;cr2.mgmt.vncv1
+90;inet.2;134.87.2.60/31;ae1.3908;cr2.mgmt.vncv1
+91;inet.2;134.87.2.62/31;ae1.3908;cr2.mgmt.vncv1
+92;inet.2;134.87.2.64/31;ae2.3900;cr2.mgmt.vncv1
+93;inet.2;134.87.2.68/30;ae1.3908;cr2.mgmt.vncv1
+94;inet.2;134.87.2.72/30;ae1.3908;cr2.mgmt.vncv1
+95;inet.2;134.87.2.76/30;xe-3/0/0.159;cr2.mgmt.vncv1
+96;inet.2;134.87.2.78/32;xe-3/0/0.159;cr2.mgmt.vncv1
+97;inet.2;134.87.2.80/30;ae2.3900;cr2.mgmt.vncv1
+98;inet.2;134.87.2.84/30;ge-0/0/6.75;cr2.mgmt.vncv1
+99;inet.2;134.87.2.86/32;ge-0/0/6.75;cr2.mgmt.vncv1
+100;inet.2;134.87.2.128/29;rlt0.41;cr2.mgmt.vncv1
+101;inet.2;134.87.2.136/30;rlt0.41;cr2.mgmt.vncv1
+102;inet.2;134.87.2.140/30;rlt0.41;cr2.mgmt.vncv1
+103;inet.2;134.87.2.160/29;ae2.3900;cr2.mgmt.vncv1
+104;inet.2;134.87.2.168/31;ae2.3900;cr2.mgmt.vncv1
+105;inet.2;134.87.2.170/31;ae2.3900;cr2.mgmt.vncv1
+106;inet.2;134.87.2.172/30;rlt0.41;cr2.mgmt.vncv1
+107;inet.2;134.87.2.188/30;ae2.3900;cr2.mgmt.vncv1
+108;inet.2;134.87.2.196/31;rlt0.44;cr2.mgmt.vncv1
+109;inet.2;134.87.2.196/32;rlt0.44;cr2.mgmt.vncv1
+110;inet.2;134.87.2.198/31;xe-2/0/4.897;cr2.mgmt.vncv1
+111;inet.2;134.87.2.198/32;xe-2/0/4.897;cr2.mgmt.vncv1
+112;inet.2;134.87.2.202/31;xe-2/0/5.963;cr2.mgmt.vncv1
+113;inet.2;134.87.2.202/32;xe-2/0/5.963;cr2.mgmt.vncv1
+114;inet.2;134.87.2.228/31;rlt0.53;cr2.mgmt.vncv1
+115;inet.2;134.87.2.228/32;rlt0.53;cr2.mgmt.vncv1
+116;inet.2;134.87.2.230/31;rlt0.55;cr2.mgmt.vncv1
+117;inet.2;134.87.2.230/32;rlt0.55;cr2.mgmt.vncv1
+118;inet.2;134.87.2.236/30;ae1.3908;cr2.mgmt.vncv1
+119;inet.2;134.87.2.240/30;rlt0.43;cr2.mgmt.vncv1
+120;inet.2;134.87.2.242/32;rlt0.43;cr2.mgmt.vncv1
+121;inet.2;134.87.2.244/31;ae1.3908;cr2.mgmt.vncv1
+122;inet.2;134.87.2.246/31;rlt0.63;cr2.mgmt.vncv1
+123;inet.2;134.87.2.246/32;rlt0.63;cr2.mgmt.vncv1
+124;inet.2;134.87.2.248/31;xe-2/0/7.169;cr2.mgmt.vncv1
+125;inet.2;134.87.2.248/32;xe-2/0/7.169;cr2.mgmt.vncv1
+126;inet.2;134.87.2.250/31;ae1.3908;cr2.mgmt.vncv1
+127;inet.2;134.87.4.0/24;ae2.3900;cr2.mgmt.vncv1
+128;inet.2;134.87.112.0/24;ae2.3900;cr2.mgmt.vncv1
+129;inet.2;134.87.112.0/24;rlt0.41;cr2.mgmt.vncv1
+130;TRANSIT-VANTX2.inet.0;134.87.0.0/16;ae2.3920;cr2.mgmt.vncv1
+131;TRANSIT-VANTX2.inet.0;134.87.2.20/30;ae2.3920;cr2.mgmt.vncv1
+132;TRANSIT-VANTX2.inet.0;134.87.2.28/30;ae2.3920;cr2.mgmt.vncv1
+133;TRANSIT-VANTX2.inet.0;134.87.2.128/29;rlt0.31;cr2.mgmt.vncv1
+134;TRANSIT-VANTX2.inet.0;134.87.2.136/30;rlt0.31;cr2.mgmt.vncv1
+135;TRANSIT-VANTX2.inet.0;134.87.2.140/30;rlt0.31;cr2.mgmt.vncv1
+136;TRANSIT-VANTX2.inet.0;134.87.2.152/29;ae2.3920;cr2.mgmt.vncv1
+137;TRANSIT-VANTX2.inet.0;134.87.2.172/30;rlt0.31;cr2.mgmt.vncv1
+138;TRANSIT-VANTX2.inet.0;134.87.4.0/24;ae2.3920;cr2.mgmt.vncv1
+139;TRANSIT-VANTX2.inet.0;134.87.30.148/30;et-5/0/2.199;cr2.mgmt.vncv1
+140;TRANSIT-VANTX2.inet.0;134.87.30.150/32;et-5/0/2.199;cr2.mgmt.vncv1
+141;TRANSIT-VANTX2.inet.0;134.87.30.152/29;et-5/0/2.188;cr2.mgmt.vncv1
+142;TRANSIT-VANTX2.inet.0;134.87.30.158/32;et-5/0/2.188;cr2.mgmt.vncv1
+143;TRANSIT-VANTX2.inet.0;134.87.30.168/29;ae1.3928;cr2.mgmt.vncv1
+144;TRANSIT-VANTX2.inet.0;134.87.30.192/31;ae1.3928;cr2.mgmt.vncv1
+145;TRANSIT-VANTX2.inet.0;134.87.30.196/31;ae1.3928;cr2.mgmt.vncv1
+146;TRANSIT-VANTX2.inet.0;134.87.30.198/31;xe-2/0/5.961;cr2.mgmt.vncv1
+147;TRANSIT-VANTX2.inet.0;134.87.30.198/32;xe-2/0/5.961;cr2.mgmt.vncv1
+148;TRANSIT-VANTX2.inet.0;134.87.30.202/31;rlt0.61;cr2.mgmt.vncv1
+149;TRANSIT-VANTX2.inet.0;134.87.30.202/32;rlt0.61;cr2.mgmt.vncv1
+150;TRANSIT-VANTX2.inet.0;134.87.30.204/31;rlt0.67;cr2.mgmt.vncv1
+151;TRANSIT-VANTX2.inet.0;134.87.30.204/32;rlt0.67;cr2.mgmt.vncv1
+152;TRANSIT-VANTX2.inet.0;134.87.30.206/31;ge-0/0/3.2380;cr2.mgmt.vncv1
+153;TRANSIT-VANTX2.inet.0;134.87.30.207/32;ge-0/0/3.2380;cr2.mgmt.vncv1
+154;TRANSIT-VANTX2.inet.0;134.87.30.208/31;ge-0/0/3.2383;cr2.mgmt.vncv1
+155;TRANSIT-VANTX2.inet.0;134.87.30.209/32;ge-0/0/3.2383;cr2.mgmt.vncv1
+156;TRANSIT-VANTX2.inet.0;134.87.30.210/31;ae2.3920;cr2.mgmt.vncv1
+157;TRANSIT-VANTX2.inet.0;134.87.30.212/31;ae2.3920;cr2.mgmt.vncv1
+158;TRANSIT-VANTX2.inet.0;134.87.30.214/31;xe-2/0/2.1775;cr2.mgmt.vncv1
+159;TRANSIT-VANTX2.inet.0;134.87.30.214/32;xe-2/0/2.1775;cr2.mgmt.vncv1
+160;TRANSIT-VANTX2.inet.0;134.87.30.218/31;ae2.3920;cr2.mgmt.vncv1
+161;TRANSIT-VANTX2.inet.0;134.87.30.220/31;ae2.3920;cr2.mgmt.vncv1
+162;TRANSIT-VANTX2.inet.0;134.87.30.222/31;ae1.3928;cr2.mgmt.vncv1
+163;TRANSIT-VANTX2.inet.0;134.87.30.224/31;ae1.3928;cr2.mgmt.vncv1
+164;TRANSIT-VANTX2.inet.0;134.87.30.226/31;rlt0.69;cr2.mgmt.vncv1
+165;TRANSIT-VANTX2.inet.0;134.87.30.226/32;rlt0.69;cr2.mgmt.vncv1
+166;TRANSIT-VANTX2.inet.0;134.87.30.228/31;rlt0.71;cr2.mgmt.vncv1
+167;TRANSIT-VANTX2.inet.0;134.87.30.228/32;rlt0.71;cr2.mgmt.vncv1
+168;TRANSIT-VANTX2.inet.0;134.87.30.230/31;rlt0.73;cr2.mgmt.vncv1
+169;TRANSIT-VANTX2.inet.0;134.87.30.230/32;rlt0.73;cr2.mgmt.vncv1
+170;TRANSIT-VANTX2.inet.0;134.87.30.232/30;ge-0/0/0.763;cr2.mgmt.vncv1
+171;TRANSIT-VANTX2.inet.0;134.87.30.233/32;ge-0/0/0.763;cr2.mgmt.vncv1
+172;TRANSIT-VANTX2.inet.0;134.87.30.240/31;xe-3/2/0.168;cr2.mgmt.vncv1
+173;TRANSIT-VANTX2.inet.0;134.87.30.240/32;xe-3/2/0.168;cr2.mgmt.vncv1
+174;TRANSIT-VANTX2.inet.0;134.87.30.242/31;ae1.3928;cr2.mgmt.vncv1
+175;TRANSIT-VANTX2.inet.0;134.87.30.244/31;xe-2/0/4.899;cr2.mgmt.vncv1
+176;TRANSIT-VANTX2.inet.0;134.87.30.244/32;xe-2/0/4.899;cr2.mgmt.vncv1
+177;TRANSIT-VANTX2.inet.0;134.87.30.246/31;rlt0.48;cr2.mgmt.vncv1
+178;TRANSIT-VANTX2.inet.0;134.87.30.246/32;rlt0.48;cr2.mgmt.vncv1
+179;TRANSIT-VANTX2.inet.0;134.87.30.248/31;ae2.3920;cr2.mgmt.vncv1
+180;TRANSIT-VANTX2.inet.0;134.87.30.250/31;ae2.3920;cr2.mgmt.vncv1
+181;TRANSIT-VANTX2.inet.0;134.87.32.0/19;ae2.3920;cr2.mgmt.vncv1
+182;TRANSIT-VANTX2.inet.0;134.87.32.0/19;ae1.3928;cr2.mgmt.vncv1
+183;TRANSIT-VANTX2.inet.0;134.87.112.0/24;ae2.3920;cr2.mgmt.vncv1
+184;TRANSIT-VANTX2.inet.0;134.87.112.0/24;rlt0.31;cr2.mgmt.vncv1
+185;TRANSIT-VANTX2.inet.0;134.87.128.0/18;ae2.3920;cr2.mgmt.vncv1
+186;TRANSIT-VANTX2.inet.0;134.87.128.0/18;ae1.3928;cr2.mgmt.vncv1
+187;inet.0;142.231.1.48/29;ae2.3900;cr2.mgmt.vncv1
+188;inet.0;142.231.1.80/29;ae2.3900;cr2.mgmt.vncv1
+189;inet.0;142.231.1.100/30;ae1.3908;cr2.mgmt.vncv1
+190;inet.0;142.231.1.104/30;ae1.3908;cr2.mgmt.vncv1
+191;inet.0;142.231.1.108/31;rlt0.41;cr2.mgmt.vncv1
+192;inet.0;142.231.1.110/31;ae1.3908;cr2.mgmt.vncv1
+193;inet.0;142.231.1.120/31;ae2.3900;cr2.mgmt.vncv1
+194;inet.0;142.231.1.160/27;ae2.3900;cr2.mgmt.vncv1
+195;inet.0;142.231.2.0/24;ae2.3900;cr2.mgmt.vncv1
+196;inet.0;142.231.2.4/30;ae2.3900;cr2.mgmt.vncv1
+197;inet.0;142.231.2.12/30;ae2.3900;cr2.mgmt.vncv1
+198;inet.0;142.231.2.24/30;ae2.3900;cr2.mgmt.vncv1
+199;inet.0;142.231.2.224/27;ae2.3900;cr2.mgmt.vncv1
+200;inet.0;142.231.3.0/24;ae2.3900;cr2.mgmt.vncv1
+201;inet.0;142.231.6.0/24;ae2.3900;cr2.mgmt.vncv1
+202;inet.0;142.231.7.0/27;ge-0/0/0.765;cr2.mgmt.vncv1
+203;inet.0;142.231.20.0/24;et-5/0/2.184;cr2.mgmt.vncv1
+204;inet.0;142.231.32.0/20;ae2.3900, Push 108;cr2.mgmt.vncv1
+205;inet.0;142.231.64.0/19;ae2.3900, Push 108;cr2.mgmt.vncv1
+206;inet.0;142.231.109.0/24;ae2.3900, Push 100;cr2.mgmt.vncv1
+207;inet.0;142.231.112.0/24;ae2.3900;cr2.mgmt.vncv1
+208;inet.0;142.231.112.0/24;rlt0.41;cr2.mgmt.vncv1
+209;inet.2;142.231.1.48/29;ae2.3900;cr2.mgmt.vncv1
+210;inet.2;142.231.1.80/29;ae2.3900;cr2.mgmt.vncv1
+211;inet.2;142.231.1.108/31;rlt0.41;cr2.mgmt.vncv1
+212;inet.2;142.231.1.120/31;ae2.3900;cr2.mgmt.vncv1
+213;inet.2;142.231.1.160/27;ae2.3900;cr2.mgmt.vncv1
+214;inet.2;142.231.2.4/30;ae2.3900;cr2.mgmt.vncv1
+215;inet.2;142.231.2.12/30;ae2.3900;cr2.mgmt.vncv1
+216;inet.2;142.231.2.24/30;ae2.3900;cr2.mgmt.vncv1
+217;inet.2;142.231.2.224/27;ae2.3900;cr2.mgmt.vncv1
+218;inet.2;142.231.112.0/24;ae2.3900;cr2.mgmt.vncv1
+219;inet.2;142.231.112.0/24;rlt0.41;cr2.mgmt.vncv1
+220;mgmt_junos.inet.0;142.231.144.0/20;fxp0.0;cr2.mgmt.vncv1
+221;mgmt_junos.inet.0;142.231.146.0/24;fxp0.0;cr2.mgmt.vncv1
+222;mgmt_junos.inet.0;142.231.146.0/24;fxp0.0;cr2.mgmt.vncv1
+223;mgmt_junos.inet.0;142.231.146.2/32;fxp0.0;cr2.mgmt.vncv1
+224;mgmt_junos.inet.0;142.231.146.3/32;fxp0.0;cr2.mgmt.vncv1
+225;MANLAN.inet.0;142.231.144.216/30;ae2.3900, Push 16, Push 100(top);cr2.mgmt.vncv1
+226;MANLAN.inet.0;142.231.144.220/30;ae2.3900, Push 16, Push 100(top);cr2.mgmt.vncv1
+227;MANLAN.inet.0;142.231.145.0/24;ae2.3900, Push 16;cr2.mgmt.vncv1
+228;MANLAN.inet.0;142.231.146.0/24;ge-11/0/2.654;cr2.mgmt.vncv1
+229;MANLAN.inet.0;142.231.147.0/24;ae1.3908, Push 110, Push 103(top);cr2.mgmt.vncv1
+230;MANLAN.inet.0;142.231.147.0/24;ae2.3900, Push 110, Push 105(top);cr2.mgmt.vncv1
+231;MANLAN.inet.0;142.231.148.0/24;ae2.3900, Push 16, Push 100(top);cr2.mgmt.vncv1
+232;MANLAN.inet.0;142.231.149.0/24;ae2.3900, Push 123, Push 108(top);cr2.mgmt.vncv1
+233;MANLAN.inet.0;142.231.150.0/24;xe-5/1/0:0.3903, Push 58;cr2.mgmt.vncv1
+234;MANLAN.inet.0;142.231.151.0/28;xe-3/0/5.256;cr2.mgmt.vncv1
+235;MANLAN.inet.0;142.231.151.0/28;ae2.3900, Push 16;cr2.mgmt.vncv1
+236;MANLAN.inet.0;142.231.151.14/32;xe-3/0/5.256;cr2.mgmt.vncv1
+237;MANLAN.inet.0;142.231.151.64/28;ae2.3900, Push 16, Push 100(top);cr2.mgmt.vncv1
+238;MANLAN.inet.0;142.231.151.96/27;irb.244;cr2.mgmt.vncv1
+239;MANLAN.inet.0;142.231.151.96/27;ae2.3900, Push 16;cr2.mgmt.vncv1
+240;MANLAN.inet.0;142.231.151.126/32;irb.244;cr2.mgmt.vncv1
+241;MANLAN.inet.0;142.231.151.193/32;ae2.3900, Push 16;cr2.mgmt.vncv1
+242;MANLAN.inet.0;142.231.151.194/32;ae2.3900, Push 16;cr2.mgmt.vncv1
+243;MANLAN.inet.0;142.231.151.195/32;ae2.3900, Push 16;cr2.mgmt.vncv1
+244;MANLAN.inet.0;142.231.151.196/32;ae2.3900, Push 16;cr2.mgmt.vncv1
+245;MANLAN.inet.0;142.231.151.201/32;ae2.3900, Push 16;cr2.mgmt.vncv1
+246;MANLAN.inet.0;142.231.151.202/32;ae2.3900, Push 16;cr2.mgmt.vncv1
+247;MANLAN.inet.0;142.231.151.208/28;ae2.3900, Push 16;cr2.mgmt.vncv1
+248;MANLAN.inet.0;142.231.151.224/30;ae2.3900, Push 16;cr2.mgmt.vncv1
+249;MANLAN.inet.0;142.231.151.228/30;ae2.3900, Push 16;cr2.mgmt.vncv1
+250;MANLAN.inet.0;142.231.151.240/28;ae2.3900, Push 16;cr2.mgmt.vncv1
+251;MANLAN.inet.0;142.231.152.0/28;ae2.3900, Push 16;cr2.mgmt.vncv1
+252;MANLAN.inet.0;142.231.152.48/28;ae2.3900, Push 16, Push 100(top);cr2.mgmt.vncv1
+253;MANLAN.inet.0;142.231.152.128/28;ae2.3900, Push 16;cr2.mgmt.vncv1
+254;MANLAN.inet.0;142.231.152.176/28;ae2.3900, Push 16, Push 100(top);cr2.mgmt.vncv1
+255;MANLAN.inet.0;142.231.153.16/28;ae2.3900, Push 16;cr2.mgmt.vncv1
+256;MANLAN.inet.0;142.231.153.64/27;ae2.3900, Push 16, Push 100(top);cr2.mgmt.vncv1
+257;MANLAN.inet.0;142.231.153.96/27;ae2.3900, Push 16, Push 100(top);cr2.mgmt.vncv1
+258;MANLAN.inet.0;142.231.154.0/24;ae1.3908, Push 16;cr2.mgmt.vncv1
+259;TRANSIT-VANTX2.inet.0;142.231.0.0/16;ae2.3920;cr2.mgmt.vncv1
+260;TRANSIT-VANTX2.inet.0;142.231.1.100/30;ae1.3928;cr2.mgmt.vncv1
+261;TRANSIT-VANTX2.inet.0;142.231.1.104/30;ae1.3928;cr2.mgmt.vncv1
+262;TRANSIT-VANTX2.inet.0;142.231.1.108/31;rlt0.31;cr2.mgmt.vncv1
+263;TRANSIT-VANTX2.inet.0;142.231.1.110/31;ae1.3928;cr2.mgmt.vncv1
+264;TRANSIT-VANTX2.inet.0;142.231.1.112/29;ae2.3920;cr2.mgmt.vncv1
+265;TRANSIT-VANTX2.inet.0;142.231.1.120/31;ae2.3920;cr2.mgmt.vncv1
+266;TRANSIT-VANTX2.inet.0;142.231.1.160/27;ae2.3920;cr2.mgmt.vncv1
+267;TRANSIT-VANTX2.inet.0;142.231.2.0/24;ae2.3920;cr2.mgmt.vncv1
+268;TRANSIT-VANTX2.inet.0;142.231.2.4/30;ae2.3920;cr2.mgmt.vncv1
+269;TRANSIT-VANTX2.inet.0;142.231.2.12/30;ae2.3920;cr2.mgmt.vncv1
+270;TRANSIT-VANTX2.inet.0;142.231.2.24/30;ae2.3920;cr2.mgmt.vncv1
+271;TRANSIT-VANTX2.inet.0;142.231.2.224/27;ae2.3920;cr2.mgmt.vncv1
+272;TRANSIT-VANTX2.inet.0;142.231.3.0/24;ae2.3920;cr2.mgmt.vncv1
+273;TRANSIT-VANTX2.inet.0;142.231.6.0/24;ae2.3920;cr2.mgmt.vncv1
+274;TRANSIT-VANTX2.inet.0;142.231.7.0/27;ge-0/0/0.763;cr2.mgmt.vncv1
+275;TRANSIT-VANTX2.inet.0;142.231.20.0/24;et-5/0/2.188;cr2.mgmt.vncv1
+276;TRANSIT-VANTX2.inet.0;142.231.20.0/24;et-5/0/2.199;cr2.mgmt.vncv1
+277;TRANSIT-VANTX2.inet.0;142.231.20.0/24;et-5/0/2.188;cr2.mgmt.vncv1
+278;TRANSIT-VANTX2.inet.0;142.231.22.0/24;ae2.3920;cr2.mgmt.vncv1
+279;TRANSIT-VANTX2.inet.0;142.231.23.0/24;ae2.3920;cr2.mgmt.vncv1
+280;TRANSIT-VANTX2.inet.0;142.231.32.0/20;ae2.3920;cr2.mgmt.vncv1
+281;TRANSIT-VANTX2.inet.0;142.231.64.0/19;ae2.3920;cr2.mgmt.vncv1
+282;TRANSIT-VANTX2.inet.0;142.231.109.0/24;ae2.3920;cr2.mgmt.vncv1
+283;TRANSIT-VANTX2.inet.0;142.231.112.0/24;ae2.3920;cr2.mgmt.vncv1
+284;TRANSIT-VANTX2.inet.0;142.231.112.0/24;rlt0.31;cr2.mgmt.vncv1
+285;TRANSIT-VANTX2.inet.0;142.231.116.0/24;ae2.3920;cr2.mgmt.vncv1
+286;TRANSIT-VANTX2.inet.0;142.231.117.0/24;ae1.3928;cr2.mgmt.vncv1
+287;TRANSIT-VANTX2.inet.0;142.231.144.216/30;ae2.3900, Push 16, Push 100(top);cr2.mgmt.vncv1
+288;TRANSIT-VANTX2.inet.0;142.231.144.220/30;ae2.3900, Push 16, Push 100(top);cr2.mgmt.vncv1
+289;TRANSIT-VANTX2.inet.0;142.231.145.0/24;ae2.3900, Push 16;cr2.mgmt.vncv1
+290;TRANSIT-VANTX2.inet.0;142.231.147.0/24;ae1.3908, Push 110, Push 103(top);cr2.mgmt.vncv1
+291;TRANSIT-VANTX2.inet.0;142.231.147.0/24;ae2.3900, Push 110, Push 105(top);cr2.mgmt.vncv1
+292;TRANSIT-VANTX2.inet.0;142.231.148.0/24;ae2.3900, Push 16, Push 100(top);cr2.mgmt.vncv1
+293;TRANSIT-VANTX2.inet.0;142.231.149.0/24;ae2.3900, Push 123, Push 108(top);cr2.mgmt.vncv1
+294;TRANSIT-VANTX2.inet.0;142.231.150.0/24;xe-5/1/0:0.3903, Push 58;cr2.mgmt.vncv1
+295;TRANSIT-VANTX2.inet.0;142.231.151.0/28;ae2.3900, Push 16;cr2.mgmt.vncv1
+296;TRANSIT-VANTX2.inet.0;142.231.151.64/28;ae2.3900, Push 16, Push 100(top);cr2.mgmt.vncv1
+297;TRANSIT-VANTX2.inet.0;142.231.151.96/27;ae2.3900, Push 16;cr2.mgmt.vncv1
+298;TRANSIT-VANTX2.inet.0;142.231.151.193/32;ae2.3900, Push 16;cr2.mgmt.vncv1
+299;TRANSIT-VANTX2.inet.0;142.231.151.194/32;ae2.3900, Push 16;cr2.mgmt.vncv1
+300;TRANSIT-VANTX2.inet.0;142.231.151.195/32;ae2.3900, Push 16;cr2.mgmt.vncv1
+301;TRANSIT-VANTX2.inet.0;142.231.151.196/32;ae2.3900, Push 16;cr2.mgmt.vncv1
+302;TRANSIT-VANTX2.inet.0;142.231.151.201/32;ae2.3900, Push 16;cr2.mgmt.vncv1
+303;TRANSIT-VANTX2.inet.0;142.231.151.202/32;ae2.3900, Push 16;cr2.mgmt.vncv1
+304;TRANSIT-VANTX2.inet.0;142.231.151.208/28;ae2.3900, Push 16;cr2.mgmt.vncv1
+305;TRANSIT-VANTX2.inet.0;142.231.151.224/30;ae2.3900, Push 16;cr2.mgmt.vncv1
+306;TRANSIT-VANTX2.inet.0;142.231.151.228/30;ae2.3900, Push 16;cr2.mgmt.vncv1
+307;TRANSIT-VANTX2.inet.0;142.231.151.240/28;ae2.3900, Push 16;cr2.mgmt.vncv1
+308;TRANSIT-VANTX2.inet.0;142.231.152.0/28;ae2.3900, Push 16;cr2.mgmt.vncv1
+309;TRANSIT-VANTX2.inet.0;142.231.152.48/28;ae2.3900, Push 16, Push 100(top);cr2.mgmt.vncv1
+310;TRANSIT-VANTX2.inet.0;142.231.152.128/28;ae2.3900, Push 16;cr2.mgmt.vncv1
+311;TRANSIT-VANTX2.inet.0;142.231.152.176/28;ae2.3900, Push 16, Push 100(top);cr2.mgmt.vncv1
+312;TRANSIT-VANTX2.inet.0;142.231.153.16/28;ae2.3900, Push 16;cr2.mgmt.vncv1
+313;TRANSIT-VANTX2.inet.0;142.231.153.64/27;ae2.3900, Push 16, Push 100(top);cr2.mgmt.vncv1
+314;TRANSIT-VANTX2.inet.0;142.231.153.96/27;ae2.3900, Push 16, Push 100(top);cr2.mgmt.vncv1
+315;TRANSIT-VANTX2.inet.0;142.231.154.0/24;ae1.3908, Push 16;cr2.mgmt.vncv1
+316;TRANSIT-VANTX2.inet.0;192.67.9.0/24;ae2.3920;cr2.mgmt.vncv1
+317;TRANSIT-VANTX2.inet.0;192.219.32.0/19;xe-5/0/0:0.0;cr2.mgmt.vncv1
+318;TRANSIT-VANTX2.inet.0;192.219.32.0/19;ae2.3920;cr2.mgmt.vncv1
+319;TRANSIT-VANTX2.inet.0;192.219.32.0/19;ae1.3928;cr2.mgmt.vncv1
+320;inet.0;206.12.0.1/32;ae2.3900;cr2.mgmt.vncv1
+321;inet.0;206.12.0.2/32;lo0.0;cr2.mgmt.vncv1
+322;inet.0;206.12.0.5/32;xe-5/1/0:0.3903;cr2.mgmt.vncv1
+323;inet.0;206.12.0.6/32;ae2.3900;cr2.mgmt.vncv1
+324;inet.0;206.12.0.7/32;ae1.3908;cr2.mgmt.vncv1
+325;inet.0;206.12.0.8/32;ae1.3908;cr2.mgmt.vncv1
+326;inet.0;206.12.0.8/32;ae2.3900;cr2.mgmt.vncv1
+327;inet.0;206.12.0.9/32;ae2.3900;cr2.mgmt.vncv1
+328;inet.0;206.12.0.36/30;ae2.3900;cr2.mgmt.vncv1
+329;inet.0;206.12.0.40/30;ae2.3900;cr2.mgmt.vncv1
+330;inet.0;206.12.0.44/30;xe-5/1/0:0.3903;cr2.mgmt.vncv1
+331;inet.0;206.12.0.45/32;xe-5/1/0:0.3903;cr2.mgmt.vncv1
+332;inet.0;206.12.0.48/30;ae2.3900;cr2.mgmt.vncv1
+333;inet.0;206.12.0.52/30;ae1.3908;cr2.mgmt.vncv1
+334;inet.0;206.12.0.104/30;ae2.3900;cr2.mgmt.vncv1
+335;inet.0;206.12.0.116/30;ae2.3900;cr2.mgmt.vncv1
+336;inet.0;206.12.0.120/31;ae2.3900;cr2.mgmt.vncv1
+337;inet.0;206.12.0.121/32;ae2.3900;cr2.mgmt.vncv1
+338;inet.0;206.12.0.122/31;ae1.3908;cr2.mgmt.vncv1
+339;inet.0;206.12.0.122/32;ae1.3908;cr2.mgmt.vncv1
+340;inet.0;206.12.0.124/31;ae1.3908;cr2.mgmt.vncv1
+341;inet.0;206.12.0.124/31;ae2.3900;cr2.mgmt.vncv1
+342;inet.0;206.12.0.128/31;ae1.3908;cr2.mgmt.vncv1
+343;inet.0;206.12.0.130/31;ae1.3908;cr2.mgmt.vncv1
+344;inet.0;206.12.0.130/31;xe-5/1/0:0.3903;cr2.mgmt.vncv1
+345;inet.0;206.12.0.132/31;ae1.3908;cr2.mgmt.vncv1
+346;inet.0;206.12.0.134/31;ae1.3908;cr2.mgmt.vncv1
+347;inet.0;206.12.1.0/24;ae2.3900;cr2.mgmt.vncv1
+348;inet.0;206.12.6.0/23;xe-2/0/7.169;cr2.mgmt.vncv1
+349;inet.0;206.12.9.0/24;ae2.3900;cr2.mgmt.vncv1
+350;inet.0;206.12.10.0/24;xe-2/0/7.169;cr2.mgmt.vncv1
+351;inet.0;206.12.12.0/24;et-5/0/2.184;cr2.mgmt.vncv1
+352;inet.0;206.12.13.0/24;et-5/0/2.184;cr2.mgmt.vncv1
+353;inet.0;206.12.14.0/24;et-5/0/2.184;cr2.mgmt.vncv1
+354;inet.0;206.12.15.0/24;et-5/0/2.184;cr2.mgmt.vncv1
+355;inet.0;206.12.16.0/24;xe-2/0/7.169;cr2.mgmt.vncv1
+356;inet.0;206.12.17.0/24;xe-2/0/7.169;cr2.mgmt.vncv1
+357;inet.0;206.12.18.0/24;et-5/0/2.184;cr2.mgmt.vncv1
+358;inet.0;206.12.28.0/24;et-5/0/2.184;cr2.mgmt.vncv1
+359;inet.0;206.12.40.0/21;et-5/0/2.184;cr2.mgmt.vncv1
+360;inet.0;206.12.48.0/24;ae1.3908, Push 103;cr2.mgmt.vncv1
+361;inet.0;206.12.48.0/24;ae2.3900, Push 105;cr2.mgmt.vncv1
+362;inet.0;206.12.50.0/24;ae1.3908, Push 103;cr2.mgmt.vncv1
+363;inet.0;206.12.50.0/24;ae2.3900, Push 105;cr2.mgmt.vncv1
+364;inet.0;206.12.52.0/22;et-5/0/2.184;cr2.mgmt.vncv1
+365;inet.0;206.12.56.0/23;ae1.3908, Push 103;cr2.mgmt.vncv1
+366;inet.0;206.12.56.0/23;ae2.3900, Push 105;cr2.mgmt.vncv1
+367;inet.0;206.12.58.0/24;ae1.3908, Push 103;cr2.mgmt.vncv1
+368;inet.0;206.12.58.0/24;ae2.3900, Push 105;cr2.mgmt.vncv1
+369;inet.0;206.12.59.0/24;ae1.3908, Push 103;cr2.mgmt.vncv1
+370;inet.0;206.12.59.0/24;ae2.3900, Push 105;cr2.mgmt.vncv1
+371;inet.0;206.12.60.0/22;ae1.3908, Push 103;cr2.mgmt.vncv1
+372;inet.0;206.12.60.0/22;ae2.3900, Push 105;cr2.mgmt.vncv1
+373;inet.0;206.12.64.0/20;et-5/0/2.184;cr2.mgmt.vncv1
+374;inet.0;206.12.76.0/24;ae2.3900, Push 100;cr2.mgmt.vncv1
+375;inet.0;206.12.77.0/24;ae2.3900, Push 100;cr2.mgmt.vncv1
+376;inet.0;206.12.88.0/21;ae1.3908, Push 103;cr2.mgmt.vncv1
+377;inet.0;206.12.88.0/21;ae2.3900, Push 105;cr2.mgmt.vncv1
+378;inet.0;206.12.96.0/21;ae1.3908, Push 103;cr2.mgmt.vncv1
+379;inet.0;206.12.96.0/21;ae2.3900, Push 105;cr2.mgmt.vncv1
+380;inet.0;206.12.104.0/22;et-5/0/2.184;cr2.mgmt.vncv1
+381;inet.0;206.12.116.0/24;ae2.3900, Push 108;cr2.mgmt.vncv1
+382;inet.0;206.12.119.0/24;et-5/0/2.184;cr2.mgmt.vncv1
+383;inet.0;206.12.120.0/21;ae2.3900;cr2.mgmt.vncv1
+384;inet.0;206.12.128.0/24;ae1.3908;cr2.mgmt.vncv1
+385;inet.0;206.12.136.0/21;et-5/0/2.184;cr2.mgmt.vncv1
+386;inet.0;206.12.149.0/24;ae2.3900, Push 100;cr2.mgmt.vncv1
+387;inet.0;206.12.150.0/24;ae1.3908;cr2.mgmt.vncv1
+388;inet.0;206.12.152.0/24;ae2.3900;cr2.mgmt.vncv1
+389;inet.0;206.12.152.0/24;rlt0.41;cr2.mgmt.vncv1
+390;inet.0;206.12.154.0/24;ae1.3908, Push 103;cr2.mgmt.vncv1
+391;inet.0;206.12.154.0/24;ae2.3900, Push 105;cr2.mgmt.vncv1
+392;inet.0;206.12.155.0/24;ae1.3908, Push 103;cr2.mgmt.vncv1
+393;inet.0;206.12.155.0/24;ae2.3900, Push 105;cr2.mgmt.vncv1
+394;inet.0;206.12.160.0/21;et-5/0/2.184;cr2.mgmt.vncv1
+395;inet.0;206.12.172.0/23;ae2.3900, Push 100;cr2.mgmt.vncv1
+396;inet.0;206.12.174.0/24;ae2.3900, Push 100;cr2.mgmt.vncv1
+397;inet.0;206.12.176.0/21;et-5/0/2.184;cr2.mgmt.vncv1
+398;inet.0;206.12.200.0/22;et-5/0/2.184;cr2.mgmt.vncv1
+399;inet.0;206.12.208.0/22;et-5/0/2.184;cr2.mgmt.vncv1
+400;inet.0;206.12.224.0/19;ae1.3908, Push 103;cr2.mgmt.vncv1
+401;inet.0;206.12.224.0/19;ae2.3900, Push 105;cr2.mgmt.vncv1
+402;inet.2;206.12.0.1/32;ae2.3900;cr2.mgmt.vncv1
+403;inet.2;206.12.0.2/32;lo0.0;cr2.mgmt.vncv1
+404;inet.2;206.12.0.5/32;xe-5/1/0:0.3903;cr2.mgmt.vncv1
+405;inet.2;206.12.0.6/32;ae2.3900;cr2.mgmt.vncv1
+406;inet.2;206.12.0.7/32;ae1.3908;cr2.mgmt.vncv1
+407;inet.2;206.12.0.8/32;ae1.3908;cr2.mgmt.vncv1
+408;inet.2;206.12.0.8/32;ae2.3900;cr2.mgmt.vncv1
+409;inet.2;206.12.0.9/32;ae2.3900;cr2.mgmt.vncv1
+410;inet.2;206.12.0.36/30;ae2.3900;cr2.mgmt.vncv1
+411;inet.2;206.12.0.40/30;ae2.3900;cr2.mgmt.vncv1
+412;inet.2;206.12.0.44/30;xe-5/1/0:0.3903;cr2.mgmt.vncv1
+413;inet.2;206.12.0.45/32;xe-5/1/0:0.3903;cr2.mgmt.vncv1
+414;inet.2;206.12.0.48/30;ae2.3900;cr2.mgmt.vncv1
+415;inet.2;206.12.0.52/30;ae1.3908;cr2.mgmt.vncv1
+416;inet.2;206.12.0.104/30;ae2.3900;cr2.mgmt.vncv1
+417;inet.2;206.12.0.116/30;ae2.3900;cr2.mgmt.vncv1
+418;inet.2;206.12.0.120/31;ae2.3900;cr2.mgmt.vncv1
+419;inet.2;206.12.0.121/32;ae2.3900;cr2.mgmt.vncv1
+420;inet.2;206.12.0.122/31;ae1.3908;cr2.mgmt.vncv1
+421;inet.2;206.12.0.122/32;ae1.3908;cr2.mgmt.vncv1
+422;inet.2;206.12.0.124/31;ae1.3908;cr2.mgmt.vncv1
+423;inet.2;206.12.0.124/31;ae2.3900;cr2.mgmt.vncv1
+424;inet.2;206.12.0.128/31;ae1.3908;cr2.mgmt.vncv1
+425;inet.2;206.12.0.130/31;ae1.3908;cr2.mgmt.vncv1
+426;inet.2;206.12.0.130/31;xe-5/1/0:0.3903;cr2.mgmt.vncv1
+427;inet.2;206.12.0.132/31;ae1.3908;cr2.mgmt.vncv1
+428;inet.2;206.12.0.134/31;ae1.3908;cr2.mgmt.vncv1
+429;inet.2;206.12.152.0/24;ae2.3900;cr2.mgmt.vncv1
+430;inet.2;206.12.152.0/24;rlt0.41;cr2.mgmt.vncv1
+431;inet.3;206.12.0.1/32;ae2.3900;cr2.mgmt.vncv1
+432;inet.3;206.12.0.5/32;xe-5/1/0:0.3903;cr2.mgmt.vncv1
+433;inet.3;206.12.0.6/32;ae2.3900, Push 108;cr2.mgmt.vncv1
+434;inet.3;206.12.0.7/32;ae1.3908;cr2.mgmt.vncv1
+435;inet.3;206.12.0.8/32;ae1.3908, Push 103;cr2.mgmt.vncv1
+436;inet.3;206.12.0.8/32;ae2.3900, Push 105;cr2.mgmt.vncv1
+437;inet.3;206.12.0.9/32;ae2.3900, Push 100;cr2.mgmt.vncv1
+438;TRANSIT-VANTX2.inet.0;206.12.0.0/16;ae2.3920;cr2.mgmt.vncv1
+439;TRANSIT-VANTX2.inet.0;206.12.1.0/24;ae2.3920;cr2.mgmt.vncv1
+440;TRANSIT-VANTX2.inet.0;206.12.6.0/23;xe-3/2/0.168;cr2.mgmt.vncv1
+441;TRANSIT-VANTX2.inet.0;206.12.9.0/24;ae2.3920;cr2.mgmt.vncv1
+442;TRANSIT-VANTX2.inet.0;206.12.10.0/24;xe-3/2/0.168;cr2.mgmt.vncv1
+443;TRANSIT-VANTX2.inet.0;206.12.12.0/24;et-5/0/2.188;cr2.mgmt.vncv1
+444;TRANSIT-VANTX2.inet.0;206.12.12.0/24;et-5/0/2.199;cr2.mgmt.vncv1
+445;TRANSIT-VANTX2.inet.0;206.12.12.0/24;et-5/0/2.188;cr2.mgmt.vncv1
+446;TRANSIT-VANTX2.inet.0;206.12.13.0/24;et-5/0/2.188;cr2.mgmt.vncv1
+447;TRANSIT-VANTX2.inet.0;206.12.13.0/24;et-5/0/2.199;cr2.mgmt.vncv1
+448;TRANSIT-VANTX2.inet.0;206.12.13.0/24;et-5/0/2.188;cr2.mgmt.vncv1
+449;TRANSIT-VANTX2.inet.0;206.12.14.0/24;et-5/0/2.188;cr2.mgmt.vncv1
+450;TRANSIT-VANTX2.inet.0;206.12.14.0/24;et-5/0/2.199;cr2.mgmt.vncv1
+451;TRANSIT-VANTX2.inet.0;206.12.14.0/24;et-5/0/2.188;cr2.mgmt.vncv1
+452;TRANSIT-VANTX2.inet.0;206.12.15.0/24;et-5/0/2.188;cr2.mgmt.vncv1
+453;TRANSIT-VANTX2.inet.0;206.12.15.0/24;et-5/0/2.199;cr2.mgmt.vncv1
+454;TRANSIT-VANTX2.inet.0;206.12.15.0/24;et-5/0/2.188;cr2.mgmt.vncv1
+455;TRANSIT-VANTX2.inet.0;206.12.16.0/24;xe-3/2/0.168;cr2.mgmt.vncv1
+456;TRANSIT-VANTX2.inet.0;206.12.17.0/24;xe-3/2/0.168;cr2.mgmt.vncv1
+457;TRANSIT-VANTX2.inet.0;206.12.18.0/24;et-5/0/2.188;cr2.mgmt.vncv1
+458;TRANSIT-VANTX2.inet.0;206.12.18.0/24;et-5/0/2.199;cr2.mgmt.vncv1
+459;TRANSIT-VANTX2.inet.0;206.12.18.0/24;et-5/0/2.188;cr2.mgmt.vncv1
+460;TRANSIT-VANTX2.inet.0;206.12.28.0/24;et-5/0/2.188;cr2.mgmt.vncv1
+461;TRANSIT-VANTX2.inet.0;206.12.28.0/24;et-5/0/2.199;cr2.mgmt.vncv1
+462;TRANSIT-VANTX2.inet.0;206.12.28.0/24;et-5/0/2.188;cr2.mgmt.vncv1
+463;TRANSIT-VANTX2.inet.0;206.12.40.0/21;et-5/0/2.188;cr2.mgmt.vncv1
+464;TRANSIT-VANTX2.inet.0;206.12.40.0/21;et-5/0/2.199;cr2.mgmt.vncv1
+465;TRANSIT-VANTX2.inet.0;206.12.40.0/21;et-5/0/2.188;cr2.mgmt.vncv1
+466;TRANSIT-VANTX2.inet.0;206.12.48.0/24;ae2.3920;cr2.mgmt.vncv1
+467;TRANSIT-VANTX2.inet.0;206.12.48.0/24;ae1.3928;cr2.mgmt.vncv1
+468;TRANSIT-VANTX2.inet.0;206.12.50.0/24;ae2.3920;cr2.mgmt.vncv1
+469;TRANSIT-VANTX2.inet.0;206.12.50.0/24;ae1.3928;cr2.mgmt.vncv1
+470;TRANSIT-VANTX2.inet.0;206.12.52.0/22;et-5/0/2.188;cr2.mgmt.vncv1
+471;TRANSIT-VANTX2.inet.0;206.12.52.0/22;et-5/0/2.199;cr2.mgmt.vncv1
+472;TRANSIT-VANTX2.inet.0;206.12.52.0/22;et-5/0/2.188;cr2.mgmt.vncv1
+473;TRANSIT-VANTX2.inet.0;206.12.56.0/23;ae2.3920;cr2.mgmt.vncv1
+474;TRANSIT-VANTX2.inet.0;206.12.56.0/23;ae1.3928;cr2.mgmt.vncv1
+475;TRANSIT-VANTX2.inet.0;206.12.58.0/24;ae2.3920;cr2.mgmt.vncv1
+476;TRANSIT-VANTX2.inet.0;206.12.58.0/24;ae1.3928;cr2.mgmt.vncv1
+477;TRANSIT-VANTX2.inet.0;206.12.59.0/24;ae2.3920;cr2.mgmt.vncv1
+478;TRANSIT-VANTX2.inet.0;206.12.59.0/24;ae1.3928;cr2.mgmt.vncv1
+479;TRANSIT-VANTX2.inet.0;206.12.60.0/22;ae2.3920;cr2.mgmt.vncv1
+480;TRANSIT-VANTX2.inet.0;206.12.60.0/22;ae1.3928;cr2.mgmt.vncv1
+481;TRANSIT-VANTX2.inet.0;206.12.64.0/20;et-5/0/2.188;cr2.mgmt.vncv1
+482;TRANSIT-VANTX2.inet.0;206.12.64.0/20;et-5/0/2.199;cr2.mgmt.vncv1
+483;TRANSIT-VANTX2.inet.0;206.12.64.0/20;et-5/0/2.188;cr2.mgmt.vncv1
+484;TRANSIT-VANTX2.inet.0;206.12.76.0/24;ae2.3920;cr2.mgmt.vncv1
+485;TRANSIT-VANTX2.inet.0;206.12.77.0/24;ae2.3920;cr2.mgmt.vncv1
+486;TRANSIT-VANTX2.inet.0;206.12.82.0/24;ae2.3920;cr2.mgmt.vncv1
+487;TRANSIT-VANTX2.inet.0;206.12.82.0/24;ae1.3928;cr2.mgmt.vncv1
+488;TRANSIT-VANTX2.inet.0;206.12.82.0/24;xe-5/0/0:0.0;cr2.mgmt.vncv1
+489;TRANSIT-VANTX2.inet.0;206.12.88.0/21;ae2.3920;cr2.mgmt.vncv1
+490;TRANSIT-VANTX2.inet.0;206.12.88.0/21;ae1.3928;cr2.mgmt.vncv1
+491;TRANSIT-VANTX2.inet.0;206.12.96.0/21;ae2.3920;cr2.mgmt.vncv1
+492;TRANSIT-VANTX2.inet.0;206.12.96.0/21;ae1.3928;cr2.mgmt.vncv1
+493;TRANSIT-VANTX2.inet.0;206.12.104.0/22;et-5/0/2.188;cr2.mgmt.vncv1
+494;TRANSIT-VANTX2.inet.0;206.12.104.0/22;et-5/0/2.199;cr2.mgmt.vncv1
+495;TRANSIT-VANTX2.inet.0;206.12.104.0/22;et-5/0/2.188;cr2.mgmt.vncv1
+496;TRANSIT-VANTX2.inet.0;206.12.119.0/24;et-5/0/2.188;cr2.mgmt.vncv1
+497;TRANSIT-VANTX2.inet.0;206.12.119.0/24;et-5/0/2.199;cr2.mgmt.vncv1
+498;TRANSIT-VANTX2.inet.0;206.12.119.0/24;et-5/0/2.188;cr2.mgmt.vncv1
+499;TRANSIT-VANTX2.inet.0;206.12.120.0/21;ae2.3920;cr2.mgmt.vncv1
+500;TRANSIT-VANTX2.inet.0;206.12.128.0/24;ae1.3928;cr2.mgmt.vncv1
+501;TRANSIT-VANTX2.inet.0;206.12.136.0/21;et-5/0/2.188;cr2.mgmt.vncv1
+502;TRANSIT-VANTX2.inet.0;206.12.136.0/21;et-5/0/2.199;cr2.mgmt.vncv1
+503;TRANSIT-VANTX2.inet.0;206.12.136.0/21;et-5/0/2.188;cr2.mgmt.vncv1
+504;TRANSIT-VANTX2.inet.0;206.12.149.0/24;ae2.3920;cr2.mgmt.vncv1
+505;TRANSIT-VANTX2.inet.0;206.12.150.0/24;ae1.3928;cr2.mgmt.vncv1
+506;TRANSIT-VANTX2.inet.0;206.12.152.0/24;ae2.3920;cr2.mgmt.vncv1
+507;TRANSIT-VANTX2.inet.0;206.12.152.0/24;rlt0.31;cr2.mgmt.vncv1
+508;TRANSIT-VANTX2.inet.0;206.12.153.0/24;xe-5/0/0:0.0;cr2.mgmt.vncv1
+509;TRANSIT-VANTX2.inet.0;206.12.153.0/24;ae2.3920;cr2.mgmt.vncv1
+510;TRANSIT-VANTX2.inet.0;206.12.153.0/24;ae1.3928;cr2.mgmt.vncv1
+511;TRANSIT-VANTX2.inet.0;206.12.154.0/24;ae2.3920;cr2.mgmt.vncv1
+512;TRANSIT-VANTX2.inet.0;206.12.154.0/24;ae1.3928;cr2.mgmt.vncv1
+513;TRANSIT-VANTX2.inet.0;206.12.155.0/24;ae2.3920;cr2.mgmt.vncv1
+514;TRANSIT-VANTX2.inet.0;206.12.155.0/24;ae1.3928;cr2.mgmt.vncv1
+515;TRANSIT-VANTX2.inet.0;206.12.160.0/21;et-5/0/2.188;cr2.mgmt.vncv1
+516;TRANSIT-VANTX2.inet.0;206.12.160.0/21;et-5/0/2.199;cr2.mgmt.vncv1
+517;TRANSIT-VANTX2.inet.0;206.12.160.0/21;et-5/0/2.188;cr2.mgmt.vncv1
+518;TRANSIT-VANTX2.inet.0;206.12.172.0/23;ae2.3920;cr2.mgmt.vncv1
+519;TRANSIT-VANTX2.inet.0;206.12.174.0/24;ae2.3920;cr2.mgmt.vncv1
+520;TRANSIT-VANTX2.inet.0;206.12.176.0/21;et-5/0/2.188;cr2.mgmt.vncv1
+521;TRANSIT-VANTX2.inet.0;206.12.176.0/21;et-5/0/2.199;cr2.mgmt.vncv1
+522;TRANSIT-VANTX2.inet.0;206.12.176.0/21;et-5/0/2.188;cr2.mgmt.vncv1
+523;TRANSIT-VANTX2.inet.0;206.12.200.0/22;et-5/0/2.188;cr2.mgmt.vncv1
+524;TRANSIT-VANTX2.inet.0;206.12.200.0/22;et-5/0/2.199;cr2.mgmt.vncv1
+525;TRANSIT-VANTX2.inet.0;206.12.200.0/22;et-5/0/2.188;cr2.mgmt.vncv1
+526;TRANSIT-VANTX2.inet.0;206.12.208.0/22;et-5/0/2.188;cr2.mgmt.vncv1
+527;TRANSIT-VANTX2.inet.0;206.12.208.0/22;et-5/0/2.199;cr2.mgmt.vncv1
+528;TRANSIT-VANTX2.inet.0;206.12.208.0/22;et-5/0/2.188;cr2.mgmt.vncv1
+529;TRANSIT-VANTX2.inet.0;206.12.224.0/19;ae2.3920;cr2.mgmt.vncv1
+530;TRANSIT-VANTX2.inet.0;206.12.224.0/19;ae1.3928;cr2.mgmt.vncv1
+531;inet.0;206.87.0.0/18;ae2.3900, Push 108;cr2.mgmt.vncv1
+532;inet.0;206.87.64.0/21;ae1.3908, Push 103;cr2.mgmt.vncv1
+533;inet.0;206.87.64.0/21;ae2.3900, Push 105;cr2.mgmt.vncv1
+534;inet.0;206.87.80.0/20;ae1.3908, Push 103;cr2.mgmt.vncv1
+535;inet.0;206.87.80.0/20;ae2.3900, Push 105;cr2.mgmt.vncv1
+536;inet.0;206.87.96.0/19;et-5/0/2.184;cr2.mgmt.vncv1
+537;inet.0;206.87.128.0/19;et-5/0/2.184;cr2.mgmt.vncv1
+538;inet.0;206.87.160.0/19;ae1.3908, Push 103;cr2.mgmt.vncv1
+539;inet.0;206.87.160.0/19;ae2.3900, Push 105;cr2.mgmt.vncv1
+540;inet.0;206.87.192.0/19;et-5/0/2.184;cr2.mgmt.vncv1
+541;inet.0;206.87.224.0/20;et-5/0/2.184;cr2.mgmt.vncv1
+542;TRANSIT-VANTX2.inet.0;206.87.0.0/16;ae2.3920;cr2.mgmt.vncv1
+543;TRANSIT-VANTX2.inet.0;206.87.0.0/18;ae2.3920;cr2.mgmt.vncv1
+544;TRANSIT-VANTX2.inet.0;206.87.64.0/21;ae2.3920;cr2.mgmt.vncv1
+545;TRANSIT-VANTX2.inet.0;206.87.64.0/21;ae1.3928;cr2.mgmt.vncv1
+546;TRANSIT-VANTX2.inet.0;206.87.80.0/20;ae2.3920;cr2.mgmt.vncv1
+547;TRANSIT-VANTX2.inet.0;206.87.80.0/20;ae1.3928;cr2.mgmt.vncv1
+548;TRANSIT-VANTX2.inet.0;206.87.96.0/19;et-5/0/2.188;cr2.mgmt.vncv1
+549;TRANSIT-VANTX2.inet.0;206.87.96.0/19;et-5/0/2.199;cr2.mgmt.vncv1
+550;TRANSIT-VANTX2.inet.0;206.87.96.0/19;et-5/0/2.188;cr2.mgmt.vncv1
+551;TRANSIT-VANTX2.inet.0;206.87.128.0/19;et-5/0/2.188;cr2.mgmt.vncv1
+552;TRANSIT-VANTX2.inet.0;206.87.128.0/19;et-5/0/2.199;cr2.mgmt.vncv1
+553;TRANSIT-VANTX2.inet.0;206.87.128.0/19;et-5/0/2.188;cr2.mgmt.vncv1
+554;TRANSIT-VANTX2.inet.0;206.87.160.0/19;ae2.3920;cr2.mgmt.vncv1
+555;TRANSIT-VANTX2.inet.0;206.87.160.0/19;ae1.3928;cr2.mgmt.vncv1
+556;TRANSIT-VANTX2.inet.0;206.87.192.0/19;et-5/0/2.188;cr2.mgmt.vncv1
+557;TRANSIT-VANTX2.inet.0;206.87.192.0/19;et-5/0/2.199;cr2.mgmt.vncv1
+558;TRANSIT-VANTX2.inet.0;206.87.192.0/19;et-5/0/2.188;cr2.mgmt.vncv1
+559;TRANSIT-VANTX2.inet.0;206.87.224.0/20;et-5/0/2.188;cr2.mgmt.vncv1
+560;TRANSIT-VANTX2.inet.0;206.87.224.0/20;et-5/0/2.199;cr2.mgmt.vncv1
+561;TRANSIT-VANTX2.inet.0;206.87.224.0/20;et-5/0/2.188;cr2.mgmt.vncv1
+562;inet.0;207.23.8.0/21;ae2.3900, Push 100;cr2.mgmt.vncv1
+563;inet.0;207.23.72.0/24;xe-5/1/0:0.3903;cr2.mgmt.vncv1
+564;inet.0;207.23.73.0/24;xe-5/1/0:0.3903;cr2.mgmt.vncv1
+565;inet.0;207.23.85.0/24;xe-2/0/7.169;cr2.mgmt.vncv1
+566;inet.0;207.23.88.0/23;ae2.3900, Push 100;cr2.mgmt.vncv1
+567;inet.0;207.23.92.0/23;ae2.3900, Push 100;cr2.mgmt.vncv1
+568;inet.0;207.23.94.0/23;et-5/0/2.184;cr2.mgmt.vncv1
+569;inet.0;207.23.96.0/20;ae1.3908, Push 103;cr2.mgmt.vncv1
+570;inet.0;207.23.96.0/20;ae2.3900, Push 105;cr2.mgmt.vncv1
+571;inet.0;207.23.96.0/20;xe-2/0/2.1773;cr2.mgmt.vncv1
+572;inet.0;207.23.128.0/19;ae2.3900;cr2.mgmt.vncv1
+573;inet.0;207.23.160.0/19;xe-2/0/7.169;cr2.mgmt.vncv1
+574;inet.0;207.23.192.0/19;xe-2/0/7.169;cr2.mgmt.vncv1
+575;inet.0;207.23.240.36/31;ge-0/0/4.821;cr2.mgmt.vncv1
+576;inet.0;207.23.240.36/32;ge-0/0/4.821;cr2.mgmt.vncv1
+577;inet.0;207.23.240.38/31;ge-0/0/4.766;cr2.mgmt.vncv1
+578;inet.0;207.23.240.38/32;ge-0/0/4.766;cr2.mgmt.vncv1
+579;inet.0;207.23.240.42/31;rlt0.57;cr2.mgmt.vncv1
+580;inet.0;207.23.240.42/32;rlt0.57;cr2.mgmt.vncv1
+581;inet.0;207.23.240.44/30;ge-0/0/0.765;cr2.mgmt.vncv1
+582;inet.0;207.23.240.45/32;ge-0/0/0.765;cr2.mgmt.vncv1
+583;inet.0;207.23.240.48/31;rlt0.59;cr2.mgmt.vncv1
+584;inet.0;207.23.240.48/32;rlt0.59;cr2.mgmt.vncv1
+585;inet.0;207.23.240.50/31;xe-2/0/2.1773;cr2.mgmt.vncv1
+586;inet.0;207.23.240.50/32;xe-2/0/2.1773;cr2.mgmt.vncv1
+587;inet.0;207.23.240.52/31;ge-0/0/3.2382;cr2.mgmt.vncv1
+588;inet.0;207.23.240.53/32;ge-0/0/3.2382;cr2.mgmt.vncv1
+589;inet.0;207.23.240.54/31;ge-0/0/3.2385;cr2.mgmt.vncv1
+590;inet.0;207.23.240.55/32;ge-0/0/3.2385;cr2.mgmt.vncv1
+591;inet.0;207.23.240.68/30;rlt0.41;cr2.mgmt.vncv1
+592;inet.0;207.23.240.69/32;rlt0.41;cr2.mgmt.vncv1
+593;inet.0;207.23.240.212/32;ae2.3900;cr2.mgmt.vncv1
+594;inet.0;207.23.240.213/32;rlt0.41;cr2.mgmt.vncv1
+595;inet.0;207.23.240.214/32;ae1.3908;cr2.mgmt.vncv1
+596;inet.0;207.23.241.70/31;ae1.3908, Push 103;cr2.mgmt.vncv1
+597;inet.0;207.23.241.70/31;ae2.3900, Push 105;cr2.mgmt.vncv1
+598;inet.0;207.23.241.82/31;ae1.3908, Push 103;cr2.mgmt.vncv1
+599;inet.0;207.23.241.82/31;ae2.3900, Push 105;cr2.mgmt.vncv1
+600;inet.0;207.23.241.88/31;ae1.3908, Push 103;cr2.mgmt.vncv1
+601;inet.0;207.23.241.88/31;ae2.3900, Push 105;cr2.mgmt.vncv1
+602;inet.0;207.23.241.100/30;ae1.3908, Push 103;cr2.mgmt.vncv1
+603;inet.0;207.23.241.100/30;ae2.3900, Push 105;cr2.mgmt.vncv1
+604;inet.0;207.23.241.104/30;ae1.3908, Push 103;cr2.mgmt.vncv1
+605;inet.0;207.23.241.104/30;ae2.3900, Push 105;cr2.mgmt.vncv1
+606;inet.0;207.23.241.128/29;ae1.3908, Push 103;cr2.mgmt.vncv1
+607;inet.0;207.23.241.128/29;ae2.3900, Push 105;cr2.mgmt.vncv1
+608;inet.0;207.23.241.136/31;ae1.3908, Push 103;cr2.mgmt.vncv1
+609;inet.0;207.23.241.136/31;ae2.3900, Push 105;cr2.mgmt.vncv1
+610;inet.0;207.23.241.138/31;ae1.3908, Push 103;cr2.mgmt.vncv1
+611;inet.0;207.23.241.138/31;ae2.3900, Push 105;cr2.mgmt.vncv1
+612;inet.0;207.23.241.144/31;ae1.3908, Push 103;cr2.mgmt.vncv1
+613;inet.0;207.23.241.144/31;ae2.3900, Push 105;cr2.mgmt.vncv1
+614;inet.0;207.23.241.146/31;ae1.3908, Push 103;cr2.mgmt.vncv1
+615;inet.0;207.23.241.146/31;ae2.3900, Push 105;cr2.mgmt.vncv1
+616;inet.0;207.23.241.152/30;ae1.3908, Push 103;cr2.mgmt.vncv1
+617;inet.0;207.23.241.152/30;ae2.3900, Push 105;cr2.mgmt.vncv1
+618;inet.0;207.23.241.176/29;ae1.3908, Push 103;cr2.mgmt.vncv1
+619;inet.0;207.23.241.176/29;ae2.3900, Push 105;cr2.mgmt.vncv1
+620;inet.0;207.23.241.212/30;ae1.3908, Push 103;cr2.mgmt.vncv1
+621;inet.0;207.23.241.212/30;ae2.3900, Push 105;cr2.mgmt.vncv1
+622;inet.0;207.23.241.240/32;ae1.3908, Push 103;cr2.mgmt.vncv1
+623;inet.0;207.23.241.240/32;ae2.3900, Push 105;cr2.mgmt.vncv1
+624;inet.0;207.23.242.32/30;xe-5/1/0:0.3903;cr2.mgmt.vncv1
+625;inet.0;207.23.242.36/31;xe-5/1/0:0.3903;cr2.mgmt.vncv1
+626;inet.0;207.23.242.38/31;xe-5/1/0:0.3903;cr2.mgmt.vncv1
+627;inet.0;207.23.242.40/30;xe-5/1/0:0.3903;cr2.mgmt.vncv1
+628;inet.0;207.23.242.44/31;xe-5/1/0:0.3903;cr2.mgmt.vncv1
+629;inet.0;207.23.242.46/31;xe-5/1/0:0.3903;cr2.mgmt.vncv1
+630;inet.0;207.23.242.70/31;xe-5/1/0:0.3903;cr2.mgmt.vncv1
+631;inet.0;207.23.242.72/30;xe-5/1/0:0.3903;cr2.mgmt.vncv1
+632;inet.0;207.23.242.76/30;xe-5/1/0:0.3903;cr2.mgmt.vncv1
+633;inet.0;207.23.242.96/31;xe-5/1/0:0.3903;cr2.mgmt.vncv1
+634;inet.0;207.23.242.253/32;xe-5/1/0:0.3903;cr2.mgmt.vncv1
+635;inet.0;207.23.243.0/24;et-5/0/2.184;cr2.mgmt.vncv1
+636;inet.0;207.23.249.0/24;et-5/0/2.184;cr2.mgmt.vncv1
+637;inet.0;207.23.252.0/24;et-5/0/2.184;cr2.mgmt.vncv1
+638;inet.0;207.23.254.160/30;ae2.3900, Push 108;cr2.mgmt.vncv1
+639;inet.0;207.23.254.164/31;ae2.3900, Push 108;cr2.mgmt.vncv1
+640;inet.0;207.23.254.174/31;ae2.3900, Push 108;cr2.mgmt.vncv1
+641;inet.0;207.23.254.188/31;ae2.3900, Push 108;cr2.mgmt.vncv1
+642;inet.0;207.23.254.204/30;ae2.3900, Push 108;cr2.mgmt.vncv1
+643;inet.0;207.23.254.216/30;ae2.3900, Push 108;cr2.mgmt.vncv1
+644;inet.0;207.23.254.220/30;ae2.3900, Push 108;cr2.mgmt.vncv1
+645;inet.0;207.23.254.253/32;ae2.3900, Push 108;cr2.mgmt.vncv1
+646;inet.0;207.23.255.16/29;ae2.3900, Push 100;cr2.mgmt.vncv1
+647;inet.0;207.23.255.28/31;ae2.3900, Push 100;cr2.mgmt.vncv1
+648;inet.0;207.23.255.30/31;ae2.3900, Push 100;cr2.mgmt.vncv1
+649;inet.0;207.23.255.32/28;ae2.3900, Push 100;cr2.mgmt.vncv1
+650;inet.0;207.23.255.48/28;ae2.3900, Push 100;cr2.mgmt.vncv1
+651;inet.0;207.23.255.64/26;ae2.3900, Push 100;cr2.mgmt.vncv1
+652;inet.0;207.23.255.130/31;ae2.3900, Push 100;cr2.mgmt.vncv1
+653;inet.0;207.23.255.138/31;ae2.3900, Push 100;cr2.mgmt.vncv1
+654;inet.0;207.23.255.140/30;ae2.3900, Push 100;cr2.mgmt.vncv1
+655;inet.0;207.23.255.144/30;ae2.3900, Push 100;cr2.mgmt.vncv1
+656;inet.0;207.23.255.148/30;ae2.3900, Push 100;cr2.mgmt.vncv1
+657;inet.0;207.23.255.208/30;ae2.3900, Push 100;cr2.mgmt.vncv1
+658;inet.0;207.23.255.216/31;ae2.3900, Push 100;cr2.mgmt.vncv1
+659;inet.0;207.23.255.220/30;ae2.3900, Push 100;cr2.mgmt.vncv1
+660;inet.0;207.23.255.228/30;ae2.3900, Push 100;cr2.mgmt.vncv1
+661;inet.0;207.23.255.252/32;ae2.3900, Push 100;cr2.mgmt.vncv1
+662;inet.2;207.23.92.0/23;ae2.3900;cr2.mgmt.vncv1
+663;inet.2;207.23.240.36/31;ge-0/0/4.821;cr2.mgmt.vncv1
+664;inet.2;207.23.240.36/32;ge-0/0/4.821;cr2.mgmt.vncv1
+665;inet.2;207.23.240.38/31;ge-0/0/4.766;cr2.mgmt.vncv1
+666;inet.2;207.23.240.38/32;ge-0/0/4.766;cr2.mgmt.vncv1
+667;inet.2;207.23.240.42/31;rlt0.57;cr2.mgmt.vncv1
+668;inet.2;207.23.240.42/32;rlt0.57;cr2.mgmt.vncv1
+669;inet.2;207.23.240.44/30;ge-0/0/0.765;cr2.mgmt.vncv1
+670;inet.2;207.23.240.45/32;ge-0/0/0.765;cr2.mgmt.vncv1
+671;inet.2;207.23.240.48/31;rlt0.59;cr2.mgmt.vncv1
+672;inet.2;207.23.240.48/32;rlt0.59;cr2.mgmt.vncv1
+673;inet.2;207.23.240.50/31;xe-2/0/2.1773;cr2.mgmt.vncv1
+674;inet.2;207.23.240.50/32;xe-2/0/2.1773;cr2.mgmt.vncv1
+675;inet.2;207.23.240.52/31;ge-0/0/3.2382;cr2.mgmt.vncv1
+676;inet.2;207.23.240.53/32;ge-0/0/3.2382;cr2.mgmt.vncv1
+677;inet.2;207.23.240.54/31;ge-0/0/3.2385;cr2.mgmt.vncv1
+678;inet.2;207.23.240.55/32;ge-0/0/3.2385;cr2.mgmt.vncv1
+679;inet.2;207.23.240.68/30;rlt0.41;cr2.mgmt.vncv1
+680;inet.2;207.23.240.69/32;rlt0.41;cr2.mgmt.vncv1
+681;inet.2;207.23.240.212/32;ae2.3900;cr2.mgmt.vncv1
+682;inet.2;207.23.240.213/32;rlt0.41;cr2.mgmt.vncv1
+683;inet.2;207.23.241.70/31;ae1.3908;cr2.mgmt.vncv1
+684;inet.2;207.23.241.70/31;ae2.3900;cr2.mgmt.vncv1
+685;inet.2;207.23.241.82/31;ae1.3908;cr2.mgmt.vncv1
+686;inet.2;207.23.241.82/31;ae2.3900;cr2.mgmt.vncv1
+687;inet.2;207.23.241.88/31;ae1.3908;cr2.mgmt.vncv1
+688;inet.2;207.23.241.88/31;ae2.3900;cr2.mgmt.vncv1
+689;inet.2;207.23.241.100/30;ae1.3908;cr2.mgmt.vncv1
+690;inet.2;207.23.241.100/30;ae2.3900;cr2.mgmt.vncv1
+691;inet.2;207.23.241.104/30;ae1.3908;cr2.mgmt.vncv1
+692;inet.2;207.23.241.104/30;ae2.3900;cr2.mgmt.vncv1
+693;inet.2;207.23.241.128/29;ae1.3908;cr2.mgmt.vncv1
+694;inet.2;207.23.241.128/29;ae2.3900;cr2.mgmt.vncv1
+695;inet.2;207.23.241.136/31;ae1.3908;cr2.mgmt.vncv1
+696;inet.2;207.23.241.136/31;ae2.3900;cr2.mgmt.vncv1
+697;inet.2;207.23.241.138/31;ae1.3908;cr2.mgmt.vncv1
+698;inet.2;207.23.241.138/31;ae2.3900;cr2.mgmt.vncv1
+699;inet.2;207.23.241.144/31;ae1.3908;cr2.mgmt.vncv1
+700;inet.2;207.23.241.144/31;ae2.3900;cr2.mgmt.vncv1
+701;inet.2;207.23.241.146/31;ae1.3908;cr2.mgmt.vncv1
+702;inet.2;207.23.241.146/31;ae2.3900;cr2.mgmt.vncv1
+703;inet.2;207.23.241.152/30;ae1.3908;cr2.mgmt.vncv1
+704;inet.2;207.23.241.152/30;ae2.3900;cr2.mgmt.vncv1
+705;inet.2;207.23.241.212/30;ae1.3908;cr2.mgmt.vncv1
+706;inet.2;207.23.241.212/30;ae2.3900;cr2.mgmt.vncv1
+707;inet.2;207.23.241.240/32;ae1.3908;cr2.mgmt.vncv1
+708;inet.2;207.23.241.240/32;ae2.3900;cr2.mgmt.vncv1
+709;inet.2;207.23.242.32/30;xe-5/1/0:0.3903;cr2.mgmt.vncv1
+710;inet.2;207.23.242.36/31;xe-5/1/0:0.3903;cr2.mgmt.vncv1
+711;inet.2;207.23.242.38/31;xe-5/1/0:0.3903;cr2.mgmt.vncv1
+712;inet.2;207.23.242.40/30;xe-5/1/0:0.3903;cr2.mgmt.vncv1
+713;inet.2;207.23.242.44/31;xe-5/1/0:0.3903;cr2.mgmt.vncv1
+714;inet.2;207.23.242.46/31;xe-5/1/0:0.3903;cr2.mgmt.vncv1
+715;inet.2;207.23.242.70/31;xe-5/1/0:0.3903;cr2.mgmt.vncv1
+716;inet.2;207.23.242.72/30;xe-5/1/0:0.3903;cr2.mgmt.vncv1
+717;inet.2;207.23.242.76/30;xe-5/1/0:0.3903;cr2.mgmt.vncv1
+718;inet.2;207.23.242.96/31;xe-5/1/0:0.3903;cr2.mgmt.vncv1
+719;inet.2;207.23.242.253/32;xe-5/1/0:0.3903;cr2.mgmt.vncv1
+720;inet.2;207.23.254.160/30;ae2.3900;cr2.mgmt.vncv1
+721;inet.2;207.23.254.164/31;ae2.3900;cr2.mgmt.vncv1
+722;inet.2;207.23.254.174/31;ae2.3900;cr2.mgmt.vncv1
+723;inet.2;207.23.254.188/31;ae2.3900;cr2.mgmt.vncv1
+724;inet.2;207.23.254.204/30;ae2.3900;cr2.mgmt.vncv1
+725;inet.2;207.23.254.216/30;ae2.3900;cr2.mgmt.vncv1
+726;inet.2;207.23.254.220/30;ae2.3900;cr2.mgmt.vncv1
+727;inet.2;207.23.254.253/32;ae2.3900;cr2.mgmt.vncv1
+728;inet.2;207.23.255.16/29;ae2.3900;cr2.mgmt.vncv1
+729;inet.2;207.23.255.28/31;ae2.3900;cr2.mgmt.vncv1
+730;inet.2;207.23.255.30/31;ae2.3900;cr2.mgmt.vncv1
+731;inet.2;207.23.255.64/26;ae2.3900;cr2.mgmt.vncv1
+732;inet.2;207.23.255.130/31;ae2.3900;cr2.mgmt.vncv1
+733;inet.2;207.23.255.138/31;ae2.3900;cr2.mgmt.vncv1
+734;inet.2;207.23.255.140/30;ae2.3900;cr2.mgmt.vncv1
+735;inet.2;207.23.255.144/30;ae2.3900;cr2.mgmt.vncv1
+736;inet.2;207.23.255.148/30;ae2.3900;cr2.mgmt.vncv1
+737;inet.2;207.23.255.208/30;ae2.3900;cr2.mgmt.vncv1
+738;inet.2;207.23.255.216/31;ae2.3900;cr2.mgmt.vncv1
+739;inet.2;207.23.255.220/30;ae2.3900;cr2.mgmt.vncv1
+740;inet.2;207.23.255.228/30;ae2.3900;cr2.mgmt.vncv1
+741;inet.2;207.23.255.252/32;ae2.3900;cr2.mgmt.vncv1
+742;TRANSIT-VANTX2.inet.0;207.23.0.0/16;ae2.3920;cr2.mgmt.vncv1
+743;TRANSIT-VANTX2.inet.0;207.23.8.0/21;ae2.3920;cr2.mgmt.vncv1
+744;TRANSIT-VANTX2.inet.0;207.23.72.0/24;xe-5/1/0:0.3923;cr2.mgmt.vncv1
+745;TRANSIT-VANTX2.inet.0;207.23.73.0/24;xe-5/1/0:0.3923;cr2.mgmt.vncv1
+746;TRANSIT-VANTX2.inet.0;207.23.85.0/24;xe-3/2/0.168;cr2.mgmt.vncv1
+747;TRANSIT-VANTX2.inet.0;207.23.88.0/23;ae2.3920;cr2.mgmt.vncv1
+748;TRANSIT-VANTX2.inet.0;207.23.92.0/23;ae2.3920;cr2.mgmt.vncv1
+749;TRANSIT-VANTX2.inet.0;207.23.94.0/23;et-5/0/2.188;cr2.mgmt.vncv1
+750;TRANSIT-VANTX2.inet.0;207.23.94.0/23;et-5/0/2.199;cr2.mgmt.vncv1
+751;TRANSIT-VANTX2.inet.0;207.23.94.0/23;et-5/0/2.188;cr2.mgmt.vncv1
+752;TRANSIT-VANTX2.inet.0;207.23.96.0/20;ae2.3920;cr2.mgmt.vncv1
+753;TRANSIT-VANTX2.inet.0;207.23.96.0/20;ae1.3928;cr2.mgmt.vncv1
+754;TRANSIT-VANTX2.inet.0;207.23.96.0/20;xe-2/0/2.1775;cr2.mgmt.vncv1
+755;TRANSIT-VANTX2.inet.0;207.23.128.0/19;ae2.3920;cr2.mgmt.vncv1
+756;TRANSIT-VANTX2.inet.0;207.23.128.0/19;xe-5/0/0:0.0;cr2.mgmt.vncv1
+757;TRANSIT-VANTX2.inet.0;207.23.160.0/19;xe-3/2/0.168;cr2.mgmt.vncv1
+758;TRANSIT-VANTX2.inet.0;207.23.192.0/19;xe-3/2/0.168;cr2.mgmt.vncv1
+759;TRANSIT-VANTX2.inet.0;207.23.240.12/30;ae2.3920;cr2.mgmt.vncv1
+760;TRANSIT-VANTX2.inet.0;207.23.240.16/30;ae1.3928;cr2.mgmt.vncv1
+761;TRANSIT-VANTX2.inet.0;207.23.240.24/30;ae1.3928;cr2.mgmt.vncv1
+762;TRANSIT-VANTX2.inet.0;207.23.240.28/31;ae2.3920;cr2.mgmt.vncv1
+763;TRANSIT-VANTX2.inet.0;207.23.240.32/30;xe-3/0/0.157;cr2.mgmt.vncv1
+764;TRANSIT-VANTX2.inet.0;207.23.240.34/32;xe-3/0/0.157;cr2.mgmt.vncv1
+765;TRANSIT-VANTX2.inet.0;207.23.240.60/31;ae1.3928;cr2.mgmt.vncv1
+766;TRANSIT-VANTX2.inet.0;207.23.240.64/30;rlt0.31;cr2.mgmt.vncv1
+767;TRANSIT-VANTX2.inet.0;207.23.240.65/32;rlt0.31;cr2.mgmt.vncv1
+768;TRANSIT-VANTX2.inet.0;207.23.240.92/30;rlt0.65;cr2.mgmt.vncv1
+769;TRANSIT-VANTX2.inet.0;207.23.240.94/32;rlt0.65;cr2.mgmt.vncv1
+770;TRANSIT-VANTX2.inet.0;207.23.240.212/32;ae2.3920;cr2.mgmt.vncv1
+771;TRANSIT-VANTX2.inet.0;207.23.240.213/32;rlt0.31;cr2.mgmt.vncv1
+772;TRANSIT-VANTX2.inet.0;207.23.240.214/32;ae1.3928;cr2.mgmt.vncv1
+773;TRANSIT-VANTX2.inet.0;207.23.241.0/24;ae2.3920;cr2.mgmt.vncv1
+774;TRANSIT-VANTX2.inet.0;207.23.241.0/24;ae1.3928;cr2.mgmt.vncv1
+775;TRANSIT-VANTX2.inet.0;207.23.241.70/31;ae2.3920;cr2.mgmt.vncv1
+776;TRANSIT-VANTX2.inet.0;207.23.241.70/31;ae1.3928;cr2.mgmt.vncv1
+777;TRANSIT-VANTX2.inet.0;207.23.241.100/30;ae2.3920;cr2.mgmt.vncv1
+778;TRANSIT-VANTX2.inet.0;207.23.241.100/30;ae1.3928;cr2.mgmt.vncv1
+779;TRANSIT-VANTX2.inet.0;207.23.241.104/30;ae2.3920;cr2.mgmt.vncv1
+780;TRANSIT-VANTX2.inet.0;207.23.241.104/30;ae1.3928;cr2.mgmt.vncv1
+781;TRANSIT-VANTX2.inet.0;207.23.241.152/30;ae2.3920;cr2.mgmt.vncv1
+782;TRANSIT-VANTX2.inet.0;207.23.241.152/30;ae1.3928;cr2.mgmt.vncv1
+783;TRANSIT-VANTX2.inet.0;207.23.241.176/29;ae2.3920;cr2.mgmt.vncv1
+784;TRANSIT-VANTX2.inet.0;207.23.241.176/29;ae1.3928;cr2.mgmt.vncv1
+785;TRANSIT-VANTX2.inet.0;207.23.241.240/32;ae2.3920;cr2.mgmt.vncv1
+786;TRANSIT-VANTX2.inet.0;207.23.241.240/32;ae1.3928;cr2.mgmt.vncv1
+787;TRANSIT-VANTX2.inet.0;207.23.242.0/24;xe-5/1/0:0.3923;cr2.mgmt.vncv1
+788;TRANSIT-VANTX2.inet.0;207.23.242.72/30;xe-5/1/0:0.3923;cr2.mgmt.vncv1
+789;TRANSIT-VANTX2.inet.0;207.23.242.76/30;xe-5/1/0:0.3923;cr2.mgmt.vncv1
+790;TRANSIT-VANTX2.inet.0;207.23.242.96/31;xe-5/1/0:0.3923;cr2.mgmt.vncv1
+791;TRANSIT-VANTX2.inet.0;207.23.242.253/32;xe-5/1/0:0.3923;cr2.mgmt.vncv1
+792;TRANSIT-VANTX2.inet.0;207.23.243.0/24;et-5/0/2.188;cr2.mgmt.vncv1
+793;TRANSIT-VANTX2.inet.0;207.23.243.0/24;et-5/0/2.199;cr2.mgmt.vncv1
+794;TRANSIT-VANTX2.inet.0;207.23.243.0/24;et-5/0/2.188;cr2.mgmt.vncv1
+795;TRANSIT-VANTX2.inet.0;207.23.249.0/24;et-5/0/2.188;cr2.mgmt.vncv1
+796;TRANSIT-VANTX2.inet.0;207.23.249.0/24;et-5/0/2.199;cr2.mgmt.vncv1
+797;TRANSIT-VANTX2.inet.0;207.23.249.0/24;et-5/0/2.188;cr2.mgmt.vncv1
+798;TRANSIT-VANTX2.inet.0;207.23.252.0/24;et-5/0/2.188;cr2.mgmt.vncv1
+799;TRANSIT-VANTX2.inet.0;207.23.252.0/24;et-5/0/2.199;cr2.mgmt.vncv1
+800;TRANSIT-VANTX2.inet.0;207.23.252.0/24;et-5/0/2.188;cr2.mgmt.vncv1
+801;TRANSIT-VANTX2.inet.0;207.23.253.1/32;ae2.3920;cr2.mgmt.vncv1
+802;TRANSIT-VANTX2.inet.0;207.23.253.2/32;lo0.1;cr2.mgmt.vncv1
+803;TRANSIT-VANTX2.inet.0;207.23.253.5/32;xe-5/1/0:0.3923;cr2.mgmt.vncv1
+804;TRANSIT-VANTX2.inet.0;207.23.253.6/32;ae2.3920;cr2.mgmt.vncv1
+805;TRANSIT-VANTX2.inet.0;207.23.253.7/32;ae1.3928;cr2.mgmt.vncv1
+806;TRANSIT-VANTX2.inet.0;207.23.253.8/32;ae2.3920;cr2.mgmt.vncv1
+807;TRANSIT-VANTX2.inet.0;207.23.253.8/32;ae1.3928;cr2.mgmt.vncv1
+808;TRANSIT-VANTX2.inet.0;207.23.253.9/32;ae2.3920;cr2.mgmt.vncv1
+809;TRANSIT-VANTX2.inet.0;207.23.253.36/30;ae2.3920;cr2.mgmt.vncv1
+810;TRANSIT-VANTX2.inet.0;207.23.253.40/30;ae2.3920;cr2.mgmt.vncv1
+811;TRANSIT-VANTX2.inet.0;207.23.253.44/30;xe-5/1/0:0.3923;cr2.mgmt.vncv1
+812;TRANSIT-VANTX2.inet.0;207.23.253.45/32;xe-5/1/0:0.3923;cr2.mgmt.vncv1
+813;TRANSIT-VANTX2.inet.0;207.23.253.48/30;ae2.3920;cr2.mgmt.vncv1
+814;TRANSIT-VANTX2.inet.0;207.23.253.52/31;ae2.3920;cr2.mgmt.vncv1
+815;TRANSIT-VANTX2.inet.0;207.23.253.72/30;ae2.3920;cr2.mgmt.vncv1
+816;TRANSIT-VANTX2.inet.0;207.23.253.92/30;ae1.3928;cr2.mgmt.vncv1
+817;TRANSIT-VANTX2.inet.0;207.23.253.108/30;ae2.3920;cr2.mgmt.vncv1
+818;TRANSIT-VANTX2.inet.0;207.23.253.116/31;ae2.3920;cr2.mgmt.vncv1
+819;TRANSIT-VANTX2.inet.0;207.23.253.117/32;ae2.3920;cr2.mgmt.vncv1
+820;TRANSIT-VANTX2.inet.0;207.23.253.118/31;ae1.3928;cr2.mgmt.vncv1
+821;TRANSIT-VANTX2.inet.0;207.23.253.118/32;ae1.3928;cr2.mgmt.vncv1
+822;TRANSIT-VANTX2.inet.0;207.23.253.120/31;ae2.3920;cr2.mgmt.vncv1
+823;TRANSIT-VANTX2.inet.0;207.23.253.120/31;ae1.3928;cr2.mgmt.vncv1
+824;TRANSIT-VANTX2.inet.0;207.23.253.122/31;ae1.3928;cr2.mgmt.vncv1
+825;TRANSIT-VANTX2.inet.0;207.23.253.124/31;xe-5/1/0:0.3923;cr2.mgmt.vncv1
+826;TRANSIT-VANTX2.inet.0;207.23.253.124/31;ae1.3928;cr2.mgmt.vncv1
+827;TRANSIT-VANTX2.inet.0;207.23.253.126/31;ae1.3928;cr2.mgmt.vncv1
+828;TRANSIT-VANTX2.inet.0;207.23.253.128/31;ae1.3928;cr2.mgmt.vncv1
+829;TRANSIT-VANTX2.inet.0;207.23.254.0/24;ae2.3920;cr2.mgmt.vncv1
+830;TRANSIT-VANTX2.inet.0;207.23.254.188/31;ae2.3920;cr2.mgmt.vncv1
+831;TRANSIT-VANTX2.inet.0;207.23.254.216/30;ae2.3920;cr2.mgmt.vncv1
+832;TRANSIT-VANTX2.inet.0;207.23.254.220/30;ae2.3920;cr2.mgmt.vncv1
+833;TRANSIT-VANTX2.inet.0;207.23.254.253/32;ae2.3920;cr2.mgmt.vncv1
+834;TRANSIT-VANTX2.inet.0;207.23.255.0/24;ae2.3920;cr2.mgmt.vncv1
+835;TRANSIT-VANTX2.inet.0;207.23.255.16/29;ae2.3920;cr2.mgmt.vncv1
+836;TRANSIT-VANTX2.inet.0;207.23.255.30/31;ae2.3920;cr2.mgmt.vncv1
+837;TRANSIT-VANTX2.inet.0;207.23.255.32/28;ae2.3920;cr2.mgmt.vncv1
+838;TRANSIT-VANTX2.inet.0;207.23.255.48/28;ae2.3920;cr2.mgmt.vncv1
+839;TRANSIT-VANTX2.inet.0;207.23.255.64/26;ae2.3920;cr2.mgmt.vncv1
+840;TRANSIT-VANTX2.inet.0;207.23.255.140/30;ae2.3920;cr2.mgmt.vncv1
+841;TRANSIT-VANTX2.inet.0;207.23.255.144/30;ae2.3920;cr2.mgmt.vncv1
+842;TRANSIT-VANTX2.inet.0;207.23.255.148/30;ae2.3920;cr2.mgmt.vncv1
+843;TRANSIT-VANTX2.inet.0;207.23.255.228/30;ae2.3920;cr2.mgmt.vncv1
+844;TRANSIT-VANTX2.inet.0;207.23.255.252/32;ae2.3920;cr2.mgmt.vncv1
+845;inet.0;209.87.16.0/24;et-5/0/2.184;cr2.mgmt.vncv1
+846;inet.0;209.87.17.0/24;et-5/0/2.184;cr2.mgmt.vncv1
+847;inet.0;209.87.18.0/24;xe-5/1/0:0.3903;cr2.mgmt.vncv1
+848;inet.0;209.87.24.0/23;rlt0.59;cr2.mgmt.vncv1
+849;inet.0;209.87.27.0/24;xe-2/0/5.963;cr2.mgmt.vncv1
+850;inet.0;209.87.28.0/23;rlt0.53;cr2.mgmt.vncv1
+851;inet.0;209.87.30.0/24;rlt0.44;cr2.mgmt.vncv1
+852;inet.0;209.87.31.0/24;xe-2/0/7.169;cr2.mgmt.vncv1
+853;inet.0;209.87.56.0/22;xe-2/0/7.169;cr2.mgmt.vncv1
+854;inet.0;209.87.60.0/24;xe-2/0/7.169;cr2.mgmt.vncv1
+855;inet.0;209.87.61.0/24;xe-2/0/5.963;cr2.mgmt.vncv1
+856;inet.0;209.87.62.0/24;ge-0/0/4.821;cr2.mgmt.vncv1
+857;inet.0;209.87.63.0/24;xe-2/0/4.897;cr2.mgmt.vncv1
+858;inet.2;209.87.18.0/24;xe-5/1/0:0.3903;cr2.mgmt.vncv1
+859;TRANSIT-VANTX2.inet.0;209.87.0.0/18;ae2.3920;cr2.mgmt.vncv1
+860;TRANSIT-VANTX2.inet.0;209.87.16.0/24;et-5/0/2.188;cr2.mgmt.vncv1
+861;TRANSIT-VANTX2.inet.0;209.87.16.0/24;et-5/0/2.199;cr2.mgmt.vncv1
+862;TRANSIT-VANTX2.inet.0;209.87.16.0/24;et-5/0/2.188;cr2.mgmt.vncv1
+863;TRANSIT-VANTX2.inet.0;209.87.17.0/24;et-5/0/2.188;cr2.mgmt.vncv1
+864;TRANSIT-VANTX2.inet.0;209.87.17.0/24;et-5/0/2.199;cr2.mgmt.vncv1
+865;TRANSIT-VANTX2.inet.0;209.87.17.0/24;et-5/0/2.188;cr2.mgmt.vncv1
+866;TRANSIT-VANTX2.inet.0;209.87.18.0/24;xe-5/1/0:0.3923;cr2.mgmt.vncv1
+867;TRANSIT-VANTX2.inet.0;209.87.24.0/23;rlt0.67;cr2.mgmt.vncv1
+868;TRANSIT-VANTX2.inet.0;209.87.27.0/24;xe-2/0/5.961;cr2.mgmt.vncv1
+869;TRANSIT-VANTX2.inet.0;209.87.28.0/23;rlt0.71;cr2.mgmt.vncv1
+870;TRANSIT-VANTX2.inet.0;209.87.30.0/24;rlt0.48;cr2.mgmt.vncv1
+871;TRANSIT-VANTX2.inet.0;209.87.31.0/24;xe-3/2/0.168;cr2.mgmt.vncv1
+872;TRANSIT-VANTX2.inet.0;209.87.56.0/22;xe-3/2/0.168;cr2.mgmt.vncv1
+873;TRANSIT-VANTX2.inet.0;209.87.60.0/24;xe-3/2/0.168;cr2.mgmt.vncv1
+874;TRANSIT-VANTX2.inet.0;209.87.61.0/24;xe-2/0/5.961;cr2.mgmt.vncv1
+875;TRANSIT-VANTX2.inet.0;209.87.62.0/24;xe-5/0/0:0.0;cr2.mgmt.vncv1
+876;TRANSIT-VANTX2.inet.0;209.87.62.0/24;ae1.3928;cr2.mgmt.vncv1
+877;TRANSIT-VANTX2.inet.0;209.87.62.0/24;ae2.3920;cr2.mgmt.vncv1
+878;TRANSIT-VANTX2.inet.0;209.87.63.0/24;xe-2/0/4.899;cr2.mgmt.vncv1

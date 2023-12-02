@@ -1,0 +1,955 @@
+Index;Route_Instance;Supernet;Subnet;ASN;Destination_Interface;Router
+0;inet.0;128.189.0.0/16;128.189.4.0/24;271;lt-0/1/0.40;No;cr1.mgmt.kmlp8
+1;inet.0;128.189.0.0/16;128.189.5.0/24;271;lt-0/1/0.40;No;cr1.mgmt.kmlp8
+2;inet.0;128.189.0.0/16;128.189.6.0/24;271;lt-0/1/0.40;No;cr1.mgmt.kmlp8
+3;inet.0;128.189.0.0/16;128.189.16.0/20;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+4;inet.0;128.189.0.0/16;128.189.16.0/20;;Adjacent Router;No;cr1.mgmt.kmlp8
+5;inet.0;128.189.0.0/16;128.189.64.0/19;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+6;inet.0;128.189.0.0/16;128.189.96.0/19;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+7;inet.0;128.189.0.0/16;128.189.128.0/18;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+8;inet.0;128.189.0.0/16;128.189.192.0/18;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+9;inet.2;128.189.0.0/16;128.189.4.0/24;271;lt-0/1/0.40;No;cr1.mgmt.kmlp8
+10;inet.2;128.189.0.0/16;128.189.6.0/24;271;lt-0/1/0.40;No;cr1.mgmt.kmlp8
+11;TRANSIT-KMLP8.inet.0;128.189.0.0/16;128.189.0.0/16;271;Adjacent Router;No;cr1.mgmt.kmlp8
+12;TRANSIT-KMLP8.inet.0;128.189.0.0/16;128.189.4.0/24;271;lt-0/0/0.30;No;cr1.mgmt.kmlp8
+13;TRANSIT-KMLP8.inet.0;128.189.0.0/16;128.189.5.0/24;271;lt-0/0/0.30;No;cr1.mgmt.kmlp8
+14;TRANSIT-KMLP8.inet.0;128.189.0.0/16;128.189.6.0/24;271;lt-0/0/0.30;No;cr1.mgmt.kmlp8
+15;TRANSIT-KMLP8.inet.0;128.189.0.0/16;128.189.16.0/20;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+16;TRANSIT-KMLP8.inet.0;128.189.0.0/16;128.189.16.0/20;;Adjacent Router;No;cr1.mgmt.kmlp8
+17;TRANSIT-KMLP8.inet.0;128.189.0.0/16;128.189.64.0/19;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+18;TRANSIT-KMLP8.inet.0;128.189.0.0/16;128.189.96.0/19;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+19;TRANSIT-KMLP8.inet.0;128.189.0.0/16;128.189.128.0/18;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+20;TRANSIT-KMLP8.inet.0;128.189.0.0/16;128.189.192.0/18;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+21;IX-KMLP8.inet.0;128.189.0.0/16;128.189.4.0/24;271;lt-0/1/0.50;No;cr1.mgmt.kmlp8
+22;IX-KMLP8.inet.0;128.189.0.0/16;128.189.5.0/24;271;lt-0/1/0.50;No;cr1.mgmt.kmlp8
+23;IX-KMLP8.inet.0;128.189.0.0/16;128.189.6.0/24;271;lt-0/1/0.50;No;cr1.mgmt.kmlp8
+24;IX-KMLP8.inet.0;128.189.0.0/16;128.189.16.0/20;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+25;IX-KMLP8.inet.0;128.189.0.0/16;128.189.16.0/20;;Adjacent Router;No;cr1.mgmt.kmlp8
+26;IX-KMLP8.inet.0;128.189.0.0/16;128.189.64.0/19;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+27;IX-KMLP8.inet.0;128.189.0.0/16;128.189.96.0/19;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+28;IX-KMLP8.inet.0;128.189.0.0/16;128.189.128.0/18;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+29;IX-KMLP8.inet.0;128.189.0.0/16;128.189.192.0/18;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+30;inet.0;134.87.0.0/16;134.87.2.16/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+31;inet.0;134.87.0.0/16;134.87.2.20/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+32;inet.0;134.87.0.0/16;134.87.2.26/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+33;inet.0;134.87.0.0/16;134.87.2.28/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+34;inet.0;134.87.0.0/16;134.87.2.48/29;271;Adjacent Router;No;cr1.mgmt.kmlp8
+35;inet.0;134.87.0.0/16;134.87.2.56/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+36;inet.0;134.87.0.0/16;134.87.2.56/31;;Adjacent Router;No;cr1.mgmt.kmlp8
+37;inet.0;134.87.0.0/16;134.87.2.58/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+38;inet.0;134.87.0.0/16;134.87.2.58/31;;Adjacent Router;No;cr1.mgmt.kmlp8
+39;inet.0;134.87.0.0/16;134.87.2.60/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+40;inet.0;134.87.0.0/16;134.87.2.60/31;;Adjacent Router;No;cr1.mgmt.kmlp8
+41;inet.0;134.87.0.0/16;134.87.2.62/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+42;inet.0;134.87.0.0/16;134.87.2.62/31;;Adjacent Router;No;cr1.mgmt.kmlp8
+43;inet.0;134.87.0.0/16;134.87.2.64/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+44;inet.0;134.87.0.0/16;134.87.2.68/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+45;inet.0;134.87.0.0/16;134.87.2.68/30;;Adjacent Router;No;cr1.mgmt.kmlp8
+46;inet.0;134.87.0.0/16;134.87.2.72/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+47;inet.0;134.87.0.0/16;134.87.2.72/30;;Adjacent Router;No;cr1.mgmt.kmlp8
+48;inet.0;134.87.0.0/16;134.87.2.76/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+49;inet.0;134.87.0.0/16;134.87.2.80/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+50;inet.0;134.87.0.0/16;134.87.2.84/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+51;inet.0;134.87.0.0/16;134.87.2.128/29;271;Adjacent Router;No;cr1.mgmt.kmlp8
+52;inet.0;134.87.0.0/16;134.87.2.136/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+53;inet.0;134.87.0.0/16;134.87.2.140/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+54;inet.0;134.87.0.0/16;134.87.2.160/29;271;Adjacent Router;No;cr1.mgmt.kmlp8
+55;inet.0;134.87.0.0/16;134.87.2.168/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+56;inet.0;134.87.0.0/16;134.87.2.170/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+57;inet.0;134.87.0.0/16;134.87.2.172/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+58;inet.0;134.87.0.0/16;134.87.2.188/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+59;inet.0;134.87.0.0/16;134.87.2.196/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+60;inet.0;134.87.0.0/16;134.87.2.198/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+61;inet.0;134.87.0.0/16;134.87.2.202/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+62;inet.0;134.87.0.0/16;134.87.2.228/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+63;inet.0;134.87.0.0/16;134.87.2.230/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+64;inet.0;134.87.0.0/16;134.87.2.236/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+65;inet.0;134.87.0.0/16;134.87.2.236/30;;Adjacent Router;No;cr1.mgmt.kmlp8
+66;inet.0;134.87.0.0/16;134.87.2.240/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+67;inet.0;134.87.0.0/16;134.87.2.244/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+68;inet.0;134.87.0.0/16;134.87.2.244/31;;Adjacent Router;No;cr1.mgmt.kmlp8
+69;inet.0;134.87.0.0/16;134.87.2.246/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+70;inet.0;134.87.0.0/16;134.87.2.248/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+71;inet.0;134.87.0.0/16;134.87.2.250/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+72;inet.0;134.87.0.0/16;134.87.2.250/31;;Adjacent Router;No;cr1.mgmt.kmlp8
+73;inet.0;134.87.0.0/16;134.87.4.0/24;271;Adjacent Router;No;cr1.mgmt.kmlp8
+74;inet.0;134.87.0.0/16;134.87.32.0/19;16462;Adjacent Router;No;cr1.mgmt.kmlp8
+75;inet.0;134.87.0.0/16;134.87.112.0/24;271;Adjacent Router;No;cr1.mgmt.kmlp8
+76;inet.0;134.87.0.0/16;134.87.128.0/18;16462;Adjacent Router;No;cr1.mgmt.kmlp8
+77;inet.2;134.87.0.0/16;134.87.2.16/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+78;inet.2;134.87.0.0/16;134.87.2.20/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+79;inet.2;134.87.0.0/16;134.87.2.26/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+80;inet.2;134.87.0.0/16;134.87.2.28/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+81;inet.2;134.87.0.0/16;134.87.2.48/29;271;Adjacent Router;No;cr1.mgmt.kmlp8
+82;inet.2;134.87.0.0/16;134.87.2.56/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+83;inet.2;134.87.0.0/16;134.87.2.56/31;;Adjacent Router;No;cr1.mgmt.kmlp8
+84;inet.2;134.87.0.0/16;134.87.2.58/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+85;inet.2;134.87.0.0/16;134.87.2.58/31;;Adjacent Router;No;cr1.mgmt.kmlp8
+86;inet.2;134.87.0.0/16;134.87.2.60/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+87;inet.2;134.87.0.0/16;134.87.2.60/31;;Adjacent Router;No;cr1.mgmt.kmlp8
+88;inet.2;134.87.0.0/16;134.87.2.62/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+89;inet.2;134.87.0.0/16;134.87.2.62/31;;Adjacent Router;No;cr1.mgmt.kmlp8
+90;inet.2;134.87.0.0/16;134.87.2.64/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+91;inet.2;134.87.0.0/16;134.87.2.68/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+92;inet.2;134.87.0.0/16;134.87.2.68/30;;Adjacent Router;No;cr1.mgmt.kmlp8
+93;inet.2;134.87.0.0/16;134.87.2.72/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+94;inet.2;134.87.0.0/16;134.87.2.72/30;;Adjacent Router;No;cr1.mgmt.kmlp8
+95;inet.2;134.87.0.0/16;134.87.2.76/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+96;inet.2;134.87.0.0/16;134.87.2.80/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+97;inet.2;134.87.0.0/16;134.87.2.84/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+98;inet.2;134.87.0.0/16;134.87.2.128/29;271;Adjacent Router;No;cr1.mgmt.kmlp8
+99;inet.2;134.87.0.0/16;134.87.2.136/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+100;inet.2;134.87.0.0/16;134.87.2.140/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+101;inet.2;134.87.0.0/16;134.87.2.160/29;271;Adjacent Router;No;cr1.mgmt.kmlp8
+102;inet.2;134.87.0.0/16;134.87.2.168/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+103;inet.2;134.87.0.0/16;134.87.2.170/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+104;inet.2;134.87.0.0/16;134.87.2.172/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+105;inet.2;134.87.0.0/16;134.87.2.188/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+106;inet.2;134.87.0.0/16;134.87.2.196/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+107;inet.2;134.87.0.0/16;134.87.2.198/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+108;inet.2;134.87.0.0/16;134.87.2.202/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+109;inet.2;134.87.0.0/16;134.87.2.228/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+110;inet.2;134.87.0.0/16;134.87.2.230/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+111;inet.2;134.87.0.0/16;134.87.2.236/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+112;inet.2;134.87.0.0/16;134.87.2.236/30;;Adjacent Router;No;cr1.mgmt.kmlp8
+113;inet.2;134.87.0.0/16;134.87.2.240/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+114;inet.2;134.87.0.0/16;134.87.2.244/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+115;inet.2;134.87.0.0/16;134.87.2.244/31;;Adjacent Router;No;cr1.mgmt.kmlp8
+116;inet.2;134.87.0.0/16;134.87.2.246/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+117;inet.2;134.87.0.0/16;134.87.2.248/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+118;inet.2;134.87.0.0/16;134.87.2.250/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+119;inet.2;134.87.0.0/16;134.87.2.250/31;;Adjacent Router;No;cr1.mgmt.kmlp8
+120;inet.2;134.87.0.0/16;134.87.4.0/24;271;Adjacent Router;No;cr1.mgmt.kmlp8
+121;inet.2;134.87.0.0/16;134.87.112.0/24;271;Adjacent Router;No;cr1.mgmt.kmlp8
+122;TRANSIT-KMLP8.inet.0;134.87.0.0/16;134.87.0.0/16;271;Adjacent Router;No;cr1.mgmt.kmlp8
+123;TRANSIT-KMLP8.inet.0;134.87.0.0/16;134.87.2.20/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+124;TRANSIT-KMLP8.inet.0;134.87.0.0/16;134.87.2.28/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+125;TRANSIT-KMLP8.inet.0;134.87.0.0/16;134.87.2.128/29;271;Adjacent Router;No;cr1.mgmt.kmlp8
+126;TRANSIT-KMLP8.inet.0;134.87.0.0/16;134.87.2.136/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+127;TRANSIT-KMLP8.inet.0;134.87.0.0/16;134.87.2.140/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+128;TRANSIT-KMLP8.inet.0;134.87.0.0/16;134.87.2.152/29;271;Adjacent Router;No;cr1.mgmt.kmlp8
+129;TRANSIT-KMLP8.inet.0;134.87.0.0/16;134.87.2.172/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+130;TRANSIT-KMLP8.inet.0;134.87.0.0/16;134.87.4.0/24;271;Adjacent Router;No;cr1.mgmt.kmlp8
+131;TRANSIT-KMLP8.inet.0;134.87.0.0/16;134.87.30.148/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+132;TRANSIT-KMLP8.inet.0;134.87.0.0/16;134.87.30.152/29;271;Adjacent Router;No;cr1.mgmt.kmlp8
+133;TRANSIT-KMLP8.inet.0;134.87.0.0/16;134.87.30.168/29;271;Adjacent Router;No;cr1.mgmt.kmlp8
+134;TRANSIT-KMLP8.inet.0;134.87.0.0/16;134.87.30.168/29;;Adjacent Router;No;cr1.mgmt.kmlp8
+135;TRANSIT-KMLP8.inet.0;134.87.0.0/16;134.87.30.192/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+136;TRANSIT-KMLP8.inet.0;134.87.0.0/16;134.87.30.192/31;;Adjacent Router;No;cr1.mgmt.kmlp8
+137;TRANSIT-KMLP8.inet.0;134.87.0.0/16;134.87.30.196/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+138;TRANSIT-KMLP8.inet.0;134.87.0.0/16;134.87.30.196/31;;Adjacent Router;No;cr1.mgmt.kmlp8
+139;TRANSIT-KMLP8.inet.0;134.87.0.0/16;134.87.30.198/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+140;TRANSIT-KMLP8.inet.0;134.87.0.0/16;134.87.30.202/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+141;TRANSIT-KMLP8.inet.0;134.87.0.0/16;134.87.30.204/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+142;TRANSIT-KMLP8.inet.0;134.87.0.0/16;134.87.30.206/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+143;TRANSIT-KMLP8.inet.0;134.87.0.0/16;134.87.30.208/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+144;TRANSIT-KMLP8.inet.0;134.87.0.0/16;134.87.30.210/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+145;TRANSIT-KMLP8.inet.0;134.87.0.0/16;134.87.30.212/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+146;TRANSIT-KMLP8.inet.0;134.87.0.0/16;134.87.30.214/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+147;TRANSIT-KMLP8.inet.0;134.87.0.0/16;134.87.30.218/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+148;TRANSIT-KMLP8.inet.0;134.87.0.0/16;134.87.30.220/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+149;TRANSIT-KMLP8.inet.0;134.87.0.0/16;134.87.30.222/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+150;TRANSIT-KMLP8.inet.0;134.87.0.0/16;134.87.30.222/31;;Adjacent Router;No;cr1.mgmt.kmlp8
+151;TRANSIT-KMLP8.inet.0;134.87.0.0/16;134.87.30.224/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+152;TRANSIT-KMLP8.inet.0;134.87.0.0/16;134.87.30.224/31;;Adjacent Router;No;cr1.mgmt.kmlp8
+153;TRANSIT-KMLP8.inet.0;134.87.0.0/16;134.87.30.226/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+154;TRANSIT-KMLP8.inet.0;134.87.0.0/16;134.87.30.228/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+155;TRANSIT-KMLP8.inet.0;134.87.0.0/16;134.87.30.230/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+156;TRANSIT-KMLP8.inet.0;134.87.0.0/16;134.87.30.232/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+157;TRANSIT-KMLP8.inet.0;134.87.0.0/16;134.87.30.240/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+158;TRANSIT-KMLP8.inet.0;134.87.0.0/16;134.87.30.242/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+159;TRANSIT-KMLP8.inet.0;134.87.0.0/16;134.87.30.242/31;;Adjacent Router;No;cr1.mgmt.kmlp8
+160;TRANSIT-KMLP8.inet.0;134.87.0.0/16;134.87.30.244/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+161;TRANSIT-KMLP8.inet.0;134.87.0.0/16;134.87.30.246/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+162;TRANSIT-KMLP8.inet.0;134.87.0.0/16;134.87.30.248/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+163;TRANSIT-KMLP8.inet.0;134.87.0.0/16;134.87.30.250/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+164;TRANSIT-KMLP8.inet.0;134.87.0.0/16;134.87.32.0/19;16462;Adjacent Router;No;cr1.mgmt.kmlp8
+165;TRANSIT-KMLP8.inet.0;134.87.0.0/16;134.87.112.0/24;271;Adjacent Router;No;cr1.mgmt.kmlp8
+166;TRANSIT-KMLP8.inet.0;134.87.0.0/16;134.87.128.0/18;16462;Adjacent Router;No;cr1.mgmt.kmlp8
+167;IX-KMLP8.inet.0;134.87.0.0/16;134.87.0.0/24;271;Adjacent Router;No;cr1.mgmt.kmlp8
+168;IX-KMLP8.inet.0;134.87.0.0/16;134.87.0.254/32;;Adjacent Router;No;cr1.mgmt.kmlp8
+169;IX-KMLP8.inet.0;134.87.0.0/16;134.87.2.20/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+170;IX-KMLP8.inet.0;134.87.0.0/16;134.87.2.28/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+171;IX-KMLP8.inet.0;134.87.0.0/16;134.87.2.128/29;271;Adjacent Router;No;cr1.mgmt.kmlp8
+172;IX-KMLP8.inet.0;134.87.0.0/16;134.87.2.136/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+173;IX-KMLP8.inet.0;134.87.0.0/16;134.87.2.140/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+174;IX-KMLP8.inet.0;134.87.0.0/16;134.87.2.172/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+175;IX-KMLP8.inet.0;134.87.0.0/16;134.87.4.0/24;271;Adjacent Router;No;cr1.mgmt.kmlp8
+176;IX-KMLP8.inet.0;134.87.0.0/16;134.87.32.0/19;16462;Adjacent Router;No;cr1.mgmt.kmlp8
+177;IX-KMLP8.inet.0;134.87.0.0/16;134.87.112.0/24;271;Adjacent Router;No;cr1.mgmt.kmlp8
+178;IX-KMLP8.inet.0;134.87.0.0/16;134.87.128.0/18;16462;Adjacent Router;No;cr1.mgmt.kmlp8
+179;inet.0;142.231.0.0/16;142.231.1.48/29;271;Adjacent Router;No;cr1.mgmt.kmlp8
+180;inet.0;142.231.0.0/16;142.231.1.80/29;271;Adjacent Router;No;cr1.mgmt.kmlp8
+181;inet.0;142.231.0.0/16;142.231.1.100/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+182;inet.0;142.231.0.0/16;142.231.1.100/30;;Adjacent Router;No;cr1.mgmt.kmlp8
+183;inet.0;142.231.0.0/16;142.231.1.104/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+184;inet.0;142.231.0.0/16;142.231.1.104/30;;Adjacent Router;No;cr1.mgmt.kmlp8
+185;inet.0;142.231.0.0/16;142.231.1.108/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+186;inet.0;142.231.0.0/16;142.231.1.110/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+187;inet.0;142.231.0.0/16;142.231.1.110/31;;Adjacent Router;No;cr1.mgmt.kmlp8
+188;inet.0;142.231.0.0/16;142.231.1.120/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+189;inet.0;142.231.0.0/16;142.231.1.160/27;271;Adjacent Router;No;cr1.mgmt.kmlp8
+190;inet.0;142.231.0.0/16;142.231.2.0/24;271;Adjacent Router;No;cr1.mgmt.kmlp8
+191;inet.0;142.231.0.0/16;142.231.2.4/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+192;inet.0;142.231.0.0/16;142.231.2.12/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+193;inet.0;142.231.0.0/16;142.231.2.24/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+194;inet.0;142.231.0.0/16;142.231.2.224/27;271;Adjacent Router;No;cr1.mgmt.kmlp8
+195;inet.0;142.231.0.0/16;142.231.3.0/24;271;Adjacent Router;No;cr1.mgmt.kmlp8
+196;inet.0;142.231.0.0/16;142.231.6.0/24;271;Adjacent Router;No;cr1.mgmt.kmlp8
+197;inet.0;142.231.0.0/16;142.231.7.0/27;271;Adjacent Router;No;cr1.mgmt.kmlp8
+198;inet.0;142.231.0.0/16;142.231.20.0/24;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+199;inet.0;142.231.0.0/16;142.231.32.0/20;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+200;inet.0;142.231.0.0/16;142.231.64.0/19;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+201;inet.0;142.231.0.0/16;142.231.109.0/24;271;lt-1/0/0.66;No;cr1.mgmt.kmlp8
+202;inet.0;142.231.0.0/16;142.231.112.0/24;271;Adjacent Router;No;cr1.mgmt.kmlp8
+203;inet.2;142.231.0.0/16;142.231.1.48/29;271;Adjacent Router;No;cr1.mgmt.kmlp8
+204;inet.2;142.231.0.0/16;142.231.1.80/29;271;Adjacent Router;No;cr1.mgmt.kmlp8
+205;inet.2;142.231.0.0/16;142.231.1.108/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+206;inet.2;142.231.0.0/16;142.231.1.120/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+207;inet.2;142.231.0.0/16;142.231.1.160/27;271;Adjacent Router;No;cr1.mgmt.kmlp8
+208;inet.2;142.231.0.0/16;142.231.2.4/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+209;inet.2;142.231.0.0/16;142.231.2.12/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+210;inet.2;142.231.0.0/16;142.231.2.24/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+211;inet.2;142.231.0.0/16;142.231.2.224/27;271;Adjacent Router;No;cr1.mgmt.kmlp8
+212;inet.2;142.231.0.0/16;142.231.112.0/24;271;Adjacent Router;No;cr1.mgmt.kmlp8
+213;mgmt_junos.inet.0;142.231.0.0/16;142.231.144.0/20;271;fxp0.0;No;cr1.mgmt.kmlp8
+214;mgmt_junos.inet.0;142.231.0.0/16;142.231.148.0/24;271;fxp0.0;No;cr1.mgmt.kmlp8
+215;mgmt_junos.inet.0;142.231.0.0/16;142.231.148.0/24;271;fxp0.0;No;cr1.mgmt.kmlp8
+216;mgmt_junos.inet.0;142.231.0.0/16;142.231.148.252/32;271;fxp0.0;Yes;cr1.mgmt.kmlp8
+217;mgmt_junos.inet.0;142.231.0.0/16;142.231.148.253/32;271;fxp0.0;Yes;cr1.mgmt.kmlp8
+218;MANLAN.inet.0;142.231.0.0/16;142.231.144.216/30;271;ae3.3001;No;cr1.mgmt.kmlp8
+219;MANLAN.inet.0;142.231.0.0/16;142.231.144.218/32;271;ae3.3001;Yes;cr1.mgmt.kmlp8
+220;MANLAN.inet.0;142.231.0.0/16;142.231.144.220/30;271;ae3.3003;No;cr1.mgmt.kmlp8
+221;MANLAN.inet.0;142.231.0.0/16;142.231.144.222/32;271;ae3.3003;Yes;cr1.mgmt.kmlp8
+222;MANLAN.inet.0;142.231.0.0/16;142.231.145.0/24;271;Adjacent Router;No;cr1.mgmt.kmlp8
+223;MANLAN.inet.0;142.231.0.0/16;142.231.146.0/24;271;Adjacent Router;No;cr1.mgmt.kmlp8
+224;MANLAN.inet.0;142.231.0.0/16;142.231.147.0/24;271;Adjacent Router;No;cr1.mgmt.kmlp8
+225;MANLAN.inet.0;142.231.0.0/16;142.231.148.0/24;271;ae0.654;No;cr1.mgmt.kmlp8
+226;MANLAN.inet.0;142.231.0.0/16;142.231.149.0/24;271;Adjacent Router;No;cr1.mgmt.kmlp8
+227;MANLAN.inet.0;142.231.0.0/16;142.231.150.0/24;271;Adjacent Router;No;cr1.mgmt.kmlp8
+228;MANLAN.inet.0;142.231.0.0/16;142.231.151.0/28;271;Adjacent Router;No;cr1.mgmt.kmlp8
+229;MANLAN.inet.0;142.231.0.0/16;142.231.151.0/28;271;Adjacent Router;No;cr1.mgmt.kmlp8
+230;MANLAN.inet.0;142.231.0.0/16;142.231.151.64/28;271;ae3.3001;No;cr1.mgmt.kmlp8
+231;MANLAN.inet.0;142.231.0.0/16;142.231.151.96/27;271;Adjacent Router;No;cr1.mgmt.kmlp8
+232;MANLAN.inet.0;142.231.0.0/16;142.231.151.96/27;271;Adjacent Router;No;cr1.mgmt.kmlp8
+233;MANLAN.inet.0;142.231.0.0/16;142.231.151.193/32;271;Adjacent Router;No;cr1.mgmt.kmlp8
+234;MANLAN.inet.0;142.231.0.0/16;142.231.151.194/32;271;Adjacent Router;No;cr1.mgmt.kmlp8
+235;MANLAN.inet.0;142.231.0.0/16;142.231.151.195/32;271;Adjacent Router;No;cr1.mgmt.kmlp8
+236;MANLAN.inet.0;142.231.0.0/16;142.231.151.196/32;271;Adjacent Router;No;cr1.mgmt.kmlp8
+237;MANLAN.inet.0;142.231.0.0/16;142.231.151.201/32;271;Adjacent Router;No;cr1.mgmt.kmlp8
+238;MANLAN.inet.0;142.231.0.0/16;142.231.151.202/32;271;Adjacent Router;No;cr1.mgmt.kmlp8
+239;MANLAN.inet.0;142.231.0.0/16;142.231.151.208/28;271;Adjacent Router;No;cr1.mgmt.kmlp8
+240;MANLAN.inet.0;142.231.0.0/16;142.231.151.224/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+241;MANLAN.inet.0;142.231.0.0/16;142.231.151.228/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+242;MANLAN.inet.0;142.231.0.0/16;142.231.151.240/28;271;Adjacent Router;No;cr1.mgmt.kmlp8
+243;MANLAN.inet.0;142.231.0.0/16;142.231.152.0/28;271;Adjacent Router;No;cr1.mgmt.kmlp8
+244;MANLAN.inet.0;142.231.0.0/16;142.231.152.48/28;271;ae0.654;No;cr1.mgmt.kmlp8
+245;MANLAN.inet.0;142.231.0.0/16;142.231.152.128/28;271;Adjacent Router;No;cr1.mgmt.kmlp8
+246;MANLAN.inet.0;142.231.0.0/16;142.231.152.176/28;271;ae0.654;No;cr1.mgmt.kmlp8
+247;MANLAN.inet.0;142.231.0.0/16;142.231.153.16/28;271;Adjacent Router;No;cr1.mgmt.kmlp8
+248;MANLAN.inet.0;142.231.0.0/16;142.231.153.64/27;271;ae3.3001;No;cr1.mgmt.kmlp8
+249;MANLAN.inet.0;142.231.0.0/16;142.231.153.96/27;271;ae3.3003;No;cr1.mgmt.kmlp8
+250;MANLAN.inet.0;142.231.0.0/16;142.231.154.0/24;271;Adjacent Router;No;cr1.mgmt.kmlp8
+251;MANLAN.inet.0;142.231.0.0/16;142.231.154.0/24;;Adjacent Router;No;cr1.mgmt.kmlp8
+252;TRANSIT-KMLP8.inet.0;142.231.0.0/16;142.231.0.0/16;271;Adjacent Router;No;cr1.mgmt.kmlp8
+253;TRANSIT-KMLP8.inet.0;142.231.0.0/16;142.231.1.100/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+254;TRANSIT-KMLP8.inet.0;142.231.0.0/16;142.231.1.100/30;;Adjacent Router;No;cr1.mgmt.kmlp8
+255;TRANSIT-KMLP8.inet.0;142.231.0.0/16;142.231.1.104/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+256;TRANSIT-KMLP8.inet.0;142.231.0.0/16;142.231.1.104/30;;Adjacent Router;No;cr1.mgmt.kmlp8
+257;TRANSIT-KMLP8.inet.0;142.231.0.0/16;142.231.1.108/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+258;TRANSIT-KMLP8.inet.0;142.231.0.0/16;142.231.1.110/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+259;TRANSIT-KMLP8.inet.0;142.231.0.0/16;142.231.1.110/31;;Adjacent Router;No;cr1.mgmt.kmlp8
+260;TRANSIT-KMLP8.inet.0;142.231.0.0/16;142.231.1.112/29;271;Adjacent Router;No;cr1.mgmt.kmlp8
+261;TRANSIT-KMLP8.inet.0;142.231.0.0/16;142.231.1.120/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+262;TRANSIT-KMLP8.inet.0;142.231.0.0/16;142.231.1.160/27;271;Adjacent Router;No;cr1.mgmt.kmlp8
+263;TRANSIT-KMLP8.inet.0;142.231.0.0/16;142.231.2.0/24;271;Adjacent Router;No;cr1.mgmt.kmlp8
+264;TRANSIT-KMLP8.inet.0;142.231.0.0/16;142.231.2.4/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+265;TRANSIT-KMLP8.inet.0;142.231.0.0/16;142.231.2.12/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+266;TRANSIT-KMLP8.inet.0;142.231.0.0/16;142.231.2.24/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+267;TRANSIT-KMLP8.inet.0;142.231.0.0/16;142.231.2.224/27;271;Adjacent Router;No;cr1.mgmt.kmlp8
+268;TRANSIT-KMLP8.inet.0;142.231.0.0/16;142.231.3.0/24;271;Adjacent Router;No;cr1.mgmt.kmlp8
+269;TRANSIT-KMLP8.inet.0;142.231.0.0/16;142.231.6.0/24;271;Adjacent Router;No;cr1.mgmt.kmlp8
+270;TRANSIT-KMLP8.inet.0;142.231.0.0/16;142.231.7.0/27;271;Adjacent Router;No;cr1.mgmt.kmlp8
+271;TRANSIT-KMLP8.inet.0;142.231.0.0/16;142.231.20.0/24;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+272;TRANSIT-KMLP8.inet.0;142.231.0.0/16;142.231.22.0/24;64522;Adjacent Router;No;cr1.mgmt.kmlp8
+273;TRANSIT-KMLP8.inet.0;142.231.0.0/16;142.231.23.0/24;64522;Adjacent Router;No;cr1.mgmt.kmlp8
+274;TRANSIT-KMLP8.inet.0;142.231.0.0/16;142.231.32.0/20;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+275;TRANSIT-KMLP8.inet.0;142.231.0.0/16;142.231.64.0/19;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+276;TRANSIT-KMLP8.inet.0;142.231.0.0/16;142.231.109.0/24;271;lt-1/0/0.62;No;cr1.mgmt.kmlp8
+277;TRANSIT-KMLP8.inet.0;142.231.0.0/16;142.231.112.0/24;271;Adjacent Router;No;cr1.mgmt.kmlp8
+278;TRANSIT-KMLP8.inet.0;142.231.0.0/16;142.231.116.0/24;271;Adjacent Router;No;cr1.mgmt.kmlp8
+279;TRANSIT-KMLP8.inet.0;142.231.0.0/16;142.231.117.0/24;271;Adjacent Router;No;cr1.mgmt.kmlp8
+280;TRANSIT-KMLP8.inet.0;142.231.0.0/16;142.231.117.0/24;;Adjacent Router;No;cr1.mgmt.kmlp8
+281;IX-KMLP8.inet.0;142.231.0.0/16;142.231.1.100/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+282;IX-KMLP8.inet.0;142.231.0.0/16;142.231.1.100/30;;Adjacent Router;No;cr1.mgmt.kmlp8
+283;IX-KMLP8.inet.0;142.231.0.0/16;142.231.1.104/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+284;IX-KMLP8.inet.0;142.231.0.0/16;142.231.1.104/30;;Adjacent Router;No;cr1.mgmt.kmlp8
+285;IX-KMLP8.inet.0;142.231.0.0/16;142.231.1.108/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+286;IX-KMLP8.inet.0;142.231.0.0/16;142.231.1.110/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+287;IX-KMLP8.inet.0;142.231.0.0/16;142.231.1.110/31;;Adjacent Router;No;cr1.mgmt.kmlp8
+288;IX-KMLP8.inet.0;142.231.0.0/16;142.231.1.120/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+289;IX-KMLP8.inet.0;142.231.0.0/16;142.231.1.160/27;271;Adjacent Router;No;cr1.mgmt.kmlp8
+290;IX-KMLP8.inet.0;142.231.0.0/16;142.231.2.0/24;271;Adjacent Router;No;cr1.mgmt.kmlp8
+291;IX-KMLP8.inet.0;142.231.0.0/16;142.231.2.4/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+292;IX-KMLP8.inet.0;142.231.0.0/16;142.231.2.12/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+293;IX-KMLP8.inet.0;142.231.0.0/16;142.231.2.24/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+294;IX-KMLP8.inet.0;142.231.0.0/16;142.231.2.224/27;271;Adjacent Router;No;cr1.mgmt.kmlp8
+295;IX-KMLP8.inet.0;142.231.0.0/16;142.231.7.0/24;271;Adjacent Router;No;cr1.mgmt.kmlp8
+296;IX-KMLP8.inet.0;142.231.0.0/16;142.231.20.0/24;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+297;IX-KMLP8.inet.0;142.231.0.0/16;142.231.32.0/20;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+298;IX-KMLP8.inet.0;142.231.0.0/16;142.231.64.0/19;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+299;IX-KMLP8.inet.0;142.231.0.0/16;142.231.109.0/24;271;lt-1/0/0.64;No;cr1.mgmt.kmlp8
+300;IX-KMLP8.inet.0;142.231.0.0/16;142.231.112.0/24;271;Adjacent Router;No;cr1.mgmt.kmlp8
+301;IX-KMLP8.inet.0;142.231.0.0/16;142.231.116.0/24;271;Adjacent Router;No;cr1.mgmt.kmlp8
+302;IX-KMLP8.inet.0;142.231.0.0/16;142.231.117.0/24;271;Adjacent Router;No;cr1.mgmt.kmlp8
+303;IX-KMLP8.inet.0;142.231.0.0/16;142.231.117.0/24;;Adjacent Router;No;cr1.mgmt.kmlp8
+304;IX-KMLP8.inet.0;142.231.0.0/16;142.231.145.0/24;271;Adjacent Router;No;cr1.mgmt.kmlp8
+305;IX-KMLP8.inet.0;142.231.0.0/16;142.231.146.0/24;271;Adjacent Router;No;cr1.mgmt.kmlp8
+306;IX-KMLP8.inet.0;142.231.0.0/16;142.231.147.0/24;271;Adjacent Router;No;cr1.mgmt.kmlp8
+307;IX-KMLP8.inet.0;142.231.0.0/16;142.231.149.0/24;271;Adjacent Router;No;cr1.mgmt.kmlp8
+308;IX-KMLP8.inet.0;142.231.0.0/16;142.231.150.0/24;271;Adjacent Router;No;cr1.mgmt.kmlp8
+309;IX-KMLP8.inet.0;142.231.0.0/16;142.231.151.0/28;271;Adjacent Router;No;cr1.mgmt.kmlp8
+310;IX-KMLP8.inet.0;142.231.0.0/16;142.231.151.0/28;271;Adjacent Router;No;cr1.mgmt.kmlp8
+311;IX-KMLP8.inet.0;142.231.0.0/16;142.231.151.96/27;271;Adjacent Router;No;cr1.mgmt.kmlp8
+312;IX-KMLP8.inet.0;142.231.0.0/16;142.231.151.96/27;271;Adjacent Router;No;cr1.mgmt.kmlp8
+313;IX-KMLP8.inet.0;142.231.0.0/16;142.231.151.193/32;271;Adjacent Router;No;cr1.mgmt.kmlp8
+314;IX-KMLP8.inet.0;142.231.0.0/16;142.231.151.194/32;271;Adjacent Router;No;cr1.mgmt.kmlp8
+315;IX-KMLP8.inet.0;142.231.0.0/16;142.231.151.195/32;271;Adjacent Router;No;cr1.mgmt.kmlp8
+316;IX-KMLP8.inet.0;142.231.0.0/16;142.231.151.196/32;271;Adjacent Router;No;cr1.mgmt.kmlp8
+317;IX-KMLP8.inet.0;142.231.0.0/16;142.231.151.201/32;271;Adjacent Router;No;cr1.mgmt.kmlp8
+318;IX-KMLP8.inet.0;142.231.0.0/16;142.231.151.202/32;271;Adjacent Router;No;cr1.mgmt.kmlp8
+319;IX-KMLP8.inet.0;142.231.0.0/16;142.231.151.208/28;271;Adjacent Router;No;cr1.mgmt.kmlp8
+320;IX-KMLP8.inet.0;142.231.0.0/16;142.231.151.224/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+321;IX-KMLP8.inet.0;142.231.0.0/16;142.231.151.228/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+322;IX-KMLP8.inet.0;142.231.0.0/16;142.231.151.240/28;271;Adjacent Router;No;cr1.mgmt.kmlp8
+323;IX-KMLP8.inet.0;142.231.0.0/16;142.231.152.0/28;271;Adjacent Router;No;cr1.mgmt.kmlp8
+324;IX-KMLP8.inet.0;142.231.0.0/16;142.231.152.128/28;271;Adjacent Router;No;cr1.mgmt.kmlp8
+325;IX-KMLP8.inet.0;142.231.0.0/16;142.231.153.16/28;271;Adjacent Router;No;cr1.mgmt.kmlp8
+326;IX-KMLP8.inet.0;142.231.0.0/16;142.231.154.0/24;271;Adjacent Router;No;cr1.mgmt.kmlp8
+327;IX-KMLP8.inet.0;142.231.0.0/16;142.231.154.0/24;;Adjacent Router;No;cr1.mgmt.kmlp8
+328;TRANSIT-KMLP8.inet.0;192.67.9.0/24;192.67.9.0/24;271;Adjacent Router;No;cr1.mgmt.kmlp8
+329;TRANSIT-KMLP8.inet.0;192.219.32.0/19;192.219.32.0/19;577;xe-1/0/0:2.0;No;cr1.mgmt.kmlp8
+330;TRANSIT-KMLP8.inet.0;192.219.32.0/19;192.219.32.0/19;577;Adjacent Router;No;cr1.mgmt.kmlp8
+331;TRANSIT-KMLP8.inet.0;192.219.32.0/19;192.219.32.0/19;;Adjacent Router;No;cr1.mgmt.kmlp8
+332;TRANSIT-KMLP8.inet.0;192.219.32.0/19;192.219.32.0/19;577;xe-0/0/0:2.0;No;cr1.mgmt.kmlp8
+333;TRANSIT-KMLP8.inet.0;192.219.32.0/19;192.219.32.0/19;577;Adjacent Router;No;cr1.mgmt.kmlp8
+334;inet.0;206.12.0.0/16;206.12.0.1/32;;Adjacent Router;No;cr1.mgmt.kmlp8
+335;inet.0;206.12.0.0/16;206.12.0.2/32;;Adjacent Router;No;cr1.mgmt.kmlp8
+336;inet.0;206.12.0.0/16;206.12.0.5/32;;Adjacent Router;No;cr1.mgmt.kmlp8
+337;inet.0;206.12.0.0/16;206.12.0.6/32;;Adjacent Router;No;cr1.mgmt.kmlp8
+338;inet.0;206.12.0.0/16;206.12.0.7/32;;Adjacent Router;No;cr1.mgmt.kmlp8
+339;inet.0;206.12.0.0/16;206.12.0.7/32;;Adjacent Router;No;cr1.mgmt.kmlp8
+340;inet.0;206.12.0.0/16;206.12.0.8/32;;Adjacent Router;No;cr1.mgmt.kmlp8
+341;inet.0;206.12.0.0/16;206.12.0.9/32;271;lo0.0;Yes;cr1.mgmt.kmlp8
+342;inet.0;206.12.0.0/16;206.12.0.36/30;;Adjacent Router;No;cr1.mgmt.kmlp8
+343;inet.0;206.12.0.0/16;206.12.0.40/30;;Adjacent Router;No;cr1.mgmt.kmlp8
+344;inet.0;206.12.0.0/16;206.12.0.44/30;;Adjacent Router;No;cr1.mgmt.kmlp8
+345;inet.0;206.12.0.0/16;206.12.0.48/30;;Adjacent Router;No;cr1.mgmt.kmlp8
+346;inet.0;206.12.0.0/16;206.12.0.49/32;;Adjacent Router;Yes;cr1.mgmt.kmlp8
+347;inet.0;206.12.0.0/16;206.12.0.52/30;;Adjacent Router;No;cr1.mgmt.kmlp8
+348;inet.0;206.12.0.0/16;206.12.0.52/30;;Adjacent Router;No;cr1.mgmt.kmlp8
+349;inet.0;206.12.0.0/16;206.12.0.104/30;;Adjacent Router;No;cr1.mgmt.kmlp8
+350;inet.0;206.12.0.0/16;206.12.0.106/32;;Adjacent Router;Yes;cr1.mgmt.kmlp8
+351;inet.0;206.12.0.0/16;206.12.0.116/30;;Adjacent Router;No;cr1.mgmt.kmlp8
+352;inet.0;206.12.0.0/16;206.12.0.118/32;;Adjacent Router;Yes;cr1.mgmt.kmlp8
+353;inet.0;206.12.0.0/16;206.12.0.120/31;;Adjacent Router;No;cr1.mgmt.kmlp8
+354;inet.0;206.12.0.0/16;206.12.0.122/31;;Adjacent Router;No;cr1.mgmt.kmlp8
+355;inet.0;206.12.0.0/16;206.12.0.122/31;;Adjacent Router;No;cr1.mgmt.kmlp8
+356;inet.0;206.12.0.0/16;206.12.0.124/31;;Adjacent Router;No;cr1.mgmt.kmlp8
+357;inet.0;206.12.0.0/16;206.12.0.128/31;;Adjacent Router;No;cr1.mgmt.kmlp8
+358;inet.0;206.12.0.0/16;206.12.0.128/31;;Adjacent Router;No;cr1.mgmt.kmlp8
+359;inet.0;206.12.0.0/16;206.12.0.130/31;;Adjacent Router;No;cr1.mgmt.kmlp8
+360;inet.0;206.12.0.0/16;206.12.0.130/31;;Adjacent Router;No;cr1.mgmt.kmlp8
+361;inet.0;206.12.0.0/16;206.12.0.132/31;;Adjacent Router;No;cr1.mgmt.kmlp8
+362;inet.0;206.12.0.0/16;206.12.0.132/32;;Adjacent Router;Yes;cr1.mgmt.kmlp8
+363;inet.0;206.12.0.0/16;206.12.0.134/31;;Adjacent Router;No;cr1.mgmt.kmlp8
+364;inet.0;206.12.0.0/16;206.12.0.134/31;;Adjacent Router;No;cr1.mgmt.kmlp8
+365;inet.0;206.12.0.0/16;206.12.1.0/24;36391;Adjacent Router;No;cr1.mgmt.kmlp8
+366;inet.0;206.12.0.0/16;206.12.6.0/23;11105;Adjacent Router;No;cr1.mgmt.kmlp8
+367;inet.0;206.12.0.0/16;206.12.9.0/24;36391;Adjacent Router;No;cr1.mgmt.kmlp8
+368;inet.0;206.12.0.0/16;206.12.10.0/24;11105;Adjacent Router;No;cr1.mgmt.kmlp8
+369;inet.0;206.12.0.0/16;206.12.12.0/24;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+370;inet.0;206.12.0.0/16;206.12.13.0/24;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+371;inet.0;206.12.0.0/16;206.12.14.0/24;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+372;inet.0;206.12.0.0/16;206.12.15.0/24;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+373;inet.0;206.12.0.0/16;206.12.16.0/24;11105;Adjacent Router;No;cr1.mgmt.kmlp8
+374;inet.0;206.12.0.0/16;206.12.17.0/24;11105;Adjacent Router;No;cr1.mgmt.kmlp8
+375;inet.0;206.12.0.0/16;206.12.18.0/24;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+376;inet.0;206.12.0.0/16;206.12.28.0/24;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+377;inet.0;206.12.0.0/16;206.12.40.0/21;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+378;inet.0;206.12.0.0/16;206.12.48.0/24;16462;Adjacent Router;No;cr1.mgmt.kmlp8
+379;inet.0;206.12.0.0/16;206.12.50.0/24;16462;Adjacent Router;No;cr1.mgmt.kmlp8
+380;inet.0;206.12.0.0/16;206.12.52.0/22;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+381;inet.0;206.12.0.0/16;206.12.56.0/23;16462;Adjacent Router;No;cr1.mgmt.kmlp8
+382;inet.0;206.12.0.0/16;206.12.58.0/24;16462;Adjacent Router;No;cr1.mgmt.kmlp8
+383;inet.0;206.12.0.0/16;206.12.59.0/24;16462;Adjacent Router;No;cr1.mgmt.kmlp8
+384;inet.0;206.12.0.0/16;206.12.60.0/22;16462;Adjacent Router;No;cr1.mgmt.kmlp8
+385;inet.0;206.12.0.0/16;206.12.64.0/20;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+386;inet.0;206.12.0.0/16;206.12.76.0/24;271;lt-0/1/0.202;No;cr1.mgmt.kmlp8
+387;inet.0;206.12.0.0/16;206.12.77.0/24;271;lt-0/1/0.202;No;cr1.mgmt.kmlp8
+388;inet.0;206.12.0.0/16;206.12.88.0/21;16462;Adjacent Router;No;cr1.mgmt.kmlp8
+389;inet.0;206.12.0.0/16;206.12.96.0/21;16462;Adjacent Router;No;cr1.mgmt.kmlp8
+390;inet.0;206.12.0.0/16;206.12.104.0/22;40598;Adjacent Router;No;cr1.mgmt.kmlp8
+391;inet.0;206.12.0.0/16;206.12.116.0/24;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+392;inet.0;206.12.0.0/16;206.12.119.0/24;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+393;inet.0;206.12.0.0/16;206.12.120.0/21;11105;Adjacent Router;No;cr1.mgmt.kmlp8
+394;inet.0;206.12.0.0/16;206.12.128.0/24;11105;Adjacent Router;No;cr1.mgmt.kmlp8
+395;inet.0;206.12.0.0/16;206.12.128.0/24;;Adjacent Router;No;cr1.mgmt.kmlp8
+396;inet.0;206.12.0.0/16;206.12.136.0/21;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+397;inet.0;206.12.0.0/16;206.12.149.0/24;271;lt-0/1/0.202;No;cr1.mgmt.kmlp8
+398;inet.0;206.12.0.0/16;206.12.150.0/24;271;Adjacent Router;No;cr1.mgmt.kmlp8
+399;inet.0;206.12.0.0/16;206.12.150.0/24;;Adjacent Router;No;cr1.mgmt.kmlp8
+400;inet.0;206.12.0.0/16;206.12.152.0/24;271;Adjacent Router;No;cr1.mgmt.kmlp8
+401;inet.0;206.12.0.0/16;206.12.154.0/24;16462;Adjacent Router;No;cr1.mgmt.kmlp8
+402;inet.0;206.12.0.0/16;206.12.155.0/24;16462;Adjacent Router;No;cr1.mgmt.kmlp8
+403;inet.0;206.12.0.0/16;206.12.160.0/21;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+404;inet.0;206.12.0.0/16;206.12.172.0/23;271;lt-0/1/0.202;No;cr1.mgmt.kmlp8
+405;inet.0;206.12.0.0/16;206.12.174.0/24;271;lt-0/1/0.202;No;cr1.mgmt.kmlp8
+406;inet.0;206.12.0.0/16;206.12.176.0/21;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+407;inet.0;206.12.0.0/16;206.12.200.0/22;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+408;inet.0;206.12.0.0/16;206.12.208.0/22;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+409;inet.0;206.12.0.0/16;206.12.224.0/19;16462;Adjacent Router;No;cr1.mgmt.kmlp8
+410;inet.2;206.12.0.0/16;206.12.0.1/32;;Adjacent Router;No;cr1.mgmt.kmlp8
+411;inet.2;206.12.0.0/16;206.12.0.2/32;;Adjacent Router;No;cr1.mgmt.kmlp8
+412;inet.2;206.12.0.0/16;206.12.0.5/32;;Adjacent Router;No;cr1.mgmt.kmlp8
+413;inet.2;206.12.0.0/16;206.12.0.6/32;;Adjacent Router;No;cr1.mgmt.kmlp8
+414;inet.2;206.12.0.0/16;206.12.0.7/32;;Adjacent Router;No;cr1.mgmt.kmlp8
+415;inet.2;206.12.0.0/16;206.12.0.7/32;;Adjacent Router;No;cr1.mgmt.kmlp8
+416;inet.2;206.12.0.0/16;206.12.0.8/32;;Adjacent Router;No;cr1.mgmt.kmlp8
+417;inet.2;206.12.0.0/16;206.12.0.9/32;271;lo0.0;Yes;cr1.mgmt.kmlp8
+418;inet.2;206.12.0.0/16;206.12.0.36/30;;Adjacent Router;No;cr1.mgmt.kmlp8
+419;inet.2;206.12.0.0/16;206.12.0.40/30;;Adjacent Router;No;cr1.mgmt.kmlp8
+420;inet.2;206.12.0.0/16;206.12.0.44/30;;Adjacent Router;No;cr1.mgmt.kmlp8
+421;inet.2;206.12.0.0/16;206.12.0.48/30;;Adjacent Router;No;cr1.mgmt.kmlp8
+422;inet.2;206.12.0.0/16;206.12.0.49/32;;Adjacent Router;Yes;cr1.mgmt.kmlp8
+423;inet.2;206.12.0.0/16;206.12.0.52/30;;Adjacent Router;No;cr1.mgmt.kmlp8
+424;inet.2;206.12.0.0/16;206.12.0.52/30;;Adjacent Router;No;cr1.mgmt.kmlp8
+425;inet.2;206.12.0.0/16;206.12.0.104/30;;Adjacent Router;No;cr1.mgmt.kmlp8
+426;inet.2;206.12.0.0/16;206.12.0.106/32;;Adjacent Router;Yes;cr1.mgmt.kmlp8
+427;inet.2;206.12.0.0/16;206.12.0.116/30;;Adjacent Router;No;cr1.mgmt.kmlp8
+428;inet.2;206.12.0.0/16;206.12.0.118/32;;Adjacent Router;Yes;cr1.mgmt.kmlp8
+429;inet.2;206.12.0.0/16;206.12.0.120/31;;Adjacent Router;No;cr1.mgmt.kmlp8
+430;inet.2;206.12.0.0/16;206.12.0.122/31;;Adjacent Router;No;cr1.mgmt.kmlp8
+431;inet.2;206.12.0.0/16;206.12.0.122/31;;Adjacent Router;No;cr1.mgmt.kmlp8
+432;inet.2;206.12.0.0/16;206.12.0.124/31;;Adjacent Router;No;cr1.mgmt.kmlp8
+433;inet.2;206.12.0.0/16;206.12.0.128/31;;Adjacent Router;No;cr1.mgmt.kmlp8
+434;inet.2;206.12.0.0/16;206.12.0.128/31;;Adjacent Router;No;cr1.mgmt.kmlp8
+435;inet.2;206.12.0.0/16;206.12.0.130/31;;Adjacent Router;No;cr1.mgmt.kmlp8
+436;inet.2;206.12.0.0/16;206.12.0.130/31;;Adjacent Router;No;cr1.mgmt.kmlp8
+437;inet.2;206.12.0.0/16;206.12.0.132/31;;Adjacent Router;No;cr1.mgmt.kmlp8
+438;inet.2;206.12.0.0/16;206.12.0.132/32;;Adjacent Router;Yes;cr1.mgmt.kmlp8
+439;inet.2;206.12.0.0/16;206.12.0.134/31;;Adjacent Router;No;cr1.mgmt.kmlp8
+440;inet.2;206.12.0.0/16;206.12.0.134/31;;Adjacent Router;No;cr1.mgmt.kmlp8
+441;inet.2;206.12.0.0/16;206.12.152.0/24;271;Adjacent Router;No;cr1.mgmt.kmlp8
+442;inet.3;206.12.0.0/16;206.12.0.1/32;;Adjacent Router;No;cr1.mgmt.kmlp8
+443;inet.3;206.12.0.0/16;206.12.0.2/32;;Adjacent Router;No;cr1.mgmt.kmlp8
+444;inet.3;206.12.0.0/16;206.12.0.5/32;;Adjacent Router;No;cr1.mgmt.kmlp8
+445;inet.3;206.12.0.0/16;206.12.0.6/32;;Adjacent Router;No;cr1.mgmt.kmlp8
+446;inet.3;206.12.0.0/16;206.12.0.7/32;;Adjacent Router;No;cr1.mgmt.kmlp8
+447;inet.3;206.12.0.0/16;206.12.0.7/32;;Adjacent Router;No;cr1.mgmt.kmlp8
+448;inet.3;206.12.0.0/16;206.12.0.8/32;;Adjacent Router;No;cr1.mgmt.kmlp8
+449;TRANSIT-KMLP8.inet.0;206.12.0.0/16;206.12.0.0/16;271;Adjacent Router;No;cr1.mgmt.kmlp8
+450;TRANSIT-KMLP8.inet.0;206.12.0.0/16;206.12.1.0/24;36391;Adjacent Router;No;cr1.mgmt.kmlp8
+451;TRANSIT-KMLP8.inet.0;206.12.0.0/16;206.12.6.0/23;11105;Adjacent Router;No;cr1.mgmt.kmlp8
+452;TRANSIT-KMLP8.inet.0;206.12.0.0/16;206.12.9.0/24;36391;Adjacent Router;No;cr1.mgmt.kmlp8
+453;TRANSIT-KMLP8.inet.0;206.12.0.0/16;206.12.10.0/24;11105;Adjacent Router;No;cr1.mgmt.kmlp8
+454;TRANSIT-KMLP8.inet.0;206.12.0.0/16;206.12.12.0/24;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+455;TRANSIT-KMLP8.inet.0;206.12.0.0/16;206.12.13.0/24;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+456;TRANSIT-KMLP8.inet.0;206.12.0.0/16;206.12.14.0/24;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+457;TRANSIT-KMLP8.inet.0;206.12.0.0/16;206.12.15.0/24;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+458;TRANSIT-KMLP8.inet.0;206.12.0.0/16;206.12.16.0/24;11105;Adjacent Router;No;cr1.mgmt.kmlp8
+459;TRANSIT-KMLP8.inet.0;206.12.0.0/16;206.12.17.0/24;11105;Adjacent Router;No;cr1.mgmt.kmlp8
+460;TRANSIT-KMLP8.inet.0;206.12.0.0/16;206.12.18.0/24;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+461;TRANSIT-KMLP8.inet.0;206.12.0.0/16;206.12.28.0/24;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+462;TRANSIT-KMLP8.inet.0;206.12.0.0/16;206.12.40.0/21;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+463;TRANSIT-KMLP8.inet.0;206.12.0.0/16;206.12.48.0/24;16462;Adjacent Router;No;cr1.mgmt.kmlp8
+464;TRANSIT-KMLP8.inet.0;206.12.0.0/16;206.12.50.0/24;16462;Adjacent Router;No;cr1.mgmt.kmlp8
+465;TRANSIT-KMLP8.inet.0;206.12.0.0/16;206.12.52.0/22;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+466;TRANSIT-KMLP8.inet.0;206.12.0.0/16;206.12.56.0/23;16462;Adjacent Router;No;cr1.mgmt.kmlp8
+467;TRANSIT-KMLP8.inet.0;206.12.0.0/16;206.12.58.0/24;16462;Adjacent Router;No;cr1.mgmt.kmlp8
+468;TRANSIT-KMLP8.inet.0;206.12.0.0/16;206.12.59.0/24;16462;Adjacent Router;No;cr1.mgmt.kmlp8
+469;TRANSIT-KMLP8.inet.0;206.12.0.0/16;206.12.60.0/22;16462;Adjacent Router;No;cr1.mgmt.kmlp8
+470;TRANSIT-KMLP8.inet.0;206.12.0.0/16;206.12.64.0/20;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+471;TRANSIT-KMLP8.inet.0;206.12.0.0/16;206.12.76.0/24;271;lt-0/0/0.204;No;cr1.mgmt.kmlp8
+472;TRANSIT-KMLP8.inet.0;206.12.0.0/16;206.12.77.0/24;271;lt-0/0/0.204;No;cr1.mgmt.kmlp8
+473;TRANSIT-KMLP8.inet.0;206.12.0.0/16;206.12.82.0/24;25668;xe-1/0/0:2.0;No;cr1.mgmt.kmlp8
+474;TRANSIT-KMLP8.inet.0;206.12.0.0/16;206.12.82.0/24;25668;Adjacent Router;No;cr1.mgmt.kmlp8
+475;TRANSIT-KMLP8.inet.0;206.12.0.0/16;206.12.82.0/24;;Adjacent Router;No;cr1.mgmt.kmlp8
+476;TRANSIT-KMLP8.inet.0;206.12.0.0/16;206.12.82.0/24;25668;xe-0/0/0:2.0;No;cr1.mgmt.kmlp8
+477;TRANSIT-KMLP8.inet.0;206.12.0.0/16;206.12.88.0/21;16462;Adjacent Router;No;cr1.mgmt.kmlp8
+478;TRANSIT-KMLP8.inet.0;206.12.0.0/16;206.12.96.0/21;16462;Adjacent Router;No;cr1.mgmt.kmlp8
+479;TRANSIT-KMLP8.inet.0;206.12.0.0/16;206.12.104.0/22;40598;Adjacent Router;No;cr1.mgmt.kmlp8
+480;TRANSIT-KMLP8.inet.0;206.12.0.0/16;206.12.119.0/24;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+481;TRANSIT-KMLP8.inet.0;206.12.0.0/16;206.12.120.0/21;11105;Adjacent Router;No;cr1.mgmt.kmlp8
+482;TRANSIT-KMLP8.inet.0;206.12.0.0/16;206.12.128.0/24;11105;Adjacent Router;No;cr1.mgmt.kmlp8
+483;TRANSIT-KMLP8.inet.0;206.12.0.0/16;206.12.128.0/24;;Adjacent Router;No;cr1.mgmt.kmlp8
+484;TRANSIT-KMLP8.inet.0;206.12.0.0/16;206.12.136.0/21;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+485;TRANSIT-KMLP8.inet.0;206.12.0.0/16;206.12.149.0/24;271;lt-0/0/0.204;No;cr1.mgmt.kmlp8
+486;TRANSIT-KMLP8.inet.0;206.12.0.0/16;206.12.150.0/24;271;Adjacent Router;No;cr1.mgmt.kmlp8
+487;TRANSIT-KMLP8.inet.0;206.12.0.0/16;206.12.150.0/24;;Adjacent Router;No;cr1.mgmt.kmlp8
+488;TRANSIT-KMLP8.inet.0;206.12.0.0/16;206.12.152.0/24;271;Adjacent Router;No;cr1.mgmt.kmlp8
+489;TRANSIT-KMLP8.inet.0;206.12.0.0/16;206.12.153.0/24;20473;xe-1/0/0:2.0;No;cr1.mgmt.kmlp8
+490;TRANSIT-KMLP8.inet.0;206.12.0.0/16;206.12.153.0/24;20473;Adjacent Router;No;cr1.mgmt.kmlp8
+491;TRANSIT-KMLP8.inet.0;206.12.0.0/16;206.12.153.0/24;;Adjacent Router;No;cr1.mgmt.kmlp8
+492;TRANSIT-KMLP8.inet.0;206.12.0.0/16;206.12.153.0/24;20473;xe-0/0/0:2.0;No;cr1.mgmt.kmlp8
+493;TRANSIT-KMLP8.inet.0;206.12.0.0/16;206.12.153.0/24;20473;Adjacent Router;No;cr1.mgmt.kmlp8
+494;TRANSIT-KMLP8.inet.0;206.12.0.0/16;206.12.154.0/24;16462;Adjacent Router;No;cr1.mgmt.kmlp8
+495;TRANSIT-KMLP8.inet.0;206.12.0.0/16;206.12.155.0/24;16462;Adjacent Router;No;cr1.mgmt.kmlp8
+496;TRANSIT-KMLP8.inet.0;206.12.0.0/16;206.12.160.0/21;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+497;TRANSIT-KMLP8.inet.0;206.12.0.0/16;206.12.172.0/23;271;lt-0/0/0.204;No;cr1.mgmt.kmlp8
+498;TRANSIT-KMLP8.inet.0;206.12.0.0/16;206.12.174.0/24;271;lt-0/0/0.204;No;cr1.mgmt.kmlp8
+499;TRANSIT-KMLP8.inet.0;206.12.0.0/16;206.12.176.0/21;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+500;TRANSIT-KMLP8.inet.0;206.12.0.0/16;206.12.200.0/22;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+501;TRANSIT-KMLP8.inet.0;206.12.0.0/16;206.12.208.0/22;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+502;TRANSIT-KMLP8.inet.0;206.12.0.0/16;206.12.224.0/19;16462;Adjacent Router;No;cr1.mgmt.kmlp8
+503;IX-KMLP8.inet.0;206.12.0.0/16;206.12.1.0/24;36391;Adjacent Router;No;cr1.mgmt.kmlp8
+504;IX-KMLP8.inet.0;206.12.0.0/16;206.12.3.1/32;;Adjacent Router;No;cr1.mgmt.kmlp8
+505;IX-KMLP8.inet.0;206.12.0.0/16;206.12.3.5/32;;Adjacent Router;No;cr1.mgmt.kmlp8
+506;IX-KMLP8.inet.0;206.12.0.0/16;206.12.3.6/32;;Adjacent Router;No;cr1.mgmt.kmlp8
+507;IX-KMLP8.inet.0;206.12.0.0/16;206.12.3.7/32;;Adjacent Router;No;cr1.mgmt.kmlp8
+508;IX-KMLP8.inet.0;206.12.0.0/16;206.12.3.7/32;;Adjacent Router;No;cr1.mgmt.kmlp8
+509;IX-KMLP8.inet.0;206.12.0.0/16;206.12.3.8/32;;Adjacent Router;No;cr1.mgmt.kmlp8
+510;IX-KMLP8.inet.0;206.12.0.0/16;206.12.3.9/32;271;lo0.3;Yes;cr1.mgmt.kmlp8
+511;IX-KMLP8.inet.0;206.12.0.0/16;206.12.3.16/30;;Adjacent Router;No;cr1.mgmt.kmlp8
+512;IX-KMLP8.inet.0;206.12.0.0/16;206.12.3.24/30;;Adjacent Router;No;cr1.mgmt.kmlp8
+513;IX-KMLP8.inet.0;206.12.0.0/16;206.12.3.28/30;;Adjacent Router;No;cr1.mgmt.kmlp8
+514;IX-KMLP8.inet.0;206.12.0.0/16;206.12.3.29/32;;Adjacent Router;Yes;cr1.mgmt.kmlp8
+515;IX-KMLP8.inet.0;206.12.0.0/16;206.12.3.32/30;;Adjacent Router;No;cr1.mgmt.kmlp8
+516;IX-KMLP8.inet.0;206.12.0.0/16;206.12.3.32/30;;Adjacent Router;No;cr1.mgmt.kmlp8
+517;IX-KMLP8.inet.0;206.12.0.0/16;206.12.3.36/30;;Adjacent Router;No;cr1.mgmt.kmlp8
+518;IX-KMLP8.inet.0;206.12.0.0/16;206.12.3.38/32;;Adjacent Router;Yes;cr1.mgmt.kmlp8
+519;IX-KMLP8.inet.0;206.12.0.0/16;206.12.3.40/30;;Adjacent Router;No;cr1.mgmt.kmlp8
+520;IX-KMLP8.inet.0;206.12.0.0/16;206.12.3.52/30;;Adjacent Router;No;cr1.mgmt.kmlp8
+521;IX-KMLP8.inet.0;206.12.0.0/16;206.12.3.54/32;;Adjacent Router;Yes;cr1.mgmt.kmlp8
+522;IX-KMLP8.inet.0;206.12.0.0/16;206.12.3.56/30;;Adjacent Router;No;cr1.mgmt.kmlp8
+523;IX-KMLP8.inet.0;206.12.0.0/16;206.12.3.60/30;;Adjacent Router;No;cr1.mgmt.kmlp8
+524;IX-KMLP8.inet.0;206.12.0.0/16;206.12.3.60/30;;Adjacent Router;No;cr1.mgmt.kmlp8
+525;IX-KMLP8.inet.0;206.12.0.0/16;206.12.3.64/30;;Adjacent Router;No;cr1.mgmt.kmlp8
+526;IX-KMLP8.inet.0;206.12.0.0/16;206.12.3.64/30;;Adjacent Router;No;cr1.mgmt.kmlp8
+527;IX-KMLP8.inet.0;206.12.0.0/16;206.12.3.68/30;;Adjacent Router;No;cr1.mgmt.kmlp8
+528;IX-KMLP8.inet.0;206.12.0.0/16;206.12.3.69/32;;Adjacent Router;Yes;cr1.mgmt.kmlp8
+529;IX-KMLP8.inet.0;206.12.0.0/16;206.12.3.72/30;;Adjacent Router;No;cr1.mgmt.kmlp8
+530;IX-KMLP8.inet.0;206.12.0.0/16;206.12.3.72/30;;Adjacent Router;No;cr1.mgmt.kmlp8
+531;IX-KMLP8.inet.0;206.12.0.0/16;206.12.3.76/31;;Adjacent Router;No;cr1.mgmt.kmlp8
+532;IX-KMLP8.inet.0;206.12.0.0/16;206.12.4.4/30;271;lt-1/1/0.74;No;cr1.mgmt.kmlp8
+533;IX-KMLP8.inet.0;206.12.0.0/16;206.12.4.6/32;271;lt-1/1/0.74;Yes;cr1.mgmt.kmlp8
+534;IX-KMLP8.inet.0;206.12.0.0/16;206.12.4.8/31;271;lt-0/1/0.201;No;cr1.mgmt.kmlp8
+535;IX-KMLP8.inet.0;206.12.0.0/16;206.12.4.8/32;271;lt-0/1/0.201;Yes;cr1.mgmt.kmlp8
+536;IX-KMLP8.inet.0;206.12.0.0/16;206.12.4.10/31;271;lt-1/0/0.58;No;cr1.mgmt.kmlp8
+537;IX-KMLP8.inet.0;206.12.0.0/16;206.12.4.10/32;271;lt-1/0/0.58;Yes;cr1.mgmt.kmlp8
+538;IX-KMLP8.inet.0;206.12.0.0/16;206.12.4.14/31;271;lt-1/0/0.64;No;cr1.mgmt.kmlp8
+539;IX-KMLP8.inet.0;206.12.0.0/16;206.12.4.14/32;271;lt-1/0/0.64;Yes;cr1.mgmt.kmlp8
+540;IX-KMLP8.inet.0;206.12.0.0/16;206.12.4.16/31;271;lt-0/1/0.50;No;cr1.mgmt.kmlp8
+541;IX-KMLP8.inet.0;206.12.0.0/16;206.12.4.16/32;271;lt-0/1/0.50;Yes;cr1.mgmt.kmlp8
+542;IX-KMLP8.inet.0;206.12.0.0/16;206.12.6.0/23;11105;Adjacent Router;No;cr1.mgmt.kmlp8
+543;IX-KMLP8.inet.0;206.12.0.0/16;206.12.9.0/24;36391;Adjacent Router;No;cr1.mgmt.kmlp8
+544;IX-KMLP8.inet.0;206.12.0.0/16;206.12.10.0/24;11105;Adjacent Router;No;cr1.mgmt.kmlp8
+545;IX-KMLP8.inet.0;206.12.0.0/16;206.12.12.0/24;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+546;IX-KMLP8.inet.0;206.12.0.0/16;206.12.13.0/24;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+547;IX-KMLP8.inet.0;206.12.0.0/16;206.12.14.0/24;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+548;IX-KMLP8.inet.0;206.12.0.0/16;206.12.15.0/24;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+549;IX-KMLP8.inet.0;206.12.0.0/16;206.12.16.0/24;11105;Adjacent Router;No;cr1.mgmt.kmlp8
+550;IX-KMLP8.inet.0;206.12.0.0/16;206.12.17.0/24;11105;Adjacent Router;No;cr1.mgmt.kmlp8
+551;IX-KMLP8.inet.0;206.12.0.0/16;206.12.18.0/24;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+552;IX-KMLP8.inet.0;206.12.0.0/16;206.12.28.0/24;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+553;IX-KMLP8.inet.0;206.12.0.0/16;206.12.40.0/21;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+554;IX-KMLP8.inet.0;206.12.0.0/16;206.12.48.0/24;16462;Adjacent Router;No;cr1.mgmt.kmlp8
+555;IX-KMLP8.inet.0;206.12.0.0/16;206.12.50.0/24;16462;Adjacent Router;No;cr1.mgmt.kmlp8
+556;IX-KMLP8.inet.0;206.12.0.0/16;206.12.52.0/22;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+557;IX-KMLP8.inet.0;206.12.0.0/16;206.12.56.0/23;16462;Adjacent Router;No;cr1.mgmt.kmlp8
+558;IX-KMLP8.inet.0;206.12.0.0/16;206.12.58.0/24;16462;Adjacent Router;No;cr1.mgmt.kmlp8
+559;IX-KMLP8.inet.0;206.12.0.0/16;206.12.59.0/24;16462;Adjacent Router;No;cr1.mgmt.kmlp8
+560;IX-KMLP8.inet.0;206.12.0.0/16;206.12.60.0/22;16462;Adjacent Router;No;cr1.mgmt.kmlp8
+561;IX-KMLP8.inet.0;206.12.0.0/16;206.12.64.0/20;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+562;IX-KMLP8.inet.0;206.12.0.0/16;206.12.76.0/24;271;lt-0/1/0.201;No;cr1.mgmt.kmlp8
+563;IX-KMLP8.inet.0;206.12.0.0/16;206.12.77.0/24;271;lt-0/1/0.201;No;cr1.mgmt.kmlp8
+564;IX-KMLP8.inet.0;206.12.0.0/16;206.12.82.0/24;25668;Adjacent Router;No;cr1.mgmt.kmlp8
+565;IX-KMLP8.inet.0;206.12.0.0/16;206.12.88.0/21;16462;Adjacent Router;No;cr1.mgmt.kmlp8
+566;IX-KMLP8.inet.0;206.12.0.0/16;206.12.96.0/21;16462;Adjacent Router;No;cr1.mgmt.kmlp8
+567;IX-KMLP8.inet.0;206.12.0.0/16;206.12.104.0/22;40598;Adjacent Router;No;cr1.mgmt.kmlp8
+568;IX-KMLP8.inet.0;206.12.0.0/16;206.12.119.0/24;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+569;IX-KMLP8.inet.0;206.12.0.0/16;206.12.120.0/21;11105;Adjacent Router;No;cr1.mgmt.kmlp8
+570;IX-KMLP8.inet.0;206.12.0.0/16;206.12.128.0/24;11105;Adjacent Router;No;cr1.mgmt.kmlp8
+571;IX-KMLP8.inet.0;206.12.0.0/16;206.12.128.0/24;;Adjacent Router;No;cr1.mgmt.kmlp8
+572;IX-KMLP8.inet.0;206.12.0.0/16;206.12.136.0/21;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+573;IX-KMLP8.inet.0;206.12.0.0/16;206.12.149.0/24;271;lt-0/1/0.201;No;cr1.mgmt.kmlp8
+574;IX-KMLP8.inet.0;206.12.0.0/16;206.12.150.0/24;271;Adjacent Router;No;cr1.mgmt.kmlp8
+575;IX-KMLP8.inet.0;206.12.0.0/16;206.12.150.0/24;;Adjacent Router;No;cr1.mgmt.kmlp8
+576;IX-KMLP8.inet.0;206.12.0.0/16;206.12.152.0/24;271;Adjacent Router;No;cr1.mgmt.kmlp8
+577;IX-KMLP8.inet.0;206.12.0.0/16;206.12.154.0/24;16462;Adjacent Router;No;cr1.mgmt.kmlp8
+578;IX-KMLP8.inet.0;206.12.0.0/16;206.12.155.0/24;16462;Adjacent Router;No;cr1.mgmt.kmlp8
+579;IX-KMLP8.inet.0;206.12.0.0/16;206.12.160.0/21;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+580;IX-KMLP8.inet.0;206.12.0.0/16;206.12.172.0/23;271;lt-0/1/0.201;No;cr1.mgmt.kmlp8
+581;IX-KMLP8.inet.0;206.12.0.0/16;206.12.174.0/24;271;lt-0/1/0.201;No;cr1.mgmt.kmlp8
+582;IX-KMLP8.inet.0;206.12.0.0/16;206.12.176.0/21;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+583;IX-KMLP8.inet.0;206.12.0.0/16;206.12.200.0/22;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+584;IX-KMLP8.inet.0;206.12.0.0/16;206.12.208.0/22;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+585;IX-KMLP8.inet.0;206.12.0.0/16;206.12.224.0/19;16462;Adjacent Router;No;cr1.mgmt.kmlp8
+586;inet.0;206.87.0.0/16;206.87.0.0/18;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+587;inet.0;206.87.0.0/16;206.87.64.0/21;16462;Adjacent Router;No;cr1.mgmt.kmlp8
+588;inet.0;206.87.0.0/16;206.87.80.0/20;16462;Adjacent Router;No;cr1.mgmt.kmlp8
+589;inet.0;206.87.0.0/16;206.87.96.0/19;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+590;inet.0;206.87.0.0/16;206.87.128.0/19;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+591;inet.0;206.87.0.0/16;206.87.160.0/19;16462;Adjacent Router;No;cr1.mgmt.kmlp8
+592;inet.0;206.87.0.0/16;206.87.192.0/19;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+593;inet.0;206.87.0.0/16;206.87.224.0/20;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+594;TRANSIT-KMLP8.inet.0;206.87.0.0/16;206.87.0.0/16;271;Adjacent Router;No;cr1.mgmt.kmlp8
+595;TRANSIT-KMLP8.inet.0;206.87.0.0/16;206.87.0.0/18;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+596;TRANSIT-KMLP8.inet.0;206.87.0.0/16;206.87.64.0/21;16462;Adjacent Router;No;cr1.mgmt.kmlp8
+597;TRANSIT-KMLP8.inet.0;206.87.0.0/16;206.87.80.0/20;16462;Adjacent Router;No;cr1.mgmt.kmlp8
+598;TRANSIT-KMLP8.inet.0;206.87.0.0/16;206.87.96.0/19;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+599;TRANSIT-KMLP8.inet.0;206.87.0.0/16;206.87.128.0/19;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+600;TRANSIT-KMLP8.inet.0;206.87.0.0/16;206.87.160.0/19;16462;Adjacent Router;No;cr1.mgmt.kmlp8
+601;TRANSIT-KMLP8.inet.0;206.87.0.0/16;206.87.192.0/19;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+602;TRANSIT-KMLP8.inet.0;206.87.0.0/16;206.87.224.0/20;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+603;IX-KMLP8.inet.0;206.87.0.0/16;206.87.0.0/18;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+604;IX-KMLP8.inet.0;206.87.0.0/16;206.87.64.0/21;16462;Adjacent Router;No;cr1.mgmt.kmlp8
+605;IX-KMLP8.inet.0;206.87.0.0/16;206.87.80.0/20;16462;Adjacent Router;No;cr1.mgmt.kmlp8
+606;IX-KMLP8.inet.0;206.87.0.0/16;206.87.96.0/19;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+607;IX-KMLP8.inet.0;206.87.0.0/16;206.87.128.0/19;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+608;IX-KMLP8.inet.0;206.87.0.0/16;206.87.160.0/19;16462;Adjacent Router;No;cr1.mgmt.kmlp8
+609;IX-KMLP8.inet.0;206.87.0.0/16;206.87.192.0/19;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+610;IX-KMLP8.inet.0;206.87.0.0/16;206.87.224.0/20;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+611;inet.0;207.23.0.0/16;207.23.8.0/21;271;lt-1/1/0.70;No;cr1.mgmt.kmlp8
+612;inet.0;207.23.0.0/16;207.23.72.0/24;271;Adjacent Router;No;cr1.mgmt.kmlp8
+613;inet.0;207.23.0.0/16;207.23.73.0/24;271;Adjacent Router;No;cr1.mgmt.kmlp8
+614;inet.0;207.23.0.0/16;207.23.85.0/24;11105;Adjacent Router;No;cr1.mgmt.kmlp8
+615;inet.0;207.23.0.0/16;207.23.88.0/23;271;lt-1/1/0.70;No;cr1.mgmt.kmlp8
+616;inet.0;207.23.0.0/16;207.23.92.0/23;271;lt-0/1/0.40;No;cr1.mgmt.kmlp8
+617;inet.0;207.23.0.0/16;207.23.94.0/23;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+618;inet.0;207.23.0.0/16;207.23.96.0/20;397543;Adjacent Router;No;cr1.mgmt.kmlp8
+619;inet.0;207.23.0.0/16;207.23.128.0/19;397375;Adjacent Router;No;cr1.mgmt.kmlp8
+620;inet.0;207.23.0.0/16;207.23.160.0/19;11105;Adjacent Router;No;cr1.mgmt.kmlp8
+621;inet.0;207.23.0.0/16;207.23.192.0/19;11105;Adjacent Router;No;cr1.mgmt.kmlp8
+622;inet.0;207.23.0.0/16;207.23.240.36/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+623;inet.0;207.23.0.0/16;207.23.240.38/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+624;inet.0;207.23.0.0/16;207.23.240.42/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+625;inet.0;207.23.0.0/16;207.23.240.44/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+626;inet.0;207.23.0.0/16;207.23.240.48/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+627;inet.0;207.23.0.0/16;207.23.240.50/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+628;inet.0;207.23.0.0/16;207.23.240.52/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+629;inet.0;207.23.0.0/16;207.23.240.54/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+630;inet.0;207.23.0.0/16;207.23.240.68/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+631;inet.0;207.23.0.0/16;207.23.240.212/32;271;Adjacent Router;No;cr1.mgmt.kmlp8
+632;inet.0;207.23.0.0/16;207.23.240.213/32;271;Adjacent Router;No;cr1.mgmt.kmlp8
+633;inet.0;207.23.0.0/16;207.23.240.214/32;271;Adjacent Router;No;cr1.mgmt.kmlp8
+634;inet.0;207.23.0.0/16;207.23.240.214/32;;Adjacent Router;No;cr1.mgmt.kmlp8
+635;inet.0;207.23.0.0/16;207.23.241.70/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+636;inet.0;207.23.0.0/16;207.23.241.82/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+637;inet.0;207.23.0.0/16;207.23.241.88/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+638;inet.0;207.23.0.0/16;207.23.241.100/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+639;inet.0;207.23.0.0/16;207.23.241.104/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+640;inet.0;207.23.0.0/16;207.23.241.128/29;271;Adjacent Router;No;cr1.mgmt.kmlp8
+641;inet.0;207.23.0.0/16;207.23.241.136/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+642;inet.0;207.23.0.0/16;207.23.241.138/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+643;inet.0;207.23.0.0/16;207.23.241.144/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+644;inet.0;207.23.0.0/16;207.23.241.146/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+645;inet.0;207.23.0.0/16;207.23.241.152/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+646;inet.0;207.23.0.0/16;207.23.241.176/29;271;Adjacent Router;No;cr1.mgmt.kmlp8
+647;inet.0;207.23.0.0/16;207.23.241.212/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+648;inet.0;207.23.0.0/16;207.23.241.240/32;271;Adjacent Router;No;cr1.mgmt.kmlp8
+649;inet.0;207.23.0.0/16;207.23.242.32/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+650;inet.0;207.23.0.0/16;207.23.242.36/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+651;inet.0;207.23.0.0/16;207.23.242.38/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+652;inet.0;207.23.0.0/16;207.23.242.40/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+653;inet.0;207.23.0.0/16;207.23.242.44/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+654;inet.0;207.23.0.0/16;207.23.242.46/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+655;inet.0;207.23.0.0/16;207.23.242.70/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+656;inet.0;207.23.0.0/16;207.23.242.72/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+657;inet.0;207.23.0.0/16;207.23.242.76/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+658;inet.0;207.23.0.0/16;207.23.242.96/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+659;inet.0;207.23.0.0/16;207.23.242.253/32;271;Adjacent Router;No;cr1.mgmt.kmlp8
+660;inet.0;207.23.0.0/16;207.23.243.0/24;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+661;inet.0;207.23.0.0/16;207.23.249.0/24;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+662;inet.0;207.23.0.0/16;207.23.252.0/24;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+663;inet.0;207.23.0.0/16;207.23.254.160/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+664;inet.0;207.23.0.0/16;207.23.254.164/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+665;inet.0;207.23.0.0/16;207.23.254.174/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+666;inet.0;207.23.0.0/16;207.23.254.188/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+667;inet.0;207.23.0.0/16;207.23.254.204/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+668;inet.0;207.23.0.0/16;207.23.254.216/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+669;inet.0;207.23.0.0/16;207.23.254.220/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+670;inet.0;207.23.0.0/16;207.23.254.253/32;271;Adjacent Router;No;cr1.mgmt.kmlp8
+671;inet.0;207.23.0.0/16;207.23.255.16/29;271;lt-0/1/0.40;No;cr1.mgmt.kmlp8
+672;inet.0;207.23.0.0/16;207.23.255.28/31;271;lt-0/1/0.40;No;cr1.mgmt.kmlp8
+673;inet.0;207.23.0.0/16;207.23.255.28/32;271;lt-0/1/0.40;Yes;cr1.mgmt.kmlp8
+674;inet.0;207.23.0.0/16;207.23.255.30/31;271;lt-0/1/0.40;No;cr1.mgmt.kmlp8
+675;inet.0;207.23.0.0/16;207.23.255.32/28;271;lt-0/1/0.40;No;cr1.mgmt.kmlp8
+676;inet.0;207.23.0.0/16;207.23.255.48/28;271;lt-0/1/0.40;No;cr1.mgmt.kmlp8
+677;inet.0;207.23.0.0/16;207.23.255.64/26;271;lt-0/1/0.40;No;cr1.mgmt.kmlp8
+678;inet.0;207.23.0.0/16;207.23.255.130/31;271;lt-1/0/0.60;No;cr1.mgmt.kmlp8
+679;inet.0;207.23.0.0/16;207.23.255.130/32;271;lt-1/0/0.60;Yes;cr1.mgmt.kmlp8
+680;inet.0;207.23.0.0/16;207.23.255.138/31;271;lt-1/0/0.66;No;cr1.mgmt.kmlp8
+681;inet.0;207.23.0.0/16;207.23.255.138/32;271;lt-1/0/0.66;Yes;cr1.mgmt.kmlp8
+682;inet.0;207.23.0.0/16;207.23.255.140/30;271;lt-0/1/0.40;No;cr1.mgmt.kmlp8
+683;inet.0;207.23.0.0/16;207.23.255.144/30;271;lt-0/1/0.40;No;cr1.mgmt.kmlp8
+684;inet.0;207.23.0.0/16;207.23.255.148/30;271;lt-0/1/0.40;No;cr1.mgmt.kmlp8
+685;inet.0;207.23.0.0/16;207.23.255.208/30;271;lt-1/1/0.70;No;cr1.mgmt.kmlp8
+686;inet.0;207.23.0.0/16;207.23.255.210/32;271;lt-1/1/0.70;Yes;cr1.mgmt.kmlp8
+687;inet.0;207.23.0.0/16;207.23.255.216/31;271;lt-0/1/0.202;No;cr1.mgmt.kmlp8
+688;inet.0;207.23.0.0/16;207.23.255.216/32;271;lt-0/1/0.202;Yes;cr1.mgmt.kmlp8
+689;inet.0;207.23.0.0/16;207.23.255.220/30;271;ae0.222;No;cr1.mgmt.kmlp8
+690;inet.0;207.23.0.0/16;207.23.255.221/32;271;ae0.222;Yes;cr1.mgmt.kmlp8
+691;inet.0;207.23.0.0/16;207.23.255.228/30;271;lt-0/1/0.40;No;cr1.mgmt.kmlp8
+692;inet.0;207.23.0.0/16;207.23.255.252/32;271;lt-0/1/0.40;No;cr1.mgmt.kmlp8
+693;inet.2;207.23.0.0/16;207.23.92.0/23;271;lt-0/1/0.40;No;cr1.mgmt.kmlp8
+694;inet.2;207.23.0.0/16;207.23.240.36/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+695;inet.2;207.23.0.0/16;207.23.240.38/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+696;inet.2;207.23.0.0/16;207.23.240.42/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+697;inet.2;207.23.0.0/16;207.23.240.44/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+698;inet.2;207.23.0.0/16;207.23.240.48/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+699;inet.2;207.23.0.0/16;207.23.240.50/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+700;inet.2;207.23.0.0/16;207.23.240.52/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+701;inet.2;207.23.0.0/16;207.23.240.54/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+702;inet.2;207.23.0.0/16;207.23.240.68/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+703;inet.2;207.23.0.0/16;207.23.240.212/32;271;Adjacent Router;No;cr1.mgmt.kmlp8
+704;inet.2;207.23.0.0/16;207.23.240.213/32;271;Adjacent Router;No;cr1.mgmt.kmlp8
+705;inet.2;207.23.0.0/16;207.23.241.70/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+706;inet.2;207.23.0.0/16;207.23.241.82/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+707;inet.2;207.23.0.0/16;207.23.241.88/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+708;inet.2;207.23.0.0/16;207.23.241.100/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+709;inet.2;207.23.0.0/16;207.23.241.104/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+710;inet.2;207.23.0.0/16;207.23.241.128/29;271;Adjacent Router;No;cr1.mgmt.kmlp8
+711;inet.2;207.23.0.0/16;207.23.241.136/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+712;inet.2;207.23.0.0/16;207.23.241.138/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+713;inet.2;207.23.0.0/16;207.23.241.144/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+714;inet.2;207.23.0.0/16;207.23.241.146/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+715;inet.2;207.23.0.0/16;207.23.241.152/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+716;inet.2;207.23.0.0/16;207.23.241.212/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+717;inet.2;207.23.0.0/16;207.23.241.240/32;271;Adjacent Router;No;cr1.mgmt.kmlp8
+718;inet.2;207.23.0.0/16;207.23.242.32/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+719;inet.2;207.23.0.0/16;207.23.242.36/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+720;inet.2;207.23.0.0/16;207.23.242.38/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+721;inet.2;207.23.0.0/16;207.23.242.40/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+722;inet.2;207.23.0.0/16;207.23.242.44/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+723;inet.2;207.23.0.0/16;207.23.242.46/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+724;inet.2;207.23.0.0/16;207.23.242.70/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+725;inet.2;207.23.0.0/16;207.23.242.72/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+726;inet.2;207.23.0.0/16;207.23.242.76/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+727;inet.2;207.23.0.0/16;207.23.242.96/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+728;inet.2;207.23.0.0/16;207.23.242.253/32;271;Adjacent Router;No;cr1.mgmt.kmlp8
+729;inet.2;207.23.0.0/16;207.23.254.160/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+730;inet.2;207.23.0.0/16;207.23.254.164/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+731;inet.2;207.23.0.0/16;207.23.254.174/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+732;inet.2;207.23.0.0/16;207.23.254.188/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+733;inet.2;207.23.0.0/16;207.23.254.204/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+734;inet.2;207.23.0.0/16;207.23.254.216/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+735;inet.2;207.23.0.0/16;207.23.254.220/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+736;inet.2;207.23.0.0/16;207.23.254.253/32;271;Adjacent Router;No;cr1.mgmt.kmlp8
+737;inet.2;207.23.0.0/16;207.23.255.16/29;271;lt-0/1/0.40;No;cr1.mgmt.kmlp8
+738;inet.2;207.23.0.0/16;207.23.255.28/31;271;lt-0/1/0.40;No;cr1.mgmt.kmlp8
+739;inet.2;207.23.0.0/16;207.23.255.28/32;271;lt-0/1/0.40;Yes;cr1.mgmt.kmlp8
+740;inet.2;207.23.0.0/16;207.23.255.30/31;271;lt-0/1/0.40;No;cr1.mgmt.kmlp8
+741;inet.2;207.23.0.0/16;207.23.255.64/26;271;lt-0/1/0.40;No;cr1.mgmt.kmlp8
+742;inet.2;207.23.0.0/16;207.23.255.130/31;271;lt-1/0/0.60;No;cr1.mgmt.kmlp8
+743;inet.2;207.23.0.0/16;207.23.255.130/32;271;lt-1/0/0.60;Yes;cr1.mgmt.kmlp8
+744;inet.2;207.23.0.0/16;207.23.255.138/31;271;lt-1/0/0.66;No;cr1.mgmt.kmlp8
+745;inet.2;207.23.0.0/16;207.23.255.138/32;271;lt-1/0/0.66;Yes;cr1.mgmt.kmlp8
+746;inet.2;207.23.0.0/16;207.23.255.140/30;271;lt-0/1/0.40;No;cr1.mgmt.kmlp8
+747;inet.2;207.23.0.0/16;207.23.255.144/30;271;lt-0/1/0.40;No;cr1.mgmt.kmlp8
+748;inet.2;207.23.0.0/16;207.23.255.148/30;271;lt-0/1/0.40;No;cr1.mgmt.kmlp8
+749;inet.2;207.23.0.0/16;207.23.255.208/30;271;lt-1/1/0.70;No;cr1.mgmt.kmlp8
+750;inet.2;207.23.0.0/16;207.23.255.210/32;271;lt-1/1/0.70;Yes;cr1.mgmt.kmlp8
+751;inet.2;207.23.0.0/16;207.23.255.216/31;271;lt-0/1/0.202;No;cr1.mgmt.kmlp8
+752;inet.2;207.23.0.0/16;207.23.255.216/32;271;lt-0/1/0.202;Yes;cr1.mgmt.kmlp8
+753;inet.2;207.23.0.0/16;207.23.255.220/30;271;ae0.222;No;cr1.mgmt.kmlp8
+754;inet.2;207.23.0.0/16;207.23.255.221/32;271;ae0.222;Yes;cr1.mgmt.kmlp8
+755;inet.2;207.23.0.0/16;207.23.255.228/30;271;lt-0/1/0.40;No;cr1.mgmt.kmlp8
+756;inet.2;207.23.0.0/16;207.23.255.252/32;271;lt-0/1/0.40;No;cr1.mgmt.kmlp8
+757;MONITOR.inet.0;207.23.0.0/16;207.23.255.160/29;271;ae3.3005;No;cr1.mgmt.kmlp8
+758;MONITOR.inet.0;207.23.0.0/16;207.23.255.168/30;271;ae3.3005;No;cr1.mgmt.kmlp8
+759;MONITOR.inet.0;207.23.0.0/16;207.23.255.170/32;271;ae3.3005;Yes;cr1.mgmt.kmlp8
+760;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.0.0/16;271;Adjacent Router;No;cr1.mgmt.kmlp8
+761;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.8.0/21;271;lt-1/1/0.72;No;cr1.mgmt.kmlp8
+762;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.72.0/24;271;Adjacent Router;No;cr1.mgmt.kmlp8
+763;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.73.0/24;271;Adjacent Router;No;cr1.mgmt.kmlp8
+764;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.85.0/24;11105;Adjacent Router;No;cr1.mgmt.kmlp8
+765;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.88.0/23;271;lt-1/1/0.72;No;cr1.mgmt.kmlp8
+766;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.92.0/23;271;lt-0/0/0.30;No;cr1.mgmt.kmlp8
+767;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.94.0/23;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+768;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.96.0/20;397543;Adjacent Router;No;cr1.mgmt.kmlp8
+769;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.128.0/19;397375;Adjacent Router;No;cr1.mgmt.kmlp8
+770;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.128.0/19;397375;xe-0/0/0:2.0;No;cr1.mgmt.kmlp8
+771;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.160.0/19;11105;Adjacent Router;No;cr1.mgmt.kmlp8
+772;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.192.0/19;11105;Adjacent Router;No;cr1.mgmt.kmlp8
+773;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.240.12/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+774;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.240.16/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+775;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.240.16/30;;Adjacent Router;No;cr1.mgmt.kmlp8
+776;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.240.24/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+777;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.240.24/30;;Adjacent Router;No;cr1.mgmt.kmlp8
+778;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.240.28/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+779;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.240.32/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+780;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.240.60/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+781;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.240.60/31;;Adjacent Router;No;cr1.mgmt.kmlp8
+782;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.240.64/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+783;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.240.92/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+784;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.240.212/32;271;Adjacent Router;No;cr1.mgmt.kmlp8
+785;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.240.213/32;271;Adjacent Router;No;cr1.mgmt.kmlp8
+786;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.240.214/32;271;Adjacent Router;No;cr1.mgmt.kmlp8
+787;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.240.214/32;;Adjacent Router;No;cr1.mgmt.kmlp8
+788;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.241.0/24;271;Adjacent Router;No;cr1.mgmt.kmlp8
+789;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.241.70/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+790;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.241.100/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+791;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.241.104/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+792;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.241.152/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+793;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.241.176/29;271;Adjacent Router;No;cr1.mgmt.kmlp8
+794;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.241.240/32;271;Adjacent Router;No;cr1.mgmt.kmlp8
+795;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.242.0/24;271;Adjacent Router;No;cr1.mgmt.kmlp8
+796;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.242.72/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+797;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.242.76/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+798;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.242.96/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+799;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.242.253/32;271;Adjacent Router;No;cr1.mgmt.kmlp8
+800;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.243.0/24;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+801;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.249.0/24;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+802;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.252.0/24;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+803;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.253.1/32;;Adjacent Router;No;cr1.mgmt.kmlp8
+804;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.253.2/32;;Adjacent Router;No;cr1.mgmt.kmlp8
+805;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.253.5/32;;Adjacent Router;No;cr1.mgmt.kmlp8
+806;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.253.6/32;;Adjacent Router;No;cr1.mgmt.kmlp8
+807;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.253.7/32;;Adjacent Router;No;cr1.mgmt.kmlp8
+808;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.253.7/32;;Adjacent Router;No;cr1.mgmt.kmlp8
+809;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.253.8/32;;Adjacent Router;No;cr1.mgmt.kmlp8
+810;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.253.9/32;271;lo0.1;Yes;cr1.mgmt.kmlp8
+811;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.253.36/30;;Adjacent Router;No;cr1.mgmt.kmlp8
+812;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.253.40/30;;Adjacent Router;No;cr1.mgmt.kmlp8
+813;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.253.44/30;;Adjacent Router;No;cr1.mgmt.kmlp8
+814;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.253.48/30;;Adjacent Router;No;cr1.mgmt.kmlp8
+815;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.253.49/32;;Adjacent Router;Yes;cr1.mgmt.kmlp8
+816;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.253.52/31;;Adjacent Router;No;cr1.mgmt.kmlp8
+817;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.253.72/30;;Adjacent Router;No;cr1.mgmt.kmlp8
+818;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.253.74/32;;Adjacent Router;Yes;cr1.mgmt.kmlp8
+819;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.253.92/30;;Adjacent Router;No;cr1.mgmt.kmlp8
+820;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.253.92/30;;Adjacent Router;No;cr1.mgmt.kmlp8
+821;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.253.108/30;;Adjacent Router;No;cr1.mgmt.kmlp8
+822;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.253.110/32;;Adjacent Router;Yes;cr1.mgmt.kmlp8
+823;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.253.116/31;;Adjacent Router;No;cr1.mgmt.kmlp8
+824;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.253.118/31;;Adjacent Router;No;cr1.mgmt.kmlp8
+825;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.253.118/31;;Adjacent Router;No;cr1.mgmt.kmlp8
+826;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.253.120/31;;Adjacent Router;No;cr1.mgmt.kmlp8
+827;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.253.122/31;;Adjacent Router;No;cr1.mgmt.kmlp8
+828;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.253.122/31;;Adjacent Router;No;cr1.mgmt.kmlp8
+829;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.253.124/31;;Adjacent Router;No;cr1.mgmt.kmlp8
+830;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.253.124/31;;Adjacent Router;No;cr1.mgmt.kmlp8
+831;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.253.126/31;;Adjacent Router;No;cr1.mgmt.kmlp8
+832;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.253.126/32;;Adjacent Router;Yes;cr1.mgmt.kmlp8
+833;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.253.128/31;;Adjacent Router;No;cr1.mgmt.kmlp8
+834;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.253.128/31;;Adjacent Router;No;cr1.mgmt.kmlp8
+835;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.254.0/24;271;Adjacent Router;No;cr1.mgmt.kmlp8
+836;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.254.188/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+837;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.254.216/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+838;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.254.220/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+839;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.254.253/32;271;Adjacent Router;No;cr1.mgmt.kmlp8
+840;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.255.16/29;271;lt-0/0/0.30;No;cr1.mgmt.kmlp8
+841;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.255.26/31;271;lt-0/0/0.30;No;cr1.mgmt.kmlp8
+842;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.255.27/32;271;lt-0/0/0.30;Yes;cr1.mgmt.kmlp8
+843;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.255.30/31;271;lt-0/0/0.30;No;cr1.mgmt.kmlp8
+844;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.255.32/28;271;lt-0/0/0.30;No;cr1.mgmt.kmlp8
+845;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.255.48/28;271;lt-0/0/0.30;No;cr1.mgmt.kmlp8
+846;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.255.64/26;271;lt-0/0/0.30;No;cr1.mgmt.kmlp8
+847;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.255.128/31;271;lt-1/0/0.56;No;cr1.mgmt.kmlp8
+848;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.255.128/32;271;lt-1/0/0.56;Yes;cr1.mgmt.kmlp8
+849;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.255.136/31;271;lt-1/0/0.62;No;cr1.mgmt.kmlp8
+850;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.255.136/32;271;lt-1/0/0.62;Yes;cr1.mgmt.kmlp8
+851;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.255.140/30;271;lt-0/0/0.30;No;cr1.mgmt.kmlp8
+852;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.255.144/30;271;lt-0/0/0.30;No;cr1.mgmt.kmlp8
+853;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.255.148/30;271;lt-0/0/0.30;No;cr1.mgmt.kmlp8
+854;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.255.212/30;271;lt-1/1/0.72;No;cr1.mgmt.kmlp8
+855;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.255.214/32;271;lt-1/1/0.72;Yes;cr1.mgmt.kmlp8
+856;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.255.218/31;271;lt-0/0/0.204;No;cr1.mgmt.kmlp8
+857;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.255.218/32;271;lt-0/0/0.204;Yes;cr1.mgmt.kmlp8
+858;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.255.228/30;271;lt-0/0/0.30;No;cr1.mgmt.kmlp8
+859;TRANSIT-KMLP8.inet.0;207.23.0.0/16;207.23.255.252/32;271;lt-0/0/0.30;No;cr1.mgmt.kmlp8
+860;IX-KMLP8.inet.0;207.23.0.0/16;207.23.8.0/21;271;lt-1/1/0.74;No;cr1.mgmt.kmlp8
+861;IX-KMLP8.inet.0;207.23.0.0/16;207.23.72.0/24;271;Adjacent Router;No;cr1.mgmt.kmlp8
+862;IX-KMLP8.inet.0;207.23.0.0/16;207.23.73.0/24;271;Adjacent Router;No;cr1.mgmt.kmlp8
+863;IX-KMLP8.inet.0;207.23.0.0/16;207.23.85.0/24;11105;Adjacent Router;No;cr1.mgmt.kmlp8
+864;IX-KMLP8.inet.0;207.23.0.0/16;207.23.88.0/23;271;lt-1/1/0.74;No;cr1.mgmt.kmlp8
+865;IX-KMLP8.inet.0;207.23.0.0/16;207.23.92.0/23;271;lt-0/1/0.50;No;cr1.mgmt.kmlp8
+866;IX-KMLP8.inet.0;207.23.0.0/16;207.23.94.0/23;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+867;IX-KMLP8.inet.0;207.23.0.0/16;207.23.96.0/20;397543;Adjacent Router;No;cr1.mgmt.kmlp8
+868;IX-KMLP8.inet.0;207.23.0.0/16;207.23.128.0/19;397375;Adjacent Router;No;cr1.mgmt.kmlp8
+869;IX-KMLP8.inet.0;207.23.0.0/16;207.23.160.0/19;11105;Adjacent Router;No;cr1.mgmt.kmlp8
+870;IX-KMLP8.inet.0;207.23.0.0/16;207.23.192.0/19;11105;Adjacent Router;No;cr1.mgmt.kmlp8
+871;IX-KMLP8.inet.0;207.23.0.0/16;207.23.240.212/32;271;Adjacent Router;No;cr1.mgmt.kmlp8
+872;IX-KMLP8.inet.0;207.23.0.0/16;207.23.240.213/32;271;Adjacent Router;No;cr1.mgmt.kmlp8
+873;IX-KMLP8.inet.0;207.23.0.0/16;207.23.240.214/32;271;Adjacent Router;No;cr1.mgmt.kmlp8
+874;IX-KMLP8.inet.0;207.23.0.0/16;207.23.240.214/32;;Adjacent Router;No;cr1.mgmt.kmlp8
+875;IX-KMLP8.inet.0;207.23.0.0/16;207.23.241.0/24;271;Adjacent Router;No;cr1.mgmt.kmlp8
+876;IX-KMLP8.inet.0;207.23.0.0/16;207.23.241.70/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+877;IX-KMLP8.inet.0;207.23.0.0/16;207.23.241.100/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+878;IX-KMLP8.inet.0;207.23.0.0/16;207.23.241.104/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+879;IX-KMLP8.inet.0;207.23.0.0/16;207.23.241.152/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+880;IX-KMLP8.inet.0;207.23.0.0/16;207.23.241.176/29;271;Adjacent Router;No;cr1.mgmt.kmlp8
+881;IX-KMLP8.inet.0;207.23.0.0/16;207.23.241.240/32;271;Adjacent Router;No;cr1.mgmt.kmlp8
+882;IX-KMLP8.inet.0;207.23.0.0/16;207.23.242.0/24;271;Adjacent Router;No;cr1.mgmt.kmlp8
+883;IX-KMLP8.inet.0;207.23.0.0/16;207.23.242.72/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+884;IX-KMLP8.inet.0;207.23.0.0/16;207.23.242.76/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+885;IX-KMLP8.inet.0;207.23.0.0/16;207.23.242.96/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+886;IX-KMLP8.inet.0;207.23.0.0/16;207.23.242.252/32;;Adjacent Router;No;cr1.mgmt.kmlp8
+887;IX-KMLP8.inet.0;207.23.0.0/16;207.23.242.253/32;271;Adjacent Router;No;cr1.mgmt.kmlp8
+888;IX-KMLP8.inet.0;207.23.0.0/16;207.23.243.0/24;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+889;IX-KMLP8.inet.0;207.23.0.0/16;207.23.244.0/24;271;Adjacent Router;No;cr1.mgmt.kmlp8
+890;IX-KMLP8.inet.0;207.23.0.0/16;207.23.249.0/24;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+891;IX-KMLP8.inet.0;207.23.0.0/16;207.23.251.0/24;271;Adjacent Router;No;cr1.mgmt.kmlp8
+892;IX-KMLP8.inet.0;207.23.0.0/16;207.23.252.0/24;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+893;IX-KMLP8.inet.0;207.23.0.0/16;207.23.254.0/24;271;Adjacent Router;No;cr1.mgmt.kmlp8
+894;IX-KMLP8.inet.0;207.23.0.0/16;207.23.254.188/31;271;Adjacent Router;No;cr1.mgmt.kmlp8
+895;IX-KMLP8.inet.0;207.23.0.0/16;207.23.254.216/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+896;IX-KMLP8.inet.0;207.23.0.0/16;207.23.254.220/30;271;Adjacent Router;No;cr1.mgmt.kmlp8
+897;IX-KMLP8.inet.0;207.23.0.0/16;207.23.254.252/32;;Adjacent Router;No;cr1.mgmt.kmlp8
+898;IX-KMLP8.inet.0;207.23.0.0/16;207.23.254.253/32;271;Adjacent Router;No;cr1.mgmt.kmlp8
+899;IX-KMLP8.inet.0;207.23.0.0/16;207.23.255.16/29;271;lt-0/1/0.50;No;cr1.mgmt.kmlp8
+900;IX-KMLP8.inet.0;207.23.0.0/16;207.23.255.30/31;271;lt-0/1/0.50;No;cr1.mgmt.kmlp8
+901;IX-KMLP8.inet.0;207.23.0.0/16;207.23.255.32/28;271;lt-0/1/0.50;No;cr1.mgmt.kmlp8
+902;IX-KMLP8.inet.0;207.23.0.0/16;207.23.255.48/28;271;lt-0/1/0.50;No;cr1.mgmt.kmlp8
+903;IX-KMLP8.inet.0;207.23.0.0/16;207.23.255.64/26;271;lt-0/1/0.50;No;cr1.mgmt.kmlp8
+904;IX-KMLP8.inet.0;207.23.0.0/16;207.23.255.140/30;271;lt-0/1/0.50;No;cr1.mgmt.kmlp8
+905;IX-KMLP8.inet.0;207.23.0.0/16;207.23.255.144/30;271;lt-0/1/0.50;No;cr1.mgmt.kmlp8
+906;IX-KMLP8.inet.0;207.23.0.0/16;207.23.255.148/30;271;lt-0/1/0.50;No;cr1.mgmt.kmlp8
+907;IX-KMLP8.inet.0;207.23.0.0/16;207.23.255.228/30;271;lt-0/1/0.50;No;cr1.mgmt.kmlp8
+908;IX-KMLP8.inet.0;207.23.0.0/16;207.23.255.252/32;271;lt-0/1/0.50;No;cr1.mgmt.kmlp8
+909;inet.0;209.87.0.0/18;209.87.16.0/24;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+910;inet.0;209.87.0.0/18;209.87.17.0/24;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+911;inet.0;209.87.0.0/18;209.87.18.0/24;271;Adjacent Router;No;cr1.mgmt.kmlp8
+912;inet.0;209.87.0.0/18;209.87.24.0/23;271;Adjacent Router;No;cr1.mgmt.kmlp8
+913;inet.0;209.87.0.0/18;209.87.27.0/24;271;Adjacent Router;No;cr1.mgmt.kmlp8
+914;inet.0;209.87.0.0/18;209.87.28.0/23;271;Adjacent Router;No;cr1.mgmt.kmlp8
+915;inet.0;209.87.0.0/18;209.87.30.0/24;393966;Adjacent Router;No;cr1.mgmt.kmlp8
+916;inet.0;209.87.0.0/18;209.87.31.0/24;11105;Adjacent Router;No;cr1.mgmt.kmlp8
+917;inet.0;209.87.0.0/18;209.87.56.0/22;11105;Adjacent Router;No;cr1.mgmt.kmlp8
+918;inet.0;209.87.0.0/18;209.87.60.0/24;11105;Adjacent Router;No;cr1.mgmt.kmlp8
+919;inet.0;209.87.0.0/18;209.87.61.0/24;271;Adjacent Router;No;cr1.mgmt.kmlp8
+920;inet.0;209.87.0.0/18;209.87.62.0/24;55185;Adjacent Router;No;cr1.mgmt.kmlp8
+921;inet.0;209.87.0.0/18;209.87.63.0/24;33314;Adjacent Router;No;cr1.mgmt.kmlp8
+922;inet.2;209.87.0.0/18;209.87.18.0/24;271;Adjacent Router;No;cr1.mgmt.kmlp8
+923;TRANSIT-KMLP8.inet.0;209.87.0.0/18;209.87.0.0/18;271;Adjacent Router;No;cr1.mgmt.kmlp8
+924;TRANSIT-KMLP8.inet.0;209.87.0.0/18;209.87.16.0/24;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+925;TRANSIT-KMLP8.inet.0;209.87.0.0/18;209.87.17.0/24;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+926;TRANSIT-KMLP8.inet.0;209.87.0.0/18;209.87.18.0/24;271;Adjacent Router;No;cr1.mgmt.kmlp8
+927;TRANSIT-KMLP8.inet.0;209.87.0.0/18;209.87.24.0/23;271;Adjacent Router;No;cr1.mgmt.kmlp8
+928;TRANSIT-KMLP8.inet.0;209.87.0.0/18;209.87.27.0/24;271;Adjacent Router;No;cr1.mgmt.kmlp8
+929;TRANSIT-KMLP8.inet.0;209.87.0.0/18;209.87.28.0/23;271;Adjacent Router;No;cr1.mgmt.kmlp8
+930;TRANSIT-KMLP8.inet.0;209.87.0.0/18;209.87.30.0/24;393966;Adjacent Router;No;cr1.mgmt.kmlp8
+931;TRANSIT-KMLP8.inet.0;209.87.0.0/18;209.87.31.0/24;11105;Adjacent Router;No;cr1.mgmt.kmlp8
+932;TRANSIT-KMLP8.inet.0;209.87.0.0/18;209.87.56.0/22;11105;Adjacent Router;No;cr1.mgmt.kmlp8
+933;TRANSIT-KMLP8.inet.0;209.87.0.0/18;209.87.60.0/24;11105;Adjacent Router;No;cr1.mgmt.kmlp8
+934;TRANSIT-KMLP8.inet.0;209.87.0.0/18;209.87.61.0/24;271;Adjacent Router;No;cr1.mgmt.kmlp8
+935;TRANSIT-KMLP8.inet.0;209.87.0.0/18;209.87.62.0/24;55185;xe-0/0/0:2.0;No;cr1.mgmt.kmlp8
+936;TRANSIT-KMLP8.inet.0;209.87.0.0/18;209.87.62.0/24;55185;Adjacent Router;No;cr1.mgmt.kmlp8
+937;TRANSIT-KMLP8.inet.0;209.87.0.0/18;209.87.62.0/24;55185;Adjacent Router;No;cr1.mgmt.kmlp8
+938;TRANSIT-KMLP8.inet.0;209.87.0.0/18;209.87.62.0/24;;Adjacent Router;No;cr1.mgmt.kmlp8
+939;TRANSIT-KMLP8.inet.0;209.87.0.0/18;209.87.62.0/24;55185;xe-1/0/0:2.0;No;cr1.mgmt.kmlp8
+940;TRANSIT-KMLP8.inet.0;209.87.0.0/18;209.87.63.0/24;33314;Adjacent Router;No;cr1.mgmt.kmlp8
+941;IX-KMLP8.inet.0;209.87.0.0/18;209.87.16.0/24;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+942;IX-KMLP8.inet.0;209.87.0.0/18;209.87.17.0/24;393249;Adjacent Router;No;cr1.mgmt.kmlp8
+943;IX-KMLP8.inet.0;209.87.0.0/18;209.87.18.0/24;271;Adjacent Router;No;cr1.mgmt.kmlp8
+944;IX-KMLP8.inet.0;209.87.0.0/18;209.87.24.0/23;271;Adjacent Router;No;cr1.mgmt.kmlp8
+945;IX-KMLP8.inet.0;209.87.0.0/18;209.87.27.0/24;271;Adjacent Router;No;cr1.mgmt.kmlp8
+946;IX-KMLP8.inet.0;209.87.0.0/18;209.87.28.0/23;271;Adjacent Router;No;cr1.mgmt.kmlp8
+947;IX-KMLP8.inet.0;209.87.0.0/18;209.87.30.0/24;393966;Adjacent Router;No;cr1.mgmt.kmlp8
+948;IX-KMLP8.inet.0;209.87.0.0/18;209.87.31.0/24;11105;Adjacent Router;No;cr1.mgmt.kmlp8
+949;IX-KMLP8.inet.0;209.87.0.0/18;209.87.56.0/22;11105;Adjacent Router;No;cr1.mgmt.kmlp8
+950;IX-KMLP8.inet.0;209.87.0.0/18;209.87.60.0/24;11105;Adjacent Router;No;cr1.mgmt.kmlp8
+951;IX-KMLP8.inet.0;209.87.0.0/18;209.87.61.0/24;271;Adjacent Router;No;cr1.mgmt.kmlp8
+952;IX-KMLP8.inet.0;209.87.0.0/18;209.87.62.0/24;55185;Adjacent Router;No;cr1.mgmt.kmlp8
+953;IX-KMLP8.inet.0;209.87.0.0/18;209.87.63.0/24;33314;Adjacent Router;No;cr1.mgmt.kmlp8

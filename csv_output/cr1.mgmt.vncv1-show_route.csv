@@ -1,0 +1,980 @@
+Index;Route_Instance;Supernet;Subnet;ASN;Destination_Interface;Router
+0;inet.0;128.189.0.0/16;128.189.4.0/24;271;Adjacent Router;No;cr1.mgmt.vncv1
+1;inet.0;128.189.0.0/16;128.189.5.0/24;271;Adjacent Router;No;cr1.mgmt.vncv1
+2;inet.0;128.189.0.0/16;128.189.6.0/24;271;Adjacent Router;No;cr1.mgmt.vncv1
+3;inet.0;128.189.0.0/16;128.189.16.0/20;393249;Adjacent Router;No;cr1.mgmt.vncv1
+4;inet.0;128.189.0.0/16;128.189.64.0/19;393249;Adjacent Router;No;cr1.mgmt.vncv1
+5;inet.0;128.189.0.0/16;128.189.96.0/19;393249;Adjacent Router;No;cr1.mgmt.vncv1
+6;inet.0;128.189.0.0/16;128.189.128.0/18;393249;Adjacent Router;No;cr1.mgmt.vncv1
+7;inet.0;128.189.0.0/16;128.189.192.0/18;393249;Adjacent Router;No;cr1.mgmt.vncv1
+8;inet.2;128.189.0.0/16;128.189.4.0/24;271;Adjacent Router;No;cr1.mgmt.vncv1
+9;inet.2;128.189.0.0/16;128.189.6.0/24;271;Adjacent Router;No;cr1.mgmt.vncv1
+10;IX-VANTX1.inet.0;128.189.0.0/16;128.189.4.0/24;271;Adjacent Router;No;cr1.mgmt.vncv1
+11;IX-VANTX1.inet.0;128.189.0.0/16;128.189.5.0/24;271;Adjacent Router;No;cr1.mgmt.vncv1
+12;IX-VANTX1.inet.0;128.189.0.0/16;128.189.6.0/24;271;Adjacent Router;No;cr1.mgmt.vncv1
+13;IX-VANTX1.inet.0;128.189.0.0/16;128.189.16.0/20;393249;Adjacent Router;No;cr1.mgmt.vncv1
+14;IX-VANTX1.inet.0;128.189.0.0/16;128.189.16.0/20;393249;Adjacent Router;No;cr1.mgmt.vncv1
+15;IX-VANTX1.inet.0;128.189.0.0/16;128.189.64.0/19;393249;Adjacent Router;No;cr1.mgmt.vncv1
+16;IX-VANTX1.inet.0;128.189.0.0/16;128.189.96.0/19;393249;Adjacent Router;No;cr1.mgmt.vncv1
+17;IX-VANTX1.inet.0;128.189.0.0/16;128.189.128.0/18;393249;Adjacent Router;No;cr1.mgmt.vncv1
+18;IX-VANTX1.inet.0;128.189.0.0/16;128.189.192.0/18;393249;Adjacent Router;No;cr1.mgmt.vncv1
+19;TRANSIT-VANTX1.inet.0;128.189.0.0/16;128.189.4.0/24;271;Adjacent Router;No;cr1.mgmt.vncv1
+20;TRANSIT-VANTX1.inet.0;128.189.0.0/16;128.189.5.0/24;271;Adjacent Router;No;cr1.mgmt.vncv1
+21;TRANSIT-VANTX1.inet.0;128.189.0.0/16;128.189.6.0/24;271;Adjacent Router;No;cr1.mgmt.vncv1
+22;TRANSIT-VANTX1.inet.0;128.189.0.0/16;128.189.16.0/20;393249;Adjacent Router;No;cr1.mgmt.vncv1
+23;TRANSIT-VANTX1.inet.0;128.189.0.0/16;128.189.64.0/19;393249;Adjacent Router;No;cr1.mgmt.vncv1
+24;TRANSIT-VANTX1.inet.0;128.189.0.0/16;128.189.96.0/19;393249;Adjacent Router;No;cr1.mgmt.vncv1
+25;TRANSIT-VANTX1.inet.0;128.189.0.0/16;128.189.128.0/18;393249;Adjacent Router;No;cr1.mgmt.vncv1
+26;TRANSIT-VANTX1.inet.0;128.189.0.0/16;128.189.192.0/18;393249;Adjacent Router;No;cr1.mgmt.vncv1
+27;inet.0;134.87.0.0/16;134.87.2.16/31;;Adjacent Router;No;cr1.mgmt.vncv1
+28;inet.0;134.87.0.0/16;134.87.2.17/32;;Adjacent Router;Yes;cr1.mgmt.vncv1
+29;inet.0;134.87.0.0/16;134.87.2.20/30;271;rlt0.40;No;cr1.mgmt.vncv1
+30;inet.0;134.87.0.0/16;134.87.2.26/31;271;et-7/1/2.2987;No;cr1.mgmt.vncv1
+31;inet.0;134.87.0.0/16;134.87.2.27/32;271;et-7/1/2.2987;Yes;cr1.mgmt.vncv1
+32;inet.0;134.87.0.0/16;134.87.2.28/30;271;rlt0.40;No;cr1.mgmt.vncv1
+33;inet.0;134.87.0.0/16;134.87.2.48/29;271;Adjacent Router;No;cr1.mgmt.vncv1
+34;inet.0;134.87.0.0/16;134.87.2.56/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+35;inet.0;134.87.0.0/16;134.87.2.58/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+36;inet.0;134.87.0.0/16;134.87.2.60/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+37;inet.0;134.87.0.0/16;134.87.2.62/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+38;inet.0;134.87.0.0/16;134.87.2.64/31;271;rlt0.40;No;cr1.mgmt.vncv1
+39;inet.0;134.87.0.0/16;134.87.2.65/32;271;rlt0.40;Yes;cr1.mgmt.vncv1
+40;inet.0;134.87.0.0/16;134.87.2.68/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+41;inet.0;134.87.0.0/16;134.87.2.72/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+42;inet.0;134.87.0.0/16;134.87.2.76/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+43;inet.0;134.87.0.0/16;134.87.2.80/30;271;ge-1/1/9.74;No;cr1.mgmt.vncv1
+44;inet.0;134.87.0.0/16;134.87.2.82/32;271;ge-1/1/9.74;Yes;cr1.mgmt.vncv1
+45;inet.0;134.87.0.0/16;134.87.2.84/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+46;inet.0;134.87.0.0/16;134.87.2.128/29;271;Adjacent Router;No;cr1.mgmt.vncv1
+47;inet.0;134.87.0.0/16;134.87.2.136/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+48;inet.0;134.87.0.0/16;134.87.2.140/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+49;inet.0;134.87.0.0/16;134.87.2.160/29;271;xe-2/0/2.83;No;cr1.mgmt.vncv1
+50;inet.0;134.87.0.0/16;134.87.2.166/32;271;xe-2/0/2.83;Yes;cr1.mgmt.vncv1
+51;inet.0;134.87.0.0/16;134.87.2.168/31;271;et-5/0/2.912;No;cr1.mgmt.vncv1
+52;inet.0;134.87.0.0/16;134.87.2.169/32;271;et-5/0/2.912;Yes;cr1.mgmt.vncv1
+53;inet.0;134.87.0.0/16;134.87.2.170/31;271;et-5/0/2.170;No;cr1.mgmt.vncv1
+54;inet.0;134.87.0.0/16;134.87.2.171/32;271;et-5/0/2.170;Yes;cr1.mgmt.vncv1
+55;inet.0;134.87.0.0/16;134.87.2.172/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+56;inet.0;134.87.0.0/16;134.87.2.188/30;271;ge-11/1/6.0;No;cr1.mgmt.vncv1
+57;inet.0;134.87.0.0/16;134.87.2.189/32;271;ge-11/1/6.0;Yes;cr1.mgmt.vncv1
+58;inet.0;134.87.0.0/16;134.87.2.196/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+59;inet.0;134.87.0.0/16;134.87.2.198/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+60;inet.0;134.87.0.0/16;134.87.2.202/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+61;inet.0;134.87.0.0/16;134.87.2.228/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+62;inet.0;134.87.0.0/16;134.87.2.230/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+63;inet.0;134.87.0.0/16;134.87.2.236/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+64;inet.0;134.87.0.0/16;134.87.2.240/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+65;inet.0;134.87.0.0/16;134.87.2.244/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+66;inet.0;134.87.0.0/16;134.87.2.246/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+67;inet.0;134.87.0.0/16;134.87.2.248/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+68;inet.0;134.87.0.0/16;134.87.2.250/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+69;inet.0;134.87.0.0/16;134.87.4.0/24;271;rlt0.40;No;cr1.mgmt.vncv1
+70;inet.0;134.87.0.0/16;134.87.32.0/19;16462;Adjacent Router;No;cr1.mgmt.vncv1
+71;inet.0;134.87.0.0/16;134.87.32.0/19;16462;Adjacent Router;No;cr1.mgmt.vncv1
+72;inet.0;134.87.0.0/16;134.87.112.0/24;271;rlt0.40;No;cr1.mgmt.vncv1
+73;inet.0;134.87.0.0/16;134.87.128.0/18;16462;Adjacent Router;No;cr1.mgmt.vncv1
+74;inet.0;134.87.0.0/16;134.87.128.0/18;16462;Adjacent Router;No;cr1.mgmt.vncv1
+75;inet.2;134.87.0.0/16;134.87.2.16/31;;Adjacent Router;No;cr1.mgmt.vncv1
+76;inet.2;134.87.0.0/16;134.87.2.17/32;;Adjacent Router;Yes;cr1.mgmt.vncv1
+77;inet.2;134.87.0.0/16;134.87.2.20/30;271;rlt0.40;No;cr1.mgmt.vncv1
+78;inet.2;134.87.0.0/16;134.87.2.26/31;271;et-7/1/2.2987;No;cr1.mgmt.vncv1
+79;inet.2;134.87.0.0/16;134.87.2.27/32;271;et-7/1/2.2987;Yes;cr1.mgmt.vncv1
+80;inet.2;134.87.0.0/16;134.87.2.28/30;271;rlt0.40;No;cr1.mgmt.vncv1
+81;inet.2;134.87.0.0/16;134.87.2.48/29;271;Adjacent Router;No;cr1.mgmt.vncv1
+82;inet.2;134.87.0.0/16;134.87.2.56/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+83;inet.2;134.87.0.0/16;134.87.2.58/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+84;inet.2;134.87.0.0/16;134.87.2.60/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+85;inet.2;134.87.0.0/16;134.87.2.62/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+86;inet.2;134.87.0.0/16;134.87.2.64/31;271;rlt0.40;No;cr1.mgmt.vncv1
+87;inet.2;134.87.0.0/16;134.87.2.65/32;271;rlt0.40;Yes;cr1.mgmt.vncv1
+88;inet.2;134.87.0.0/16;134.87.2.68/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+89;inet.2;134.87.0.0/16;134.87.2.72/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+90;inet.2;134.87.0.0/16;134.87.2.76/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+91;inet.2;134.87.0.0/16;134.87.2.80/30;271;ge-1/1/9.74;No;cr1.mgmt.vncv1
+92;inet.2;134.87.0.0/16;134.87.2.82/32;271;ge-1/1/9.74;Yes;cr1.mgmt.vncv1
+93;inet.2;134.87.0.0/16;134.87.2.84/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+94;inet.2;134.87.0.0/16;134.87.2.128/29;271;Adjacent Router;No;cr1.mgmt.vncv1
+95;inet.2;134.87.0.0/16;134.87.2.136/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+96;inet.2;134.87.0.0/16;134.87.2.140/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+97;inet.2;134.87.0.0/16;134.87.2.160/29;271;xe-2/0/2.83;No;cr1.mgmt.vncv1
+98;inet.2;134.87.0.0/16;134.87.2.166/32;271;xe-2/0/2.83;Yes;cr1.mgmt.vncv1
+99;inet.2;134.87.0.0/16;134.87.2.168/31;271;et-5/0/2.912;No;cr1.mgmt.vncv1
+100;inet.2;134.87.0.0/16;134.87.2.169/32;271;et-5/0/2.912;Yes;cr1.mgmt.vncv1
+101;inet.2;134.87.0.0/16;134.87.2.170/31;271;et-5/0/2.170;No;cr1.mgmt.vncv1
+102;inet.2;134.87.0.0/16;134.87.2.171/32;271;et-5/0/2.170;Yes;cr1.mgmt.vncv1
+103;inet.2;134.87.0.0/16;134.87.2.172/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+104;inet.2;134.87.0.0/16;134.87.2.188/30;271;ge-11/1/6.0;No;cr1.mgmt.vncv1
+105;inet.2;134.87.0.0/16;134.87.2.189/32;271;ge-11/1/6.0;Yes;cr1.mgmt.vncv1
+106;inet.2;134.87.0.0/16;134.87.2.196/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+107;inet.2;134.87.0.0/16;134.87.2.198/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+108;inet.2;134.87.0.0/16;134.87.2.202/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+109;inet.2;134.87.0.0/16;134.87.2.228/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+110;inet.2;134.87.0.0/16;134.87.2.230/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+111;inet.2;134.87.0.0/16;134.87.2.236/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+112;inet.2;134.87.0.0/16;134.87.2.240/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+113;inet.2;134.87.0.0/16;134.87.2.244/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+114;inet.2;134.87.0.0/16;134.87.2.246/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+115;inet.2;134.87.0.0/16;134.87.2.248/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+116;inet.2;134.87.0.0/16;134.87.2.250/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+117;inet.2;134.87.0.0/16;134.87.4.0/24;271;rlt0.40;No;cr1.mgmt.vncv1
+118;inet.2;134.87.0.0/16;134.87.112.0/24;271;rlt0.40;No;cr1.mgmt.vncv1
+119;IX-VANTX1.inet.0;134.87.0.0/16;134.87.0.4/30;;Adjacent Router;No;cr1.mgmt.vncv1
+120;IX-VANTX1.inet.0;134.87.0.0/16;134.87.0.6/32;;Adjacent Router;Yes;cr1.mgmt.vncv1
+121;IX-VANTX1.inet.0;134.87.0.0/16;134.87.0.8/31;271;rlt0.50;No;cr1.mgmt.vncv1
+122;IX-VANTX1.inet.0;134.87.0.0/16;134.87.0.9/32;271;rlt0.50;Yes;cr1.mgmt.vncv1
+123;IX-VANTX1.inet.0;134.87.0.0/16;134.87.0.12/30;;Adjacent Router;No;cr1.mgmt.vncv1
+124;IX-VANTX1.inet.0;134.87.0.0/16;134.87.0.13/32;;Adjacent Router;Yes;cr1.mgmt.vncv1
+125;IX-VANTX1.inet.0;134.87.0.0/16;134.87.0.16/31;;Adjacent Router;No;cr1.mgmt.vncv1
+126;IX-VANTX1.inet.0;134.87.0.0/16;134.87.0.17/32;;Adjacent Router;Yes;cr1.mgmt.vncv1
+127;IX-VANTX1.inet.0;134.87.0.0/16;134.87.0.18/31;;Adjacent Router;No;cr1.mgmt.vncv1
+128;IX-VANTX1.inet.0;134.87.0.0/16;134.87.0.19/32;;Adjacent Router;Yes;cr1.mgmt.vncv1
+129;IX-VANTX1.inet.0;134.87.0.0/16;134.87.0.20/30;271;xe-1/2/1.905;No;cr1.mgmt.vncv1
+130;IX-VANTX1.inet.0;134.87.0.0/16;134.87.0.22/32;271;xe-1/2/1.905;Yes;cr1.mgmt.vncv1
+131;IX-VANTX1.inet.0;134.87.0.0/16;134.87.0.26/31;271;et-7/1/2.2988;No;cr1.mgmt.vncv1
+132;IX-VANTX1.inet.0;134.87.0.0/16;134.87.0.27/32;271;et-7/1/2.2988;Yes;cr1.mgmt.vncv1
+133;IX-VANTX1.inet.0;134.87.0.0/16;134.87.0.28/31;;Adjacent Router;No;cr1.mgmt.vncv1
+134;IX-VANTX1.inet.0;134.87.0.0/16;134.87.0.29/32;;Adjacent Router;Yes;cr1.mgmt.vncv1
+135;IX-VANTX1.inet.0;134.87.0.0/16;134.87.0.32/31;271;et-5/0/2.910;No;cr1.mgmt.vncv1
+136;IX-VANTX1.inet.0;134.87.0.0/16;134.87.0.33/32;271;et-5/0/2.910;Yes;cr1.mgmt.vncv1
+137;IX-VANTX1.inet.0;134.87.0.0/16;134.87.0.34/31;271;et-5/0/2.167;No;cr1.mgmt.vncv1
+138;IX-VANTX1.inet.0;134.87.0.0/16;134.87.0.35/32;271;et-5/0/2.167;Yes;cr1.mgmt.vncv1
+139;IX-VANTX1.inet.0;134.87.0.0/16;134.87.0.38/31;;Adjacent Router;No;cr1.mgmt.vncv1
+140;IX-VANTX1.inet.0;134.87.0.0/16;134.87.0.38/32;;Adjacent Router;Yes;cr1.mgmt.vncv1
+141;IX-VANTX1.inet.0;134.87.0.0/16;134.87.0.48/31;;Adjacent Router;No;cr1.mgmt.vncv1
+142;IX-VANTX1.inet.0;134.87.0.0/16;134.87.0.48/32;;Adjacent Router;Yes;cr1.mgmt.vncv1
+143;IX-VANTX1.inet.0;134.87.0.0/16;134.87.0.50/31;;Adjacent Router;No;cr1.mgmt.vncv1
+144;IX-VANTX1.inet.0;134.87.0.0/16;134.87.0.50/32;;Adjacent Router;Yes;cr1.mgmt.vncv1
+145;IX-VANTX1.inet.0;134.87.0.0/16;134.87.0.56/30;;Adjacent Router;No;cr1.mgmt.vncv1
+146;IX-VANTX1.inet.0;134.87.0.0/16;134.87.0.58/32;;Adjacent Router;Yes;cr1.mgmt.vncv1
+147;IX-VANTX1.inet.0;134.87.0.0/16;134.87.0.64/30;;Adjacent Router;No;cr1.mgmt.vncv1
+148;IX-VANTX1.inet.0;134.87.0.0/16;134.87.0.66/32;;Adjacent Router;Yes;cr1.mgmt.vncv1
+149;IX-VANTX1.inet.0;134.87.0.0/16;134.87.0.76/30;;Adjacent Router;No;cr1.mgmt.vncv1
+150;IX-VANTX1.inet.0;134.87.0.0/16;134.87.0.78/32;;Adjacent Router;Yes;cr1.mgmt.vncv1
+151;IX-VANTX1.inet.0;134.87.0.0/16;134.87.0.98/31;;Adjacent Router;No;cr1.mgmt.vncv1
+152;IX-VANTX1.inet.0;134.87.0.0/16;134.87.0.99/32;;Adjacent Router;Yes;cr1.mgmt.vncv1
+153;IX-VANTX1.inet.0;134.87.0.0/16;134.87.0.102/31;;Adjacent Router;No;cr1.mgmt.vncv1
+154;IX-VANTX1.inet.0;134.87.0.0/16;134.87.0.102/32;;Adjacent Router;Yes;cr1.mgmt.vncv1
+155;IX-VANTX1.inet.0;134.87.0.0/16;134.87.0.104/31;;Adjacent Router;No;cr1.mgmt.vncv1
+156;IX-VANTX1.inet.0;134.87.0.0/16;134.87.0.104/32;;Adjacent Router;Yes;cr1.mgmt.vncv1
+157;IX-VANTX1.inet.0;134.87.0.0/16;134.87.0.106/31;;Adjacent Router;No;cr1.mgmt.vncv1
+158;IX-VANTX1.inet.0;134.87.0.0/16;134.87.0.106/32;;Adjacent Router;Yes;cr1.mgmt.vncv1
+159;IX-VANTX1.inet.0;134.87.0.0/16;134.87.0.110/31;;Adjacent Router;No;cr1.mgmt.vncv1
+160;IX-VANTX1.inet.0;134.87.0.0/16;134.87.0.110/32;;Adjacent Router;Yes;cr1.mgmt.vncv1
+161;IX-VANTX1.inet.0;134.87.0.0/16;134.87.0.112/31;;Adjacent Router;No;cr1.mgmt.vncv1
+162;IX-VANTX1.inet.0;134.87.0.0/16;134.87.0.112/32;;Adjacent Router;Yes;cr1.mgmt.vncv1
+163;IX-VANTX1.inet.0;134.87.0.0/16;134.87.0.114/31;271;xe-2/0/2.84;No;cr1.mgmt.vncv1
+164;IX-VANTX1.inet.0;134.87.0.0/16;134.87.0.115/32;271;xe-2/0/2.84;Yes;cr1.mgmt.vncv1
+165;IX-VANTX1.inet.0;134.87.0.0/16;134.87.0.116/31;;Adjacent Router;No;cr1.mgmt.vncv1
+166;IX-VANTX1.inet.0;134.87.0.0/16;134.87.0.116/32;;Adjacent Router;Yes;cr1.mgmt.vncv1
+167;IX-VANTX1.inet.0;134.87.0.0/16;134.87.0.254/32;271;lo0.3;Yes;cr1.mgmt.vncv1
+168;IX-VANTX1.inet.0;134.87.0.0/16;134.87.2.20/30;271;rlt0.50;No;cr1.mgmt.vncv1
+169;IX-VANTX1.inet.0;134.87.0.0/16;134.87.2.28/30;271;rlt0.50;No;cr1.mgmt.vncv1
+170;IX-VANTX1.inet.0;134.87.0.0/16;134.87.2.128/29;271;Adjacent Router;No;cr1.mgmt.vncv1
+171;IX-VANTX1.inet.0;134.87.0.0/16;134.87.2.136/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+172;IX-VANTX1.inet.0;134.87.0.0/16;134.87.2.140/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+173;IX-VANTX1.inet.0;134.87.0.0/16;134.87.2.172/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+174;IX-VANTX1.inet.0;134.87.0.0/16;134.87.4.0/24;271;rlt0.50;No;cr1.mgmt.vncv1
+175;IX-VANTX1.inet.0;134.87.0.0/16;134.87.32.0/19;16462;Adjacent Router;No;cr1.mgmt.vncv1
+176;IX-VANTX1.inet.0;134.87.0.0/16;134.87.32.0/19;16462;Adjacent Router;No;cr1.mgmt.vncv1
+177;IX-VANTX1.inet.0;134.87.0.0/16;134.87.112.0/24;271;rlt0.50;No;cr1.mgmt.vncv1
+178;IX-VANTX1.inet.0;134.87.0.0/16;134.87.112.0/24;271;Adjacent Router;No;cr1.mgmt.vncv1
+179;IX-VANTX1.inet.0;134.87.0.0/16;134.87.128.0/18;16462;Adjacent Router;No;cr1.mgmt.vncv1
+180;IX-VANTX1.inet.0;134.87.0.0/16;134.87.128.0/18;16462;Adjacent Router;No;cr1.mgmt.vncv1
+181;TRANSIT-VANTX1.inet.0;134.87.0.0/16;134.87.2.20/30;271;rlt0.30;No;cr1.mgmt.vncv1
+182;TRANSIT-VANTX1.inet.0;134.87.0.0/16;134.87.2.28/30;271;rlt0.30;No;cr1.mgmt.vncv1
+183;TRANSIT-VANTX1.inet.0;134.87.0.0/16;134.87.2.128/29;271;Adjacent Router;No;cr1.mgmt.vncv1
+184;TRANSIT-VANTX1.inet.0;134.87.0.0/16;134.87.2.136/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+185;TRANSIT-VANTX1.inet.0;134.87.0.0/16;134.87.2.140/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+186;TRANSIT-VANTX1.inet.0;134.87.0.0/16;134.87.2.152/29;271;xe-2/0/2.81;No;cr1.mgmt.vncv1
+187;TRANSIT-VANTX1.inet.0;134.87.0.0/16;134.87.2.158/32;271;xe-2/0/2.81;Yes;cr1.mgmt.vncv1
+188;TRANSIT-VANTX1.inet.0;134.87.0.0/16;134.87.2.172/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+189;TRANSIT-VANTX1.inet.0;134.87.0.0/16;134.87.4.0/24;271;rlt0.30;No;cr1.mgmt.vncv1
+190;TRANSIT-VANTX1.inet.0;134.87.0.0/16;134.87.30.148/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+191;TRANSIT-VANTX1.inet.0;134.87.0.0/16;134.87.30.152/29;271;Adjacent Router;No;cr1.mgmt.vncv1
+192;TRANSIT-VANTX1.inet.0;134.87.0.0/16;134.87.30.168/29;271;Adjacent Router;No;cr1.mgmt.vncv1
+193;TRANSIT-VANTX1.inet.0;134.87.0.0/16;134.87.30.192/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+194;TRANSIT-VANTX1.inet.0;134.87.0.0/16;134.87.30.196/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+195;TRANSIT-VANTX1.inet.0;134.87.0.0/16;134.87.30.198/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+196;TRANSIT-VANTX1.inet.0;134.87.0.0/16;134.87.30.202/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+197;TRANSIT-VANTX1.inet.0;134.87.0.0/16;134.87.30.204/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+198;TRANSIT-VANTX1.inet.0;134.87.0.0/16;134.87.30.206/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+199;TRANSIT-VANTX1.inet.0;134.87.0.0/16;134.87.30.208/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+200;TRANSIT-VANTX1.inet.0;134.87.0.0/16;134.87.30.210/31;271;et-5/0/2.911;No;cr1.mgmt.vncv1
+201;TRANSIT-VANTX1.inet.0;134.87.0.0/16;134.87.30.211/32;271;et-5/0/2.911;Yes;cr1.mgmt.vncv1
+202;TRANSIT-VANTX1.inet.0;134.87.0.0/16;134.87.30.212/31;271;et-5/0/2.171;No;cr1.mgmt.vncv1
+203;TRANSIT-VANTX1.inet.0;134.87.0.0/16;134.87.30.213/32;271;et-5/0/2.171;Yes;cr1.mgmt.vncv1
+204;TRANSIT-VANTX1.inet.0;134.87.0.0/16;134.87.30.214/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+205;TRANSIT-VANTX1.inet.0;134.87.0.0/16;134.87.30.218/31;271;et-7/1/2.2986;No;cr1.mgmt.vncv1
+206;TRANSIT-VANTX1.inet.0;134.87.0.0/16;134.87.30.219/32;271;et-7/1/2.2986;Yes;cr1.mgmt.vncv1
+207;TRANSIT-VANTX1.inet.0;134.87.0.0/16;134.87.30.220/31;;Adjacent Router;No;cr1.mgmt.vncv1
+208;TRANSIT-VANTX1.inet.0;134.87.0.0/16;134.87.30.221/32;;Adjacent Router;Yes;cr1.mgmt.vncv1
+209;TRANSIT-VANTX1.inet.0;134.87.0.0/16;134.87.30.222/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+210;TRANSIT-VANTX1.inet.0;134.87.0.0/16;134.87.30.224/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+211;TRANSIT-VANTX1.inet.0;134.87.0.0/16;134.87.30.226/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+212;TRANSIT-VANTX1.inet.0;134.87.0.0/16;134.87.30.228/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+213;TRANSIT-VANTX1.inet.0;134.87.0.0/16;134.87.30.230/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+214;TRANSIT-VANTX1.inet.0;134.87.0.0/16;134.87.30.232/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+215;TRANSIT-VANTX1.inet.0;134.87.0.0/16;134.87.30.240/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+216;TRANSIT-VANTX1.inet.0;134.87.0.0/16;134.87.30.242/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+217;TRANSIT-VANTX1.inet.0;134.87.0.0/16;134.87.30.244/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+218;TRANSIT-VANTX1.inet.0;134.87.0.0/16;134.87.30.246/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+219;TRANSIT-VANTX1.inet.0;134.87.0.0/16;134.87.30.248/31;271;ae14.4081;No;cr1.mgmt.vncv1
+220;TRANSIT-VANTX1.inet.0;134.87.0.0/16;134.87.30.249/32;271;ae14.4081;Yes;cr1.mgmt.vncv1
+221;TRANSIT-VANTX1.inet.0;134.87.0.0/16;134.87.30.250/31;271;ae14.4084;No;cr1.mgmt.vncv1
+222;TRANSIT-VANTX1.inet.0;134.87.0.0/16;134.87.30.251/32;271;ae14.4084;Yes;cr1.mgmt.vncv1
+223;TRANSIT-VANTX1.inet.0;134.87.0.0/16;134.87.32.0/19;16462;Adjacent Router;No;cr1.mgmt.vncv1
+224;TRANSIT-VANTX1.inet.0;134.87.0.0/16;134.87.32.0/19;16462;Adjacent Router;No;cr1.mgmt.vncv1
+225;TRANSIT-VANTX1.inet.0;134.87.0.0/16;134.87.112.0/24;271;rlt0.30;No;cr1.mgmt.vncv1
+226;TRANSIT-VANTX1.inet.0;134.87.0.0/16;134.87.128.0/18;16462;Adjacent Router;No;cr1.mgmt.vncv1
+227;TRANSIT-VANTX1.inet.0;134.87.0.0/16;134.87.128.0/18;16462;Adjacent Router;No;cr1.mgmt.vncv1
+228;inet.0;142.231.0.0/16;142.231.1.48/29;271;xe-1/2/1.901;No;cr1.mgmt.vncv1
+229;inet.0;142.231.0.0/16;142.231.1.54/32;271;xe-1/2/1.901;Yes;cr1.mgmt.vncv1
+230;inet.0;142.231.0.0/16;142.231.1.80/29;271;xe-1/2/5.37;No;cr1.mgmt.vncv1
+231;inet.0;142.231.0.0/16;142.231.1.86/32;271;xe-1/2/5.37;Yes;cr1.mgmt.vncv1
+232;inet.0;142.231.0.0/16;142.231.1.100/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+233;inet.0;142.231.0.0/16;142.231.1.104/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+234;inet.0;142.231.0.0/16;142.231.1.108/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+235;inet.0;142.231.0.0/16;142.231.1.110/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+236;inet.0;142.231.0.0/16;142.231.1.120/31;271;rlt0.40;No;cr1.mgmt.vncv1
+237;inet.0;142.231.0.0/16;142.231.1.160/27;271;rlt0.40;No;cr1.mgmt.vncv1
+238;inet.0;142.231.0.0/16;142.231.2.0/24;271;rlt0.40;No;cr1.mgmt.vncv1
+239;inet.0;142.231.0.0/16;142.231.2.4/30;271;rlt0.40;No;cr1.mgmt.vncv1
+240;inet.0;142.231.0.0/16;142.231.2.12/30;271;rlt0.40;No;cr1.mgmt.vncv1
+241;inet.0;142.231.0.0/16;142.231.2.24/30;271;rlt0.40;No;cr1.mgmt.vncv1
+242;inet.0;142.231.0.0/16;142.231.2.224/27;271;rlt0.40;No;cr1.mgmt.vncv1
+243;inet.0;142.231.0.0/16;142.231.3.0/24;271;xe-1/2/5.37;No;cr1.mgmt.vncv1
+244;inet.0;142.231.0.0/16;142.231.6.0/24;271;xe-1/2/5.37;No;cr1.mgmt.vncv1
+245;inet.0;142.231.0.0/16;142.231.7.0/27;271;Adjacent Router;No;cr1.mgmt.vncv1
+246;inet.0;142.231.0.0/16;142.231.20.0/24;393249;Adjacent Router;No;cr1.mgmt.vncv1
+247;inet.0;142.231.0.0/16;142.231.32.0/20;393249;Adjacent Router;No;cr1.mgmt.vncv1
+248;inet.0;142.231.0.0/16;142.231.64.0/19;393249;Adjacent Router;No;cr1.mgmt.vncv1
+249;inet.0;142.231.0.0/16;142.231.109.0/24;271;Adjacent Router;No;cr1.mgmt.vncv1
+250;inet.0;142.231.0.0/16;142.231.112.0/24;271;rlt0.40;No;cr1.mgmt.vncv1
+251;inet.2;142.231.0.0/16;142.231.1.48/29;271;xe-1/2/1.901;No;cr1.mgmt.vncv1
+252;inet.2;142.231.0.0/16;142.231.1.54/32;271;xe-1/2/1.901;Yes;cr1.mgmt.vncv1
+253;inet.2;142.231.0.0/16;142.231.1.80/29;271;xe-1/2/5.37;No;cr1.mgmt.vncv1
+254;inet.2;142.231.0.0/16;142.231.1.86/32;271;xe-1/2/5.37;Yes;cr1.mgmt.vncv1
+255;inet.2;142.231.0.0/16;142.231.1.108/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+256;inet.2;142.231.0.0/16;142.231.1.120/31;271;rlt0.40;No;cr1.mgmt.vncv1
+257;inet.2;142.231.0.0/16;142.231.1.160/27;271;rlt0.40;No;cr1.mgmt.vncv1
+258;inet.2;142.231.0.0/16;142.231.2.4/30;271;rlt0.40;No;cr1.mgmt.vncv1
+259;inet.2;142.231.0.0/16;142.231.2.12/30;271;rlt0.40;No;cr1.mgmt.vncv1
+260;inet.2;142.231.0.0/16;142.231.2.24/30;271;rlt0.40;No;cr1.mgmt.vncv1
+261;inet.2;142.231.0.0/16;142.231.2.224/27;271;rlt0.40;No;cr1.mgmt.vncv1
+262;inet.2;142.231.0.0/16;142.231.112.0/24;271;rlt0.40;No;cr1.mgmt.vncv1
+263;mgmt_junos.inet.0;142.231.0.0/16;142.231.144.0/20;271;fxp0.0;No;cr1.mgmt.vncv1
+264;mgmt_junos.inet.0;142.231.0.0/16;142.231.145.0/24;271;fxp0.0;No;cr1.mgmt.vncv1
+265;mgmt_junos.inet.0;142.231.0.0/16;142.231.145.0/24;271;fxp0.0;No;cr1.mgmt.vncv1
+266;mgmt_junos.inet.0;142.231.0.0/16;142.231.145.2/32;271;fxp0.0;Yes;cr1.mgmt.vncv1
+267;mgmt_junos.inet.0;142.231.0.0/16;142.231.145.3/32;271;fxp0.0;Yes;cr1.mgmt.vncv1
+268;MANLAN.inet.0;142.231.0.0/16;142.231.144.216/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+269;MANLAN.inet.0;142.231.0.0/16;142.231.144.220/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+270;MANLAN.inet.0;142.231.0.0/16;142.231.145.0/24;271;ge-11/0/8.654;No;cr1.mgmt.vncv1
+271;MANLAN.inet.0;142.231.0.0/16;142.231.146.0/24;271;Adjacent Router;No;cr1.mgmt.vncv1
+272;MANLAN.inet.0;142.231.0.0/16;142.231.147.0/24;271;Adjacent Router;No;cr1.mgmt.vncv1
+273;MANLAN.inet.0;142.231.0.0/16;142.231.148.0/24;271;Adjacent Router;No;cr1.mgmt.vncv1
+274;MANLAN.inet.0;142.231.0.0/16;142.231.149.0/24;271;Adjacent Router;No;cr1.mgmt.vncv1
+275;MANLAN.inet.0;142.231.0.0/16;142.231.150.0/24;271;Adjacent Router;No;cr1.mgmt.vncv1
+276;MANLAN.inet.0;142.231.0.0/16;142.231.151.0/28;271;xe-1/2/4.256;No;cr1.mgmt.vncv1
+277;MANLAN.inet.0;142.231.0.0/16;142.231.151.0/28;271;Adjacent Router;No;cr1.mgmt.vncv1
+278;MANLAN.inet.0;142.231.0.0/16;142.231.151.1/32;271;xe-1/2/4.256;Yes;cr1.mgmt.vncv1
+279;MANLAN.inet.0;142.231.0.0/16;142.231.151.13/32;271;xe-1/2/4.256;Yes;cr1.mgmt.vncv1
+280;MANLAN.inet.0;142.231.0.0/16;142.231.151.64/28;271;Adjacent Router;No;cr1.mgmt.vncv1
+281;MANLAN.inet.0;142.231.0.0/16;142.231.151.96/27;271;irb.244;No;cr1.mgmt.vncv1
+282;MANLAN.inet.0;142.231.0.0/16;142.231.151.96/27;271;Adjacent Router;No;cr1.mgmt.vncv1
+283;MANLAN.inet.0;142.231.0.0/16;142.231.151.97/32;271;irb.244;Yes;cr1.mgmt.vncv1
+284;MANLAN.inet.0;142.231.0.0/16;142.231.151.125/32;271;irb.244;Yes;cr1.mgmt.vncv1
+285;MANLAN.inet.0;142.231.0.0/16;142.231.151.193/32;271;ge-11/0/8.652;No;cr1.mgmt.vncv1
+286;MANLAN.inet.0;142.231.0.0/16;142.231.151.194/32;271;ge-11/0/8.652;No;cr1.mgmt.vncv1
+287;MANLAN.inet.0;142.231.0.0/16;142.231.151.195/32;271;ge-11/0/8.652;No;cr1.mgmt.vncv1
+288;MANLAN.inet.0;142.231.0.0/16;142.231.151.196/32;271;ge-11/0/8.652;No;cr1.mgmt.vncv1
+289;MANLAN.inet.0;142.231.0.0/16;142.231.151.201/32;271;ge-11/0/8.652;No;cr1.mgmt.vncv1
+290;MANLAN.inet.0;142.231.0.0/16;142.231.151.202/32;271;ge-11/0/8.652;No;cr1.mgmt.vncv1
+291;MANLAN.inet.0;142.231.0.0/16;142.231.151.208/28;271;ge-11/0/8.652;No;cr1.mgmt.vncv1
+292;MANLAN.inet.0;142.231.0.0/16;142.231.151.224/30;271;ge-11/0/8.652;No;cr1.mgmt.vncv1
+293;MANLAN.inet.0;142.231.0.0/16;142.231.151.228/30;271;ge-11/0/8.652;No;cr1.mgmt.vncv1
+294;MANLAN.inet.0;142.231.0.0/16;142.231.151.240/28;271;ge-11/0/8.652;No;cr1.mgmt.vncv1
+295;MANLAN.inet.0;142.231.0.0/16;142.231.152.0/28;271;ge-11/0/8.654;No;cr1.mgmt.vncv1
+296;MANLAN.inet.0;142.231.0.0/16;142.231.152.48/28;271;Adjacent Router;No;cr1.mgmt.vncv1
+297;MANLAN.inet.0;142.231.0.0/16;142.231.152.128/28;271;ge-11/0/8.654;No;cr1.mgmt.vncv1
+298;MANLAN.inet.0;142.231.0.0/16;142.231.152.176/28;271;Adjacent Router;No;cr1.mgmt.vncv1
+299;MANLAN.inet.0;142.231.0.0/16;142.231.153.16/28;271;ge-11/0/8.652;No;cr1.mgmt.vncv1
+300;MANLAN.inet.0;142.231.0.0/16;142.231.153.64/27;271;Adjacent Router;No;cr1.mgmt.vncv1
+301;MANLAN.inet.0;142.231.0.0/16;142.231.153.96/27;271;Adjacent Router;No;cr1.mgmt.vncv1
+302;MANLAN.inet.0;142.231.0.0/16;142.231.154.0/24;271;Adjacent Router;No;cr1.mgmt.vncv1
+303;IX-VANTX1.inet.0;142.231.0.0/16;142.231.1.100/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+304;IX-VANTX1.inet.0;142.231.0.0/16;142.231.1.104/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+305;IX-VANTX1.inet.0;142.231.0.0/16;142.231.1.108/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+306;IX-VANTX1.inet.0;142.231.0.0/16;142.231.1.110/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+307;IX-VANTX1.inet.0;142.231.0.0/16;142.231.1.120/31;271;rlt0.50;No;cr1.mgmt.vncv1
+308;IX-VANTX1.inet.0;142.231.0.0/16;142.231.1.160/27;271;rlt0.50;No;cr1.mgmt.vncv1
+309;IX-VANTX1.inet.0;142.231.0.0/16;142.231.2.0/24;271;rlt0.50;No;cr1.mgmt.vncv1
+310;IX-VANTX1.inet.0;142.231.0.0/16;142.231.2.4/30;271;rlt0.50;No;cr1.mgmt.vncv1
+311;IX-VANTX1.inet.0;142.231.0.0/16;142.231.2.12/30;271;rlt0.50;No;cr1.mgmt.vncv1
+312;IX-VANTX1.inet.0;142.231.0.0/16;142.231.2.24/30;271;rlt0.50;No;cr1.mgmt.vncv1
+313;IX-VANTX1.inet.0;142.231.0.0/16;142.231.2.224/27;271;rlt0.50;No;cr1.mgmt.vncv1
+314;IX-VANTX1.inet.0;142.231.0.0/16;142.231.7.0/27;271;Adjacent Router;No;cr1.mgmt.vncv1
+315;IX-VANTX1.inet.0;142.231.0.0/16;142.231.20.0/24;393249;Adjacent Router;No;cr1.mgmt.vncv1
+316;IX-VANTX1.inet.0;142.231.0.0/16;142.231.32.0/20;393249;Adjacent Router;No;cr1.mgmt.vncv1
+317;IX-VANTX1.inet.0;142.231.0.0/16;142.231.64.0/19;393249;Adjacent Router;No;cr1.mgmt.vncv1
+318;IX-VANTX1.inet.0;142.231.0.0/16;142.231.109.0/24;271;Adjacent Router;No;cr1.mgmt.vncv1
+319;IX-VANTX1.inet.0;142.231.0.0/16;142.231.112.0/24;271;rlt0.50;No;cr1.mgmt.vncv1
+320;IX-VANTX1.inet.0;142.231.0.0/16;142.231.112.0/24;271;Adjacent Router;No;cr1.mgmt.vncv1
+321;IX-VANTX1.inet.0;142.231.0.0/16;142.231.116.0/24;271;rlt0.50;No;cr1.mgmt.vncv1
+322;IX-VANTX1.inet.0;142.231.0.0/16;142.231.117.0/24;271;Adjacent Router;No;cr1.mgmt.vncv1
+323;TRANSIT-VANTX1.inet.0;142.231.0.0/16;142.231.1.100/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+324;TRANSIT-VANTX1.inet.0;142.231.0.0/16;142.231.1.104/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+325;TRANSIT-VANTX1.inet.0;142.231.0.0/16;142.231.1.108/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+326;TRANSIT-VANTX1.inet.0;142.231.0.0/16;142.231.1.110/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+327;TRANSIT-VANTX1.inet.0;142.231.0.0/16;142.231.1.112/29;271;xe-1/2/5.57;No;cr1.mgmt.vncv1
+328;TRANSIT-VANTX1.inet.0;142.231.0.0/16;142.231.1.118/32;271;xe-1/2/5.57;Yes;cr1.mgmt.vncv1
+329;TRANSIT-VANTX1.inet.0;142.231.0.0/16;142.231.1.120/31;271;rlt0.30;No;cr1.mgmt.vncv1
+330;TRANSIT-VANTX1.inet.0;142.231.0.0/16;142.231.1.160/27;271;rlt0.30;No;cr1.mgmt.vncv1
+331;TRANSIT-VANTX1.inet.0;142.231.0.0/16;142.231.2.0/24;271;rlt0.30;No;cr1.mgmt.vncv1
+332;TRANSIT-VANTX1.inet.0;142.231.0.0/16;142.231.2.4/30;271;rlt0.30;No;cr1.mgmt.vncv1
+333;TRANSIT-VANTX1.inet.0;142.231.0.0/16;142.231.2.12/30;271;rlt0.30;No;cr1.mgmt.vncv1
+334;TRANSIT-VANTX1.inet.0;142.231.0.0/16;142.231.2.24/30;271;rlt0.30;No;cr1.mgmt.vncv1
+335;TRANSIT-VANTX1.inet.0;142.231.0.0/16;142.231.2.224/27;271;rlt0.30;No;cr1.mgmt.vncv1
+336;TRANSIT-VANTX1.inet.0;142.231.0.0/16;142.231.3.0/24;271;xe-1/2/5.57;No;cr1.mgmt.vncv1
+337;TRANSIT-VANTX1.inet.0;142.231.0.0/16;142.231.6.0/24;271;xe-1/2/5.57;No;cr1.mgmt.vncv1
+338;TRANSIT-VANTX1.inet.0;142.231.0.0/16;142.231.7.0/27;271;Adjacent Router;No;cr1.mgmt.vncv1
+339;TRANSIT-VANTX1.inet.0;142.231.0.0/16;142.231.20.0/24;393249;Adjacent Router;No;cr1.mgmt.vncv1
+340;TRANSIT-VANTX1.inet.0;142.231.0.0/16;142.231.22.0/24;64522;ae14.4081;No;cr1.mgmt.vncv1
+341;TRANSIT-VANTX1.inet.0;142.231.0.0/16;142.231.23.0/24;64522;ae14.4081;No;cr1.mgmt.vncv1
+342;TRANSIT-VANTX1.inet.0;142.231.0.0/16;142.231.32.0/20;393249;Adjacent Router;No;cr1.mgmt.vncv1
+343;TRANSIT-VANTX1.inet.0;142.231.0.0/16;142.231.64.0/19;393249;Adjacent Router;No;cr1.mgmt.vncv1
+344;TRANSIT-VANTX1.inet.0;142.231.0.0/16;142.231.109.0/24;271;Adjacent Router;No;cr1.mgmt.vncv1
+345;TRANSIT-VANTX1.inet.0;142.231.0.0/16;142.231.112.0/24;271;rlt0.30;No;cr1.mgmt.vncv1
+346;TRANSIT-VANTX1.inet.0;142.231.0.0/16;142.231.116.0/24;271;rlt0.30;No;cr1.mgmt.vncv1
+347;TRANSIT-VANTX1.inet.0;142.231.0.0/16;142.231.117.0/24;271;Adjacent Router;No;cr1.mgmt.vncv1
+348;TRANSIT-VANTX1.inet.0;142.231.0.0/16;142.231.144.216/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+349;TRANSIT-VANTX1.inet.0;142.231.0.0/16;142.231.144.220/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+350;TRANSIT-VANTX1.inet.0;142.231.0.0/16;142.231.146.0/24;271;Adjacent Router;No;cr1.mgmt.vncv1
+351;TRANSIT-VANTX1.inet.0;142.231.0.0/16;142.231.147.0/24;271;Adjacent Router;No;cr1.mgmt.vncv1
+352;TRANSIT-VANTX1.inet.0;142.231.0.0/16;142.231.148.0/24;271;Adjacent Router;No;cr1.mgmt.vncv1
+353;TRANSIT-VANTX1.inet.0;142.231.0.0/16;142.231.149.0/24;271;Adjacent Router;No;cr1.mgmt.vncv1
+354;TRANSIT-VANTX1.inet.0;142.231.0.0/16;142.231.150.0/24;271;Adjacent Router;No;cr1.mgmt.vncv1
+355;TRANSIT-VANTX1.inet.0;142.231.0.0/16;142.231.151.0/28;271;Adjacent Router;No;cr1.mgmt.vncv1
+356;TRANSIT-VANTX1.inet.0;142.231.0.0/16;142.231.151.64/28;271;Adjacent Router;No;cr1.mgmt.vncv1
+357;TRANSIT-VANTX1.inet.0;142.231.0.0/16;142.231.151.96/27;271;Adjacent Router;No;cr1.mgmt.vncv1
+358;TRANSIT-VANTX1.inet.0;142.231.0.0/16;142.231.152.48/28;271;Adjacent Router;No;cr1.mgmt.vncv1
+359;TRANSIT-VANTX1.inet.0;142.231.0.0/16;142.231.152.176/28;271;Adjacent Router;No;cr1.mgmt.vncv1
+360;TRANSIT-VANTX1.inet.0;142.231.0.0/16;142.231.153.64/27;271;Adjacent Router;No;cr1.mgmt.vncv1
+361;TRANSIT-VANTX1.inet.0;142.231.0.0/16;142.231.153.96/27;271;Adjacent Router;No;cr1.mgmt.vncv1
+362;TRANSIT-VANTX1.inet.0;142.231.0.0/16;142.231.154.0/24;271;Adjacent Router;No;cr1.mgmt.vncv1
+363;TRANSIT-VANTX1.inet.0;192.219.32.0/19;192.219.32.0/19;577;xe-5/1/0:0.0;No;cr1.mgmt.vncv1
+364;TRANSIT-VANTX1.inet.0;192.219.32.0/19;192.219.32.0/19;577;Adjacent Router;No;cr1.mgmt.vncv1
+365;TRANSIT-VANTX1.inet.0;192.219.32.0/19;192.219.32.0/19;577;Adjacent Router;No;cr1.mgmt.vncv1
+366;TRANSIT-VANTX1.inet.0;192.219.32.0/19;192.219.32.0/19;577;xe-7/1/0:0.1289;No;cr1.mgmt.vncv1
+367;TRANSIT-VANTX1.inet.0;192.219.32.0/19;192.219.32.0/19;577;xe-7/1/0:0.3289;No;cr1.mgmt.vncv1
+368;inet.0;206.12.0.0/16;206.12.0.1/32;271;lo0.0;Yes;cr1.mgmt.vncv1
+369;inet.0;206.12.0.0/16;206.12.0.2/32;;Adjacent Router;No;cr1.mgmt.vncv1
+370;inet.0;206.12.0.0/16;206.12.0.5/32;;Adjacent Router;No;cr1.mgmt.vncv1
+371;inet.0;206.12.0.0/16;206.12.0.6/32;;Adjacent Router;No;cr1.mgmt.vncv1
+372;inet.0;206.12.0.0/16;206.12.0.7/32;;Adjacent Router;No;cr1.mgmt.vncv1
+373;inet.0;206.12.0.0/16;206.12.0.8/32;;Adjacent Router;No;cr1.mgmt.vncv1
+374;inet.0;206.12.0.0/16;206.12.0.9/32;;Adjacent Router;No;cr1.mgmt.vncv1
+375;inet.0;206.12.0.0/16;206.12.0.36/30;;Adjacent Router;No;cr1.mgmt.vncv1
+376;inet.0;206.12.0.0/16;206.12.0.37/32;;Adjacent Router;Yes;cr1.mgmt.vncv1
+377;inet.0;206.12.0.0/16;206.12.0.40/30;;Adjacent Router;No;cr1.mgmt.vncv1
+378;inet.0;206.12.0.0/16;206.12.0.41/32;;Adjacent Router;Yes;cr1.mgmt.vncv1
+379;inet.0;206.12.0.0/16;206.12.0.44/30;;Adjacent Router;No;cr1.mgmt.vncv1
+380;inet.0;206.12.0.0/16;206.12.0.48/30;;Adjacent Router;No;cr1.mgmt.vncv1
+381;inet.0;206.12.0.0/16;206.12.0.52/30;;Adjacent Router;No;cr1.mgmt.vncv1
+382;inet.0;206.12.0.0/16;206.12.0.104/30;;Adjacent Router;No;cr1.mgmt.vncv1
+383;inet.0;206.12.0.0/16;206.12.0.105/32;;Adjacent Router;Yes;cr1.mgmt.vncv1
+384;inet.0;206.12.0.0/16;206.12.0.116/30;;Adjacent Router;No;cr1.mgmt.vncv1
+385;inet.0;206.12.0.0/16;206.12.0.117/32;;Adjacent Router;Yes;cr1.mgmt.vncv1
+386;inet.0;206.12.0.0/16;206.12.0.120/31;;Adjacent Router;No;cr1.mgmt.vncv1
+387;inet.0;206.12.0.0/16;206.12.0.120/32;;Adjacent Router;Yes;cr1.mgmt.vncv1
+388;inet.0;206.12.0.0/16;206.12.0.122/31;;Adjacent Router;No;cr1.mgmt.vncv1
+389;inet.0;206.12.0.0/16;206.12.0.122/31;;Adjacent Router;No;cr1.mgmt.vncv1
+390;inet.0;206.12.0.0/16;206.12.0.124/31;;Adjacent Router;No;cr1.mgmt.vncv1
+391;inet.0;206.12.0.0/16;206.12.0.124/32;;Adjacent Router;Yes;cr1.mgmt.vncv1
+392;inet.0;206.12.0.0/16;206.12.0.128/31;;Adjacent Router;No;cr1.mgmt.vncv1
+393;inet.0;206.12.0.0/16;206.12.0.130/31;;Adjacent Router;No;cr1.mgmt.vncv1
+394;inet.0;206.12.0.0/16;206.12.0.132/31;;Adjacent Router;No;cr1.mgmt.vncv1
+395;inet.0;206.12.0.0/16;206.12.0.132/31;;Adjacent Router;No;cr1.mgmt.vncv1
+396;inet.0;206.12.0.0/16;206.12.0.134/31;;Adjacent Router;No;cr1.mgmt.vncv1
+397;inet.0;206.12.0.0/16;206.12.1.0/24;36391;xe-1/2/1.901;No;cr1.mgmt.vncv1
+398;inet.0;206.12.0.0/16;206.12.6.0/23;11105;Adjacent Router;No;cr1.mgmt.vncv1
+399;inet.0;206.12.0.0/16;206.12.9.0/24;36391;et-5/0/2.912;No;cr1.mgmt.vncv1
+400;inet.0;206.12.0.0/16;206.12.10.0/24;11105;Adjacent Router;No;cr1.mgmt.vncv1
+401;inet.0;206.12.0.0/16;206.12.12.0/24;393249;Adjacent Router;No;cr1.mgmt.vncv1
+402;inet.0;206.12.0.0/16;206.12.13.0/24;393249;Adjacent Router;No;cr1.mgmt.vncv1
+403;inet.0;206.12.0.0/16;206.12.14.0/24;393249;Adjacent Router;No;cr1.mgmt.vncv1
+404;inet.0;206.12.0.0/16;206.12.15.0/24;393249;Adjacent Router;No;cr1.mgmt.vncv1
+405;inet.0;206.12.0.0/16;206.12.16.0/24;11105;Adjacent Router;No;cr1.mgmt.vncv1
+406;inet.0;206.12.0.0/16;206.12.17.0/24;11105;Adjacent Router;No;cr1.mgmt.vncv1
+407;inet.0;206.12.0.0/16;206.12.18.0/24;393249;Adjacent Router;No;cr1.mgmt.vncv1
+408;inet.0;206.12.0.0/16;206.12.28.0/24;393249;Adjacent Router;No;cr1.mgmt.vncv1
+409;inet.0;206.12.0.0/16;206.12.40.0/21;393249;Adjacent Router;No;cr1.mgmt.vncv1
+410;inet.0;206.12.0.0/16;206.12.48.0/24;16462;Adjacent Router;No;cr1.mgmt.vncv1
+411;inet.0;206.12.0.0/16;206.12.48.0/24;16462;et-7/1/2.2987;No;cr1.mgmt.vncv1
+412;inet.0;206.12.0.0/16;206.12.50.0/24;16462;Adjacent Router;No;cr1.mgmt.vncv1
+413;inet.0;206.12.0.0/16;206.12.50.0/24;16462;Adjacent Router;No;cr1.mgmt.vncv1
+414;inet.0;206.12.0.0/16;206.12.52.0/22;393249;Adjacent Router;No;cr1.mgmt.vncv1
+415;inet.0;206.12.0.0/16;206.12.56.0/23;16462;Adjacent Router;No;cr1.mgmt.vncv1
+416;inet.0;206.12.0.0/16;206.12.56.0/23;16462;et-7/1/2.2987;No;cr1.mgmt.vncv1
+417;inet.0;206.12.0.0/16;206.12.58.0/24;16462;Adjacent Router;No;cr1.mgmt.vncv1
+418;inet.0;206.12.0.0/16;206.12.58.0/24;16462;et-7/1/2.2987;No;cr1.mgmt.vncv1
+419;inet.0;206.12.0.0/16;206.12.59.0/24;16462;Adjacent Router;No;cr1.mgmt.vncv1
+420;inet.0;206.12.0.0/16;206.12.59.0/24;16462;et-7/1/2.2987;No;cr1.mgmt.vncv1
+421;inet.0;206.12.0.0/16;206.12.60.0/22;16462;Adjacent Router;No;cr1.mgmt.vncv1
+422;inet.0;206.12.0.0/16;206.12.60.0/22;16462;Adjacent Router;No;cr1.mgmt.vncv1
+423;inet.0;206.12.0.0/16;206.12.64.0/20;393249;Adjacent Router;No;cr1.mgmt.vncv1
+424;inet.0;206.12.0.0/16;206.12.76.0/24;271;Adjacent Router;No;cr1.mgmt.vncv1
+425;inet.0;206.12.0.0/16;206.12.77.0/24;271;Adjacent Router;No;cr1.mgmt.vncv1
+426;inet.0;206.12.0.0/16;206.12.88.0/21;16462;Adjacent Router;No;cr1.mgmt.vncv1
+427;inet.0;206.12.0.0/16;206.12.88.0/21;16462;et-7/1/2.2987;No;cr1.mgmt.vncv1
+428;inet.0;206.12.0.0/16;206.12.96.0/21;16462;Adjacent Router;No;cr1.mgmt.vncv1
+429;inet.0;206.12.0.0/16;206.12.96.0/21;16462;et-7/1/2.2987;No;cr1.mgmt.vncv1
+430;inet.0;206.12.0.0/16;206.12.104.0/22;40598;Adjacent Router;No;cr1.mgmt.vncv1
+431;inet.0;206.12.0.0/16;206.12.116.0/24;393249;Adjacent Router;No;cr1.mgmt.vncv1
+432;inet.0;206.12.0.0/16;206.12.119.0/24;393249;Adjacent Router;No;cr1.mgmt.vncv1
+433;inet.0;206.12.0.0/16;206.12.120.0/21;11105;et-5/0/2.170;No;cr1.mgmt.vncv1
+434;inet.0;206.12.0.0/16;206.12.128.0/24;11105;Adjacent Router;No;cr1.mgmt.vncv1
+435;inet.0;206.12.0.0/16;206.12.136.0/21;393249;Adjacent Router;No;cr1.mgmt.vncv1
+436;inet.0;206.12.0.0/16;206.12.149.0/24;271;Adjacent Router;No;cr1.mgmt.vncv1
+437;inet.0;206.12.0.0/16;206.12.150.0/24;271;Adjacent Router;No;cr1.mgmt.vncv1
+438;inet.0;206.12.0.0/16;206.12.152.0/24;271;rlt0.40;No;cr1.mgmt.vncv1
+439;inet.0;206.12.0.0/16;206.12.154.0/24;16462;Adjacent Router;No;cr1.mgmt.vncv1
+440;inet.0;206.12.0.0/16;206.12.154.0/24;16462;Adjacent Router;No;cr1.mgmt.vncv1
+441;inet.0;206.12.0.0/16;206.12.155.0/24;16462;Adjacent Router;No;cr1.mgmt.vncv1
+442;inet.0;206.12.0.0/16;206.12.155.0/24;16462;et-7/1/2.2987;No;cr1.mgmt.vncv1
+443;inet.0;206.12.0.0/16;206.12.160.0/21;393249;Adjacent Router;No;cr1.mgmt.vncv1
+444;inet.0;206.12.0.0/16;206.12.172.0/23;271;Adjacent Router;No;cr1.mgmt.vncv1
+445;inet.0;206.12.0.0/16;206.12.174.0/24;271;Adjacent Router;No;cr1.mgmt.vncv1
+446;inet.0;206.12.0.0/16;206.12.176.0/21;393249;Adjacent Router;No;cr1.mgmt.vncv1
+447;inet.0;206.12.0.0/16;206.12.200.0/22;393249;Adjacent Router;No;cr1.mgmt.vncv1
+448;inet.0;206.12.0.0/16;206.12.208.0/22;393249;Adjacent Router;No;cr1.mgmt.vncv1
+449;inet.0;206.12.0.0/16;206.12.224.0/19;16462;Adjacent Router;No;cr1.mgmt.vncv1
+450;inet.0;206.12.0.0/16;206.12.224.0/19;16462;Adjacent Router;No;cr1.mgmt.vncv1
+451;inet.2;206.12.0.0/16;206.12.0.1/32;271;lo0.0;Yes;cr1.mgmt.vncv1
+452;inet.2;206.12.0.0/16;206.12.0.2/32;;Adjacent Router;No;cr1.mgmt.vncv1
+453;inet.2;206.12.0.0/16;206.12.0.5/32;;Adjacent Router;No;cr1.mgmt.vncv1
+454;inet.2;206.12.0.0/16;206.12.0.6/32;;Adjacent Router;No;cr1.mgmt.vncv1
+455;inet.2;206.12.0.0/16;206.12.0.7/32;;Adjacent Router;No;cr1.mgmt.vncv1
+456;inet.2;206.12.0.0/16;206.12.0.8/32;;Adjacent Router;No;cr1.mgmt.vncv1
+457;inet.2;206.12.0.0/16;206.12.0.9/32;;Adjacent Router;No;cr1.mgmt.vncv1
+458;inet.2;206.12.0.0/16;206.12.0.36/30;;Adjacent Router;No;cr1.mgmt.vncv1
+459;inet.2;206.12.0.0/16;206.12.0.37/32;;Adjacent Router;Yes;cr1.mgmt.vncv1
+460;inet.2;206.12.0.0/16;206.12.0.40/30;;Adjacent Router;No;cr1.mgmt.vncv1
+461;inet.2;206.12.0.0/16;206.12.0.41/32;;Adjacent Router;Yes;cr1.mgmt.vncv1
+462;inet.2;206.12.0.0/16;206.12.0.44/30;;Adjacent Router;No;cr1.mgmt.vncv1
+463;inet.2;206.12.0.0/16;206.12.0.48/30;;Adjacent Router;No;cr1.mgmt.vncv1
+464;inet.2;206.12.0.0/16;206.12.0.52/30;;Adjacent Router;No;cr1.mgmt.vncv1
+465;inet.2;206.12.0.0/16;206.12.0.104/30;;Adjacent Router;No;cr1.mgmt.vncv1
+466;inet.2;206.12.0.0/16;206.12.0.105/32;;Adjacent Router;Yes;cr1.mgmt.vncv1
+467;inet.2;206.12.0.0/16;206.12.0.116/30;;Adjacent Router;No;cr1.mgmt.vncv1
+468;inet.2;206.12.0.0/16;206.12.0.117/32;;Adjacent Router;Yes;cr1.mgmt.vncv1
+469;inet.2;206.12.0.0/16;206.12.0.120/31;;Adjacent Router;No;cr1.mgmt.vncv1
+470;inet.2;206.12.0.0/16;206.12.0.120/32;;Adjacent Router;Yes;cr1.mgmt.vncv1
+471;inet.2;206.12.0.0/16;206.12.0.122/31;;Adjacent Router;No;cr1.mgmt.vncv1
+472;inet.2;206.12.0.0/16;206.12.0.122/31;;Adjacent Router;No;cr1.mgmt.vncv1
+473;inet.2;206.12.0.0/16;206.12.0.124/31;;Adjacent Router;No;cr1.mgmt.vncv1
+474;inet.2;206.12.0.0/16;206.12.0.124/32;;Adjacent Router;Yes;cr1.mgmt.vncv1
+475;inet.2;206.12.0.0/16;206.12.0.128/31;;Adjacent Router;No;cr1.mgmt.vncv1
+476;inet.2;206.12.0.0/16;206.12.0.130/31;;Adjacent Router;No;cr1.mgmt.vncv1
+477;inet.2;206.12.0.0/16;206.12.0.132/31;;Adjacent Router;No;cr1.mgmt.vncv1
+478;inet.2;206.12.0.0/16;206.12.0.132/31;;Adjacent Router;No;cr1.mgmt.vncv1
+479;inet.2;206.12.0.0/16;206.12.0.134/31;;Adjacent Router;No;cr1.mgmt.vncv1
+480;inet.2;206.12.0.0/16;206.12.152.0/24;271;rlt0.40;No;cr1.mgmt.vncv1
+481;inet.3;206.12.0.0/16;206.12.0.2/32;;Adjacent Router;No;cr1.mgmt.vncv1
+482;inet.3;206.12.0.0/16;206.12.0.5/32;;Adjacent Router;No;cr1.mgmt.vncv1
+483;inet.3;206.12.0.0/16;206.12.0.6/32;;Adjacent Router;No;cr1.mgmt.vncv1
+484;inet.3;206.12.0.0/16;206.12.0.7/32;;Adjacent Router;No;cr1.mgmt.vncv1
+485;inet.3;206.12.0.0/16;206.12.0.8/32;;Adjacent Router;No;cr1.mgmt.vncv1
+486;inet.3;206.12.0.0/16;206.12.0.9/32;;Adjacent Router;No;cr1.mgmt.vncv1
+487;IX-VANTX1.inet.0;206.12.0.0/16;206.12.1.0/24;36391;xe-1/2/1.905;No;cr1.mgmt.vncv1
+488;IX-VANTX1.inet.0;206.12.0.0/16;206.12.3.1/32;271;lo0.3;Yes;cr1.mgmt.vncv1
+489;IX-VANTX1.inet.0;206.12.0.0/16;206.12.3.5/32;;Adjacent Router;No;cr1.mgmt.vncv1
+490;IX-VANTX1.inet.0;206.12.0.0/16;206.12.3.6/32;;Adjacent Router;No;cr1.mgmt.vncv1
+491;IX-VANTX1.inet.0;206.12.0.0/16;206.12.3.7/32;;Adjacent Router;No;cr1.mgmt.vncv1
+492;IX-VANTX1.inet.0;206.12.0.0/16;206.12.3.8/32;;Adjacent Router;No;cr1.mgmt.vncv1
+493;IX-VANTX1.inet.0;206.12.0.0/16;206.12.3.9/32;;Adjacent Router;No;cr1.mgmt.vncv1
+494;IX-VANTX1.inet.0;206.12.0.0/16;206.12.3.16/30;;Adjacent Router;No;cr1.mgmt.vncv1
+495;IX-VANTX1.inet.0;206.12.0.0/16;206.12.3.17/32;;Adjacent Router;Yes;cr1.mgmt.vncv1
+496;IX-VANTX1.inet.0;206.12.0.0/16;206.12.3.24/30;;Adjacent Router;No;cr1.mgmt.vncv1
+497;IX-VANTX1.inet.0;206.12.0.0/16;206.12.3.25/32;;Adjacent Router;Yes;cr1.mgmt.vncv1
+498;IX-VANTX1.inet.0;206.12.0.0/16;206.12.3.28/30;;Adjacent Router;No;cr1.mgmt.vncv1
+499;IX-VANTX1.inet.0;206.12.0.0/16;206.12.3.32/30;;Adjacent Router;No;cr1.mgmt.vncv1
+500;IX-VANTX1.inet.0;206.12.0.0/16;206.12.3.36/30;;Adjacent Router;No;cr1.mgmt.vncv1
+501;IX-VANTX1.inet.0;206.12.0.0/16;206.12.3.37/32;;Adjacent Router;Yes;cr1.mgmt.vncv1
+502;IX-VANTX1.inet.0;206.12.0.0/16;206.12.3.40/30;;Adjacent Router;No;cr1.mgmt.vncv1
+503;IX-VANTX1.inet.0;206.12.0.0/16;206.12.3.41/32;;Adjacent Router;Yes;cr1.mgmt.vncv1
+504;IX-VANTX1.inet.0;206.12.0.0/16;206.12.3.52/30;;Adjacent Router;No;cr1.mgmt.vncv1
+505;IX-VANTX1.inet.0;206.12.0.0/16;206.12.3.53/32;;Adjacent Router;Yes;cr1.mgmt.vncv1
+506;IX-VANTX1.inet.0;206.12.0.0/16;206.12.3.56/30;;Adjacent Router;No;cr1.mgmt.vncv1
+507;IX-VANTX1.inet.0;206.12.0.0/16;206.12.3.57/32;;Adjacent Router;Yes;cr1.mgmt.vncv1
+508;IX-VANTX1.inet.0;206.12.0.0/16;206.12.3.60/30;;Adjacent Router;No;cr1.mgmt.vncv1
+509;IX-VANTX1.inet.0;206.12.0.0/16;206.12.3.64/30;;Adjacent Router;No;cr1.mgmt.vncv1
+510;IX-VANTX1.inet.0;206.12.0.0/16;206.12.3.64/30;;Adjacent Router;No;cr1.mgmt.vncv1
+511;IX-VANTX1.inet.0;206.12.0.0/16;206.12.3.68/30;;Adjacent Router;No;cr1.mgmt.vncv1
+512;IX-VANTX1.inet.0;206.12.0.0/16;206.12.3.68/30;;Adjacent Router;No;cr1.mgmt.vncv1
+513;IX-VANTX1.inet.0;206.12.0.0/16;206.12.3.72/30;;Adjacent Router;No;cr1.mgmt.vncv1
+514;IX-VANTX1.inet.0;206.12.0.0/16;206.12.3.76/31;;Adjacent Router;No;cr1.mgmt.vncv1
+515;IX-VANTX1.inet.0;206.12.0.0/16;206.12.3.77/32;;Adjacent Router;Yes;cr1.mgmt.vncv1
+516;IX-VANTX1.inet.0;206.12.0.0/16;206.12.4.0/24;271;Adjacent Router;No;cr1.mgmt.vncv1
+517;IX-VANTX1.inet.0;206.12.0.0/16;206.12.6.0/23;11105;Adjacent Router;No;cr1.mgmt.vncv1
+518;IX-VANTX1.inet.0;206.12.0.0/16;206.12.9.0/24;36391;et-5/0/2.910;No;cr1.mgmt.vncv1
+519;IX-VANTX1.inet.0;206.12.0.0/16;206.12.10.0/24;11105;Adjacent Router;No;cr1.mgmt.vncv1
+520;IX-VANTX1.inet.0;206.12.0.0/16;206.12.12.0/24;393249;Adjacent Router;No;cr1.mgmt.vncv1
+521;IX-VANTX1.inet.0;206.12.0.0/16;206.12.13.0/24;393249;Adjacent Router;No;cr1.mgmt.vncv1
+522;IX-VANTX1.inet.0;206.12.0.0/16;206.12.14.0/24;393249;Adjacent Router;No;cr1.mgmt.vncv1
+523;IX-VANTX1.inet.0;206.12.0.0/16;206.12.15.0/24;393249;Adjacent Router;No;cr1.mgmt.vncv1
+524;IX-VANTX1.inet.0;206.12.0.0/16;206.12.16.0/24;11105;Adjacent Router;No;cr1.mgmt.vncv1
+525;IX-VANTX1.inet.0;206.12.0.0/16;206.12.17.0/24;11105;Adjacent Router;No;cr1.mgmt.vncv1
+526;IX-VANTX1.inet.0;206.12.0.0/16;206.12.18.0/24;393249;Adjacent Router;No;cr1.mgmt.vncv1
+527;IX-VANTX1.inet.0;206.12.0.0/16;206.12.28.0/24;393249;Adjacent Router;No;cr1.mgmt.vncv1
+528;IX-VANTX1.inet.0;206.12.0.0/16;206.12.40.0/21;393249;Adjacent Router;No;cr1.mgmt.vncv1
+529;IX-VANTX1.inet.0;206.12.0.0/16;206.12.48.0/24;16462;Adjacent Router;No;cr1.mgmt.vncv1
+530;IX-VANTX1.inet.0;206.12.0.0/16;206.12.48.0/24;16462;et-7/1/2.2988;No;cr1.mgmt.vncv1
+531;IX-VANTX1.inet.0;206.12.0.0/16;206.12.50.0/24;16462;Adjacent Router;No;cr1.mgmt.vncv1
+532;IX-VANTX1.inet.0;206.12.0.0/16;206.12.50.0/24;16462;Adjacent Router;No;cr1.mgmt.vncv1
+533;IX-VANTX1.inet.0;206.12.0.0/16;206.12.52.0/22;393249;Adjacent Router;No;cr1.mgmt.vncv1
+534;IX-VANTX1.inet.0;206.12.0.0/16;206.12.56.0/23;16462;Adjacent Router;No;cr1.mgmt.vncv1
+535;IX-VANTX1.inet.0;206.12.0.0/16;206.12.56.0/23;16462;et-7/1/2.2988;No;cr1.mgmt.vncv1
+536;IX-VANTX1.inet.0;206.12.0.0/16;206.12.58.0/24;16462;Adjacent Router;No;cr1.mgmt.vncv1
+537;IX-VANTX1.inet.0;206.12.0.0/16;206.12.58.0/24;16462;et-7/1/2.2988;No;cr1.mgmt.vncv1
+538;IX-VANTX1.inet.0;206.12.0.0/16;206.12.59.0/24;16462;Adjacent Router;No;cr1.mgmt.vncv1
+539;IX-VANTX1.inet.0;206.12.0.0/16;206.12.59.0/24;16462;et-7/1/2.2988;No;cr1.mgmt.vncv1
+540;IX-VANTX1.inet.0;206.12.0.0/16;206.12.60.0/22;16462;Adjacent Router;No;cr1.mgmt.vncv1
+541;IX-VANTX1.inet.0;206.12.0.0/16;206.12.60.0/22;16462;Adjacent Router;No;cr1.mgmt.vncv1
+542;IX-VANTX1.inet.0;206.12.0.0/16;206.12.64.0/20;393249;Adjacent Router;No;cr1.mgmt.vncv1
+543;IX-VANTX1.inet.0;206.12.0.0/16;206.12.76.0/24;271;Adjacent Router;No;cr1.mgmt.vncv1
+544;IX-VANTX1.inet.0;206.12.0.0/16;206.12.77.0/24;271;Adjacent Router;No;cr1.mgmt.vncv1
+545;IX-VANTX1.inet.0;206.12.0.0/16;206.12.82.0/24;25668;ae11.0;No;cr1.mgmt.vncv1
+546;IX-VANTX1.inet.0;206.12.0.0/16;206.12.82.0/24;25668;ae11.0;No;cr1.mgmt.vncv1
+547;IX-VANTX1.inet.0;206.12.0.0/16;206.12.82.0/24;25668;ae11.0;No;cr1.mgmt.vncv1
+548;IX-VANTX1.inet.0;206.12.0.0/16;206.12.88.0/21;16462;Adjacent Router;No;cr1.mgmt.vncv1
+549;IX-VANTX1.inet.0;206.12.0.0/16;206.12.88.0/21;16462;et-7/1/2.2988;No;cr1.mgmt.vncv1
+550;IX-VANTX1.inet.0;206.12.0.0/16;206.12.96.0/21;16462;Adjacent Router;No;cr1.mgmt.vncv1
+551;IX-VANTX1.inet.0;206.12.0.0/16;206.12.96.0/21;16462;et-7/1/2.2988;No;cr1.mgmt.vncv1
+552;IX-VANTX1.inet.0;206.12.0.0/16;206.12.104.0/22;40598;Adjacent Router;No;cr1.mgmt.vncv1
+553;IX-VANTX1.inet.0;206.12.0.0/16;206.12.119.0/24;393249;Adjacent Router;No;cr1.mgmt.vncv1
+554;IX-VANTX1.inet.0;206.12.0.0/16;206.12.120.0/21;11105;et-5/0/2.167;No;cr1.mgmt.vncv1
+555;IX-VANTX1.inet.0;206.12.0.0/16;206.12.128.0/24;11105;Adjacent Router;No;cr1.mgmt.vncv1
+556;IX-VANTX1.inet.0;206.12.0.0/16;206.12.136.0/21;393249;Adjacent Router;No;cr1.mgmt.vncv1
+557;IX-VANTX1.inet.0;206.12.0.0/16;206.12.149.0/24;271;Adjacent Router;No;cr1.mgmt.vncv1
+558;IX-VANTX1.inet.0;206.12.0.0/16;206.12.150.0/24;271;Adjacent Router;No;cr1.mgmt.vncv1
+559;IX-VANTX1.inet.0;206.12.0.0/16;206.12.152.0/24;271;rlt0.50;No;cr1.mgmt.vncv1
+560;IX-VANTX1.inet.0;206.12.0.0/16;206.12.152.0/24;271;Adjacent Router;No;cr1.mgmt.vncv1
+561;IX-VANTX1.inet.0;206.12.0.0/16;206.12.154.0/24;16462;Adjacent Router;No;cr1.mgmt.vncv1
+562;IX-VANTX1.inet.0;206.12.0.0/16;206.12.154.0/24;16462;Adjacent Router;No;cr1.mgmt.vncv1
+563;IX-VANTX1.inet.0;206.12.0.0/16;206.12.155.0/24;16462;Adjacent Router;No;cr1.mgmt.vncv1
+564;IX-VANTX1.inet.0;206.12.0.0/16;206.12.155.0/24;16462;et-7/1/2.2988;No;cr1.mgmt.vncv1
+565;IX-VANTX1.inet.0;206.12.0.0/16;206.12.160.0/21;393249;Adjacent Router;No;cr1.mgmt.vncv1
+566;IX-VANTX1.inet.0;206.12.0.0/16;206.12.172.0/23;271;Adjacent Router;No;cr1.mgmt.vncv1
+567;IX-VANTX1.inet.0;206.12.0.0/16;206.12.174.0/24;271;Adjacent Router;No;cr1.mgmt.vncv1
+568;IX-VANTX1.inet.0;206.12.0.0/16;206.12.176.0/21;393249;Adjacent Router;No;cr1.mgmt.vncv1
+569;IX-VANTX1.inet.0;206.12.0.0/16;206.12.200.0/22;393249;Adjacent Router;No;cr1.mgmt.vncv1
+570;IX-VANTX1.inet.0;206.12.0.0/16;206.12.208.0/22;393249;Adjacent Router;No;cr1.mgmt.vncv1
+571;IX-VANTX1.inet.0;206.12.0.0/16;206.12.224.0/19;16462;Adjacent Router;No;cr1.mgmt.vncv1
+572;IX-VANTX1.inet.0;206.12.0.0/16;206.12.224.0/19;16462;Adjacent Router;No;cr1.mgmt.vncv1
+573;TRANSIT-VANTX1.inet.0;206.12.0.0/16;206.12.1.0/24;36391;xe-1/2/1.903;No;cr1.mgmt.vncv1
+574;TRANSIT-VANTX1.inet.0;206.12.0.0/16;206.12.6.0/23;11105;Adjacent Router;No;cr1.mgmt.vncv1
+575;TRANSIT-VANTX1.inet.0;206.12.0.0/16;206.12.9.0/24;36391;et-5/0/2.911;No;cr1.mgmt.vncv1
+576;TRANSIT-VANTX1.inet.0;206.12.0.0/16;206.12.10.0/24;11105;Adjacent Router;No;cr1.mgmt.vncv1
+577;TRANSIT-VANTX1.inet.0;206.12.0.0/16;206.12.12.0/24;393249;Adjacent Router;No;cr1.mgmt.vncv1
+578;TRANSIT-VANTX1.inet.0;206.12.0.0/16;206.12.13.0/24;393249;Adjacent Router;No;cr1.mgmt.vncv1
+579;TRANSIT-VANTX1.inet.0;206.12.0.0/16;206.12.14.0/24;393249;Adjacent Router;No;cr1.mgmt.vncv1
+580;TRANSIT-VANTX1.inet.0;206.12.0.0/16;206.12.15.0/24;393249;Adjacent Router;No;cr1.mgmt.vncv1
+581;TRANSIT-VANTX1.inet.0;206.12.0.0/16;206.12.16.0/24;11105;Adjacent Router;No;cr1.mgmt.vncv1
+582;TRANSIT-VANTX1.inet.0;206.12.0.0/16;206.12.17.0/24;11105;Adjacent Router;No;cr1.mgmt.vncv1
+583;TRANSIT-VANTX1.inet.0;206.12.0.0/16;206.12.18.0/24;393249;Adjacent Router;No;cr1.mgmt.vncv1
+584;TRANSIT-VANTX1.inet.0;206.12.0.0/16;206.12.28.0/24;393249;Adjacent Router;No;cr1.mgmt.vncv1
+585;TRANSIT-VANTX1.inet.0;206.12.0.0/16;206.12.40.0/21;393249;Adjacent Router;No;cr1.mgmt.vncv1
+586;TRANSIT-VANTX1.inet.0;206.12.0.0/16;206.12.48.0/24;16462;Adjacent Router;No;cr1.mgmt.vncv1
+587;TRANSIT-VANTX1.inet.0;206.12.0.0/16;206.12.48.0/24;16462;et-7/1/2.2986;No;cr1.mgmt.vncv1
+588;TRANSIT-VANTX1.inet.0;206.12.0.0/16;206.12.50.0/24;16462;Adjacent Router;No;cr1.mgmt.vncv1
+589;TRANSIT-VANTX1.inet.0;206.12.0.0/16;206.12.50.0/24;16462;Adjacent Router;No;cr1.mgmt.vncv1
+590;TRANSIT-VANTX1.inet.0;206.12.0.0/16;206.12.52.0/22;393249;Adjacent Router;No;cr1.mgmt.vncv1
+591;TRANSIT-VANTX1.inet.0;206.12.0.0/16;206.12.56.0/23;16462;Adjacent Router;No;cr1.mgmt.vncv1
+592;TRANSIT-VANTX1.inet.0;206.12.0.0/16;206.12.56.0/23;16462;et-7/1/2.2986;No;cr1.mgmt.vncv1
+593;TRANSIT-VANTX1.inet.0;206.12.0.0/16;206.12.58.0/24;16462;Adjacent Router;No;cr1.mgmt.vncv1
+594;TRANSIT-VANTX1.inet.0;206.12.0.0/16;206.12.58.0/24;16462;et-7/1/2.2986;No;cr1.mgmt.vncv1
+595;TRANSIT-VANTX1.inet.0;206.12.0.0/16;206.12.59.0/24;16462;Adjacent Router;No;cr1.mgmt.vncv1
+596;TRANSIT-VANTX1.inet.0;206.12.0.0/16;206.12.59.0/24;16462;et-7/1/2.2986;No;cr1.mgmt.vncv1
+597;TRANSIT-VANTX1.inet.0;206.12.0.0/16;206.12.60.0/22;16462;Adjacent Router;No;cr1.mgmt.vncv1
+598;TRANSIT-VANTX1.inet.0;206.12.0.0/16;206.12.60.0/22;16462;Adjacent Router;No;cr1.mgmt.vncv1
+599;TRANSIT-VANTX1.inet.0;206.12.0.0/16;206.12.64.0/20;393249;Adjacent Router;No;cr1.mgmt.vncv1
+600;TRANSIT-VANTX1.inet.0;206.12.0.0/16;206.12.76.0/24;271;Adjacent Router;No;cr1.mgmt.vncv1
+601;TRANSIT-VANTX1.inet.0;206.12.0.0/16;206.12.77.0/24;271;Adjacent Router;No;cr1.mgmt.vncv1
+602;TRANSIT-VANTX1.inet.0;206.12.0.0/16;206.12.82.0/24;25668;xe-5/1/0:0.0;No;cr1.mgmt.vncv1
+603;TRANSIT-VANTX1.inet.0;206.12.0.0/16;206.12.82.0/24;25668;Adjacent Router;No;cr1.mgmt.vncv1
+604;TRANSIT-VANTX1.inet.0;206.12.0.0/16;206.12.82.0/24;25668;xe-7/1/0:0.1289;No;cr1.mgmt.vncv1
+605;TRANSIT-VANTX1.inet.0;206.12.0.0/16;206.12.88.0/21;16462;Adjacent Router;No;cr1.mgmt.vncv1
+606;TRANSIT-VANTX1.inet.0;206.12.0.0/16;206.12.88.0/21;16462;et-7/1/2.2986;No;cr1.mgmt.vncv1
+607;TRANSIT-VANTX1.inet.0;206.12.0.0/16;206.12.96.0/21;16462;Adjacent Router;No;cr1.mgmt.vncv1
+608;TRANSIT-VANTX1.inet.0;206.12.0.0/16;206.12.96.0/21;16462;et-7/1/2.2986;No;cr1.mgmt.vncv1
+609;TRANSIT-VANTX1.inet.0;206.12.0.0/16;206.12.104.0/22;40598;Adjacent Router;No;cr1.mgmt.vncv1
+610;TRANSIT-VANTX1.inet.0;206.12.0.0/16;206.12.119.0/24;393249;Adjacent Router;No;cr1.mgmt.vncv1
+611;TRANSIT-VANTX1.inet.0;206.12.0.0/16;206.12.120.0/21;11105;et-5/0/2.171;No;cr1.mgmt.vncv1
+612;TRANSIT-VANTX1.inet.0;206.12.0.0/16;206.12.128.0/24;11105;Adjacent Router;No;cr1.mgmt.vncv1
+613;TRANSIT-VANTX1.inet.0;206.12.0.0/16;206.12.136.0/21;393249;Adjacent Router;No;cr1.mgmt.vncv1
+614;TRANSIT-VANTX1.inet.0;206.12.0.0/16;206.12.149.0/24;271;Adjacent Router;No;cr1.mgmt.vncv1
+615;TRANSIT-VANTX1.inet.0;206.12.0.0/16;206.12.150.0/24;271;Adjacent Router;No;cr1.mgmt.vncv1
+616;TRANSIT-VANTX1.inet.0;206.12.0.0/16;206.12.152.0/24;271;rlt0.30;No;cr1.mgmt.vncv1
+617;TRANSIT-VANTX1.inet.0;206.12.0.0/16;206.12.153.0/24;20473;xe-5/1/0:0.0;No;cr1.mgmt.vncv1
+618;TRANSIT-VANTX1.inet.0;206.12.0.0/16;206.12.153.0/24;20473;Adjacent Router;No;cr1.mgmt.vncv1
+619;TRANSIT-VANTX1.inet.0;206.12.0.0/16;206.12.153.0/24;20473;xe-7/1/0:0.1289;No;cr1.mgmt.vncv1
+620;TRANSIT-VANTX1.inet.0;206.12.0.0/16;206.12.153.0/24;20473;Adjacent Router;No;cr1.mgmt.vncv1
+621;TRANSIT-VANTX1.inet.0;206.12.0.0/16;206.12.154.0/24;16462;Adjacent Router;No;cr1.mgmt.vncv1
+622;TRANSIT-VANTX1.inet.0;206.12.0.0/16;206.12.154.0/24;16462;Adjacent Router;No;cr1.mgmt.vncv1
+623;TRANSIT-VANTX1.inet.0;206.12.0.0/16;206.12.155.0/24;16462;Adjacent Router;No;cr1.mgmt.vncv1
+624;TRANSIT-VANTX1.inet.0;206.12.0.0/16;206.12.155.0/24;16462;et-7/1/2.2986;No;cr1.mgmt.vncv1
+625;TRANSIT-VANTX1.inet.0;206.12.0.0/16;206.12.160.0/21;393249;Adjacent Router;No;cr1.mgmt.vncv1
+626;TRANSIT-VANTX1.inet.0;206.12.0.0/16;206.12.172.0/23;271;Adjacent Router;No;cr1.mgmt.vncv1
+627;TRANSIT-VANTX1.inet.0;206.12.0.0/16;206.12.174.0/24;271;Adjacent Router;No;cr1.mgmt.vncv1
+628;TRANSIT-VANTX1.inet.0;206.12.0.0/16;206.12.176.0/21;393249;Adjacent Router;No;cr1.mgmt.vncv1
+629;TRANSIT-VANTX1.inet.0;206.12.0.0/16;206.12.200.0/22;393249;Adjacent Router;No;cr1.mgmt.vncv1
+630;TRANSIT-VANTX1.inet.0;206.12.0.0/16;206.12.208.0/22;393249;Adjacent Router;No;cr1.mgmt.vncv1
+631;TRANSIT-VANTX1.inet.0;206.12.0.0/16;206.12.224.0/19;16462;Adjacent Router;No;cr1.mgmt.vncv1
+632;TRANSIT-VANTX1.inet.0;206.12.0.0/16;206.12.224.0/19;16462;Adjacent Router;No;cr1.mgmt.vncv1
+633;inet.0;206.87.0.0/16;206.87.0.0/18;393249;Adjacent Router;No;cr1.mgmt.vncv1
+634;inet.0;206.87.0.0/16;206.87.64.0/21;16462;Adjacent Router;No;cr1.mgmt.vncv1
+635;inet.0;206.87.0.0/16;206.87.64.0/21;16462;Adjacent Router;No;cr1.mgmt.vncv1
+636;inet.0;206.87.0.0/16;206.87.80.0/20;16462;Adjacent Router;No;cr1.mgmt.vncv1
+637;inet.0;206.87.0.0/16;206.87.80.0/20;16462;Adjacent Router;No;cr1.mgmt.vncv1
+638;inet.0;206.87.0.0/16;206.87.96.0/19;393249;Adjacent Router;No;cr1.mgmt.vncv1
+639;inet.0;206.87.0.0/16;206.87.128.0/19;393249;Adjacent Router;No;cr1.mgmt.vncv1
+640;inet.0;206.87.0.0/16;206.87.160.0/19;16462;Adjacent Router;No;cr1.mgmt.vncv1
+641;inet.0;206.87.0.0/16;206.87.160.0/19;16462;Adjacent Router;No;cr1.mgmt.vncv1
+642;inet.0;206.87.0.0/16;206.87.192.0/19;393249;Adjacent Router;No;cr1.mgmt.vncv1
+643;inet.0;206.87.0.0/16;206.87.224.0/20;393249;Adjacent Router;No;cr1.mgmt.vncv1
+644;IX-VANTX1.inet.0;206.87.0.0/16;206.87.0.0/18;393249;Adjacent Router;No;cr1.mgmt.vncv1
+645;IX-VANTX1.inet.0;206.87.0.0/16;206.87.64.0/21;16462;Adjacent Router;No;cr1.mgmt.vncv1
+646;IX-VANTX1.inet.0;206.87.0.0/16;206.87.64.0/21;16462;Adjacent Router;No;cr1.mgmt.vncv1
+647;IX-VANTX1.inet.0;206.87.0.0/16;206.87.80.0/20;16462;Adjacent Router;No;cr1.mgmt.vncv1
+648;IX-VANTX1.inet.0;206.87.0.0/16;206.87.80.0/20;16462;Adjacent Router;No;cr1.mgmt.vncv1
+649;IX-VANTX1.inet.0;206.87.0.0/16;206.87.96.0/19;393249;Adjacent Router;No;cr1.mgmt.vncv1
+650;IX-VANTX1.inet.0;206.87.0.0/16;206.87.128.0/19;393249;Adjacent Router;No;cr1.mgmt.vncv1
+651;IX-VANTX1.inet.0;206.87.0.0/16;206.87.160.0/19;16462;Adjacent Router;No;cr1.mgmt.vncv1
+652;IX-VANTX1.inet.0;206.87.0.0/16;206.87.160.0/19;16462;Adjacent Router;No;cr1.mgmt.vncv1
+653;IX-VANTX1.inet.0;206.87.0.0/16;206.87.192.0/19;393249;Adjacent Router;No;cr1.mgmt.vncv1
+654;IX-VANTX1.inet.0;206.87.0.0/16;206.87.224.0/20;393249;Adjacent Router;No;cr1.mgmt.vncv1
+655;TRANSIT-VANTX1.inet.0;206.87.0.0/16;206.87.0.0/18;393249;Adjacent Router;No;cr1.mgmt.vncv1
+656;TRANSIT-VANTX1.inet.0;206.87.0.0/16;206.87.64.0/21;16462;Adjacent Router;No;cr1.mgmt.vncv1
+657;TRANSIT-VANTX1.inet.0;206.87.0.0/16;206.87.64.0/21;16462;Adjacent Router;No;cr1.mgmt.vncv1
+658;TRANSIT-VANTX1.inet.0;206.87.0.0/16;206.87.80.0/20;16462;Adjacent Router;No;cr1.mgmt.vncv1
+659;TRANSIT-VANTX1.inet.0;206.87.0.0/16;206.87.80.0/20;16462;Adjacent Router;No;cr1.mgmt.vncv1
+660;TRANSIT-VANTX1.inet.0;206.87.0.0/16;206.87.96.0/19;393249;Adjacent Router;No;cr1.mgmt.vncv1
+661;TRANSIT-VANTX1.inet.0;206.87.0.0/16;206.87.128.0/19;393249;Adjacent Router;No;cr1.mgmt.vncv1
+662;TRANSIT-VANTX1.inet.0;206.87.0.0/16;206.87.160.0/19;16462;Adjacent Router;No;cr1.mgmt.vncv1
+663;TRANSIT-VANTX1.inet.0;206.87.0.0/16;206.87.160.0/19;16462;Adjacent Router;No;cr1.mgmt.vncv1
+664;TRANSIT-VANTX1.inet.0;206.87.0.0/16;206.87.192.0/19;393249;Adjacent Router;No;cr1.mgmt.vncv1
+665;TRANSIT-VANTX1.inet.0;206.87.0.0/16;206.87.224.0/20;393249;Adjacent Router;No;cr1.mgmt.vncv1
+666;inet.0;207.23.0.0/16;207.23.8.0/21;271;Adjacent Router;No;cr1.mgmt.vncv1
+667;inet.0;207.23.0.0/16;207.23.72.0/24;271;Adjacent Router;No;cr1.mgmt.vncv1
+668;inet.0;207.23.0.0/16;207.23.73.0/24;271;Adjacent Router;No;cr1.mgmt.vncv1
+669;inet.0;207.23.0.0/16;207.23.85.0/24;11105;Adjacent Router;No;cr1.mgmt.vncv1
+670;inet.0;207.23.0.0/16;207.23.88.0/23;271;Adjacent Router;No;cr1.mgmt.vncv1
+671;inet.0;207.23.0.0/16;207.23.92.0/23;271;Adjacent Router;No;cr1.mgmt.vncv1
+672;inet.0;207.23.0.0/16;207.23.94.0/23;393249;Adjacent Router;No;cr1.mgmt.vncv1
+673;inet.0;207.23.0.0/16;207.23.96.0/20;397543;Adjacent Router;No;cr1.mgmt.vncv1
+674;inet.0;207.23.0.0/16;207.23.128.0/19;397375;xe-2/0/2.83;No;cr1.mgmt.vncv1
+675;inet.0;207.23.0.0/16;207.23.160.0/19;11105;Adjacent Router;No;cr1.mgmt.vncv1
+676;inet.0;207.23.0.0/16;207.23.192.0/19;11105;Adjacent Router;No;cr1.mgmt.vncv1
+677;inet.0;207.23.0.0/16;207.23.240.36/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+678;inet.0;207.23.0.0/16;207.23.240.38/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+679;inet.0;207.23.0.0/16;207.23.240.42/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+680;inet.0;207.23.0.0/16;207.23.240.44/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+681;inet.0;207.23.0.0/16;207.23.240.48/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+682;inet.0;207.23.0.0/16;207.23.240.50/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+683;inet.0;207.23.0.0/16;207.23.240.52/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+684;inet.0;207.23.0.0/16;207.23.240.54/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+685;inet.0;207.23.0.0/16;207.23.240.68/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+686;inet.0;207.23.0.0/16;207.23.240.212/32;271;rlt0.40;No;cr1.mgmt.vncv1
+687;inet.0;207.23.0.0/16;207.23.240.213/32;271;Adjacent Router;No;cr1.mgmt.vncv1
+688;inet.0;207.23.0.0/16;207.23.240.214/32;271;Adjacent Router;No;cr1.mgmt.vncv1
+689;inet.0;207.23.0.0/16;207.23.241.70/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+690;inet.0;207.23.0.0/16;207.23.241.82/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+691;inet.0;207.23.0.0/16;207.23.241.88/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+692;inet.0;207.23.0.0/16;207.23.241.100/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+693;inet.0;207.23.0.0/16;207.23.241.104/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+694;inet.0;207.23.0.0/16;207.23.241.128/29;271;Adjacent Router;No;cr1.mgmt.vncv1
+695;inet.0;207.23.0.0/16;207.23.241.136/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+696;inet.0;207.23.0.0/16;207.23.241.138/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+697;inet.0;207.23.0.0/16;207.23.241.144/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+698;inet.0;207.23.0.0/16;207.23.241.146/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+699;inet.0;207.23.0.0/16;207.23.241.152/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+700;inet.0;207.23.0.0/16;207.23.241.176/29;271;Adjacent Router;No;cr1.mgmt.vncv1
+701;inet.0;207.23.0.0/16;207.23.241.212/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+702;inet.0;207.23.0.0/16;207.23.241.240/32;271;Adjacent Router;No;cr1.mgmt.vncv1
+703;inet.0;207.23.0.0/16;207.23.242.32/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+704;inet.0;207.23.0.0/16;207.23.242.36/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+705;inet.0;207.23.0.0/16;207.23.242.38/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+706;inet.0;207.23.0.0/16;207.23.242.40/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+707;inet.0;207.23.0.0/16;207.23.242.44/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+708;inet.0;207.23.0.0/16;207.23.242.46/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+709;inet.0;207.23.0.0/16;207.23.242.70/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+710;inet.0;207.23.0.0/16;207.23.242.72/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+711;inet.0;207.23.0.0/16;207.23.242.76/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+712;inet.0;207.23.0.0/16;207.23.242.96/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+713;inet.0;207.23.0.0/16;207.23.242.253/32;271;Adjacent Router;No;cr1.mgmt.vncv1
+714;inet.0;207.23.0.0/16;207.23.243.0/24;393249;Adjacent Router;No;cr1.mgmt.vncv1
+715;inet.0;207.23.0.0/16;207.23.249.0/24;393249;Adjacent Router;No;cr1.mgmt.vncv1
+716;inet.0;207.23.0.0/16;207.23.252.0/24;393249;Adjacent Router;No;cr1.mgmt.vncv1
+717;inet.0;207.23.0.0/16;207.23.254.160/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+718;inet.0;207.23.0.0/16;207.23.254.164/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+719;inet.0;207.23.0.0/16;207.23.254.174/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+720;inet.0;207.23.0.0/16;207.23.254.188/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+721;inet.0;207.23.0.0/16;207.23.254.204/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+722;inet.0;207.23.0.0/16;207.23.254.216/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+723;inet.0;207.23.0.0/16;207.23.254.220/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+724;inet.0;207.23.0.0/16;207.23.254.253/32;271;Adjacent Router;No;cr1.mgmt.vncv1
+725;inet.0;207.23.0.0/16;207.23.255.16/29;271;Adjacent Router;No;cr1.mgmt.vncv1
+726;inet.0;207.23.0.0/16;207.23.255.28/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+727;inet.0;207.23.0.0/16;207.23.255.30/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+728;inet.0;207.23.0.0/16;207.23.255.32/28;271;Adjacent Router;No;cr1.mgmt.vncv1
+729;inet.0;207.23.0.0/16;207.23.255.48/28;271;Adjacent Router;No;cr1.mgmt.vncv1
+730;inet.0;207.23.0.0/16;207.23.255.64/26;271;Adjacent Router;No;cr1.mgmt.vncv1
+731;inet.0;207.23.0.0/16;207.23.255.130/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+732;inet.0;207.23.0.0/16;207.23.255.138/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+733;inet.0;207.23.0.0/16;207.23.255.140/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+734;inet.0;207.23.0.0/16;207.23.255.144/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+735;inet.0;207.23.0.0/16;207.23.255.148/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+736;inet.0;207.23.0.0/16;207.23.255.208/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+737;inet.0;207.23.0.0/16;207.23.255.216/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+738;inet.0;207.23.0.0/16;207.23.255.220/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+739;inet.0;207.23.0.0/16;207.23.255.228/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+740;inet.0;207.23.0.0/16;207.23.255.252/32;271;Adjacent Router;No;cr1.mgmt.vncv1
+741;inet.2;207.23.0.0/16;207.23.92.0/23;271;Adjacent Router;No;cr1.mgmt.vncv1
+742;inet.2;207.23.0.0/16;207.23.240.36/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+743;inet.2;207.23.0.0/16;207.23.240.38/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+744;inet.2;207.23.0.0/16;207.23.240.42/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+745;inet.2;207.23.0.0/16;207.23.240.44/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+746;inet.2;207.23.0.0/16;207.23.240.48/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+747;inet.2;207.23.0.0/16;207.23.240.50/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+748;inet.2;207.23.0.0/16;207.23.240.52/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+749;inet.2;207.23.0.0/16;207.23.240.54/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+750;inet.2;207.23.0.0/16;207.23.240.68/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+751;inet.2;207.23.0.0/16;207.23.240.212/32;271;rlt0.40;No;cr1.mgmt.vncv1
+752;inet.2;207.23.0.0/16;207.23.240.213/32;271;Adjacent Router;No;cr1.mgmt.vncv1
+753;inet.2;207.23.0.0/16;207.23.241.70/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+754;inet.2;207.23.0.0/16;207.23.241.82/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+755;inet.2;207.23.0.0/16;207.23.241.88/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+756;inet.2;207.23.0.0/16;207.23.241.100/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+757;inet.2;207.23.0.0/16;207.23.241.104/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+758;inet.2;207.23.0.0/16;207.23.241.128/29;271;Adjacent Router;No;cr1.mgmt.vncv1
+759;inet.2;207.23.0.0/16;207.23.241.136/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+760;inet.2;207.23.0.0/16;207.23.241.138/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+761;inet.2;207.23.0.0/16;207.23.241.144/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+762;inet.2;207.23.0.0/16;207.23.241.146/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+763;inet.2;207.23.0.0/16;207.23.241.152/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+764;inet.2;207.23.0.0/16;207.23.241.212/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+765;inet.2;207.23.0.0/16;207.23.241.240/32;271;Adjacent Router;No;cr1.mgmt.vncv1
+766;inet.2;207.23.0.0/16;207.23.242.32/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+767;inet.2;207.23.0.0/16;207.23.242.36/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+768;inet.2;207.23.0.0/16;207.23.242.38/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+769;inet.2;207.23.0.0/16;207.23.242.40/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+770;inet.2;207.23.0.0/16;207.23.242.44/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+771;inet.2;207.23.0.0/16;207.23.242.46/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+772;inet.2;207.23.0.0/16;207.23.242.70/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+773;inet.2;207.23.0.0/16;207.23.242.72/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+774;inet.2;207.23.0.0/16;207.23.242.76/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+775;inet.2;207.23.0.0/16;207.23.242.96/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+776;inet.2;207.23.0.0/16;207.23.242.253/32;271;Adjacent Router;No;cr1.mgmt.vncv1
+777;inet.2;207.23.0.0/16;207.23.254.160/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+778;inet.2;207.23.0.0/16;207.23.254.164/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+779;inet.2;207.23.0.0/16;207.23.254.174/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+780;inet.2;207.23.0.0/16;207.23.254.188/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+781;inet.2;207.23.0.0/16;207.23.254.204/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+782;inet.2;207.23.0.0/16;207.23.254.216/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+783;inet.2;207.23.0.0/16;207.23.254.220/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+784;inet.2;207.23.0.0/16;207.23.254.253/32;271;Adjacent Router;No;cr1.mgmt.vncv1
+785;inet.2;207.23.0.0/16;207.23.255.16/29;271;Adjacent Router;No;cr1.mgmt.vncv1
+786;inet.2;207.23.0.0/16;207.23.255.28/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+787;inet.2;207.23.0.0/16;207.23.255.30/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+788;inet.2;207.23.0.0/16;207.23.255.64/26;271;Adjacent Router;No;cr1.mgmt.vncv1
+789;inet.2;207.23.0.0/16;207.23.255.130/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+790;inet.2;207.23.0.0/16;207.23.255.138/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+791;inet.2;207.23.0.0/16;207.23.255.140/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+792;inet.2;207.23.0.0/16;207.23.255.144/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+793;inet.2;207.23.0.0/16;207.23.255.148/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+794;inet.2;207.23.0.0/16;207.23.255.208/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+795;inet.2;207.23.0.0/16;207.23.255.216/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+796;inet.2;207.23.0.0/16;207.23.255.220/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+797;inet.2;207.23.0.0/16;207.23.255.228/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+798;inet.2;207.23.0.0/16;207.23.255.252/32;271;Adjacent Router;No;cr1.mgmt.vncv1
+799;IX-VANTX1.inet.0;207.23.0.0/16;207.23.8.0/21;271;Adjacent Router;No;cr1.mgmt.vncv1
+800;IX-VANTX1.inet.0;207.23.0.0/16;207.23.72.0/24;271;Adjacent Router;No;cr1.mgmt.vncv1
+801;IX-VANTX1.inet.0;207.23.0.0/16;207.23.73.0/24;271;Adjacent Router;No;cr1.mgmt.vncv1
+802;IX-VANTX1.inet.0;207.23.0.0/16;207.23.85.0/24;11105;Adjacent Router;No;cr1.mgmt.vncv1
+803;IX-VANTX1.inet.0;207.23.0.0/16;207.23.88.0/23;271;Adjacent Router;No;cr1.mgmt.vncv1
+804;IX-VANTX1.inet.0;207.23.0.0/16;207.23.92.0/23;271;Adjacent Router;No;cr1.mgmt.vncv1
+805;IX-VANTX1.inet.0;207.23.0.0/16;207.23.94.0/23;393249;Adjacent Router;No;cr1.mgmt.vncv1
+806;IX-VANTX1.inet.0;207.23.0.0/16;207.23.96.0/20;397543;Adjacent Router;No;cr1.mgmt.vncv1
+807;IX-VANTX1.inet.0;207.23.0.0/16;207.23.96.0/20;397543;Adjacent Router;No;cr1.mgmt.vncv1
+808;IX-VANTX1.inet.0;207.23.0.0/16;207.23.128.0/19;397375;xe-2/0/2.84;No;cr1.mgmt.vncv1
+809;IX-VANTX1.inet.0;207.23.0.0/16;207.23.160.0/19;11105;Adjacent Router;No;cr1.mgmt.vncv1
+810;IX-VANTX1.inet.0;207.23.0.0/16;207.23.192.0/19;11105;Adjacent Router;No;cr1.mgmt.vncv1
+811;IX-VANTX1.inet.0;207.23.0.0/16;207.23.240.212/32;271;rlt0.50;No;cr1.mgmt.vncv1
+812;IX-VANTX1.inet.0;207.23.0.0/16;207.23.240.213/32;271;Adjacent Router;No;cr1.mgmt.vncv1
+813;IX-VANTX1.inet.0;207.23.0.0/16;207.23.240.214/32;271;Adjacent Router;No;cr1.mgmt.vncv1
+814;IX-VANTX1.inet.0;207.23.0.0/16;207.23.241.0/24;271;Adjacent Router;No;cr1.mgmt.vncv1
+815;IX-VANTX1.inet.0;207.23.0.0/16;207.23.241.70/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+816;IX-VANTX1.inet.0;207.23.0.0/16;207.23.241.100/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+817;IX-VANTX1.inet.0;207.23.0.0/16;207.23.241.104/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+818;IX-VANTX1.inet.0;207.23.0.0/16;207.23.241.152/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+819;IX-VANTX1.inet.0;207.23.0.0/16;207.23.241.176/29;271;Adjacent Router;No;cr1.mgmt.vncv1
+820;IX-VANTX1.inet.0;207.23.0.0/16;207.23.241.240/32;271;Adjacent Router;No;cr1.mgmt.vncv1
+821;IX-VANTX1.inet.0;207.23.0.0/16;207.23.242.0/24;271;Adjacent Router;No;cr1.mgmt.vncv1
+822;IX-VANTX1.inet.0;207.23.0.0/16;207.23.242.72/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+823;IX-VANTX1.inet.0;207.23.0.0/16;207.23.242.76/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+824;IX-VANTX1.inet.0;207.23.0.0/16;207.23.242.96/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+825;IX-VANTX1.inet.0;207.23.0.0/16;207.23.242.252/32;;Adjacent Router;No;cr1.mgmt.vncv1
+826;IX-VANTX1.inet.0;207.23.0.0/16;207.23.242.253/32;271;Adjacent Router;No;cr1.mgmt.vncv1
+827;IX-VANTX1.inet.0;207.23.0.0/16;207.23.243.0/24;393249;Adjacent Router;No;cr1.mgmt.vncv1
+828;IX-VANTX1.inet.0;207.23.0.0/16;207.23.244.0/24;271;Adjacent Router;No;cr1.mgmt.vncv1
+829;IX-VANTX1.inet.0;207.23.0.0/16;207.23.249.0/24;393249;Adjacent Router;No;cr1.mgmt.vncv1
+830;IX-VANTX1.inet.0;207.23.0.0/16;207.23.251.0/24;271;Adjacent Router;No;cr1.mgmt.vncv1
+831;IX-VANTX1.inet.0;207.23.0.0/16;207.23.252.0/24;393249;Adjacent Router;No;cr1.mgmt.vncv1
+832;IX-VANTX1.inet.0;207.23.0.0/16;207.23.254.0/24;271;Adjacent Router;No;cr1.mgmt.vncv1
+833;IX-VANTX1.inet.0;207.23.0.0/16;207.23.254.188/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+834;IX-VANTX1.inet.0;207.23.0.0/16;207.23.254.216/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+835;IX-VANTX1.inet.0;207.23.0.0/16;207.23.254.220/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+836;IX-VANTX1.inet.0;207.23.0.0/16;207.23.254.252/32;;Adjacent Router;No;cr1.mgmt.vncv1
+837;IX-VANTX1.inet.0;207.23.0.0/16;207.23.254.253/32;271;Adjacent Router;No;cr1.mgmt.vncv1
+838;IX-VANTX1.inet.0;207.23.0.0/16;207.23.255.16/29;271;Adjacent Router;No;cr1.mgmt.vncv1
+839;IX-VANTX1.inet.0;207.23.0.0/16;207.23.255.30/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+840;IX-VANTX1.inet.0;207.23.0.0/16;207.23.255.32/28;271;Adjacent Router;No;cr1.mgmt.vncv1
+841;IX-VANTX1.inet.0;207.23.0.0/16;207.23.255.48/28;271;Adjacent Router;No;cr1.mgmt.vncv1
+842;IX-VANTX1.inet.0;207.23.0.0/16;207.23.255.64/26;271;Adjacent Router;No;cr1.mgmt.vncv1
+843;IX-VANTX1.inet.0;207.23.0.0/16;207.23.255.140/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+844;IX-VANTX1.inet.0;207.23.0.0/16;207.23.255.144/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+845;IX-VANTX1.inet.0;207.23.0.0/16;207.23.255.148/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+846;IX-VANTX1.inet.0;207.23.0.0/16;207.23.255.228/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+847;IX-VANTX1.inet.0;207.23.0.0/16;207.23.255.252/32;271;Adjacent Router;No;cr1.mgmt.vncv1
+848;TRANSIT-VANTX1.inet.0;207.23.0.0/16;207.23.8.0/21;271;Adjacent Router;No;cr1.mgmt.vncv1
+849;TRANSIT-VANTX1.inet.0;207.23.0.0/16;207.23.72.0/24;271;Adjacent Router;No;cr1.mgmt.vncv1
+850;TRANSIT-VANTX1.inet.0;207.23.0.0/16;207.23.73.0/24;271;Adjacent Router;No;cr1.mgmt.vncv1
+851;TRANSIT-VANTX1.inet.0;207.23.0.0/16;207.23.85.0/24;11105;Adjacent Router;No;cr1.mgmt.vncv1
+852;TRANSIT-VANTX1.inet.0;207.23.0.0/16;207.23.88.0/23;271;Adjacent Router;No;cr1.mgmt.vncv1
+853;TRANSIT-VANTX1.inet.0;207.23.0.0/16;207.23.92.0/23;271;Adjacent Router;No;cr1.mgmt.vncv1
+854;TRANSIT-VANTX1.inet.0;207.23.0.0/16;207.23.94.0/23;393249;Adjacent Router;No;cr1.mgmt.vncv1
+855;TRANSIT-VANTX1.inet.0;207.23.0.0/16;207.23.96.0/20;397543;Adjacent Router;No;cr1.mgmt.vncv1
+856;TRANSIT-VANTX1.inet.0;207.23.0.0/16;207.23.128.0/19;397375;xe-2/0/2.81;No;cr1.mgmt.vncv1
+857;TRANSIT-VANTX1.inet.0;207.23.0.0/16;207.23.160.0/19;11105;Adjacent Router;No;cr1.mgmt.vncv1
+858;TRANSIT-VANTX1.inet.0;207.23.0.0/16;207.23.192.0/19;11105;Adjacent Router;No;cr1.mgmt.vncv1
+859;TRANSIT-VANTX1.inet.0;207.23.0.0/16;207.23.240.12/30;271;xe-1/2/1.903;No;cr1.mgmt.vncv1
+860;TRANSIT-VANTX1.inet.0;207.23.0.0/16;207.23.240.14/32;271;xe-1/2/1.903;Yes;cr1.mgmt.vncv1
+861;TRANSIT-VANTX1.inet.0;207.23.0.0/16;207.23.240.16/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+862;TRANSIT-VANTX1.inet.0;207.23.0.0/16;207.23.240.24/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+863;TRANSIT-VANTX1.inet.0;207.23.0.0/16;207.23.240.28/31;271;rlt0.30;No;cr1.mgmt.vncv1
+864;TRANSIT-VANTX1.inet.0;207.23.0.0/16;207.23.240.29/32;271;rlt0.30;Yes;cr1.mgmt.vncv1
+865;TRANSIT-VANTX1.inet.0;207.23.0.0/16;207.23.240.32/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+866;TRANSIT-VANTX1.inet.0;207.23.0.0/16;207.23.240.60/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+867;TRANSIT-VANTX1.inet.0;207.23.0.0/16;207.23.240.64/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+868;TRANSIT-VANTX1.inet.0;207.23.0.0/16;207.23.240.92/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+869;TRANSIT-VANTX1.inet.0;207.23.0.0/16;207.23.240.212/32;271;rlt0.30;No;cr1.mgmt.vncv1
+870;TRANSIT-VANTX1.inet.0;207.23.0.0/16;207.23.240.213/32;271;Adjacent Router;No;cr1.mgmt.vncv1
+871;TRANSIT-VANTX1.inet.0;207.23.0.0/16;207.23.240.214/32;271;Adjacent Router;No;cr1.mgmt.vncv1
+872;TRANSIT-VANTX1.inet.0;207.23.0.0/16;207.23.241.0/24;271;Adjacent Router;No;cr1.mgmt.vncv1
+873;TRANSIT-VANTX1.inet.0;207.23.0.0/16;207.23.241.70/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+874;TRANSIT-VANTX1.inet.0;207.23.0.0/16;207.23.241.100/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+875;TRANSIT-VANTX1.inet.0;207.23.0.0/16;207.23.241.104/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+876;TRANSIT-VANTX1.inet.0;207.23.0.0/16;207.23.241.152/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+877;TRANSIT-VANTX1.inet.0;207.23.0.0/16;207.23.241.176/29;271;Adjacent Router;No;cr1.mgmt.vncv1
+878;TRANSIT-VANTX1.inet.0;207.23.0.0/16;207.23.241.240/32;271;Adjacent Router;No;cr1.mgmt.vncv1
+879;TRANSIT-VANTX1.inet.0;207.23.0.0/16;207.23.242.0/24;271;Adjacent Router;No;cr1.mgmt.vncv1
+880;TRANSIT-VANTX1.inet.0;207.23.0.0/16;207.23.242.72/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+881;TRANSIT-VANTX1.inet.0;207.23.0.0/16;207.23.242.76/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+882;TRANSIT-VANTX1.inet.0;207.23.0.0/16;207.23.242.96/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+883;TRANSIT-VANTX1.inet.0;207.23.0.0/16;207.23.242.253/32;271;Adjacent Router;No;cr1.mgmt.vncv1
+884;TRANSIT-VANTX1.inet.0;207.23.0.0/16;207.23.243.0/24;393249;Adjacent Router;No;cr1.mgmt.vncv1
+885;TRANSIT-VANTX1.inet.0;207.23.0.0/16;207.23.249.0/24;393249;Adjacent Router;No;cr1.mgmt.vncv1
+886;TRANSIT-VANTX1.inet.0;207.23.0.0/16;207.23.252.0/24;393249;Adjacent Router;No;cr1.mgmt.vncv1
+887;TRANSIT-VANTX1.inet.0;207.23.0.0/16;207.23.253.1/32;271;lo0.1;Yes;cr1.mgmt.vncv1
+888;TRANSIT-VANTX1.inet.0;207.23.0.0/16;207.23.253.2/32;;Adjacent Router;No;cr1.mgmt.vncv1
+889;TRANSIT-VANTX1.inet.0;207.23.0.0/16;207.23.253.5/32;;Adjacent Router;No;cr1.mgmt.vncv1
+890;TRANSIT-VANTX1.inet.0;207.23.0.0/16;207.23.253.6/32;;Adjacent Router;No;cr1.mgmt.vncv1
+891;TRANSIT-VANTX1.inet.0;207.23.0.0/16;207.23.253.7/32;;Adjacent Router;No;cr1.mgmt.vncv1
+892;TRANSIT-VANTX1.inet.0;207.23.0.0/16;207.23.253.8/32;;Adjacent Router;No;cr1.mgmt.vncv1
+893;TRANSIT-VANTX1.inet.0;207.23.0.0/16;207.23.253.9/32;;Adjacent Router;No;cr1.mgmt.vncv1
+894;TRANSIT-VANTX1.inet.0;207.23.0.0/16;207.23.253.36/30;;Adjacent Router;No;cr1.mgmt.vncv1
+895;TRANSIT-VANTX1.inet.0;207.23.0.0/16;207.23.253.37/32;;Adjacent Router;Yes;cr1.mgmt.vncv1
+896;TRANSIT-VANTX1.inet.0;207.23.0.0/16;207.23.253.40/30;;Adjacent Router;No;cr1.mgmt.vncv1
+897;TRANSIT-VANTX1.inet.0;207.23.0.0/16;207.23.253.41/32;;Adjacent Router;Yes;cr1.mgmt.vncv1
+898;TRANSIT-VANTX1.inet.0;207.23.0.0/16;207.23.253.44/30;;Adjacent Router;No;cr1.mgmt.vncv1
+899;TRANSIT-VANTX1.inet.0;207.23.0.0/16;207.23.253.48/30;;Adjacent Router;No;cr1.mgmt.vncv1
+900;TRANSIT-VANTX1.inet.0;207.23.0.0/16;207.23.253.52/31;271;xe-1/2/0.3911;No;cr1.mgmt.vncv1
+901;TRANSIT-VANTX1.inet.0;207.23.0.0/16;207.23.253.52/32;271;xe-1/2/0.3911;Yes;cr1.mgmt.vncv1
+902;TRANSIT-VANTX1.inet.0;207.23.0.0/16;207.23.253.72/30;;Adjacent Router;No;cr1.mgmt.vncv1
+903;TRANSIT-VANTX1.inet.0;207.23.0.0/16;207.23.253.73/32;;Adjacent Router;Yes;cr1.mgmt.vncv1
+904;TRANSIT-VANTX1.inet.0;207.23.0.0/16;207.23.253.92/30;;Adjacent Router;No;cr1.mgmt.vncv1
+905;TRANSIT-VANTX1.inet.0;207.23.0.0/16;207.23.253.108/30;;Adjacent Router;No;cr1.mgmt.vncv1
+906;TRANSIT-VANTX1.inet.0;207.23.0.0/16;207.23.253.109/32;;Adjacent Router;Yes;cr1.mgmt.vncv1
+907;TRANSIT-VANTX1.inet.0;207.23.0.0/16;207.23.253.116/31;;Adjacent Router;No;cr1.mgmt.vncv1
+908;TRANSIT-VANTX1.inet.0;207.23.0.0/16;207.23.253.116/32;;Adjacent Router;Yes;cr1.mgmt.vncv1
+909;TRANSIT-VANTX1.inet.0;207.23.0.0/16;207.23.253.118/31;;Adjacent Router;No;cr1.mgmt.vncv1
+910;TRANSIT-VANTX1.inet.0;207.23.0.0/16;207.23.253.118/31;;Adjacent Router;No;cr1.mgmt.vncv1
+911;TRANSIT-VANTX1.inet.0;207.23.0.0/16;207.23.253.120/31;;Adjacent Router;No;cr1.mgmt.vncv1
+912;TRANSIT-VANTX1.inet.0;207.23.0.0/16;207.23.253.120/32;;Adjacent Router;Yes;cr1.mgmt.vncv1
+913;TRANSIT-VANTX1.inet.0;207.23.0.0/16;207.23.253.122/31;;Adjacent Router;No;cr1.mgmt.vncv1
+914;TRANSIT-VANTX1.inet.0;207.23.0.0/16;207.23.253.124/31;;Adjacent Router;No;cr1.mgmt.vncv1
+915;TRANSIT-VANTX1.inet.0;207.23.0.0/16;207.23.253.126/31;;Adjacent Router;No;cr1.mgmt.vncv1
+916;TRANSIT-VANTX1.inet.0;207.23.0.0/16;207.23.253.126/31;;Adjacent Router;No;cr1.mgmt.vncv1
+917;TRANSIT-VANTX1.inet.0;207.23.0.0/16;207.23.253.128/31;;Adjacent Router;No;cr1.mgmt.vncv1
+918;TRANSIT-VANTX1.inet.0;207.23.0.0/16;207.23.254.0/24;271;Adjacent Router;No;cr1.mgmt.vncv1
+919;TRANSIT-VANTX1.inet.0;207.23.0.0/16;207.23.254.188/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+920;TRANSIT-VANTX1.inet.0;207.23.0.0/16;207.23.254.216/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+921;TRANSIT-VANTX1.inet.0;207.23.0.0/16;207.23.254.220/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+922;TRANSIT-VANTX1.inet.0;207.23.0.0/16;207.23.254.253/32;271;Adjacent Router;No;cr1.mgmt.vncv1
+923;TRANSIT-VANTX1.inet.0;207.23.0.0/16;207.23.255.0/24;271;Adjacent Router;No;cr1.mgmt.vncv1
+924;TRANSIT-VANTX1.inet.0;207.23.0.0/16;207.23.255.16/29;271;Adjacent Router;No;cr1.mgmt.vncv1
+925;TRANSIT-VANTX1.inet.0;207.23.0.0/16;207.23.255.30/31;271;Adjacent Router;No;cr1.mgmt.vncv1
+926;TRANSIT-VANTX1.inet.0;207.23.0.0/16;207.23.255.32/28;271;Adjacent Router;No;cr1.mgmt.vncv1
+927;TRANSIT-VANTX1.inet.0;207.23.0.0/16;207.23.255.48/28;271;Adjacent Router;No;cr1.mgmt.vncv1
+928;TRANSIT-VANTX1.inet.0;207.23.0.0/16;207.23.255.64/26;271;Adjacent Router;No;cr1.mgmt.vncv1
+929;TRANSIT-VANTX1.inet.0;207.23.0.0/16;207.23.255.140/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+930;TRANSIT-VANTX1.inet.0;207.23.0.0/16;207.23.255.144/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+931;TRANSIT-VANTX1.inet.0;207.23.0.0/16;207.23.255.148/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+932;TRANSIT-VANTX1.inet.0;207.23.0.0/16;207.23.255.228/30;271;Adjacent Router;No;cr1.mgmt.vncv1
+933;TRANSIT-VANTX1.inet.0;207.23.0.0/16;207.23.255.252/32;271;Adjacent Router;No;cr1.mgmt.vncv1
+934;inet.0;209.87.0.0/18;209.87.16.0/24;393249;Adjacent Router;No;cr1.mgmt.vncv1
+935;inet.0;209.87.0.0/18;209.87.17.0/24;393249;Adjacent Router;No;cr1.mgmt.vncv1
+936;inet.0;209.87.0.0/18;209.87.18.0/24;271;Adjacent Router;No;cr1.mgmt.vncv1
+937;inet.0;209.87.0.0/18;209.87.24.0/23;271;Adjacent Router;No;cr1.mgmt.vncv1
+938;inet.0;209.87.0.0/18;209.87.27.0/24;271;Adjacent Router;No;cr1.mgmt.vncv1
+939;inet.0;209.87.0.0/18;209.87.28.0/23;271;Adjacent Router;No;cr1.mgmt.vncv1
+940;inet.0;209.87.0.0/18;209.87.30.0/24;393966;Adjacent Router;No;cr1.mgmt.vncv1
+941;inet.0;209.87.0.0/18;209.87.31.0/24;11105;Adjacent Router;No;cr1.mgmt.vncv1
+942;inet.0;209.87.0.0/18;209.87.56.0/22;11105;Adjacent Router;No;cr1.mgmt.vncv1
+943;inet.0;209.87.0.0/18;209.87.60.0/24;11105;Adjacent Router;No;cr1.mgmt.vncv1
+944;inet.0;209.87.0.0/18;209.87.61.0/24;271;Adjacent Router;No;cr1.mgmt.vncv1
+945;inet.0;209.87.0.0/18;209.87.62.0/24;55185;Adjacent Router;No;cr1.mgmt.vncv1
+946;inet.0;209.87.0.0/18;209.87.63.0/24;33314;Adjacent Router;No;cr1.mgmt.vncv1
+947;inet.2;209.87.0.0/18;209.87.18.0/24;271;Adjacent Router;No;cr1.mgmt.vncv1
+948;IX-VANTX1.inet.0;209.87.0.0/18;209.87.16.0/24;393249;Adjacent Router;No;cr1.mgmt.vncv1
+949;IX-VANTX1.inet.0;209.87.0.0/18;209.87.17.0/24;393249;Adjacent Router;No;cr1.mgmt.vncv1
+950;IX-VANTX1.inet.0;209.87.0.0/18;209.87.18.0/24;271;Adjacent Router;No;cr1.mgmt.vncv1
+951;IX-VANTX1.inet.0;209.87.0.0/18;209.87.24.0/23;271;Adjacent Router;No;cr1.mgmt.vncv1
+952;IX-VANTX1.inet.0;209.87.0.0/18;209.87.27.0/24;271;Adjacent Router;No;cr1.mgmt.vncv1
+953;IX-VANTX1.inet.0;209.87.0.0/18;209.87.28.0/23;271;Adjacent Router;No;cr1.mgmt.vncv1
+954;IX-VANTX1.inet.0;209.87.0.0/18;209.87.30.0/24;393966;Adjacent Router;No;cr1.mgmt.vncv1
+955;IX-VANTX1.inet.0;209.87.0.0/18;209.87.31.0/24;11105;Adjacent Router;No;cr1.mgmt.vncv1
+956;IX-VANTX1.inet.0;209.87.0.0/18;209.87.56.0/22;11105;Adjacent Router;No;cr1.mgmt.vncv1
+957;IX-VANTX1.inet.0;209.87.0.0/18;209.87.60.0/24;11105;Adjacent Router;No;cr1.mgmt.vncv1
+958;IX-VANTX1.inet.0;209.87.0.0/18;209.87.61.0/24;271;Adjacent Router;No;cr1.mgmt.vncv1
+959;IX-VANTX1.inet.0;209.87.0.0/18;209.87.62.0/24;55185;ae11.0;No;cr1.mgmt.vncv1
+960;IX-VANTX1.inet.0;209.87.0.0/18;209.87.62.0/24;55185;ae11.0;No;cr1.mgmt.vncv1
+961;IX-VANTX1.inet.0;209.87.0.0/18;209.87.62.0/24;55185;ae11.0;No;cr1.mgmt.vncv1
+962;IX-VANTX1.inet.0;209.87.0.0/18;209.87.63.0/24;33314;Adjacent Router;No;cr1.mgmt.vncv1
+963;TRANSIT-VANTX1.inet.0;209.87.0.0/18;209.87.16.0/24;393249;Adjacent Router;No;cr1.mgmt.vncv1
+964;TRANSIT-VANTX1.inet.0;209.87.0.0/18;209.87.17.0/24;393249;Adjacent Router;No;cr1.mgmt.vncv1
+965;TRANSIT-VANTX1.inet.0;209.87.0.0/18;209.87.18.0/24;271;Adjacent Router;No;cr1.mgmt.vncv1
+966;TRANSIT-VANTX1.inet.0;209.87.0.0/18;209.87.24.0/23;271;Adjacent Router;No;cr1.mgmt.vncv1
+967;TRANSIT-VANTX1.inet.0;209.87.0.0/18;209.87.27.0/24;271;Adjacent Router;No;cr1.mgmt.vncv1
+968;TRANSIT-VANTX1.inet.0;209.87.0.0/18;209.87.28.0/23;271;Adjacent Router;No;cr1.mgmt.vncv1
+969;TRANSIT-VANTX1.inet.0;209.87.0.0/18;209.87.30.0/24;393966;Adjacent Router;No;cr1.mgmt.vncv1
+970;TRANSIT-VANTX1.inet.0;209.87.0.0/18;209.87.31.0/24;11105;Adjacent Router;No;cr1.mgmt.vncv1
+971;TRANSIT-VANTX1.inet.0;209.87.0.0/18;209.87.56.0/22;11105;Adjacent Router;No;cr1.mgmt.vncv1
+972;TRANSIT-VANTX1.inet.0;209.87.0.0/18;209.87.60.0/24;11105;Adjacent Router;No;cr1.mgmt.vncv1
+973;TRANSIT-VANTX1.inet.0;209.87.0.0/18;209.87.61.0/24;271;Adjacent Router;No;cr1.mgmt.vncv1
+974;TRANSIT-VANTX1.inet.0;209.87.0.0/18;209.87.62.0/24;55185;xe-5/1/0:0.0;No;cr1.mgmt.vncv1
+975;TRANSIT-VANTX1.inet.0;209.87.0.0/18;209.87.62.0/24;55185;Adjacent Router;No;cr1.mgmt.vncv1
+976;TRANSIT-VANTX1.inet.0;209.87.0.0/18;209.87.62.0/24;55185;Adjacent Router;No;cr1.mgmt.vncv1
+977;TRANSIT-VANTX1.inet.0;209.87.0.0/18;209.87.62.0/24;55185;xe-7/1/0:0.1289;No;cr1.mgmt.vncv1
+978;TRANSIT-VANTX1.inet.0;209.87.0.0/18;209.87.63.0/24;33314;Adjacent Router;No;cr1.mgmt.vncv1
